@@ -47,6 +47,20 @@ h4
 	font-size:18.0pt;
 	font-family:"Cambria","serif";
 	font-weight:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -69,6 +83,10 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.4
+	{mso-style-name:"標題 4 字元";
+	mso-style-link:"標題 4";
+	font-family:"Cambria","serif";}
 span.HTML
 	{mso-style-name:"HTML 預設格式 字元";
 	mso-style-link:"HTML 預設格式";
@@ -79,13 +97,18 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
-span.4
-	{mso-style-name:"標題 4 字元";
-	mso-style-link:"標題 4";
-	font-family:"Cambria","serif";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -106,8 +129,8 @@ div.WordSection1
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputable</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) Capable of being
 disputed; liable to be called in question, controverted, or contested; or
-doubtful certainty or propriety; controvertible; as, disputable opinions, propositions,
-points, or questions.</span></p>
+doubtful certainty or propriety; controvertible; as, disputable opinions,
+propositions, points, or questions.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputable</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) Disputatious;
@@ -117,31 +140,40 @@ contentious.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) State of being
 disputable.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputacity
-(v. i.) Proneness to dispute.</span></b></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputacity</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) Proneness to
+dispute.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputant
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(v. i.) </span><span
-style='font-family:"新細明體","serif"'>爭論的 <span lang=EN-US>Disputing; engaged in
+style='font-family:"新細明體","serif"'>爭論的<span lang=EN-US> Disputing; engaged in
 controversy.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputant
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>辯論者；爭議人，爭論者 <span lang=EN-US>One who
-disputes; one who argues // opposition to another; one appointed to dispute; a
+style='font-family:"新細明體","serif"'>辯論者；爭議人，爭論者<span lang=EN-US> One who disputes;
+one who argues // opposition to another; one appointed to dispute; a
 controvertist; a reasoner in opposition.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputation</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) The act of
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) </span><span
+style='font-family:"新細明體","serif"'>爭論，議論，駁斥 <span lang=EN-US>The act of
 disputing; a reasoning or argumentation in opposition to something, or on
 opposite sides; controversy in words; verbal contest respecting the truth of
-some fact, opinion, proposition, or argument.</span></p>
+some fact, opinion, proposition, or argument.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputation</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) </span><span
-style='font-family:"新細明體","serif"'>爭論，議論，駁斥<span lang=EN-US> A rhetorical
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A rhetorical
 exercise in which parties reason in opposition to each other on some question
-proposed.</span></span></p>
+proposed.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputation
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) <a
+href="http://dictionary.cambridge.org/zht/help/codes.html"><span
+style='color:windowtext;text-decoration:none'>[ C or U ]</span></a> (formal) </span><span
+style='font-family:"新細明體","serif"'>異議；爭議；紛爭<span lang=EN-US> A <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/disagreement"
+title=disagreement><span style='color:windowtext;text-decoration:none'>disagreement</span></a>.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputatious</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Inclined to dispute;
@@ -190,9 +222,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To struggl
 against; to resist.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dispute</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) Verbal controversy;
-contest by opposing argument or expression of opposing views or claims;
-controversial discussion; altercation; debate.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) Verbal
+controversy; contest by opposing argument or expression of opposing views or
+claims; controversial discussion; altercation; debate.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dispute
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.)
@@ -202,7 +234,7 @@ Contest; struggle; quarrel.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) <a
 href="http://dictionary.cambridge.org/zht/help/codes.html"><span
 style='color:windowtext;text-decoration:none'>[ C or U ]</span></a> (C2) </span><span
-style='font-family:"新細明體","serif"'>（尤指勞資雙方或相鄰兩國之間的）爭執，爭端，糾紛 <span lang=EN-US>An
+style='font-family:"新細明體","serif"'>（尤指勞資雙方或相鄰兩國之間的）爭執，爭端，糾紛<span lang=EN-US> An
 <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/argument"
 title=argument><span style='color:windowtext;text-decoration:none'>argument</span></a>
@@ -305,8 +337,8 @@ title=Hollywood><span style='color:windowtext;text-decoration:none'>Hollywood</s
 today.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>In
-dispute </span></b><span style='font-family:"新細明體","serif"'>正在受到懷疑的 <span
-lang=EN-US>Being <a
+dispute </span></b><span style='font-family:"新細明體","serif"'>正在受到懷疑的<span
+lang=EN-US> Being <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/doubt"
 title=doubted><span style='color:windowtext;text-decoration:none'>doubted</span></a>.</span></span></p>
 
@@ -327,7 +359,7 @@ title=attitude><span style='color:windowtext;text-decoration:none'>attitude</spa
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Open
 to dispute</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> </span><span
-style='font-family:"新細明體","serif"'>不確定的，不肯定的 <span lang=EN-US>Not <a
+style='font-family:"新細明體","serif"'>不確定的，不肯定的<span lang=EN-US> Not <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/certain"
 title=certain><span style='color:windowtext;text-decoration:none'>certain</span></a>.</span></span></p>
 
@@ -357,8 +389,7 @@ to</i> <i>dispute</i>.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) <a
 href="http://dictionary.cambridge.org/zht/help/codes.html"><span
 style='color:windowtext;text-decoration:none'>[ I or T ]</span></a> (C2) </span><span
-style='font-family:"新細明體","serif"'>（對<span lang=EN-US>…</span>）有異議；不同意，否認；爭論 <span
-lang=EN-US>To <a
+style='font-family:"新細明體","serif"'>（對…）有異議；不同意，否認；爭論<span lang=EN-US> To <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/disagree"
 title=disagree><span style='color:windowtext;text-decoration:none'>disagree</span></a>
 with something that someone says.</span></span></p>
@@ -403,17 +434,9 @@ but they don't have much <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/depth"
 title=depth><span style='color:windowtext;text-decoration:none'>depth</span></a>.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputation</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) <a
-href="http://dictionary.cambridge.org/zht/help/codes.html"><span
-style='color:windowtext;text-decoration:none'>[ C or U ]</span></a> (formal) </span><span
-style='font-family:"新細明體","serif"'>異議；爭議；紛爭 <span lang=EN-US>A <a
-href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/disagreement"
-title=disagreement><span style='color:windowtext;text-decoration:none'>disagreement</span></a></span></span></p>
-
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputeless
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
-Admitting no dispute; incontrovertible.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputeless</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Admitting no
+dispute; incontrovertible.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disputer</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One who disputes, or
@@ -473,9 +496,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</
 Disquiet</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disquiet</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To render unquiet;
-to deprive of peace, rest, or tranquility; to make uneasy or restless; to
-disturb.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To render
+unquiet; to deprive of peace, rest, or tranquility; to make uneasy or restless;
+to disturb.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disquietal</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act of
@@ -555,8 +578,8 @@ lower rating or rank; to degrade.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>variant</i>) of Disarray.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disrealize</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To divest of reality;
-to make uncertain.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To divest of
+reality; to make uncertain.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disregarded</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
@@ -568,8 +591,8 @@ Disregard</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disregard</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) Not to regard; to
-pay no heed to; to omit to take notice of; to neglect to observe; to slight as unworthy
-of regard or notice; as, to disregard the admonitions of conscience.</span></p>
+pay no heed to; to omit to take notice of; to neglect to observe; to slight as
+unworthy of regard or notice; as, to disregard the admonitions of conscience.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disregard</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act of
@@ -584,8 +607,7 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Neglect; negl
 heedless; regardless.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disregardfully</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) Negligently;
-heedlessly.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) Negligently; heedlessly.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disrelish</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Want of relish;
@@ -609,8 +631,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) Not to rel
 regard as unpalatable or offensive; to feel a degree of disgust at.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disrelish</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To deprive of
-relish; to make nauseous or disgusting in a slight degree.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To deprive of relish;
+to make nauseous or disgusting in a slight degree.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disremember</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To fail to
@@ -643,8 +665,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Loss or want 
 reputation; ill character; disesteem; discredit.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disrepute</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To bring into disreputation;
-to hold in dishonor.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To bring into
+disreputation; to hold in dishonor.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disrespect</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Want of respect or
@@ -678,8 +700,7 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To treat
 irreverently or with disrespect.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disrobed</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
-Disrobe</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of Disrobe</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disrobing</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
@@ -687,8 +708,8 @@ Disrobe</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disrobe</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t. &amp; i.</i>) To
-divest of a robe; to undress; figuratively, to strip of covering; to divest of that
-which clothes or decorates; as, autumn disrobes the fields of verdure.</span></p>
+divest of a robe; to undress; figuratively, to strip of covering; to divest of
+that which clothes or decorates; as, autumn disrobes the fields of verdure.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disrober</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One who, or that
