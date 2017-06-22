@@ -32,6 +32,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -43,6 +57,12 @@ p
 	margin-left:0cm;
 	font-size:12.0pt;
 	font-family:"新細明體","serif";}
+pre
+	{mso-style-link:"HTML 預設格式 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Courier New";}
 span.2
 	{mso-style-name:"標題 2 字元";
 	mso-style-link:"標題 2";
@@ -54,9 +74,22 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -224,9 +257,9 @@ Lyell as the type of his Miocene subdivision.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a. &amp; n.</i>) Fallow.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Falx</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A curved fold or
-process of the dura mater or the peritoneum; esp., one of the partitionlike
-folds of the dura mater which extend into the great fissures of the brain.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A curved fold or process
+of the dura mater or the peritoneum; esp., one of the partitionlike folds of
+the dura mater which extend into the great fissures of the brain.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Famble</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To stammer.</span></p>
@@ -299,9 +332,9 @@ confidential officer employed in the service of the tribunal, especially in
 apprehending and imprisoning the accused.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Familiar
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) (EASY
-TO RECOGNIZE) (B1) </span><span style='font-family:"新細明體","serif"'>熟悉的；常見的；常聽說 <span
-lang=EN-US><a
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+(EASY TO RECOGNIZE) (B1) </span><span style='font-family:"新細明體","serif"'>熟悉的；常見的；常聽說
+<span lang=EN-US><a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/easy"
 title=easy><span style='color:windowtext;text-decoration:none'>Easy</span></a>
 to <a
@@ -341,8 +374,8 @@ href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-
 title=strangely><span style='color:windowtext;text-decoration:none'>strangely</span></a>
 <i>familiar</i>, though she <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/knew"
-title=knew><span style='color:windowtext;text-decoration:none'>knew</span></a> she'd
-never been there before.</span></p>
+title=knew><span style='color:windowtext;text-decoration:none'>knew</span></a>
+she'd never been there before.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/street"
@@ -503,8 +536,8 @@ converse; as, to familiarize one's self with scenes of distress.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Familiarize</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To make
-acquainted, or skilled, by practice or study; as, to familiarize one's self
-with a business, a book, or a science.</span></p>
+acquainted, or skilled, by practice or study; as, to familiarize one's self with
+a business, a book, or a science.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Familiarly</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) In a familiar
@@ -545,15 +578,15 @@ Familists.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl. </i>) of Family</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Family</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) The collective
-body of persons who live in one house, and under one head or manager; a
-household, including parents, children, and servants, and, as the case may be,
-lodgers or boarders.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) The collective body
+of persons who live in one house, and under one head or manager; a household,
+including parents, children, and servants, and, as the case may be, lodgers or
+boarders.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Family</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) The group comprising
-a husband and wife and their dependent children, constituting a fundamental
-unit in the organization of society.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) The group
+comprising a husband and wife and their dependent children, constituting a
+fundamental unit in the organization of society.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Family</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) Those who descend
@@ -594,8 +627,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</
 Famish</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Famish</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To starve, kill,
-or destroy with hunger.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (v. t.) </span><span
+style='font-family:"新細明體","serif"'>使挨餓 <span lang=EN-US>To starve, kill, or
+destroy with hunger.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Famish</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To exhaust the
@@ -609,9 +643,10 @@ cause to suffer extremity, by deprivation or denial of anything necessary.</span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To force or
 constrain by famine.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Famish</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To die of hunger;
-to starve.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Famish
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.) </span><span
+style='font-family:"新細明體","serif"'>飢餓，挨餓 <span lang=EN-US>To die of hunger; to
+starve.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Famish</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To suffer extreme
@@ -630,17 +665,56 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The state or 
 of being famous.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Famous</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Celebrated in fame
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Celebrated in fame
 or public report; renowned; mach talked of; distinguished in story; -- used in
 either a good or a bad sense, chiefly the former; often followed by for; as,
 famous for erudition, for eloquence, for military skill; a famous pirate.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Famoused</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Renowned.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Famous
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) </span><span
+style='font-family:"新細明體","serif"'>著名的；出名的；有名的 <span lang=EN-US>(A1) <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/known"
+title=known><span style='color:windowtext;text-decoration:none'>Known</span></a>
+and <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/recognized"
+title=recognized><span style='color:windowtext;text-decoration:none'>recognized</span></a>
+by many <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/people"
+title=people><span style='color:windowtext;text-decoration:none'>people</span></a>.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>A <i>famous</i>
+<a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/actress"
+title=actress><span style='color:windowtext;text-decoration:none'>actress</span></a>/<a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/building"
+title=building><span style='color:windowtext;text-decoration:none'>building</span></a>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Marie
+Curie is <i>famous</i> for her <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/contribution"
+title=contribution><span style='color:windowtext;text-decoration:none'>contribution</span></a>
+to <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/science"
+title=science><span style='color:windowtext;text-decoration:none'>science</span></a>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>A <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/city"
+title=city><span style='color:windowtext;text-decoration:none'>city</span></a><i>
+famous</i> for <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/its"
+title=its><span style='color:windowtext;text-decoration:none'>its</span></a> <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/nightlife"
+title=nightlife><span style='color:windowtext;text-decoration:none'>nightlife</span></a>.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Famoused
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+Renowned.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Famously</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) In a famous manner;
-in a distinguished degree; greatly; splendidly.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) In a famous
+manner; in a distinguished degree; greatly; splendidly.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Famousness</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The state of being
@@ -657,9 +731,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A collegian o
 inferior rank or position, corresponding to the sizar at Cambridge.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fan</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An instrument used
-for producing artificial currents of air, by the wafting or revolving motion of
-a broad surface</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An instrument used for
+producing artificial currents of air, by the wafting or revolving motion of a
+broad surface</span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
 style='font-family:"新細明體","serif"'><a href="F5.htm">[previous page]</a> <a
