@@ -8,14 +8,23 @@
 <!--
  /* Font Definitions */
  @font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -29,6 +38,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -45,10 +68,23 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:10.0pt;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
- /* Page Definitions */
- @page WordSection1
+@page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -129,8 +165,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Reflection; t
 light reflected from an illuminated surface to one in shade.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reflex</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An involuntary
-movement produced by reflex action.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (Physiol.) An
+involuntary movement produced by reflex action.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reflex</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To reflect.</span></p>
@@ -143,7 +179,7 @@ To bend back; to turn back.</span></p>
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) <a
 href="http://dictionary.cambridge.org/zht/help/codes.html"><span
 style='color:windowtext;text-decoration:none'>[ C ]</span></a> </span><span
-style='font-family:"新細明體","serif"'>反射動作；反射作用；本能反應 <span lang=EN-US>A <a
+style='font-family:"新細明體","serif"'>反射動作；反射作用；本能反應<span lang=EN-US> A <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/physical"
 title=physical><span style='color:windowtext;text-decoration:none'>physical</span></a>
 <a
@@ -169,7 +205,7 @@ title=response><span style='color:windowtext;text-decoration:none'>response</spa
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reflexes</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl</i>.) </span><span
-style='font-family:"新細明體","serif"'>反應能力 <span lang=EN-US>The <a
+style='font-family:"新細明體","serif"'>反應能力<span lang=EN-US> The <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/ability"
 title=ability><span style='color:windowtext;text-decoration:none'>ability</span></a>
 to <a
@@ -190,15 +226,16 @@ title=fast><span style='color:windowtext;text-decoration:none'>fast</span></a><i
 reflexes</i>.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reflex
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) (specialized)
-</span><span style='font-family:"新細明體","serif"'>優角（描述大於<span lang=EN-US>180°</span>而小於<span
-lang=EN-US>360°</span>的一個角） <span lang=EN-US>A reflex <a
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+(specialized) </span><span style='font-family:"新細明體","serif"'>優角（描述大於<span
+lang=EN-US>180</span>°而小於<span lang=EN-US>360</span>°的一個角）<span lang=EN-US> A
+reflex <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/angle"
 title=angle><span style='color:windowtext;text-decoration:none'>angle</span></a>
 is more than <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/180"
-title=180><span style='color:windowtext;text-decoration:none'>180</span></a>°
-and less than 360°.</span></span></p>
+title=180><span style='color:windowtext;text-decoration:none'>180</span></a></span>°<span
+lang=EN-US> and less than 360</span>°<span lang=EN-US>.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:</span></p>
 
@@ -206,8 +243,8 @@ and less than 360°.</span></span></p>
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/acute"
 title=acute的意思><b><span style='color:windowtext;text-decoration:none'>Acute</span></b><span
 style='color:windowtext;text-decoration:none'> (<i>adjective</i></span></a>)<b>
-</b>(EXTREME) </span><span style='font-family:"新細明體","serif"'>十分嚴重的 <span
-lang=EN-US>If a <a
+</b>(EXTREME) </span><span style='font-family:"新細明體","serif"'>十分嚴重的<span
+lang=EN-US> If a <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/bad"
 title=bad><span style='color:windowtext;text-decoration:none'>bad</span></a> <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/situation"
@@ -259,9 +296,10 @@ title=areas><span style='color:windowtext;text-decoration:none'>areas</span></a>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'><a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/acute"
-title=acute的意思><span style='color:windowtext;text-decoration:none'>Acute (<i>adjective</i></span></a>)
-(EXTREME) </span><span style='font-family:"新細明體","serif"'>（病痛）急性的，劇烈的 <span
-lang=EN-US>An acute <a
+title=acute的意思><b><span style='color:windowtext;text-decoration:none'>Acute</span></b><span
+style='color:windowtext;text-decoration:none'> (<i>adjective</i></span></a>)
+(EXTREME) </span><span style='font-family:"新細明體","serif"'>（病痛）急性的，劇烈的<span
+lang=EN-US> An acute <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/pain"
 title=pain><span style='color:windowtext;text-decoration:none'>pain</span></a>
 or <a
@@ -276,6 +314,8 @@ title=becomes><span style='color:windowtext;text-decoration:none'>becomes</span>
 very <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/severe"
 title=severe><span style='color:windowtext;text-decoration:none'>severe</span></a>.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
 
 <p class=MsoNormal><i><span lang=EN-US style='font-family:"新細明體","serif"'>Acute</span></i><span
 lang=EN-US style='font-family:"新細明體","serif"'> abdominal <a
@@ -292,7 +332,7 @@ title=appendicitis><span style='color:windowtext;text-decoration:none'>appendici
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acute</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) (ACCURATE/CLEVER) </span><span
-style='font-family:"新細明體","serif"'>（感官等）敏銳的，靈敏的；機敏的，有洞察力的 <span lang=EN-US>Used
+style='font-family:"新細明體","serif"'>（感官等）敏銳的，靈敏的；機敏的，有洞察力的<span lang=EN-US> Used
 to <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/describe"
 title=describe><span style='color:windowtext;text-decoration:none'>describe</span></a>
@@ -344,7 +384,7 @@ title=judgment><span style='color:windowtext;text-decoration:none'>judgment</spa
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acute</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) (ANGLE) </span><span
-style='font-family:"新細明體","serif"'>銳角的 <span lang=EN-US>An acute <a
+style='font-family:"新細明體","serif"'>銳角的<span lang=EN-US> An acute <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/angle"
 title=angle><span style='color:windowtext;text-decoration:none'>angle</span></a>
 is less than 90 <a
@@ -354,8 +394,9 @@ title=degrees><span style='color:windowtext;text-decoration:none'>degrees</span>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acute
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) <a
 href="http://dictionary.cambridge.org/zht/help/codes.html"><span
-style='color:windowtext;text-decoration:none'>[ C ]</span></a> (also Acute
-accent) </span><span style='font-family:"新細明體","serif"'>銳音符 <span lang=EN-US>A <a
+style='color:windowtext;text-decoration:none'>[ C ]</span></a> (also <b>Acute
+accent</b>) </span><span style='font-family:"新細明體","serif"'>銳音符<span
+lang=EN-US> A <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/sign"
 title=sign><span style='color:windowtext;text-decoration:none'>sign</span></a>
 that is written above a <a
@@ -377,30 +418,32 @@ title=letter><span style='color:windowtext;text-decoration:none'>letter</span></
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>There's
-an <i>acute</i> <a
+an <i>acute</i> <i><a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/accent"
-title=accent><span style='color:windowtext;text-decoration:none'>accent</span></a>
+title=accent><span style='color:windowtext;text-decoration:none'>accent</span></a></i>
 on the e in &quot;<a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/cafe"
-title=café><span style='color:windowtext;text-decoration:none'>café</span></a>&quot;.</span></p>
+title=café><span style='color:windowtext;text-decoration:none'>caf</span><span
+lang=EN-US style='color:windowtext;text-decoration:none'><span lang=EN-US>é</span></span></a>&quot;.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'><a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/obtuse"
 title=obtuse的意思><span style='color:windowtext;text-decoration:none'>Obtuse</span></a>
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) (ANGLE)
-(specialized) (mathematics) (of an <a
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+(ANGLE) (specialized) (mathematics) (of an <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/angle"
 title=angle><span style='color:windowtext;text-decoration:none'>angle</span></a>)
-</span><span style='font-family:"新細明體","serif"'>（角度）鈍角的 <span lang=EN-US>More
-than 90° and less than <a
+</span><span style='font-family:"新細明體","serif"'>（角度）鈍角的<span lang=EN-US> More
+than 90</span>°<span lang=EN-US> and less than <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/180"
-title=180><span style='color:windowtext;text-decoration:none'>180</span></a>°.</span></span></p>
+title=180><span style='color:windowtext;text-decoration:none'>180</span></a></span>°<span
+lang=EN-US>.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Obtuse
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) (STUPID)
-(formal) </span><span style='font-family:"新細明體","serif"'>愚笨的；遲鈍的；遲緩的 <span
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+(STUPID) (formal) </span><span style='font-family:"新細明體","serif"'>愚笨的；遲鈍的；遲緩的 <span
 lang=EN-US><a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/stupid"
 title=stupid><span style='color:windowtext;text-decoration:none'>Stupid</span></a>
@@ -431,6 +474,18 @@ href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-
 title=deliberately><span style='color:windowtext;text-decoration:none'>deliberately</span></a>
 <i>obtuse</i>?</span></p>
 
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reflex
+angle</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.)
+<a href="http://dictionary.cambridge.org/zht/help/codes.html"><span
+style='color:windowtext;text-decoration:none'>[ C ]</span></a> (specialized) </span><span
+style='font-family:"新細明體","serif"'>優角，反射角<span lang=EN-US> An <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E/angle"
+title=angle><span style='color:windowtext;text-decoration:none'>angle</span></a>
+that is more than <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E/180"
+title=180><span style='color:windowtext;text-decoration:none'>180</span></a></span>°<span
+lang=EN-US> and less than 360</span>°<span lang=EN-US>.</span></span></p>
+
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reflexed</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Bent backward or
 outward.</span></p>
@@ -458,16 +513,16 @@ backward; reflective; having respect to something past.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Implying censure.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reflexive
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) (Gram.)
-Having for its direct object a pronoun which refers to the agent or subject as
-its antecedent; -- said of certain verbs; as, the witness perjured himself; I
-bethought myself. Applied also to pronouns of this class; reciprocal;
-reflective.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+(Gram.) Having for its direct object a pronoun which refers to the agent or
+subject as its antecedent; -- said of certain verbs; as, the witness perjured
+himself; I bethought myself. Applied also to pronouns of this class;
+reciprocal; reflective.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reflexive
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) (GRAMMAR)
-(language) </span><span style='font-family:"新細明體","serif"'>（詞語）反身的 <span
-lang=EN-US>Reflexive words show that the <a
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+(GRAMMAR) (language) </span><span style='font-family:"新細明體","serif"'>（詞語）反身的<span
+lang=EN-US> Reflexive words show that the <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/person"
 title=person><span style='color:windowtext;text-decoration:none'>person</span></a>
 who does the <a
@@ -503,9 +558,9 @@ href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-
 title=pronoun><span style='color:windowtext;text-decoration:none'>pronoun</span></a>.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reflexive
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) (MOVEMENT)
-</span><span style='font-family:"新細明體","serif"'>反射（性）的；本能（反應）的 <span
-lang=EN-US>Done because of a <a
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+(MOVEMENT) </span><span style='font-family:"新細明體","serif"'>反射（性）的；本能（反應）的<span
+lang=EN-US> Done because of a <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/physical"
 title=physical><span style='color:windowtext;text-decoration:none'>physical</span></a>
 <a
@@ -531,8 +586,9 @@ reflexive.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reflexively
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>adv</i>.) </span><span
-style='font-family:"新細明體","serif"'>反射（性）地；本能（反應）地​ <span lang=EN-US>In a way
-that is <a
+style='font-family:"新細明體","serif"'>反射（性）地；本能（反應）地</span><span style='font-family:
+"MS Mincho"'>​</span><span lang=EN-US style='font-family:"新細明體","serif"'> In a
+way that is <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/cause"
 title=caused><span style='color:windowtext;text-decoration:none'>caused</span></a>
 by an uncontrolled <a
@@ -540,7 +596,7 @@ href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-
 title=physical><span style='color:windowtext;text-decoration:none'>physical</span></a>
 <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/reaction"
-title=reaction><span style='color:windowtext;text-decoration:none'>reaction</span></a>.</span></span></p>
+title=reaction><span style='color:windowtext;text-decoration:none'>reaction</span></a>.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
 
@@ -595,8 +651,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Returning, or
 flowing back; reflex; as, reflux action.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reflux</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A flowing back, as
-the return of a fluid; ebb; reaction; as, the flux and reflux of the tides.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A flowing back, as the
+return of a fluid; ebb; reaction; as, the flux and reflux of the tides.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Refocillate</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To refresh; to
@@ -613,8 +669,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To fold ag
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To foment anew.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reforestization</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act or process of
-reforestizing.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act or process
+of reforestizing.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reforestize</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To convert again
@@ -673,8 +729,8 @@ in disgrace, is deprived of his command, but retains his rank, and sometimes
 his pay.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reformalize</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To affect
-reformation; to pretend to correctness.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To affect reformation;
+to pretend to correctness.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reformation</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act of
@@ -732,8 +788,8 @@ reformation or amendment; one who labors for, or urges, reform; as, a reformer
 of manners, or of abuses.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reformer</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One of those who commenced
-the reformation of religion in the sixteenth century, as Luther, Melanchthon,
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One of those who
+commenced the reformation of religion in the sixteenth century, as Luther, Melanchthon,
 Zwingli, and Calvin.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Reformist</span></b><span
@@ -774,8 +830,7 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>)
 Refract</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Refracting</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
-Refract</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of Refract</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Refract</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) To bend sharply and
