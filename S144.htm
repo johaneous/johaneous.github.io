@@ -11,14 +11,20 @@
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -32,6 +38,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -54,19 +74,28 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
-span.HTML
-	{mso-style-name:"HTML 預設格式 字元";
-	mso-style-link:"HTML 預設格式";
-	font-family:"Courier New";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -209,7 +238,7 @@ title=political><span style='color:windowtext;text-decoration:none'>political</s
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stable
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>穩定的，安定的，堅固的，堅定的 <span lang=EN-US>Firmly
+style='font-family:"新細明體","serif"'>穩定的，安定的，堅固的，堅定的<span lang=EN-US> Firmly
 established; not easily moved, shaken, or overthrown; fixed; as, a stable
 government.</span></span></p>
 
@@ -228,7 +257,7 @@ establish.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stable
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>馬房，牛棚 <span lang=EN-US>A house, shed, or
+style='font-family:"新細明體","serif"'>馬房，牛棚<span lang=EN-US> A house, shed, or
 building, for beasts to lodge and feed in; esp., a building or apartment with
 stalls, for horses; as, a horse stable; a cow stable.</span></span></p>
 
@@ -242,12 +271,12 @@ Stable</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stable
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) </span><span
-style='font-family:"新細明體","serif"'>趕入馬房 <span lang=EN-US>To put or keep in a
+style='font-family:"新細明體","serif"'>趕入馬房<span lang=EN-US> To put or keep in a
 stable.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stable
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.) </span><span
-style='font-family:"新細明體","serif"'>被關在馬廄 <span lang=EN-US>To dwell or lodge in
+style='font-family:"新細明體","serif"'>被關在馬廄<span lang=EN-US> To dwell or lodge in
 a stable; to dwell in an inclosed place; to kennel.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stableboy</span></b><span
@@ -265,23 +294,37 @@ of being stable, or firmly established; stability.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A stable keeper.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stable
-stand</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> () The
-position of a man who is found at his standing in the forest, with a crossbow
-or a longbow bent, ready to shoot at a deer, or close by a tree with greyhounds
-in a leash ready to slip; -- one of the four presumptions that a man intends
-stealing the king's deer.</span></p>
+stand</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.)
+The position of a man who is found at his standing in the forest, with a
+crossbow or a longbow bent, ready to shoot at a deer, or close by a tree with
+greyhounds in a leash ready to slip; -- one of the four presumptions that a man
+intends stealing the king's deer.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stabling</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act or practice
 of keeping horses and cattle in a stable.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stabling</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A building, shed, or
-room for horses and cattle.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stabling
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A
+building, shed, or room for horses and cattle.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stablish</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To settle
-permanently in a state; to make firm; to establish; to fix.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stabling
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) <a
+href="http://dictionary.cambridge.org/zht/help/codes.html"><span
+style='color:windowtext;text-decoration:none'>[ U ]</span></a> </span><span
+style='font-family:"新細明體","serif"'>馬廄 <span lang=EN-US>A <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/stable"
+title=stable><span style='color:windowtext;text-decoration:none'>stable</span></a>
+(= <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/building"
+title=building><span style='color:windowtext;text-decoration:none'>building</span></a>
+for <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/horse"
+title=horses><span style='color:windowtext;text-decoration:none'>horses</span></a>).</span></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stablish
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
+To settle permanently in a state; to make firm; to establish; to fix.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stablishment</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Establishment.</span></p>
@@ -300,10 +343,10 @@ beasts; a stable.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Staccato</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Disconnected;
-separated; distinct; -- a direction to perform the notes of a passage in a short,
-distinct, and pointed manner. It is opposed to legato, and often indicated by
-heavy accents written over or under the notes, or by dots when the performance
-is to be less distinct and emphatic.</span></p>
+separated; distinct; -- a direction to perform the notes of a passage in a
+short, distinct, and pointed manner. It is opposed to legato, and often
+indicated by heavy accents written over or under the notes, or by dots when the
+performance is to be less distinct and emphatic.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Staccato</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Expressed in a
@@ -311,7 +354,7 @@ brief, pointed manner.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stack
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>堆棧，堆積，堆疊，堆，大量，書庫，槍架，煙囪 <span lang=EN-US>A
+style='font-family:"新細明體","serif"'>堆棧，堆積，堆疊，堆，大量，書庫，槍架，煙囪<span lang=EN-US> A
 large pile of hay, grain, straw, or the like, usually of a nearly conical form,
 but sometimes rectangular or oblong, contracted at the top to a point or ridge,
 and sometimes covered with thatch.</span></span></p>
@@ -339,9 +382,8 @@ in a computer used for temporary storage of data, in which the last datum
 stored is the first retrieved.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stack</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A data structure
-within random-access memory used to simulate a hardware stack; as, a push-down
-stack.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A data structure within
+random-access memory used to simulate a hardware stack; as, a push-down stack.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stacked</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
@@ -353,7 +395,7 @@ Stack</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stack
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v.t</i>.) </span><span
-style='font-family:"新細明體","serif"'>堆積，堆滿，做牌 <span lang=EN-US>To lay in a
+style='font-family:"新細明體","serif"'>堆積，堆滿，做牌<span lang=EN-US> To lay in a
 conical or other pile; to make into a large pile; as, to stack hay, cornstalks,
 or grain; to stack or place wood.</span></span></p>
 
@@ -384,9 +426,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A yard or inc
 for stacks of hay or grain.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stacte</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One of the sweet
-spices used by the ancient Jews in the preparation of incense. It was perhaps an
-oil or other form of myrrh or cinnamon, or a kind of storax.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One of the sweet spices
+used by the ancient Jews in the preparation of incense. It was perhaps an oil
+or other form of myrrh or cinnamon, or a kind of storax.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Staddle</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) Anything which
@@ -409,8 +451,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To leave t
 staddles, or saplings, of, as a wood when it is cut.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Staddle</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To form into
-staddles, as hay.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To form into staddles,
+as hay.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stade</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A stadium.</span></p>
@@ -428,8 +470,8 @@ measuring distances.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl. </i>) of Stadium</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stadium</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A Greek measure of
-length, being the chief one used for itinerary distances, also adopted by the Romans
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A Greek measure of length,
+being the chief one used for itinerary distances, also adopted by the Romans
 for nautical and astronomical measurements. It was equal to 600 Greek or 625
 Roman feet, or 125 Roman paces, or to 606 feet 9 inches English. This was also
 called the Olympic stadium, as being the exact length of the foot-race course
@@ -474,9 +516,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl. </i>) of Staff</s
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl. </i>) of Staff</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Staff</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A long piece of
-wood; a stick; the long handle of an instrument or weapon; a pole or srick, used
-for many purposes; as, a surveyor's staff; the staff of a spear or pike.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A long piece of wood;
+a stick; the long handle of an instrument or weapon; a pole or srick, used for
+many purposes; as, a surveyor's staff; the staff of a spear or pike.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Staff</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A stick carried in
@@ -484,8 +526,9 @@ the hand for support or defense by a person walking; hence, a support; that
 which props or upholds.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Staff</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A pole, stick, or wand
-borne as an ensign of authority; a badge of office; as, a constable's staff.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A pole, stick, or
+wand borne as an ensign of authority; a badge of office; as, a constable's
+staff.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Staff</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A pole upon which a
@@ -539,8 +582,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A workman emp
 in silk throwing.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stag</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The adult male of
-the red deer (Cervus elaphus), a large European species closely related to the
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The adult male of the
+red deer (Cervus elaphus), a large European species closely related to the
 American elk, or wapiti.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Stag</span></b><span
