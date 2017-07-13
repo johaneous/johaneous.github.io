@@ -11,14 +11,20 @@
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -41,6 +47,20 @@ h4
 	font-size:18.0pt;
 	font-family:"Cambria","serif";
 	font-weight:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -63,25 +83,34 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.4
+	{mso-style-name:"標題 4 字元";
+	mso-style-link:"標題 4";
+	font-family:"Cambria","serif";}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
-span.HTML
-	{mso-style-name:"HTML 預設格式 字元";
-	mso-style-link:"HTML 預設格式";
-	font-family:"Courier New";}
 span.trans
 	{mso-style-name:trans;}
-span.4
-	{mso-style-name:"標題 4 字元";
-	mso-style-link:"標題 4";
-	font-family:"Cambria","serif";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -97,19 +126,16 @@ div.WordSection1
 <div class=WordSection1 style='layout-grid:18.0pt'>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-size:18.0pt;font-family:
-"新細明體","serif"'>&nbsp;</span></b></p>
-
-<p class=MsoNormal><b><span lang=EN-US style='font-size:18.0pt;font-family:
-"新細明體","serif"'>Webster's Unabridged Dictionary - Letter A - Page 67</span></b></p>
+"新細明體","serif"'>&nbsp;Webster's Unabridged Dictionary - Letter A - Page 67</span></b></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Answer</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To be or act as
 an equivalent, or as adequate or sufficient; as, a very few will answer.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Answer</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To be or act in conformity,
-or by way of accommodation, correspondence, relation, or proportion; to
-conform; to correspond; to suit; -- usually with to.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To be or act in
+conformity, or by way of accommodation, correspondence, relation, or
+proportion; to conform; to correspond; to suit; -- usually with to.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Answer</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A reply to a change;
@@ -129,8 +155,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A solution, t
 result of a mathematical operation; as, the answer to a problem.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Answer</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A counter-statement
-of facts in a course of pleadings; a confutation of what the other party has
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A counter-statement of
+facts in a course of pleadings; a confutation of what the other party has
 alleged; a responsive declaration by a witness in reply to a question. In
 Equity, it is the usual form of defense to the complainant's charges in his
 bill.</span></p>
@@ -142,8 +168,8 @@ accountable; amenable; responsible; as, an agent is answerable to his
 principal; to be answerable for a debt, or for damages.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Answerable</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Capable of being answered
-or refuted; admitting a satisfactory answer.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Capable of being
+answered or refuted; admitting a satisfactory answer.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Answerable</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Correspondent;
@@ -185,8 +211,8 @@ not; also used for is not; -- now usually written ain't.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> () See Anti-, prefix.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>-ant</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> () A suffix sometimes marking
-the agent for action; as, merchant, covenant, servant, pleasant, etc. Cf. -ent.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> () A suffix sometimes marking the
+agent for action; as, merchant, covenant, servant, pleasant, etc. Cf. -ent.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ant </span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A hymenopterous
@@ -366,7 +392,7 @@ title=Europe><span style='color:windowtext;text-decoration:none'>Europe</span></
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antagonist</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>敵手，對手 <span lang=EN-US>One who contends with
+style='font-family:"新細明體","serif"'>敵手，對手<span lang=EN-US> One who contends with
 another, especially in combat; an adversary; an opponent.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antagonist</span></b><span
@@ -389,7 +415,7 @@ Antagonistical</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antagonistical
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>反對的，敵對的 <span lang=EN-US>Opposing in combat,
+style='font-family:"新細明體","serif"'>反對的，敵對的<span lang=EN-US> Opposing in combat,
 combating; contending or acting against; as, antagonistic forces.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antagonized</span></b><span
@@ -402,41 +428,41 @@ Antagonize</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antagonize
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) </span><span
-style='font-family:"新細明體","serif"'>使成敵人，敵對，反對 <span lang=EN-US>To contend with;
+style='font-family:"新細明體","serif"'>使成敵人，敵對，反對<span lang=EN-US> To contend with;
 to oppose actively; to counteract.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antagonize
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.) </span><span
-style='font-family:"新細明體","serif"'>引起反抗 <span lang=EN-US>To act in opposition.</span></span></p>
+style='font-family:"新細明體","serif"'>引起反抗<span lang=EN-US> To act in opposition.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antagony
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>對抗，對立；敵對；敵意 <span lang=EN-US>Contest;
+style='font-family:"新細明體","serif"'>對抗，對立；敵對；敵意<span lang=EN-US> Contest;
 opposition; antagonism.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antalgic
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>【醫】止痛的 <span lang=EN-US>Alleviating pain.</span></span></p>
+style='font-family:"新細明體","serif"'>【醫】止痛的<span lang=EN-US> Alleviating pain.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antalgic
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>鎮痛劑 <span lang=EN-US>A medicine to alleviate
+style='font-family:"新細明體","serif"'>鎮痛劑<span lang=EN-US> A medicine to alleviate
 pain; an anodyne.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antalkali
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>鹼性中和劑，抗鹼劑 <span lang=EN-US>Alt. of
+style='font-family:"新細明體","serif"'>鹼性中和劑，抗鹼劑<span lang=EN-US> Alt. of
 Antalkaline</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antalkaline
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>解鹼藥 <span lang=EN-US>Anything that
-neutralizes, or that counteracts an alkaline tendency in the system.</span></span></p>
+style='font-family:"新細明體","serif"'>解鹼藥<span lang=EN-US> Anything that neutralizes,
+or that counteracts an alkaline tendency in the system.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antalkaline
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>解鹼的，抗鹼的 <span lang=EN-US>Of power to counteract
-alkalies.</span></span></p>
+style='font-family:"新細明體","serif"'>解鹼的，抗鹼的<span lang=EN-US> Of power to
+counteract alkalies.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antambulacral</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Away from the
@@ -492,17 +518,18 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One who oppos
 government.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antarchistic</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Alt. of Antarchistical</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Alt. of
+Antarchistical</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antarchistical</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Opposed to all human
 government.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antarctic</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Opposite to the
-northern or arctic pole; relating to the southern pole or to the region near
-it, and applied especially to a circle, distant from the pole 23?28/. Thus we say
-the antarctic pole, circle, ocean, region, current, etc.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Opposite to the northern
+or arctic pole; relating to the southern pole or to the region near it, and
+applied especially to a circle, distant from the pole 23?28/. Thus we say the
+antarctic pole, circle, ocean, region, current, etc.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antares</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The principal star
@@ -561,8 +588,8 @@ front.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ant-eater</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One of several
-species of edentates and monotremes that feed upon ants. See Ant-bear, Pangolin,
-Aard-vark, and Echidna.</span></p>
+species of edentates and monotremes that feed upon ants. See Ant-bear,
+Pangolin, Aard-vark, and Echidna.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antecedaneous</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Antecedent;
@@ -581,8 +608,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An apparent m
 of a planet toward the west; retrogradation.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antecedency</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The state or
-condition of being antecedent; priority.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The state or condition
+of being antecedent; priority.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antecedent</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Going before in
@@ -638,9 +665,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An ancestor; 
 progenitor.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antechamber</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A chamber or
-apartment before the chief apartment and leading into it, in which persons wait
-for audience; an outer chamber. See Lobby.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A chamber or apartment
+before the chief apartment and leading into it, in which persons wait for
+audience; an outer chamber. See Lobby.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Antechamber</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A space viewed as
