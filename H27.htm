@@ -14,8 +14,11 @@
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
@@ -25,6 +28,9 @@
 @font-face
 	{font-family:"\@MS Mincho";
 	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -38,6 +44,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -60,19 +80,28 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
-span.HTML
-	{mso-style-name:"HTML 預設格式 字元";
-	mso-style-link:"HTML 預設格式";
-	font-family:"Courier New";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -99,8 +128,9 @@ tree</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> () T
 dog-rose.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Heptyl</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A compound radical, C7H15,
-regarded as the essential radical of heptane and a related series of compounds.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A compound radical,
+C7H15, regarded as the essential radical of heptane and a related series of
+compounds.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Heptylene</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A colorless liquid
@@ -140,14 +170,14 @@ a sacred and inviolable character.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herald</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) In the Middle Ages,
-the officer charged with the above duties, and also with the care of
-genealogies, of the rights and privileges of noble families, and especially of
-armorial bearings. In modern times, some vestiges of this office remain,
-especially in England. See Heralds' College (below), and King-at-Arms.</span></p>
+the officer charged with the above duties, and also with the care of genealogies,
+of the rights and privileges of noble families, and especially of armorial
+bearings. In modern times, some vestiges of this office remain, especially in
+England. See Heralds' College (below), and King-at-Arms.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herald</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A proclaimer; one who,
-or that which, publishes or announces; as, the herald of another's fame.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A proclaimer; one
+who, or that which, publishes or announces; as, the herald of another's fame.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herald</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A forerunner; a a
@@ -165,9 +195,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</
 Herald</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herald</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To introduce, or
-give tidings of, as by a herald; to proclaim; to announce; to foretell; to
-usher in.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To introduce, or give
+tidings of, as by a herald; to proclaim; to announce; to foretell; to usher in.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Heraldic</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of or pertaining to
@@ -208,9 +237,10 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of or pertain
 herbs; having the nature, texture, or characteristics, of an herb; as,
 herbaceous plants; an herbaceous stem.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbage</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Herbs collectively;
-green food beasts; grass; pasture.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbage
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>草，牧草 <span lang=EN-US>Herbs collectively;
+green food beasts; grass; pasture.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbage</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The liberty or right
@@ -224,8 +254,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of or pertain
 herbs.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A book containing the
-names and descriptions of plants.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A book containing
+the names and descriptions of plants.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbal</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A collection of
@@ -256,15 +286,59 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl. </i>) of Herbariu
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl. </i>) of Herbarium</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbarium</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A collection of dried
-specimens of plants, systematically arranged.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A collection of
+dried specimens of plants, systematically arranged.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbarium</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A book or case for
-preserving dried plants.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbarium
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A
+book or case for preserving dried plants.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbarize</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) See Herborize.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbarium
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>植物標本館；植物標本集；植物標本室；植物標本箱 <span lang=EN-US>A herbarium
+(plural: herbaria) is a collection of preserved <a
+href="https://en.wikipedia.org/wiki/Plant" title=Plant><span style='color:windowtext;
+text-decoration:none'>plant</span></a> specimens and associated data used for
+scientific study.<a href="https://en.wikipedia.org/wiki/Herbarium#cite_note-1"><span
+style='color:windowtext;text-decoration:none'>[1]</span></a> The term can also
+refer to the building or room where the specimens are housed, or to the
+scientific institute that not only stores but uses them for research.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The
+specimens may be whole plants or plant parts; these will usually be in dried
+form mounted on a sheet of paper but, depending upon the material, may also be
+stored in boxes or kept in alcohol or other preservative.<a
+href="https://en.wikipedia.org/wiki/Herbarium#cite_note-:0-2"><span
+style='color:windowtext;text-decoration:none'>[2]</span></a> The specimens in a
+herbarium are often used as reference material in describing plant <a
+href="https://en.wikipedia.org/wiki/Taxon" title=Taxon><span style='color:windowtext;
+text-decoration:none'>taxa</span></a>; some specimens may be <a
+href="https://en.wikipedia.org/wiki/Type_%28botany%29" title="Type (botany)"><span
+style='color:windowtext;text-decoration:none'>types</span></a>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The same
+term is often used in <a href="https://en.wikipedia.org/wiki/Mycology"
+title=Mycology><span style='color:windowtext;text-decoration:none'>mycology</span></a>
+to describe an equivalent collection of preserved <a
+href="https://en.wikipedia.org/wiki/Fungi" title=Fungi><span style='color:windowtext;
+text-decoration:none'>fungi</span></a>, otherwise known as a fungarium.<a
+href="https://en.wikipedia.org/wiki/Herbarium#cite_note-3"><span
+style='color:windowtext;text-decoration:none'>[3]</span></a> A xylarium is a
+herbarium specialising in specimens of wood.<a
+href="https://en.wikipedia.org/wiki/Herbarium#cite_note-4"><span
+style='color:windowtext;text-decoration:none'>[4]</span></a> The term hortorium
+(as in the <a href="https://en.wikipedia.org/wiki/Liberty_Hyde_Bailey"
+title="Liberty Hyde Bailey"><span style='color:windowtext;text-decoration:none'>Liberty
+Hyde Bailey Hortorium</span></a>) has occasionally been applied to a herbarium
+specialising in preserving material of <a
+href="https://en.wikipedia.org/wiki/Horticulture" title=Horticulture><span
+style='color:windowtext;text-decoration:none'>horticultural</span></a> origin.<a
+href="https://en.wikipedia.org/wiki/Herbarium#cite_note-5"><span
+style='color:windowtext;text-decoration:none'>[5]</span></a></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbarize
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
+See Herborize.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbary</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A garden of herbs; a
@@ -339,7 +413,7 @@ exclusively upon vegetation.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbivore
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>草食動物 <span lang=EN-US>One of the Herbivora.</span></span></p>
+style='font-family:"新細明體","serif"'>草食動物<span lang=EN-US> One of the Herbivora.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbivore
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) <a
@@ -418,7 +492,7 @@ title=meat><span style='color:windowtext;text-decoration:none'>meat</span></a>).
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbivorous</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>食草的 <span lang=EN-US>Eating plants; of or
+style='font-family:"新細明體","serif"'>食草的<span lang=EN-US> Eating plants; of or
 pertaining to the Herbivora.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbivorous
@@ -427,7 +501,7 @@ style='font-family:"新細明體","serif"'>食草的<span lang=EN-US> Feeding on
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbivory
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>草食性 <span lang=EN-US>The consumption of
+style='font-family:"新細明體","serif"'>草食性<span lang=EN-US> The consumption of
 living plant tissue by animals.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herbless
@@ -458,7 +532,7 @@ Herborize</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herborize
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.) </span><span
-style='font-family:"新細明體","serif"'>採集植物，採集藥草 <span lang=EN-US>To search for
+style='font-family:"新細明體","serif"'>採集植物，採集藥草<span lang=EN-US> To search for
 plants, or new species of plants, with a view to classifying them.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herborize</span></b><span
@@ -483,8 +557,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A woman that 
 herbs.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herby</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Having the nature of,
-pertaining to, or covered with, herbs or herbage.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Having the nature
+of, pertaining to, or covered with, herbs or herbage.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Hercogamous</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Not capable of
@@ -498,12 +572,12 @@ Herculean task.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herculean</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>力大無比的；巨大的 <span lang=EN-US>Having
+style='font-family:"新細明體","serif"'>力大無比的；巨大的<span lang=EN-US> Having
 extraordinary strength or size; as, Herculean limbs.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Hercules
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>大力英雄；武仙座；力士 <span lang=EN-US>A hero, fabled
+style='font-family:"新細明體","serif"'>大力英雄；武仙座；力士<span lang=EN-US> A hero, fabled
 to have been the son of Jupiter and Alcmena, and celebrated for great strength,
 esp. for the accomplishment of his twelve great tasks or &quot;labors.&quot;</span></span></p>
 
@@ -544,7 +618,7 @@ Herd</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herd </span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.) </span><span
-style='font-family:"新細明體","serif"'>聚在一起，成群；群集，放牧，使成群 <span lang=EN-US>To unite
+style='font-family:"新細明體","serif"'>聚在一起，成群；群集，放牧，使成群<span lang=EN-US> To unite
 or associate in a herd; to feed or run together, or in company; as, sheep herd
 on many hills.</span></span></p>
 
@@ -561,13 +635,13 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To form or
 into a herd.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herdbook</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A book containing the
-list and pedigrees of one or more herds of choice breeds of cattle; -- also
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A book containing
+the list and pedigrees of one or more herds of choice breeds of cattle; -- also
 called herd record, or herd register.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herder</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>牧者；牧人 <span lang=EN-US>A herdsman.</span></span></p>
+style='font-family:"新細明體","serif"'>牧者；牧人<span lang=EN-US> A herdsman.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herderite</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A rare fluophosphate
@@ -592,7 +666,7 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Alt. of Herds
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herdsman
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>牧人；牧夫座 <span lang=EN-US>The owner or keeper
+style='font-family:"新細明體","serif"'>牧人；牧夫座<span lang=EN-US> The owner or keeper
 of a herd or of herds; one employed in tending a herd of cattle.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Herdswomen</span></b><span
