@@ -53,6 +53,20 @@ h4
 	font-size:18.0pt;
 	font-family:"Cambria","serif";
 	font-weight:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -89,9 +103,18 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -185,8 +208,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A small speci
 agouti (Dasyprocta acouchy).</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acoumeter</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An instrument for
-measuring the acuteness of the sense of hearing.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An instrument for measuring
+the acuteness of the sense of hearing.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acoumetry</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The measuring of the
@@ -320,7 +343,7 @@ usually within the internal auditory canal or hearing nerve.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acoustical</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>聽覺的，聲學的 <span lang=EN-US>Of or pertaining to
+style='font-family:"新細明體","serif"'>聽覺的，聲學的<span lang=EN-US> Of or pertaining to
 acoustics.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acoustically</span></b><span
@@ -351,7 +374,7 @@ Acquaint.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaint
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) </span><span
-style='font-family:"新細明體","serif"'>使認識，使瞭解 <span lang=EN-US>To furnish or give
+style='font-family:"新細明體","serif"'>使認識，使瞭解<span lang=EN-US> To furnish or give
 experimental knowledge of; to make (one) to know; to make familiar; -- followed
 by with.</span></span></p>
 
@@ -368,7 +391,7 @@ To familiarize; to accustom.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaint
 sb/yourself with sth </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(formal)
 (- phrasal verb with acquaint) (<i>v</i>.) </span><span style='font-family:
-"新細明體","serif"'>使認識；使瞭解；使熟悉；使知悉 <span lang=EN-US>To make someone or yourself <a
+"新細明體","serif"'>使認識；使瞭解；使熟悉；使知悉<span lang=EN-US> To make someone or yourself <a
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/familiar"
 title=familiar><span style='color:windowtext;text-decoration:none'>familiar</span></a>
 with something</span></span></p>
@@ -406,7 +429,7 @@ title=radio><span style='color:windowtext;text-decoration:none'>radio</span></a>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaintable
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>和藹可親的，友善的，殷勤的 <span lang=EN-US>Easy to be
+style='font-family:"新細明體","serif"'>和藹可親的，友善的，殷勤的<span lang=EN-US> Easy to be
 acquainted with; affable.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:</span></p>
@@ -441,33 +464,250 @@ title=quite><span style='color:windowtext;text-decoration:none'>quite</span></a>
 href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/meeting"
 title=meeting><span style='color:windowtext;text-decoration:none'>meeting</span></a>.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaintance</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A state of being
-acquainted, or of having intimate, or more than slight or superficial,
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaintance
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>認識，瞭解；相識的人，熟人 <span lang=EN-US>A state of
+being acquainted, or of having intimate, or more than slight or superficial,
 knowledge; personal knowledge gained by intercourse short of that of friendship
-or intimacy; as, I know the man; but have no acquaintance with him.</span></p>
+or intimacy; as, I know the man; but have no acquaintance with him.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaintance</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A person or persons
 with whom one is acquainted.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaintanceship</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A state of being
-acquainted; acquaintance.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>相識，相熟，認識 <span lang=EN-US>A state of being
+acquainted; acquaintance.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaintant</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An acquaintance.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquainted</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Personally known;
-familiar. See To be acquainted with, under Acquaint, v. t.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaintedness</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) State of being
-acquainted; degree of acquaintance.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaintance
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) (C1)
+<a href="http://dictionary.cambridge.org/zht/help/codes.html"><span
+style='color:windowtext;text-decoration:none'>[ C ]</span></a> </span><span
+style='font-family:"新細明體","serif"'>相識的人，熟人；泛泛之交 <span lang=EN-US>A <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/person"
+title=person><span style='color:windowtext;text-decoration:none'>person</span></a>
+that you have <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/met"
+title=met><span style='color:windowtext;text-decoration:none'>met</span></a>
+but do not <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/know"
+title=know><span style='color:windowtext;text-decoration:none'>know</span></a>
+well.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>A <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/business"
+title=business><span style='color:windowtext;text-decoration:none'>business</span></a>
+<i>acquaintance</i>.</span></p>
+
+<p class=MsoNormal><b><span style='font-family:"新細明體","serif"'>​<span
+lang=EN-US>Acquaintance </span></span></b><span lang=EN-US style='font-family:
+"新細明體","serif"'>(<i>n</i>.) <a
+href="http://dictionary.cambridge.org/zht/help/codes.html"><span
+style='color:windowtext;text-decoration:none'>[ U ]</span></a> (formal) </span><span
+style='font-family:"新細明體","serif"'>（用在某些表達方式中表示）認識，結識 <span lang=EN-US>Used in
+some <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/expression"
+title=expressions><span style='color:windowtext;text-decoration:none'>expressions</span></a>
+about <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/knowing"
+title=knowing><span style='color:windowtext;text-decoration:none'>knowing</span></a>
+or <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/meeting"
+title=meeting><span style='color:windowtext;text-decoration:none'>meeting</span></a>
+<a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/people"
+title=people><span style='color:windowtext;text-decoration:none'>people</span></a>.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>It was
+at the Taylors' <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/party"
+title=party><span style='color:windowtext;text-decoration:none'>party</span></a>
+that I first made his <i>acquaintance</i> (= first <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/met"
+title=met><span style='color:windowtext;text-decoration:none'>met</span></a>
+him).</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>I wasn't
+<a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/sure"
+title=sure><span style='color:windowtext;text-decoration:none'>sure</span></a>
+about Darryl when I first <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/met"
+title=met><span style='color:windowtext;text-decoration:none'>met</span></a>
+her, but on <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/further"
+title=further><span style='color:windowtext;text-decoration:none'>further</span></a>
+<i>acquaintance</i> (= <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/knowing"
+title=knowing><span style='color:windowtext;text-decoration:none'>knowing</span></a>
+her a little more) I <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/rather"
+title=rather><span style='color:windowtext;text-decoration:none'>rather</span></a>
+like her.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaintance
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) <a
+href="http://dictionary.cambridge.org/zht/help/codes.html"><span
+style='color:windowtext;text-decoration:none'>[ U ]</span></a> (formal) </span><span
+style='font-family:"新細明體","serif"'>（對某一學科的）所知，瞭解 <span lang=EN-US>K<a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/knowledge"
+title=knowledge><span style='color:windowtext;text-decoration:none'>nowledge</span></a>
+of a <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/subject"
+title=subject><span style='color:windowtext;text-decoration:none'>subject</span></a>.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Sadly,
+my <i>acquaintance</i> with <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/spanish"
+title=Spanish><span style='color:windowtext;text-decoration:none'>Spanish</span></a>
+<a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/literature"
+title=literature><span style='color:windowtext;text-decoration:none'>literature</span></a>
+is <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/rather"
+title=rather><span style='color:windowtext;text-decoration:none'>rather</span></a>
+<a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/limited"
+title=limited><span style='color:windowtext;text-decoration:none'>limited</span></a>.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquainted
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+Personally known; familiar. See To be acquainted with, under Acquaint, v. t.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquainted
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) (formal)
+<a href="http://dictionary.cambridge.org/zht/help/codes.html"><span
+style='color:windowtext;text-decoration:none'>[ after verb ]</span></a> </span><span
+style='font-family:"新細明體","serif"'>相識的；認識的；熟悉的 <span lang=EN-US><a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/knowing"
+title=knowing><span style='color:windowtext;text-decoration:none'>Knowing</span></a>
+or being <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/familiar"
+title=familiar><span style='color:windowtext;text-decoration:none'>familiar</span></a>
+with a <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/person"
+title=person><span style='color:windowtext;text-decoration:none'>person</span></a>.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>&quot;Do
+you <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/know"
+title=know><span style='color:windowtext;text-decoration:none'>know</span></a>
+Daphne?&quot; &quot;No, I'm <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/afraid"
+title=afraid><span style='color:windowtext;text-decoration:none'>afraid</span></a>
+we're not <i>acquainted</i>.&quot;</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>I am not
+<a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/personally"
+title=personally><span style='color:windowtext;text-decoration:none'>personally</span></a>
+<i>acquainted</i> with the <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/gentleman"
+title=gentleman><span style='color:windowtext;text-decoration:none'>gentleman</span></a>
+in <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/question"
+title=question><span style='color:windowtext;text-decoration:none'>question</span></a>.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Be
+acquainted with sth </span></b><span style='font-family:"新細明體","serif"'>瞭解的；熟悉的；知曉的
+<span lang=EN-US>To <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/know"
+title=know><span style='color:windowtext;text-decoration:none'>know</span></a>
+or be <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/familiar"
+title=familiar><span style='color:windowtext;text-decoration:none'>familiar</span></a>
+with something, because you have <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/studied"
+title=studied><span style='color:windowtext;text-decoration:none'>studied</span></a>
+it or have <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/experienced"
+title=experienced><span style='color:windowtext;text-decoration:none'>experienced</span></a>
+it before.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Police
+said the <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/thief"
+title=thieves><span style='color:windowtext;text-decoration:none'>thieves</span></a>
+were <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/obviously"
+title=obviously><span style='color:windowtext;text-decoration:none'>obviously</span></a>
+well<i> acquainted</i> with the <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/alarm"
+title=alarm><span style='color:windowtext;text-decoration:none'>alarm</span></a>
+<a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/system"
+title=system><span style='color:windowtext;text-decoration:none'>system</span></a>
+at the <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/department"
+title=department><span style='color:windowtext;text-decoration:none'>department</span></a>
+<a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/store"
+title=store><span style='color:windowtext;text-decoration:none'>store</span></a>.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaintedness
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) (rare)
+State of being acquainted; degree of acquaintance.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquaintedness
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
+(rare) The state of being acquainted with someone or something, familiarity.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Familiaruty
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) <a
+href="http://dictionary.cambridge.org/zht/help/codes.html"><span
+style='color:windowtext;text-decoration:none'>[ U ]</span></a> (KNOWLEDGE) </span><span
+style='font-family:"新細明體","serif"'>通曉；熟知，熟悉 <span lang=EN-US>A good <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/knowledge"
+title=knowledge><span style='color:windowtext;text-decoration:none'>knowledge</span></a>
+of something, or the <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/fact"
+title=fact><span style='color:windowtext;text-decoration:none'>fact</span></a>
+that you <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/know"
+title=know><span style='color:windowtext;text-decoration:none'>know</span></a>
+it so well.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Ellen's<i>
+familiarity</i> with <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/pop"
+title=pop><span style='color:windowtext;text-decoration:none'>pop</span></a> <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/music"
+title=music><span style='color:windowtext;text-decoration:none'>music</span></a>
+is <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/astonishing"
+title=astonishing><span style='color:windowtext;text-decoration:none'>astonishing</span></a>.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>I <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/love"
+title=love><span style='color:windowtext;text-decoration:none'>love</span></a>
+the<i> familiarity</i> of my <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/old"
+title=old><span style='color:windowtext;text-decoration:none'>old</span></a> <a
+href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-%E6%BC%A2%E8%AA%9E-%E7%B9%81%E9%AB%94/chair"
+title=chair><span style='color:windowtext;text-decoration:none'>chair</span></a>.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquest</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Acquisition; the
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Acquisition; the
 thing gained.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquest</span></b><span
@@ -604,8 +844,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</
 Acquit.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquit</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To discharge, as
-a claim or debt; to clear off; to pay off; to requite.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To discharge, as a
+claim or debt; to clear off; to pay off; to requite.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquit</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To pay for; to
@@ -622,9 +862,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To clear o
 self.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquit</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To bear or conduct
-one's self; to perform one's part; as, the soldier acquitted himself well in
-battle; the orator acquitted himself very poorly.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To bear or
+conduct one's self; to perform one's part; as, the soldier acquitted himself
+well in battle; the orator acquitted himself very poorly.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acquitment</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Acquittal.</span></p>
@@ -704,8 +944,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Acres collect
 as, the acreage of a farm or a country.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acred</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Possessing acres or
-landed property; -- used in composition; as, large-acred men.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Possessing acres or landed
+property; -- used in composition; as, large-acred men.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Acrid</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Sharp and harsh, or
