@@ -20,11 +20,11 @@
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"\@新細明體";
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
-@font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@新細明體";
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -38,6 +38,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -70,9 +84,18 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -95,14 +118,13 @@ forward, arrange, deal, or distribute, as a portion of anything, especially of
 food prepared for eating; -- often with up; formerly with in.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Serve</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To perform the duties
-belonging to, or required in or for; hence, to be of use to; as, a curate may
-serve two churches; to serve one's country.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To perform the
+duties belonging to, or required in or for; hence, to be of use to; as, a
+curate may serve two churches; to serve one's country.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Serve</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To contribute or
-conduce to; to promote; to be sufficient for; to satisfy; as, to serve one's
-turn.</span></p>
+conduce to; to promote; to be sufficient for; to satisfy; as, to serve one's turn.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Serve</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To answer or be
@@ -217,18 +239,18 @@ or appropriate to, any office or charge; official function; hence,
 specifically, military or naval duty; performance of the duties of a soldier.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Service</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Useful office; advantage
-conferred; that which promotes interest or happiness; benefit; avail.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Useful office;
+advantage conferred; that which promotes interest or happiness; benefit; avail.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Service</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Profession of
 respect; acknowledgment of duty owed.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Service</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act and manner
-of bringing food to the persons who eat it; order of dishes at table; also, a
-set or number of vessels ordinarily used at table; as, the service was tardy
-and awkward; a service of plate or glass.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act and manner of
+bringing food to the persons who eat it; order of dishes at table; also, a set
+or number of vessels ordinarily used at table; as, the service was tardy and
+awkward; a service of plate or glass.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Service</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act of bringing
@@ -248,14 +270,14 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Act of servin
 covering. See Serve, v. t., 13.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Serviceable</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Doing service; promoting
-happiness, interest, advantage, or any good; useful to any end; adapted to any
-good end use; beneficial; advantageous.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Doing service;
+promoting happiness, interest, advantage, or any good; useful to any end;
+adapted to any good end use; beneficial; advantageous.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Serviceable</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Prepared for
-rendering service; capable of, or fit for, the performance of duty; hence,
-active; diligent.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Prepared for rendering
+service; capable of, or fit for, the performance of duty; hence, active;
+diligent.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Serviceage</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Servitude.</span></p>
@@ -348,8 +370,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A series.</sp
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sesame</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Either of two annual
 herbaceous plants of the genus Sesamum (S. Indicum, and S. orientale), from the
-seeds of which an oil is expressed; also, the small obovate, flattish seeds of
-these plants, sometimes used as food. See Benne.</span></p>
+seeds of which an oil is expressed; also, the small obovate, flattish seeds of these
+plants, sometimes used as food. See Benne.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sesamoid</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Resembling in shape
@@ -400,8 +422,8 @@ times as great as another; having the ratio of one and a half to one.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Sesquialteral.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sesquibasic</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Containing, or acting
-as, a base in the proportions of a sesqui compound.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Containing, or
+acting as, a base in the proportions of a sesqui compound.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sesquiduplicate</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Twice and a half as
@@ -435,25 +457,25 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The quality o
 condition of being sesquipedal.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sesqyipedality</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The use of
-sesquipedalian words; style characterized by the use of long words;
-sesquipedalism.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The use of sesquipedalian
+words; style characterized by the use of long words; sesquipedalism.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sesquiplicate
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
-Subduplicate of the triplicate; -- a term applied to ratios; thus, a and a' are
-in the sesquiplicate ratio of b and b', when a is to a' as the square root of
-the cube of b is to the square root of the cube of b', or a:a'::[<a
-href="https://cdict.net/q/root"><span style='color:windowtext;text-decoration:
-none'>root</span></a>]b^{<a href="https://cdict.net/q/3"><span
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sesquiplicate</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) [</span><span
+style='font-family:"新細明體","serif"'>數<span lang=EN-US>] </span>立方之平方根的，二分之三次方的 <span
+lang=EN-US>Subduplicate of the triplicate; -- a term applied to ratios; thus, a
+and a' are in the sesquiplicate ratio of b and b', when a is to a' as the
+square root of the cube of b is to the square root of the cube of b', or
+a:a'::[<a href="https://cdict.net/q/root"><span style='color:windowtext;
+text-decoration:none'>root</span></a>]b^{<a href="https://cdict.net/q/3"><span
 style='color:windowtext;text-decoration:none'>3</span></a>}:[<a
 href="https://cdict.net/q/root"><span style='color:windowtext;text-decoration:
 none'>root</span></a>]<a href="https://cdict.net/q/b"><span style='color:windowtext;
 text-decoration:none'>b</span></a>'^{<a href="https://cdict.net/q/3"><span
-style='color:windowtext;text-decoration:none'>3</span></a>}.</span></p>
+style='color:windowtext;text-decoration:none'>3</span></a>}.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sesquisalt</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A salt derived from
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A salt derived from
 a sesquioxide base, or made up on the proportions of a sesqui compound.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sesquisulphide</span></b><span
@@ -493,9 +515,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Attached with
 sensible projecting support.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sessile</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Resting directly upon
-the main stem or branch, without a petiole or footstalk; as, a sessile leaf or
-blossom.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Resting directly
+upon the main stem or branch, without a petiole or footstalk; as, a sessile
+leaf or blossom.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sessile</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Permanently
@@ -512,8 +534,8 @@ or the state of being seated.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Session</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The actual sitting
-of a court, council, legislature, etc., or the actual assembly of the members
-of such a body, for the transaction of business.</span></p>
+of a court, council, legislature, etc., or the actual assembly of the members of
+such a body, for the transaction of business.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Session</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Hence, also, the
