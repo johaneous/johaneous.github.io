@@ -11,14 +11,20 @@
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -32,6 +38,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -54,6 +74,10 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
@@ -62,13 +86,18 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	font-family:"新細明體","serif";}
 span.trans
 	{mso-style-name:trans;}
-span.HTML
-	{mso-style-name:"HTML 預設格式 字元";
-	mso-style-link:"HTML 預設格式";
-	font-family:"Courier New";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -98,8 +127,8 @@ manner.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Frowning; scowling.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Frowy</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Musty. rancid; as,
-frowy butter.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Musty. rancid; as, frowy
+butter.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Frowzy</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Slovenly; unkempt;
@@ -164,7 +193,7 @@ producing fruit, or seeds, or spores.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fructify
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.) </span><span
-style='font-family:"新細明體","serif"'>結果實 <span lang=EN-US>To bear fruit.</span></span></p>
+style='font-family:"新細明體","serif"'>結果實<span lang=EN-US> To bear fruit.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fructified</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
@@ -176,7 +205,7 @@ Fructify</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fructify</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) </span><span
-style='font-family:"新細明體","serif"'>使結果實，使肥沃 <span lang=EN-US>To make fruitful;
+style='font-family:"新細明體","serif"'>使結果實，使肥沃<span lang=EN-US> To make fruitful;
 to render productive; to fertilize; as, to fructify the earth.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fructose</span></b><span
@@ -208,11 +237,10 @@ water; a kind of buddle.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Frugal</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>節儉的，樸素的 <span lang=EN-US>Economical in the
-use or appropriation of resources; not wasteful or lavish; wise in the
-expenditure or application of force, materials, time, etc.; characterized by
-frugality; sparing; economical; saving; as, a frugal housekeeper; frugal of
-time.</span></span></p>
+style='font-family:"新細明體","serif"'>節儉的，樸素的<span lang=EN-US> Economical in the use
+or appropriation of resources; not wasteful or lavish; wise in the expenditure
+or application of force, materials, time, etc.; characterized by frugality;
+sparing; economical; saving; as, a frugal housekeeper; frugal of time.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Frugal</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Obtained by, or
@@ -265,10 +293,10 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl</i>. ) of Frugalit
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Frugality</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>節儉，儉省 <span lang=EN-US>The quality of being
-frugal; prudent economy; that careful management of anything valuable which expends
-nothing unnecessarily, and applies what is used to a profitable purpose;
-thrift; --- opposed to extravagance.</span></span></p>
+style='font-family:"新細明體","serif"'>節儉，儉省<span lang=EN-US> The quality of being
+frugal; prudent economy; that careful management of anything valuable which
+expends nothing unnecessarily, and applies what is used to a profitable
+purpose; thrift; --- opposed to extravagance.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Frugality</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A sparing use;
@@ -365,9 +393,9 @@ fruit.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A fruiteress.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fruitful</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Full of fruit; producing
-fruit abundantly; bearing results; prolific; fertile; liberal; bountiful; as, a
-fruitful tree, or season, or soil; a fruitful wife.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Full of fruit;
+producing fruit abundantly; bearing results; prolific; fertile; liberal;
+bountiful; as, a fruitful tree, or season, or soil; a fruitful wife.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fruiting</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Pertaining to, or
@@ -377,10 +405,11 @@ producing, fruit.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The bearing of
 fruit.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fruition</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Use or possession of
-anything, especially such as is accompanied with pleasure or satisfaction;
-pleasure derived from possession or use.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fruition
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>結果實；成就；實現；享受；完成 <span lang=EN-US>Use or
+possession of anything, especially such as is accompanied with pleasure or
+satisfaction; pleasure derived from possession or use.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fruitive</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Enjoying;
@@ -481,8 +510,9 @@ Frustrate</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Frustrate</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To bring to
-nothing; to prevent from attaining a purpose; to disappoint; to defeat; to baffle;
-as, to frustrate a plan, design, or attempt; to frustrate the will or purpose.</span></p>
+nothing; to prevent from attaining a purpose; to disappoint; to defeat; to
+baffle; as, to frustrate a plan, design, or attempt; to frustrate the will or
+purpose.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Frustrate
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
@@ -664,8 +694,8 @@ title=want><span style='color:windowtext;text-decoration:none'>want</span></a>.<
 vain.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Frustration</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act of
-frustrating; disappointment; defeat; as, the frustration of one's designs</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act of frustrating;
+disappointment; defeat; as, the frustration of one's designs</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Frustrative</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Tending to defeat;
@@ -677,8 +707,8 @@ rendering null; as, a frustratory appeal.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Frustule</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The siliceous shell
-of a diatom. It is composed of two valves, one overlapping the other, like a pill
-box and its cover.</span></p>
+of a diatom. It is composed of two valves, one overlapping the other, like a
+pill box and its cover.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Frustulent</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Abounding in
