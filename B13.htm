@@ -11,14 +11,20 @@
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -32,6 +38,15 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+h4
+	{mso-style-link:"標題 4 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:300%;
+	page-break-after:avoid;
+	font-size:18.0pt;
+	font-family:"Cambria","serif";
+	font-weight:normal;}
 p.MsoHeader, li.MsoHeader, div.MsoHeader
 	{mso-style-link:"頁首 字元";
 	margin:0cm;
@@ -68,6 +83,10 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 span.a
 	{mso-style-name:"頁首 字元";
 	mso-style-link:頁首;
@@ -82,14 +101,13 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
-span.HTML
-	{mso-style-name:"HTML 預設格式 字元";
-	mso-style-link:"HTML 預設格式";
-	font-family:"Courier New";}
+span.4
+	{mso-style-name:"標題 4 字元";
+	mso-style-link:"標題 4";
+	font-family:"Cambria","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
- /* Page Definitions */
- @page WordSection1
+@page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -110,9 +128,9 @@ div.WordSection1
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barium</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One of the elements,
 belonging to the alkaline earth group; a metal having a silver-white color, and
-melting at a very high temperature. It is difficult to obtain the pure metal, from
-the facility with which it becomes oxidized in the air. Atomic weight, 137.
-Symbol, Ba. Its oxide called baryta.</span></p>
+melting at a very high temperature. It is difficult to obtain the pure metal,
+from the facility with which it becomes oxidized in the air. Atomic weight,
+137. Symbol, Ba. Its oxide called baryta.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Bard</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The exterior
@@ -123,8 +141,7 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Specifically,
 Peruvian bark.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barked</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
-Bark</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of Bark</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barking</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
@@ -350,8 +367,8 @@ recording automatically the variations of atmospheric pressure.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baroko</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A form or mode of
-syllogism of which the first proposition is a universal affirmative, and the other
-two are particular negative.</span></p>
+syllogism of which the first proposition is a universal affirmative, and the
+other two are particular negative.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barology</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The science of
@@ -392,20 +409,22 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The woolly-sk
 rhizoma or rootstock of a fern (Dicksonia barometz), which, when specially
 prepared and inverted, somewhat resembles a lamb; -- called also Scythian lamb.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baron</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A title or degree of
-nobility; originally, the possessor of a fief, who had feudal tenants under
-him; in modern times, in France and Germany, a nobleman next in rank below a
-count; in England, a nobleman of the lowest grade in the House of Lords, being
-next below a viscount.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baron
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) [C] </span><span
+style='font-family:"新細明體","serif"'>男爵（英國爵位最低的貴族）；男爵（歐陸國家、日本貴族等級制度中最低的一級）；中古英國因功封得采邑的貴族或其後代；（英國）上院議員；巨擘；大亨；連帶兩側腰肉的牛肉方；肋脊羊肉方
+<span lang=EN-US>A title or degree of nobility; originally, the possessor of a
+fief, who had feudal tenants under him; in modern times, in France and Germany,
+a nobleman next in rank below a count; in England, a nobleman of the lowest
+grade in the House of Lords, being next below a viscount.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baron</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A husband; as, baron
 and feme, husband and wife.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baronage</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The whole body of
-barons or peers.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>男爵的總稱；貴族的總稱；有爵位的名冊；男爵輩，男爵勛位，貴族 <span
+lang=EN-US>The whole body of barons or peers.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baronage</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The dignity or rank
@@ -415,14 +434,15 @@ of a baron.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The land which gives
 title to a baron.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baroness</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A baron's wife;
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baroness
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>男爵夫人，女性男爵 <span lang=EN-US>A baron's wife;
 also, a lady who holds the baronial title in her own right; as, the Baroness
-Burdett-Coutts.</span></p>
+Burdett-Coutts.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baronet</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>准男爵，從男爵 <span lang=EN-US>A dignity or degree
+style='font-family:"新細明體","serif"'>准男爵，從男爵<span lang=EN-US> A dignity or degree
 of honor next below a baron and above a knight, having precedency of all orders
 of knights except those of the Garter. It is the lowest degree of honor that is
 hereditary. The baronets are commoners.</span></span></p>
@@ -431,8 +451,8 @@ hereditary. The baronets are commoners.</span></span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
 style='font-family:"新細明體","serif"'>從男爵（<span lang=EN-US>baronet</span>，又譯準男爵，傳統簡寫是<span
 lang=EN-US>Bart</span>，現代簡寫是<span lang=EN-US>Bt</span>），以及相當於男性的女從男爵（<span
-lang=EN-US>baronetess</span>，簡寫是<span lang=EN-US>Btss.</span>） <span
-lang=EN-US>A baronet (abbreviated Bart or Bt <a
+lang=EN-US>baronetess</span>，簡寫是<span lang=EN-US>Btss.</span>）<span lang=EN-US>
+A baronet (abbreviated Bart or Bt <a
 href="https://en.wikipedia.org/wiki/Baronet#cite_note-Collins_1-1"><span
 style='color:windowtext;text-decoration:none'>[1]</span></a>) or the rare
 female equivalent, a baronetess (abbreviation Btss), is the holder of a
@@ -502,15 +522,17 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The rank or p
 of a baronet.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baronial</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Pertaining to a
-baron or a barony.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
+style='font-family:"新細明體","serif"'>男爵的，適于男爵的，宏大的 <span lang=EN-US>Pertaining to
+a baron or a barony.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baronies</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl. </i>) of Barony</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barony</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The fee or domain of
-a baron; the lordship, dignity, or rank of a baron.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>男爵的領地；財閥；郡 <span lang=EN-US>The fee or
+domain of a baron; the lordship, dignity, or rank of a baron.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barony</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) In Ireland, a
@@ -571,11 +593,11 @@ href="http://dictionary.cambridge.org/zht/%E8%A9%9E%E5%85%B8/%E8%8B%B1%E8%AA%9E-
 title=painters><span style='color:windowtext;text-decoration:none'>painters</span></a></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baroscope
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) Any instrument
-showing the changes in the weight of the atmosphere; also, less appropriately,
-any instrument that indicates -or foreshadows changes of the weather, as a deep
-vial of liquid holding in suspension some substance which rises and falls with
-atmospheric changes.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) Any
+instrument showing the changes in the weight of the atmosphere; also, less
+appropriately, any instrument that indicates -or foreshadows changes of the
+weather, as a deep vial of liquid holding in suspension some substance which
+rises and falls with atmospheric changes.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baroscopic</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Alt. of Baroscopical</span></p>
@@ -586,9 +608,9 @@ determined by, the baroscope.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barouche</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A four-wheeled
-carriage, with a falling top, a seat on the outside for the driver, and two double
-seats on the inside arranged so that the sitters on the front seat face those
-on the back seat.</span></p>
+carriage, with a falling top, a seat on the outside for the driver, and two
+double seats on the inside arranged so that the sitters on the front seat face
+those on the back seat.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barouchet</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A kind of light
@@ -605,23 +627,26 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Same as 3d Ba
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A thick, strong
 stuff, somewhat like camlet; -- still used for outer garments in the Levant.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barrack</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A building for
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barrack
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>兵舍，軍營 <span lang=EN-US>A building for
 soldiers, especially when in garrison. Commonly in the pl., originally meaning
 temporary huts, but now usually applied to a permanent structure or set of
-buildings.</span></p>
+buildings.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barrack</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A movable roof
 sliding on four posts, to cover hay, straw, etc.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barrack</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To supply with
-barracks; to establish in barracks; as, to barrack troops.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) </span><span
+style='font-family:"新細明體","serif"'>使駐兵營內 <span lang=EN-US>To supply with
+barracks; to establish in barracks; as, to barrack troops.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barrack</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To live or lodge
-in barracks.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) </span><span
+style='font-family:"新細明體","serif"'>住入營房（或棚屋） </span><span lang=EN-US
+style='font-family:"新細明體","serif"'>To live or lodge in barracks.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Barraclade</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A home-made woolen
