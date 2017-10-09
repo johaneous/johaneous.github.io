@@ -11,14 +11,20 @@
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -32,6 +38,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -54,19 +74,28 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
-span.HTML
-	{mso-style-name:"HTML 預設格式 字元";
-	mso-style-link:"HTML 預設格式";
-	font-family:"Courier New";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -90,8 +119,8 @@ godfather to a person.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Compatibility</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The quality or power
-of being compatible or congruous; congruity; as, a compatibility of tempers; a compatibility
-of properties.</span></p>
+of being compatible or congruous; congruity; as, a compatibility of tempers; a
+compatibility of properties.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Compatible</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Capable of existing
@@ -210,9 +239,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To sum or 
 together.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Compendious</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Containing the
-substance or general principles of a subject or work in a narrow compass;
-abridged; summarized.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Containing the substance
+or general principles of a subject or work in a narrow compass; abridged;
+summarized.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Compendiously</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) In a compendious
@@ -235,7 +264,8 @@ larger work or system; an abridgment; an epitome; a compend; a condensed
 summary.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Compensated</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of Compensate</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
+Compensate</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Compensating</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
@@ -283,8 +313,7 @@ customary to provide that errors in description, etc., shall not avoid, but
 shall be the subject of compensation.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Compensative</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Affording
-compensation.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Affording compensation.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Compensative</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Compensation.</span></p>
@@ -313,7 +342,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To hold in
 to restrain.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Competed</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of Compete</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
+Compete</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Competing</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
@@ -322,8 +352,8 @@ Compete</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Compete</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To contend
 emulously; to seek or strive for the same thing, position, or reward for which
-another is striving; to contend in rivalry, as for a prize or in business; as, tradesmen
-compete with one another.</span></p>
+another is striving; to contend in rivalry, as for a prize or in business; as,
+tradesmen compete with one another.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Competence</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Alt. of Competency</span></p>
@@ -346,16 +376,80 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Right or auth
 legal power or capacity to take cognizance of a cause; as, the competence of a
 judge or court.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Competent</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Answering to all
-requirements; adequate; sufficient; suitable; capable; legally qualified; fit.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Competent
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) </span><span
+style='font-family:"新細明體","serif"'>能幹的，勝任的，有權能的，足夠的 <span lang=EN-US>Answering
+to all requirements; adequate; sufficient; suitable; capable; legally
+qualified; fit.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Competent</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Rightfully or
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Rightfully or
 properly belonging; incident; -- followed by to.</span></p>
 
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'><a
+href="https://cdict.net/q/competent"><span style='color:windowtext;text-decoration:
+none'>Competent</span></a></span></b><span lang=EN-US style='font-family:"新細明體","serif"'>
+(<i>a</i>.) <a href="https://cdict.net/q/properly"><span style='color:windowtext;
+text-decoration:none'>Properly</span></a> <a href="https://cdict.net/q/or"><span
+style='color:windowtext;text-decoration:none'>or</span></a> <a
+href="https://cdict.net/q/sufficiently"><span style='color:windowtext;
+text-decoration:none'>sufficiently</span></a> <a
+href="https://cdict.net/q/qualified"><span style='color:windowtext;text-decoration:
+none'>qualified</span></a> <a href="https://cdict.net/q/or"><span
+style='color:windowtext;text-decoration:none'>or</span></a> <a
+href="https://cdict.net/q/capable"><span style='color:windowtext;text-decoration:
+none'>capable</span></a> <a href="https://cdict.net/q/or"><span
+style='color:windowtext;text-decoration:none'>or</span></a>  <a
+href="https://cdict.net/q/efficient"><span style='color:windowtext;text-decoration:
+none'>efficient</span></a>; &quot;<a href="https://cdict.net/q/a"><span
+style='color:windowtext;text-decoration:none'>a</span></a> <a
+href="https://cdict.net/q/competent"><span style='color:windowtext;text-decoration:
+none'>competent</span></a> <a href="https://cdict.net/q/typist"><span
+style='color:windowtext;text-decoration:none'>typist</span></a>&quot; [<i><a
+href="https://cdict.net/q/ant"><span style='color:windowtext;text-decoration:
+none'>ant</span></a></i>: {<a href="https://cdict.net/q/incompetent"><span
+style='color:windowtext;text-decoration:none'>incompetent</span></a>}].</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'><a
+href="https://cdict.net/q/competent"><span style='color:windowtext;text-decoration:
+none'>Competent</span></a> </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+<a href="https://cdict.net/q/adequate"><span style='color:windowtext;
+text-decoration:none'>Adequate</span></a> <a href="https://cdict.net/q/for"><span
+style='color:windowtext;text-decoration:none'>for</span></a> <a
+href="https://cdict.net/q/the"><span style='color:windowtext;text-decoration:
+none'>the</span></a> <a href="https://cdict.net/q/purpose"><span
+style='color:windowtext;text-decoration:none'>purpose</span></a>; &quot;<a
+href="https://cdict.net/q/a"><span style='color:windowtext;text-decoration:
+none'>a</span></a> <a href="https://cdict.net/q/competent"><span
+style='color:windowtext;text-decoration:none'>competent</span></a> <a
+href="https://cdict.net/q/performance"><span style='color:windowtext;
+text-decoration:none'>performance</span></a>&quot;.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'><a
+href="https://cdict.net/q/competent"><span style='color:windowtext;text-decoration:
+none'>Competent</span></a></span></b><span lang=EN-US style='font-family:"新細明體","serif"'>
+(<i>a</i>.) <a href="https://cdict.net/q/legally"><span style='color:windowtext;
+text-decoration:none'>Legally</span></a> <a href="https://cdict.net/q/qualified"><span
+style='color:windowtext;text-decoration:none'>qualified</span></a> <a
+href="https://cdict.net/q/or"><span style='color:windowtext;text-decoration:
+none'>or</span></a> <a href="https://cdict.net/q/sufficient"><span
+style='color:windowtext;text-decoration:none'>sufficient</span></a>; &quot;<a
+href="https://cdict.net/q/a"><span style='color:windowtext;text-decoration:
+none'>a</span></a> <a href="https://cdict.net/q/competent"><span
+style='color:windowtext;text-decoration:none'>competent</span></a> <a
+href="https://cdict.net/q/court"><span style='color:windowtext;text-decoration:
+none'>court</span></a>&quot;;  &quot;<a href="https://cdict.net/q/competent"><span
+style='color:windowtext;text-decoration:none'>competent</span></a> <a
+href="https://cdict.net/q/testimony"><span style='color:windowtext;text-decoration:
+none'>testimony</span></a>&quot; [<i><a href="https://cdict.net/q/ant"><span
+style='color:windowtext;text-decoration:none'>ant</span></a></i>: {<a
+href="https://cdict.net/q/incompetent"><span style='color:windowtext;
+text-decoration:none'>incompetent</span></a>}, {<a
+href="https://cdict.net/q/unqualified"><span style='color:windowtext;
+text-decoration:none'>unqualified</span></a>}].</span></p>
+
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Competently</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) In a competent
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) In a competent
 manner; adequately; suitably.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Competible</span></b><span
@@ -607,7 +701,7 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Compilation.<
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Compiler</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>編輯者 <span lang=EN-US>One who compiles; esp.,
+style='font-family:"新細明體","serif"'>編輯者<span lang=EN-US> One who compiles; esp.,
 one who makes books by compilation.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'><a
@@ -657,17 +751,17 @@ none'>machine</span></a> <a href="https://cdict.net/q/language"><span
 style='color:windowtext;text-decoration:none'>language</span></a>.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Compinge
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) (obsolete)
-To compress; to shut up.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
+(obsolete) To compress; to shut up.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Complacence</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>滿足；自滿的；安心 <span lang=EN-US>Alt. of
+style='font-family:"新細明體","serif"'>滿足；自滿的；安心<span lang=EN-US> Alt. of
 Complacency</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Complacency</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>滿足，自滿，得意 <span lang=EN-US>Calm contentment;
+style='font-family:"新細明體","serif"'>滿足，自滿，得意<span lang=EN-US> Calm contentment;
 satisfaction; gratification.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Complacency</span></b><span
@@ -680,7 +774,7 @@ contentment or satisfaction; good nature; kindness; civility; affability.</span>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Complacent
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>滿足的，自滿的，得意的 <span lang=EN-US>Self-satisfied;
+style='font-family:"新細明體","serif"'>滿足的，自滿的，得意的<span lang=EN-US> Self-satisfied;
 contented; kindly; as, a complacent temper; a complacent smile.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Complacential</span></b><span
