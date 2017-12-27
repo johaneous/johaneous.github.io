@@ -24,14 +24,14 @@
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"\@MS Mincho";
 	panose-1:2 2 6 9 4 2 5 8 3 4;}
-@font-face
-	{font-family:"\@細明體";
-	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -54,6 +54,20 @@ h4
 	font-size:18.0pt;
 	font-family:"Cambria","serif";
 	font-weight:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -76,6 +90,10 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.4
+	{mso-style-name:"標題 4 字元";
+	mso-style-link:"標題 4";
+	font-family:"Cambria","serif";}
 span.HTML
 	{mso-style-name:"HTML 預設格式 字元";
 	mso-style-link:"HTML 預設格式";
@@ -88,13 +106,18 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	font-family:"新細明體","serif";}
 span.st
 	{mso-style-name:st;}
-span.4
-	{mso-style-name:"標題 4 字元";
-	mso-style-link:"標題 4";
-	font-family:"Cambria","serif";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -103,15 +126,15 @@ div.WordSection1
 -->
 </style></head><body lang="ZH-TW" link="blue" vlink="purple">
 
-<div class="WordSection1">
+<div class="WordSection1" style="">
 
 <p class="MsoNormal"><b><span style="font-size: 18pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Webster's Unabridged Dictionary - Letter A - Page 2</span></b></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abate
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">緩和，減弱，減少，廢除<span lang="EN-US"> To bring down
 or reduce from a higher to a lower state, number, or degree; to lessen; to
-diminish; to contract; to moderate; to cut short; as, to abate a demand; to
-abate pride, zeal, hope.</span></span></p>
+diminish; to contract; to moderate; to cut short; as, to abate a demand; to abate
+pride, zeal, hope.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To deduct; to
 omit; as, to abate something from a price.</span></p>
@@ -176,8 +199,8 @@ slowly than before.</span></p>
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Examples:</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">We have
-requested an <i>abatement</i> of interest on our late tax payment, as we received
-the tax bill late.</span></p>
+requested an <i>abatement</i> of interest on our late tax payment, as we
+received the tax bill late.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;MS Mincho&quot;;">​</span></b><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abatement </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) [ C or U ] A
 reduction in level, especially of something that is harmful.</span></p>
@@ -225,35 +248,34 @@ abashed.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abaxial</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Alt. of Abaxile.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abaxile</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) [</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">醫<span lang="EN-US">] </span>遠軸的，離軸的，軸外的 <span lang="EN-US">Away from the axis or central line; eccentric.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abaxile</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) [</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">醫<span lang="EN-US">] </span>遠軸的，離軸的，軸外的<span lang="EN-US"> Away from the axis or central line; eccentric.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abay</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Barking; baying of
 dogs upon their prey. See Bay.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abb</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">橫絲，緯，羊毛 <span lang="EN-US">Among weavers, yarn
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abb</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">橫絲，緯，羊毛<span lang="EN-US"> Among weavers, yarn
 for the warp. Hence, abb wool is wool for the abb.</span></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abba</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">聖父（有些東正教和希臘正教對主教的尊稱）；天父（基督教祈禱時對上帝的稱呼） <span lang="EN-US">Father; religious superior; -- in the Syriac, Coptic, and Ethiopic
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abba</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">聖父（有些東正教和希臘正教對主教的尊稱）；天父（基督教祈禱時對上帝的稱呼）<span lang="EN-US"> Father; religious superior; -- in the Syriac, Coptic, and Ethiopic
 churches, a title given to the bishops, and by the bishops to the patriarch.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbacies</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>pl. </i>) of Abbacy.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbacy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) &nbsp;</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">男修道院院長（<span lang="EN-US">abbot</span>）之職位、管區、任期
-<span lang="EN-US">The dignity, estate, or jurisdiction of an abbot.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbacy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) &nbsp;</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">男修道院院長（<span lang="EN-US">abbot</span>）之職位、管區、任期<span lang="EN-US"> The dignity, estate, or jurisdiction of an abbot.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbatial</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Belonging to an
 abbey; as, abbatial rights.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbatical</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Abbatial.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbe</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">男修道院院長；牧師；神父；長老 <span lang="EN-US">The French
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbe</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">男修道院院長；牧師；神父；長老<span lang="EN-US"> The French
 word answering to the English abbot, the head of an abbey; but commonly a title
 of respect given in France to every one vested with the ecclesiastical habit or
 dress.</span></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbess</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">女修道院院長，尼庵住持<span lang="EN-US">A female
-superior or governess of a nunnery, or convent of nuns, having the same
-authority over the nuns which the abbots have over the monks. See Abbey.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbess</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">女修道院院長，尼庵住持<span lang="EN-US">A female superior
+or governess of a nunnery, or convent of nuns, having the same authority over
+the nuns which the abbots have over the monks. See Abbey.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbeys</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>pl. </i>) of Abbey.</span></p>
 
@@ -264,7 +286,7 @@ religion and celibacy; also, the monastic building or buildings.</span></span></
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbey</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The church of a
 monastery.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbot</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">男修道院院長；大寺院男住持；方丈 <span lang="EN-US">The
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbot</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">男修道院院長；大寺院男住持；方丈<span lang="EN-US"> The
 superior or head of an abbey.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbot
@@ -276,7 +298,7 @@ method </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif
 For scoliosis of the spine; traction is applied to produce overcorrection,
 followed by casting.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbotship</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">大修道院院長之職 <span lang="EN-US">The state or
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbotship</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">大修道院院長之職<span lang="EN-US"> The state or
 office of an abbot.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbreviated</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p.</i>) of
@@ -286,8 +308,8 @@ Abbreviate.</span></p>
 Abbreviate.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbreviate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">縮短；縮寫<span lang="EN-US"> To make briefer; to
-shorten; to abridge; to reduce by contraction or omission, especially of words written
-or spoken.</span></span></p>
+shorten; to abridge; to reduce by contraction or omission, especially of words
+written or spoken.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbreviate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To reduce to
 lower terms, as a fraction.</span></p>
@@ -303,7 +325,7 @@ relatively shorter than another or than the ordinary type.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbreviated</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Shortened;
 relatively short; abbreviate.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbreviation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">縮寫；縮寫詞 <span lang="EN-US">The act of
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbreviation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">縮寫；縮寫詞<span lang="EN-US"> The act of
 shortening, or reducing.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbreviation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The result of
@@ -337,8 +359,8 @@ seventy-two officers of the papal court whose duty is to make a short minute of
 a decision on a petition, or reply of the pope to a letter, and afterwards
 expand the minute into official form.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbreviatory</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Serving or tending
-to abbreviate; shortening; abridging.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbreviatory</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">縮寫的，縮略的，省略的 <span lang="EN-US">Serving or
+tending to abbreviate; shortening; abridging.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abbreviature</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) (obsolete) An
 abbreviation; an abbreviated state or form.</span></p>
@@ -370,13 +392,13 @@ Abdera, in Thrace.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdest</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Purification by
 washing the hands before prayer; -- a Mohammedan rite.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">可放棄的；可辭職的 <span lang="EN-US">Capable of being
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">可放棄的；可辭職的<span lang="EN-US"> Capable of being
 abdicated.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicant</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Abdicating;
 renouncing; -- followed by of.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicant</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">退位者 <span lang="EN-US">One who abdicates.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicant</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">退位者<span lang="EN-US"> One who abdicates.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicated</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p.</i>) of
 Abdicate.</span></p>
@@ -385,7 +407,7 @@ Abdicate.</span></p>
 Abdicate.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicate
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">放，放棄，讓出，退出，退位 <span lang="EN-US">To surrender
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">放，放棄，讓出，退出，退位<span lang="EN-US"> To surrender
 or relinquish, as sovereign power; to withdraw definitely from filling or
 exercising, as a high office, station, dignity; as, to abdicate the throne, the
 crown, the papacy.</span></span></p>
@@ -396,14 +418,16 @@ relinquish; -- said of authority, a trust, duty, right, etc.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To reject; to
 cast off.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To disclaim and expel
-from the family, as a father his child; to disown; to disinherit.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To disclaim and
+expel from the family, as a father his child; to disown; to disinherit.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i</i>.) To relinquish or
 renounce a throne, or other high office or dignity.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Abdicate</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>v</i>.) <span style="color: windowtext; text-decoration: none;">Give</span> <span style="color: windowtext; text-decoration: none;">up</span>, <span style="color: windowtext; text-decoration: none;">such</span> <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">power</span>, <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">monarchs</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">emperors</span>, <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">duties</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">obligations</span>; "<span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">King</span> <span style="color: windowtext; text-decoration: none;">abdicated</span> <span style="color: windowtext; text-decoration: none;">when</span> <span style="color: windowtext; text-decoration: none;">he</span> <span style="color: windowtext; text-decoration: none;">married</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">divorcee</span>" [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">abdicate</span>}, {<span style="color: windowtext; text-decoration: none;">renounce</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Give up, such as
+power, as of monarchs and emperors, or duties and obligations; "The King
+abdicated when he married a divorcee" [<i>syn</i>: {abdicate},
+{renounce}].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) (KING/QUEEN) [ I or
 T ] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">遜位；退（位），讓（位），正式放棄（王位）<span lang="EN-US"> If a king or queen abdicates, he or she makes a formal statement
@@ -425,21 +449,26 @@ managing something that you are in charge of.</span></span></p>
 all responsibility for the project.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdication
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">遜位，棄權，辭職 <span lang="EN-US">The act of
-abdicating; the renunciation of a high office, dignity, or trust, by its holder;
-commonly the voluntary renunciation of sovereign power; as, abdication of the
-throne, government, power, authority.</span></span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">遜位，棄權，辭職<span lang="EN-US"> The act of
+abdicating; the renunciation of a high office, dignity, or trust, by its
+holder; commonly the voluntary renunciation of sovereign power; as, abdication
+of the throne, government, power, authority.</span></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Abdication</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">formal</span> <span style="color: windowtext; text-decoration: none;">resignation</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">renunciation</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">powers</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">abdication</span>}, {<span style="color: windowtext; text-decoration: none;">stepping</span> <span style="color: windowtext; text-decoration: none;">down</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdication
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+formal resignation and renunciation of powers [<i>syn</i>: {abdication},
+{stepping down}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Abdication</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">act</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">abdicating</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">abdication</span>}, {<span style="color: windowtext; text-decoration: none;">stepping</span> <span style="color: windowtext; text-decoration: none;">down</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdication
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) The
+act of abdicating [<i>syn</i>: {abdication}, {stepping down}].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicative
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) (rare)
-Causing, or implying, abdication.</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
+(rare) Causing, or implying, abdication.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdicator
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">讓位者；放棄者 <span lang="EN-US">One who abdicates.</span></span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">讓位者；放棄者<span lang="EN-US"> One who abdicates.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abditive</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Having the quality
 of hiding.</span></p>
@@ -447,7 +476,7 @@ of hiding.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abditory</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A place for hiding
 or preserving articles of value.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdomen</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">下腹，腹部 <span lang="EN-US">The belly, or that
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdomen</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">下腹，腹部<span lang="EN-US"> The belly, or that
 part of the body between the thorax and the pelvis. Also, the cavity of the
 belly, which is lined by the peritoneum, and contains the stomach, bowels, and
 other viscera. In man, often restricted to the part between the diaphragm and
@@ -464,7 +493,7 @@ other Arthropoda.</span></p>
 stomach, bowels, and other organs, or the end of an insect's body.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdominal
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">腹部的 <span lang="EN-US">Of or pertaining to the
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">腹部的<span lang="EN-US"> Of or pertaining to the
 abdomen; ventral; as, the abdominal regions, muscles, cavity.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdominal</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Having abdominal
@@ -472,7 +501,7 @@ fins; belonging to the Abdominales; as, abdominal fishes.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abdominal
 cavity</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.)
-</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">腹腔 <span lang="EN-US">The cavity
+</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">腹腔<span lang="EN-US"> The cavity
 containing the major viscera; in mammals it is separated from the thorax by the
 diaphragm.</span></span></p>
 
@@ -538,7 +567,7 @@ Abduct.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abducting</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>p. pr. &amp; vb. n.</i>) of
 Abduct.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abduct</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">誘拐；劫持；綁架 <span lang="EN-US">To take away
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Abduct</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">誘拐；劫持；綁架<span lang="EN-US"> To take away
 surreptitiously by force; to carry away (a human being) wrongfully and usually
 by violence; to kidnap.</span></span></p>
 
