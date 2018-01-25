@@ -12,11 +12,17 @@
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
@@ -53,6 +59,20 @@ h4
 	font-size:18.0pt;
 	font-family:"Cambria","serif";
 	font-weight:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -78,11 +98,24 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	margin-bottom:.0001pt;
 	font-size:12.0pt;
 	font-family:"Times New Roman","serif";}
+span.1
+	{mso-style-name:"標題 1 字元";
+	mso-style-link:"標題 1";
+	font-family:"Cambria","serif";
+	font-weight:bold;}
 span.2
 	{mso-style-name:"標題 2 字元";
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.4
+	{mso-style-name:"標題 4 字元";
+	mso-style-link:"標題 4";
+	font-family:"Cambria","serif";}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 p.definition-inner-item, li.definition-inner-item, div.definition-inner-item
 	{mso-style-name:definition-inner-item;
 	margin-right:0cm;
@@ -95,31 +128,27 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
-span.HTML
-	{mso-style-name:"HTML 預設格式 字元";
-	mso-style-link:"HTML 預設格式";
-	font-family:"Courier New";}
-span.1
-	{mso-style-name:"標題 1 字元";
-	mso-style-link:"標題 1";
-	font-family:"Cambria","serif";
-	font-weight:bold;}
-span.4
-	{mso-style-name:"標題 4 字元";
-	mso-style-link:"標題 4";
-	font-family:"Cambria","serif";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
 div.WordSection1
 	{page:WordSection1;}
 -->
-</style></head><body style="" lang="ZH-TW" link="blue" vlink="purple">
+</style></head><body lang="ZH-TW" link="blue" vlink="purple">
 
-<div class="WordSection1">
+<div class="WordSection1" style="">
 
 <p class="MsoNormal"><b><span style="font-size: 18pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Webster's Unabridged Dictionary - Letter J - Page 2</span></b></p>
 
@@ -127,9 +156,9 @@ div.WordSection1
 a style of architecture and decoration in the time of James the First, of
 England.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jacobin</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A Dominican friar; --
-so named because, before the French Revolution, that order had a convent in the
-Rue St. Jacques, Paris.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jacobin</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A Dominican friar;
+-- so named because, before the French Revolution, that order had a convent in
+the Rue St. Jacques, Paris.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jacobin</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One of a society of
 violent agitators in France, during the revolution of 1789, who held secret
@@ -213,7 +242,8 @@ tossing of the body; a shaking or agitation.</span></p>
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v.i</i>.)
 Move or stir about violently.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jactitate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v.i</i>.) To move about <span style="color: windowtext; text-decoration: none;">restlessly</span>.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jactitate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v.i</i>.) To move about
+restlessly.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jactitation
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) Vain
@@ -228,9 +258,10 @@ or moving of the body; restlessness, as in delirium.</span></p>
 tossing to and fro or jerking and twitching of the body.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jactitation
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A tossing
-to and fro or jerking and twitching of the body or its parts :&nbsp; excessive
-restlessness especially in certain psychiatric disorders. - jactitate (<i>v.t</i>.)</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+tossing to and fro or jerking and twitching of the body or its parts :&nbsp;
+excessive restlessness especially in certain psychiatric disorders. - jactitate
+(<i>v.t</i>.)</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">-jactitated;
 - jactitating.</span></p>
@@ -253,7 +284,8 @@ throwing, or hurling, as spears.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jaculator</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> () One who throws or casts.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jaculator</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> () The archer fish (Toxotes jaculator).</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jaculator</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> () The archer fish (Toxotes
+jaculator).</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jaculatory</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Darting or throwing
 out suddenly; also, suddenly thrown out; uttered in short sentences;
@@ -299,8 +331,8 @@ to lose spirit.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jadery</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The tricks of a
 jade.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jadish</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Vicious;
-ill-tempered; resembling a jade; -- applied to a horse.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jadish</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Vicious; ill-tempered;
+resembling a jade; -- applied to a horse.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jadish</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Unchaste; -- applied
 to a woman.</span></p>
@@ -323,8 +355,8 @@ Jag</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jag</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To cut into
 notches or teeth like those of a saw; to notch.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jag</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A small load, as of hay
-or grain in the straw, or of ore.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jag</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A small load, as of
+hay or grain in the straw, or of ore.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jag</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To carry, as a
 load; as, to jag hay, etc.</span></p>
@@ -349,12 +381,12 @@ or Arctic gull (Megalestris skua).</span></p>
 rough, sharp notches, protuberances, or teeth; cleft; laciniate; divided; as,
 jagged rocks.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jagger</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One who carries about
-a small load; a peddler. See 2d Jag.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jagger</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One who carries
+about a small load; a peddler. See 2d Jag.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jagger</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One who, or that
-which, jags; specifically: (a) jagging iron used for crimping pies, cakes, etc.
-(b) A toothed chisel. See Jag, v. t.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jagger</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One who, or that which,
+jags; specifically: (a) jagging iron used for crimping pies, cakes, etc. (b) A
+toothed chisel. See Jag, v. t.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jaggery</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Raw palm sugar, made
 in the East Indies by evaporating the fresh juice of several kinds of palm
@@ -416,17 +448,37 @@ gazelle.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jakes</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A privy.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jakie</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A South American
-striped frog (Pseudis paradoxa), remarkable for having a tadpole larger than
-the adult, and hence called also paradoxical frog.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jakie</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A South American striped
+frog (Pseudis paradoxa), remarkable for having a tadpole larger than the adult,
+and hence called also paradoxical frog.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jako</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) An African parrot
 (Psittacus erithacus), very commonly kept as a cage bird; -- called also gray
 parrot.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jakwood</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) See Jackwood.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jakwood</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) See Jackwood.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jalap</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The tubers of the
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jalalabad</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">賈拉拉巴德（<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">普什圖語</span></span></span>：<span lang="EN-US"><span xml:lang="ps">جلال
+آباد</span></span>‎），<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">阿富汗</span></span></span>東部一城市，靠近<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">巴基斯坦</span></span></span>邊境，位於<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">喀布爾河</span></span></span>與<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">庫納爾河</span></span></span>匯合處，為<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">楠格哈爾省</span></span></span>省會，人口約<span lang="EN-US">96000</span>人（<span lang="EN-US">2002</span>年統計）。該城古代為<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">佛教</span></span></span>中心，<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">法顯</span></span></span>、<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">玄奘</span></span></span>等均曾經過。現址為<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">莫臥兒帝國</span></span><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">阿克巴大帝</span></span></span>所建，為阿富汗同巴基斯坦間的交通重鎮。<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">阿富汗內戰</span></span></span>中，該城成為<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">塔利班</span></span></span>和<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">北方聯盟</span></span></span>爭奪的中心之一，據信<span lang="EN-US"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">賓·</span></span><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">拉登</span></span></span>也在該城駐紮過，致使其遭到嚴重毀壞。</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jalālābād&nbsp;,
+formerly called&nbsp; Ādīnapūr &nbsp;as documented by the 7th century&nbsp; <span style="color: windowtext; text-decoration: none;">Xuanzang</span>, is a&nbsp;<span style="color: windowtext; text-decoration: none;">city</span>&nbsp; in eastern&nbsp; <span style="color: windowtext; text-decoration: none;">Afghanistan</span>. It is the
+capital of &nbsp;<span style="color: windowtext; text-decoration: none;">Nangarhar
+Province</span>. Jalalabad is located at the junction of the&nbsp; <span style="color: windowtext; text-decoration: none;">Kabul River</span> and &nbsp;<span style="color: windowtext; text-decoration: none;">Kunar River</span>. It is
+linked by an approximately 150 kilometres (95&nbsp;mi) &nbsp;<span style="color: windowtext; text-decoration: none;">highway</span> &nbsp;with &nbsp;<span style="color: windowtext; text-decoration: none;">Kabul</span> &nbsp;to the west, and a 130 kilometres
+(80&nbsp;mi) highway with the&nbsp; <span style="color: windowtext; text-decoration: none;">Pakistani</span>&nbsp; city
+of &nbsp;<span style="color: windowtext; text-decoration: none;">Peshawar</span> &nbsp;to the
+east. Jalalabad has a population of 356,274 (2015 estimate), making it one of
+the &nbsp;<span style="color: windowtext; text-decoration: none;">five largest cities of Afghanistan</span>. <span style="color: windowtext; text-decoration: none;">[3]</span>&nbsp; Jalalabad is
+a leading center of social and trade activity because of its close proximity
+with the&nbsp; <span style="color: windowtext; text-decoration: none;">Torkham</span> &nbsp;border
+crossing, 65&nbsp;km (40&nbsp;mi) away. <span style="color: windowtext; text-decoration: none;">[4]</span>&nbsp; Major
+industries include papermaking, as well as agricultural products including
+oranges, rice, and sugarcane. It has 6 districts and a total land area of
+12,796 hectares. <span style="color: windowtext; text-decoration: none;">[5]</span> &nbsp;The total
+number of dwellings in this city are 39,586. <span style="color: windowtext; text-decoration: none;">[6]</span></span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jalap</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) The tubers of the
 Mexican plant Ipomoea purga (or Exogonium purga), a climber much like the
 morning-glory. The abstract, extract, and powder, prepared from the tubers, are
 well known purgative medicines. Other species of Ipomoea yield several inferior
@@ -442,17 +494,20 @@ the stems of the jalap plant and scammony. It is a strong purgative.</span></p>
 topped with wisps of straw, used as landmarks and signals.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jalousie
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">百葉窗；百葉簾；固定百葉窗 <span lang="EN-US">A Venetian or
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">百葉窗；百葉簾；固定百葉窗<span lang="EN-US"> A Venetian or
 slatted inside window blind.</span></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Jalousie</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
-<span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">window</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">door</span> <span style="color: windowtext; text-decoration: none;">made</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">multiple</span> <span style="color: windowtext; text-decoration: none;">glass</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">plastic</span> <span style="color: windowtext; text-decoration: none;">slats</span>, <span style="color: windowtext; text-decoration: none;">which</span> <span style="color: windowtext; text-decoration: none;">can</span> <span style="color: windowtext; text-decoration: none;">be</span> <span style="color: windowtext; text-decoration: none;">opened</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">closed</span> <span style="color: windowtext; text-decoration: none;">like</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">jalousie</span>[<span style="color: windowtext; text-decoration: none;">1</span>].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jalousie
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+window or door made of multiple glass or plastic slats, which can be opened or
+closed like a jalousie[1].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Jalousie</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">window</span> <span style="color: windowtext; text-decoration: none;">with</span> <span style="color: windowtext; text-decoration: none;">glass</span> <span style="color: windowtext; text-decoration: none;">louvers</span> [<span style="color: windowtext; text-decoration: none;">syn</span>: {<span style="color: windowtext; text-decoration: none;">louvered</span> <span style="color: windowtext; text-decoration: none;">window</span>}, {<span style="color: windowtext; text-decoration: none;">jalousie</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jalousie</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A window with glass
+louvers [syn: {louvered window}, {jalousie}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Jalousie</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
-<span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">shutter</span> <span style="color: windowtext; text-decoration: none;">made</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">angled</span> <span style="color: windowtext; text-decoration: none;">slats</span>.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jalousie
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+shutter made of angled slats.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Jalousied
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
