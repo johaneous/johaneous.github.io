@@ -12,14 +12,20 @@
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -33,6 +39,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -55,19 +75,28 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
-span.HTML
-	{mso-style-name:"HTML 預設格式 字元";
-	mso-style-link:"HTML 預設格式";
-	font-family:"Courier New";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -125,21 +154,13 @@ supercilious officer; asupercilious air; supercilious behavior.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Supercilious
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
-(disapproving) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">傲慢自大的，目中無人的，目空一切的
-<span lang="EN-US"><span style="color: windowtext; text-decoration: none;">Behaving</span>
-as if you are <span style="color: windowtext; text-decoration: none;">better</span>
-than other <span style="color: windowtext; text-decoration: none;">people</span>,
-and that <span style="color: windowtext; text-decoration: none;">their</span>
-<span style="color: windowtext; text-decoration: none;">opinions</span>,
-<span style="color: windowtext; text-decoration: none;">beliefs</span>,
-or <span style="color: windowtext; text-decoration: none;">ideas</span>
-are not <span style="color: windowtext; text-decoration: none;">important</span>.</span></span></p>
+(disapproving) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">傲慢自大的，目中無人的，目空一切的<span lang="EN-US"> Behaving as if you are better than other people, and that their
+opinions, beliefs, or ideas are not important.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Examples:</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">He <span style="color: windowtext; text-decoration: none;">spoke</span>
-in a <span style="color: windowtext; text-decoration: none;">haughty</span>,<i>
-supercilious</i> <span style="color: windowtext; text-decoration: none;">voice</span>.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">He spoke
+in a haughty,<i> supercilious</i> voice.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Supercilium</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) The eyebrow, or the
 region of the eyebrows.</span></p>
@@ -168,16 +189,17 @@ or inquisitive.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superdominant</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The sixth tone of
 the scale; that next above the dominant; -- called also submediant.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Supereminence</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Alt. of
-Supereminency</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Supereminence
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">出類拔萃</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">
+<span lang="EN-US">Alt. of Supereminency</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Supereminency</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The quality or state
 of being supereminent; distinguished eminence; as, the supereminence of <st1:city u1:st="on">Cicero</st1:city>
 as an orator, or Lord Chatham as a statesman.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Supereminent</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Eminent in a
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Supereminent</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">卓絕的；出類拔萃的 <span lang="EN-US">Eminent in a
 superior degree; surpassing others in excellence; as, a supereminent divine;
-the supereminent glory of Christ.</span></p>
+the supereminent glory of Christ. -- {<span style="color: windowtext; text-decoration: none;">Su</span>`<span style="color: windowtext; text-decoration: none;">per</span>*<span style="color: windowtext; text-decoration: none;">em</span>"<span style="color: windowtext; text-decoration: none;">i</span>*<span style="color: windowtext; text-decoration: none;">nent</span>*<span style="color: windowtext; text-decoration: none;">ly</span>}, <i><span style="color: windowtext; text-decoration: none;">adv</span></i>.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Supererogant</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Supererogatory.</span></p>
 
@@ -211,8 +233,8 @@ Superexalt</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superexalting</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>p. pr. &amp; vb. n.</i>) of
 Superexalt</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superexalt</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To exalt to a superior
-degree; to exalt above others.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superexalt</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To exalt to a
+superior degree; to exalt above others.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superexaltation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Elevation above the
 common degree.</span></p>
@@ -241,8 +263,8 @@ fecundity or multiplication of the species.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superfetate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i.</i>) To conceive after
 a prior conception, but before the birth of the offspring.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superfetation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The formation of a fetus
-at the result of an impregnation occurring after another impregnation but
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superfetation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The formation of a
+fetus at the result of an impregnation occurring after another impregnation but
 before the birth of the offspring produced by it. This is possible only when
 there is a double uterus, or where menstruation persists up to the time of the
 second impregnation.</span></p>
@@ -255,9 +277,9 @@ second impregnation.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="ES-TRAD">Superfice</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="ES-TRAD"> (<i>n.</i>) A superficies.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="ES-TRAD">Superficial</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="ES-TRAD"> (<i>a.</i>) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Of or pertaining to the
-superficies, or surface; lying on the surface; shallow; not deep; as, a superficial
-color; a superficial covering; superficial measure or contents; superficial
-tillage.</span></p>
+superficies, or surface; lying on the surface; shallow; not deep; as, a
+superficial color; a superficial covering; superficial measure or contents;
+superficial tillage.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superficial</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Reaching or
 comprehending only what is obvious or apparent; not deep or profound; shallow;
@@ -298,9 +320,9 @@ strong resemblance to the long building leases granted by landholders in
 England, in consideration of a rent, and under reservation of the ownership of
 the soil.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superfine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Very fine, or most fine;
-being of surpassing fineness; of extra nice or fine quality; as, superfine
-cloth.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superfine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Very fine, or most
+fine; being of surpassing fineness; of extra nice or fine quality; as,
+superfine cloth.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superfine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Excessively fine;
 too nice; over particular; as, superfine distinctions; superfine tastes.</span></p>
@@ -328,9 +350,9 @@ of being superfluous; excess.</span></p>
 what is needed; something which serves for show or luxury.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superfluous
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">多餘的，過剩的 <span lang="EN-US">More than is wanted
-or is sufficient; rendered unnecessary by superabundance;</span></span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> unnecessary; useless; excessive;
-as, a superfluous price.</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">多餘的，過剩的<span lang="EN-US"> More than is wanted
+or is sufficient; rendered unnecessary by superabundance; unnecessary; useless;
+excessive; as, a superfluous price.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superflux</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Superabundance;
 superfluity; an overflowing.</span></p>
@@ -355,8 +377,8 @@ Superheat</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superheat</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To heat too much,
 to overheat; as, to superheat an oven.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superheat</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To heat, as
-steam, apart from contact with water, until it resembles a perfect gas.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superheat</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To heat, as steam,
+apart from contact with water, until it resembles a perfect gas.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superheat</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The increase of
 temperature communicated to steam by superheating it.</span></p>
@@ -408,8 +430,8 @@ superinducing, or the state of being superinduced.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superinfuse</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To infuse over.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superinjection</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) An injection
-succeeding another.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Superinjection</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) An injection succeeding
+another.</span></p>
 
 <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><a href="S193.htm">[previous page]</a> <a href="index.html">[Index] </a><a href="S195.htm">[next page]</a></span></p>
 
