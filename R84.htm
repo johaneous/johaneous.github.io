@@ -21,11 +21,11 @@
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"\@新細明體";
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
-@font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@新細明體";
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -39,6 +39,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -71,9 +85,18 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -82,7 +105,7 @@ div.WordSection1
 -->
 </style></head><body lang="ZH-TW" link="blue" vlink="purple">
 
-<div class="WordSection1">
+<div class="WordSection1" style="">
 
 <p class="MsoNormal"><b><span style="font-size: 18pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Webster's Unabridged Dictionary - Letter R - Page 84<br>
 </span></b><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Rudder</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Fig.: That which
@@ -112,11 +135,11 @@ sternpost of a vessel.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddiness</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The quality or state
 of being ruddy; as, the ruddiness of the cheeks or the sky.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddle</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">用紅土做記號，塗紅土 <span lang="EN-US">To raddle or
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddle</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">用紅土做記號，塗紅土<span lang="EN-US"> To raddle or
 twist.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddle
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">紅土，代赭石，赭色 <span lang="EN-US">A riddle or
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">紅土，代赭石，赭色<span lang="EN-US"> A riddle or
 sieve.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddle</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A species of red
@@ -126,22 +149,25 @@ earth colored by iron sesquioxide; red ocher.</span></p>
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.)
 To mark with ruddle; to raddle; to rouge.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ruddle</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
-<span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">red</span> <span style="color: windowtext; text-decoration: none;">iron</span> <span style="color: windowtext; text-decoration: none;">ore</span> <span style="color: windowtext; text-decoration: none;">used</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">dyeing</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">marking</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">ruddle</span>}, {<span style="color: windowtext; text-decoration: none;">reddle</span>}, {<span style="color: windowtext; text-decoration: none;">raddle</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddle
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+red iron ore used in dyeing and marking [<i>syn</i>: {ruddle}, {reddle},
+{raddle}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ruddle</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v</i>.)
-<span style="color: windowtext; text-decoration: none;">Twist</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">braid</span> <span style="color: windowtext; text-decoration: none;">together</span>, <span style="color: windowtext; text-decoration: none;">interlace</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">raddle</span>}, {<span style="color: windowtext; text-decoration: none;">ruddle</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddle
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v</i>.)
+Twist or braid together, interlace [<i>syn</i>: {raddle}, {ruddle}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ruddle</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>v</i>.) <span style="color: windowtext; text-decoration: none;">Redden</span> <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">if</span> <span style="color: windowtext; text-decoration: none;">with</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">red</span> <span style="color: windowtext; text-decoration: none;">ocher</span> <span style="color: windowtext; text-decoration: none;">color</span>.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddle</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Redden as if with a
+red ocher color.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddock
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) The
 European robin.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddock</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A piece of gold
-money; -- probably because the gold of coins was often reddened by copper
-alloy. Called also red ruddock, and golden ruddock.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddock</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A piece of gold money;
+-- probably because the gold of coins was often reddened by copper alloy.
+Called also red ruddock, and golden ruddock.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddy
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">紅的，紅潤的<span lang="EN-US"> Of a red color; red,
@@ -150,14 +176,21 @@ or reddish; as, a ruddy sky; a ruddy flame.</span></span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of a lively flesh
 color, or the color of the human skin in high health; as, ruddy cheeks or lips.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) (<i><span style="color: windowtext; text-decoration: none;">v. t</span></i>.) (<i><span style="color: windowtext; text-decoration: none;">v. i</span></i>.) (</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">使<span lang="EN-US">) </span>變紅 <span lang="EN-US">To make ruddy.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) (<i>v. t</i>.) (<i>v.
+i</i>.) (</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">使<span lang="EN-US">) </span>變紅<span lang="EN-US"> To make ruddy.</span></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ruddy</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
-<span style="color: windowtext; text-decoration: none;">Inclined</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">healthy</span> <span style="color: windowtext; text-decoration: none;">reddish</span> <span style="color: windowtext; text-decoration: none;">color</span> <span style="color: windowtext; text-decoration: none;">often</span> <span style="color: windowtext; text-decoration: none;">associated</span> <span style="color: windowtext; text-decoration: none;">with</span> <span style="color: windowtext; text-decoration: none;">outdoor</span> <span style="color: windowtext; text-decoration: none;">life</span>; "<span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">ruddy</span> <span style="color: windowtext; text-decoration: none;">complexion</span>";
-"<span style="color: windowtext; text-decoration: none;">Santa</span>'<span style="color: windowtext; text-decoration: none;">s</span> <span style="color: windowtext; text-decoration: none;">rubicund</span> <span style="color: windowtext; text-decoration: none;">cheeks</span>"; "<span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">fresh</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">sanguine</span> <span style="color: windowtext; text-decoration: none;">complexion</span>" [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">rubicund</span>}, {<span style="color: windowtext; text-decoration: none;">ruddy</span>}, {<span style="color: windowtext; text-decoration: none;">florid</span>}, {<span style="color: windowtext; text-decoration: none;">sanguine</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddy
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
+Inclined to a healthy reddish color often associated with outdoor life; "a
+ruddy complexion"; "Santa's rubicund cheeks"; "a fresh and
+sanguine complexion" [<i>syn</i>: {rubicund}, {ruddy}, {florid},
+{sanguine}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ruddy</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>a</i>.) <span style="color: windowtext; text-decoration: none;">Of</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">color</span> <span style="color: windowtext; text-decoration: none;">at</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">end</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">color</span> <span style="color: windowtext; text-decoration: none;">spectrum</span> (<span style="color: windowtext; text-decoration: none;">next</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">orange</span>); <span style="color: windowtext; text-decoration: none;">resembling</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">color</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">blood</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">cherries</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">tomatoes</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">rubies</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">red</span>}, {<span style="color: windowtext; text-decoration: none;">reddish</span>}, {<span style="color: windowtext; text-decoration: none;">ruddy</span>}, {<span style="color: windowtext; text-decoration: none;">blood</span>-<span style="color: windowtext; text-decoration: none;">red</span>}, {<span style="color: windowtext; text-decoration: none;">carmine</span>}, {<span style="color: windowtext; text-decoration: none;">cerise</span>}, {<span style="color: windowtext; text-decoration: none;">cherry</span>}, {<span style="color: windowtext; text-decoration: none;">cherry</span>-<span style="color: windowtext; text-decoration: none;">red</span>}, {<span style="color: windowtext; text-decoration: none;">crimson</span>}, {<span style="color: windowtext; text-decoration: none;">ruby</span>}, {<span style="color: windowtext; text-decoration: none;">ruby</span>-<span style="color: windowtext; text-decoration: none;">red</span>}, {<span style="color: windowtext; text-decoration: none;">scarlet</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruddy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Of a color at the
+end of the color spectrum (next to orange); resembling the color of blood or
+cherries or tomatoes or rubies [<i>syn</i>: {red}, {reddish}, {ruddy},
+{blood-red}, {carmine}, {cerise}, {cherry}, {cherry-red}, {crimson}, {ruby},
+{ruby-red}, {scarlet}].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Rude </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">粗魯無禮的，粗陋的，粗暴的，原始的，未開化的，大略的，粗略的，崎嶇不平的<span lang="EN-US"> Characterized by roughness; umpolished; raw; lacking delicacy or
 refinement; coarse.</span></span></p>
@@ -196,8 +229,8 @@ turbulent fellow.</span></p>
 near Rudesheim, on the Rhine.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Rudiment</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) That which is
-unformed or undeveloped; the principle which lies at the bottom of any
-development; an unfinished beginning.</span></p>
+unformed or undeveloped; the principle which lies at the bottom of any development;
+an unfinished beginning.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Rudiment</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Hence, an element or
 first principle of any art or science; a beginning of any knowledge; a first
@@ -228,10 +261,9 @@ universe"; "a fundamental&nbsp; incomatibility between them";
 earliest stages of development; "rudimentary plans".</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Rudimentary</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Not fully developed
-in mature animals; "rudimentary wings" [<i>syn</i>: {vestigial},
-{rudimentary}].</span></p>
+in mature animals; "rudimentary wings" [<i>syn</i>: {vestigial}, {rudimentary}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Rudish</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Somewhat rude.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Rudish</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">有些粗魯的，有些無禮的 <span lang="EN-US">Somewhat rude.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Rudistes</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n. pl.</i>) An extinct order
 or suborder of bivalve mollusks characteristic of the Cretaceous period; --
@@ -244,7 +276,8 @@ of the Holy Cross, occuring on May 3 and September 14, annually.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Rudolphine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Pertaining to, or
 designating, a set of astronomical tables computed by Kepler, and founded on
-the observations of Tycho Brahe; -- so named from Rudolph II., emperor of Germany.</span></p>
+the observations of Tycho Brahe; -- so named from Rudolph II., emperor of
+Germany.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Rue</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A perennial
 suffrutescent plant (Ruta graveolens), having a strong, heavy odor and a bitter
@@ -285,8 +318,8 @@ or lament; woeful; mournful; sorrowful.</span></p>
 bone</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> () See
 rewel bone.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruelle</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A private circle or assembly
-at a private house; a circle.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruelle</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A private circle or
+assembly at a private house; a circle.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Rufescent</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Reddish; tinged with
 red.</span></p>
@@ -420,8 +453,8 @@ boisterous, or turbulent.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruffle</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i.</i>) To become
 disordered; to play loosely; to flutter.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruffle</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i.</i>) To be rough; to
-jar; to be in contention; hence, to put on airs; to swagger.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruffle</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i.</i>) To be rough; to jar;
+to be in contention; hence, to put on airs; to swagger.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ruffle</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t. &amp; i.</i>) That
 which is ruffled; specifically, a strip of lace, cambric, or other fine cloth,
