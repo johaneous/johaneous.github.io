@@ -9,14 +9,20 @@
 <!--
  /* Font Definitions */
  @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
 	{font-family:"MS Mincho";
 	panose-1:2 2 6 9 4 2 5 8 3 4;}
 @font-face
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
@@ -26,18 +32,41 @@
 @font-face
 	{font-family:"\@MS Mincho";
 	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
 	margin-bottom:.0001pt;
 	font-size:12.0pt;
 	font-family:"Times New Roman","serif";}
+h1
+	{mso-style-link:"標題 1 字元";
+	margin-top:9.0pt;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:0cm;
+	line-height:300%;
+	page-break-after:avoid;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
 h2
 	{mso-style-link:"標題 2 字元";
 	margin-right:0cm;
 	margin-left:0cm;
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
+	font-weight:bold;}
+h3
+	{mso-style-link:"標題 3 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:300%;
+	page-break-after:avoid;
+	font-size:18.0pt;
+	font-family:"Cambria","serif";
 	font-weight:bold;}
 a:link, span.MsoHyperlink
 	{color:blue;
@@ -61,16 +90,26 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
-span.HTML
-	{mso-style-name:"HTML 預設格式 字元";
-	mso-style-link:"HTML 預設格式";
-	font-family:"Courier New";}
+span.1
+	{mso-style-name:"標題 1 字元";
+	mso-style-link:"標題 1";
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+span.3
+	{mso-style-name:"標題 3 字元";
+	mso-style-link:"標題 3";
+	font-family:"Cambria","serif";
+	font-weight:bold;}
 .MsoChpDefault
 	{font-size:10.0pt;}
 @page WordSection1
@@ -79,8 +118,13 @@ span.HTML
 	layout-grid:18.0pt;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
 -->
-</style></head><body style="" lang="ZH-TW" link="blue" vlink="purple">
+</style></head><body lang="ZH-TW" link="blue" vlink="purple">
 
 <div class="WordSection1">
 
@@ -139,9 +183,9 @@ composed in imitation of such a song.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barcon</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A vessel for
 freight; -- used in Mediterranean.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bard</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A professional poet
-and singer, as among the ancient Celts, whose occupation was to compose and
-sing verses in honor of the heroic achievements of princes and brave men.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bard</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A professional poet and
+singer, as among the ancient Celts, whose occupation was to compose and sing
+verses in honor of the heroic achievements of princes and brave men.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bard</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Hence: A poet; as,
 the bard of Avon.</span></p>
@@ -225,11 +269,16 @@ Bear, v.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bareback</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv.</i>) On the bare back
 of a horse, without using a saddle; as, to ride bareback.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barebacked</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Having the back
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barebacked</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Having the back
 uncovered; as, a barebacked horse.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barebone</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A very lean person;
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barebone</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A very lean person;
 one whose bones show through the skin.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Bare</span>-<span style="color: windowtext; text-decoration: none;">breasted</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) &nbsp;(not &nbsp;<span style="color: windowtext; text-decoration: none;">comparable</span>)
+(chiefly of a woman)&nbsp; </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">袒胸露乳的
+<span lang="EN-US">Having the breasts and nipples exposed, often implying a less
+salacious atmosphere than &nbsp;<span style="color: windowtext; text-decoration: none;">topless</span>.&nbsp;</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barefaced</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) With the face
 uncovered; not masked.</span></p>
@@ -258,21 +307,22 @@ dresses, veils, etc. of worsted, silk and worsted, or cotton and worsted.</span>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bareheaded</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a. &amp; adv.</i>) Alt. of
 Barehead.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barehead</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a. &amp; adv.</i>) Having
-the head uncovered; as, a bareheaded girl.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barehead</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a. &amp; adv.</i>) Having the
+head uncovered; as, a bareheaded girl.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barelegged</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Having the legs
 bare.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barely</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv.</i>) Without covering; nakedly.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barely</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv.</i>) Without covering;
+nakedly.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barely</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv.</i>) Without
 concealment or disguise.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barely</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv.</i>) Merely; only.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barely</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv.</i>) But just; without
-any excess; with nothing to spare ( of quantity, time, etc.); hence, scarcely;
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barely</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv.</i>) But just; without any
+excess; with nothing to spare ( of quantity, time, etc.); hence, scarcely;
 hardly; as, there was barely enough for all; he barely escaped.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barenecked</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Having the neck
@@ -309,86 +359,57 @@ or purchased; also, anything bought cheap.</span></p>
 to make a contract for the exchange of property or services; -- followed by
 with and for; as, to bargain with a farmer for a cow.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bargain</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) <span style="color: windowtext; text-decoration: none;">[ C ]</span> <span style="color: windowtext; text-decoration: none;">[ C ]</span> (LOW PRICE) (B1)
-</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">便宜貨，廉價品<span lang="EN-US">
-Something on <span style="color: windowtext; text-decoration: none;">sale</span>
-at a <span style="color: windowtext; text-decoration: none;">lower</span>
-<span style="color: windowtext; text-decoration: none;">price</span>
-than <span style="color: windowtext; text-decoration: none;">its</span> <span style="color: windowtext; text-decoration: none;">true</span> <span style="color: windowtext; text-decoration: none;">value</span>.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bargain</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) [ C ] [ C ] (LOW
+PRICE) (B1) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">便宜貨，廉價品<span lang="EN-US"> Something on sale at a lower price than its true value.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Examples:</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">This <span style="color: windowtext; text-decoration: none;">coat</span>
-was <span style="color: windowtext; text-decoration: none;">half-price</span>
-- a <span style="color: windowtext; text-decoration: none;">real</span> <i>bargain</i>.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">This
+coat was half-price - a real <i>bargain</i>.</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The <span style="color: windowtext; text-decoration: none;">airline</span>
-regularly <span style="color: windowtext; text-decoration: none;">offers</span>
-last-minute <span style="color: windowtext; text-decoration: none;">bookings</span>
-at <i>bargain</i> <span style="color: windowtext; text-decoration: none;">prices</span>.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The
+airline regularly offers last-minute bookings at <i>bargain</i> prices.</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The <span style="color: windowtext; text-decoration: none;">sales</span>
-had <span style="color: windowtext; text-decoration: none;">started</span>
-and the <i>bargain</i> <span style="color: windowtext; text-decoration: none;">hunters</span>
-(= <span style="color: windowtext; text-decoration: none;">people</span>
-<span style="color: windowtext; text-decoration: none;">looking</span>
-for things at a <span style="color: windowtext; text-decoration: none;">low</span> <span style="color: windowtext; text-decoration: none;">price</span>)
-were out in <span style="color: windowtext; text-decoration: none;">force</span>.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The
+sales had started and the <i>bargain</i> hunters (= people looking for things
+at a low price) were out in force.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bargain</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) <span style="color: windowtext; text-decoration: none;">[ C ]</span> (AGREEMENT) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">協議；交易<span lang="EN-US"> An <span style="color: windowtext; text-decoration: none;">agreement</span>
-between two <span style="color: windowtext; text-decoration: none;">people</span>
-or <span style="color: windowtext; text-decoration: none;">groups</span>
-in which each <span style="color: windowtext; text-decoration: none;">promises</span>
-to do something in <span style="color: windowtext; text-decoration: none;">exchange</span>
-for something <span style="color: windowtext; text-decoration: none;">else</span>.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bargain</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) [ C ] (AGREEMENT) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">協議；交易<span lang="EN-US"> An agreement between
+two people or groups in which each promises to do something in exchange for
+something else.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Examples:</span></b></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">"I'll
-<span style="color: windowtext; text-decoration: none;">clean</span>
-the <span style="color: windowtext; text-decoration: none;">kitchen</span>
-if you <span style="color: windowtext; text-decoration: none;">clean</span>
-the <span style="color: windowtext; text-decoration: none;">car</span>."
-"OK, it's a <i>bargain</i>."</span></p>
+clean the kitchen if you clean the car." "OK, it's a <i>bargain</i>."</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The <span style="color: windowtext; text-decoration: none;">management</span>
-and <span style="color: windowtext; text-decoration: none;">employees</span>
-<span style="color: windowtext; text-decoration: none;">eventually</span>
-<span style="color: windowtext; text-decoration: none;">struck</span>/made
-a<i> bargain</i> (= <span style="color: windowtext; text-decoration: none;">reached</span>
-an <span style="color: windowtext; text-decoration: none;">agreement</span>).</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The
+management and employees eventually struck/made a<i> bargain</i> (= reached an
+agreement).</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Idioms:</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Into
-the bargain</span></span></b></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Into
+the bargain</span></b></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bargain
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v</i>.) <span style="color: windowtext; text-decoration: none;">[ I or T ]</span> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">討價還價（如價格、工資或工作條件等） </span><span style="font-family: &quot;MS Mincho&quot;;">​</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">To <span style="color: windowtext; text-decoration: none;">try</span> to
-make someone <span style="color: windowtext; text-decoration: none;">agree</span>
-to give you something that is <span style="color: windowtext; text-decoration: none;">better</span>
-for you, such as a <span style="color: windowtext; text-decoration: none;">better</span>
-<span style="color: windowtext; text-decoration: none;">price</span>
-or <span style="color: windowtext; text-decoration: none;">better</span>
-<span style="color: windowtext; text-decoration: none;">working</span>
-<span style="color: windowtext; text-decoration: none;">conditions</span>.</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v</i>.) [ I
+or T ] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">討價還價（如價格、工資或工作條件等） </span><span style="font-family: &quot;MS Mincho&quot;;">​</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">To try to make someone agree to give you something that is
+better for you, such as a better price or better working conditions.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Examples:</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Unions <i>bargain
-</i>with <span style="color: windowtext; text-decoration: none;">employers</span>
-for <span style="color: windowtext; text-decoration: none;">better</span>
-<span style="color: windowtext; text-decoration: none;">rates</span>
-of <span style="color: windowtext; text-decoration: none;">pay</span>
-each <span style="color: windowtext; text-decoration: none;">year</span>.</span></p>
+</i>with employers for better rates of pay each year.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Phrasal
 verb:</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Bargain
-sth away</span></span></b></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bargain
+sth away</span></b></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Bargain for/on sth</span></span></b></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bargain
+for/on sth</span></b></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bargained
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>imp. &amp;
@@ -475,16 +496,16 @@ iron </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&q
 under Iron.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barista
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n.</i>) A
-person who works at the counter of a coffee shop; a coffee bar server. He plans
-to become a barista at Starbucks. 1982; Ital, pl. Baristi.</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n.</i>) A person
+who works at the counter of a coffee shop; a coffee bar server. He plans to
+become a barista at Starbucks. 1982; Ital, pl. Baristi.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Barite
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(n.) Native
-sulphate of barium, a mineral occurring in transparent, colorless, white to
-yellow crystals (generally tabular), also in granular form, and in compact
-massive forms resembling marble. It has a high specific gravity, and hence is
-often called heavy spar. It is a common mineral in metallic veins.</span></p>
+sulphate of barium, a mineral occurring in transparent, colorless, white to yellow
+crystals (generally tabular), also in granular form, and in compact massive
+forms resembling marble. It has a high specific gravity, and hence is often
+called heavy spar. It is a common mineral in metallic veins.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Baritone</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a. &amp; n.</i>) See
 Barytone.</span></p>
