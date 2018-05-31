@@ -9,23 +9,107 @@
 <!--
  /* Font Definitions */
  @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Courier;
+	panose-1:2 7 4 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:"Tms Rmn";
+	panose-1:2 2 6 3 4 5 5 2 3 4;}
+@font-face
+	{font-family:Helv;
+	panose-1:2 11 6 4 2 2 2 3 2 4;}
+@font-face
+	{font-family:"New York";
+	panose-1:2 4 5 3 6 5 6 2 3 4;}
+@font-face
+	{font-family:System;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
 	{font-family:Wingdings;
 	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"MS Mincho";
 	panose-1:2 2 6 9 4 2 5 8 3 4;}
 @font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:細明體;
-	panose-1:2 2 5 9 0 0 0 0 0 0;}
+	{font-family:"MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:Dotum;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:SimHei;
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
 @font-face
 	{font-family:細明體;
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:Mincho;
+	panose-1:2 2 6 9 4 3 5 8 3 5;}
+@font-face
+	{font-family:Gulim;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Century;
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:"Angsana New";
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+@font-face
+	{font-family:"Cordia New";
+	panose-1:2 11 3 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Mangal;
+	panose-1:2 4 5 3 5 2 3 3 2 2;}
+@font-face
+	{font-family:Latha;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Sylfaen;
+	panose-1:1 10 5 2 5 3 6 3 3 3;}
+@font-face
+	{font-family:Vrinda;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Raavi;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Shruti;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Sendnya;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Gautami;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Tunga;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Estrangelo Edessa";
+	panose-1:3 8 6 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
@@ -35,6 +119,9 @@
 @font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -93,6 +180,16 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
+span.source
+	{mso-style-name:source;}
+span.msoIns
+	{mso-style-name:"";
+	text-decoration:underline;
+	color:teal;}
+span.msoDel
+	{mso-style-name:"";
+	text-decoration:line-through;
+	color:red;}
 .MsoChpDefault
 	{font-size:10.0pt;}
 @page WordSection1
@@ -101,11 +198,6 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	layout-grid:18.0pt;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0cm;}
-ul
-	{margin-bottom:0cm;}
 -->
 </style></head><body lang="ZH-TW" link="blue" vlink="purple">
 
@@ -166,15 +258,14 @@ animals, or of parts of the bodies.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depressingly</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv.</i>) In a depressing
 manner.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (n.) [C] [U] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">沮喪，意氣消沉；<span lang="EN-US">[C] </span>不景氣，蕭條（期）
-<span lang="EN-US">The act of depressing.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (n.) [C] [U] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">沮喪，意氣消沉；<span lang="EN-US">[C] </span>不景氣，蕭條（期）<span lang="EN-US"> The act of depressing.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The state of being
 depressed; a sinking.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A falling in of the
-surface; a sinking below its true place; a cavity or hollow; as, roughness
-consists in little protuberances and depressions.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A falling in of the surface;
+a sinking below its true place; a cavity or hollow; as, roughness consists in
+little protuberances and depressions.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Humiliation;
 abasement, as of pride.</span></p>
@@ -194,35 +285,42 @@ reducing to a lower degree; -- said of equations.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A method of
 operating for cataract; couching. See Couch, v. t., 8.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Depression</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">mental</span> <span style="color: windowtext; text-decoration: none;">state</span> <span style="color: windowtext; text-decoration: none;">characterized</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">pessimistic</span> <span style="color: windowtext; text-decoration: none;">sense</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">inadequacy</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">despondent</span> <span style="color: windowtext; text-decoration: none;">lack</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">activity</span> [<i><span style="color: windowtext; text-decoration: none;">ant</span></i>: {<span style="color: windowtext; text-decoration: none;">elation</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A mental state
+characterized by a pessimistic sense of inadequacy and a despondent lack of
+activity [<i>ant</i>: {elation}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Depression</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">long</span>-<span style="color: windowtext; text-decoration: none;">term</span> <span style="color: windowtext; text-decoration: none;">economic</span> <span style="color: windowtext; text-decoration: none;">state</span> <span style="color: windowtext; text-decoration: none;">characterized</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">unemployment</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">low</span> <span style="color: windowtext; text-decoration: none;">prices</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">low</span> <span style="color: windowtext; text-decoration: none;">levels</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">trade</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">investment</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">depression</span>}, {<span style="color: windowtext; text-decoration: none;">slump</span>}, {<span style="color: windowtext; text-decoration: none;">economic</span> <span style="color: windowtext; text-decoration: none;">crisis</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A long-term economic
+state characterized by unemployment and low prices and low levels of trade and
+investment [<i>syn</i>: {depression}, {slump}, {economic crisis}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Depression</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">sunken</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">depressed</span> <span style="color: windowtext; text-decoration: none;">geological</span> <span style="color: windowtext; text-decoration: none;">formation</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">natural</span> <span style="color: windowtext; text-decoration: none;">depression</span>}, {<span style="color: windowtext; text-decoration: none;">depression</span>}] [<i><span style="color: windowtext; text-decoration: none;">ant</span></i>: {<span style="color: windowtext; text-decoration: none;">elevation</span>}, {<span style="color: windowtext; text-decoration: none;">natural</span> <span style="color: windowtext; text-decoration: none;">elevation</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A sunken or
+depressed geological formation [<i>syn</i>: {natural depression}, {depression}]
+[<i>ant</i>: {elevation}, {natural elevation}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Depression</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">Sad</span> <span style="color: windowtext; text-decoration: none;">feelings</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">gloom</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">inadequacy</span>.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Sad feelings of gloom
+and inadequacy.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Depression</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">period</span> <span style="color: windowtext; text-decoration: none;">during</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">1930s</span> <span style="color: windowtext; text-decoration: none;">when</span> <span style="color: windowtext; text-decoration: none;">there</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">worldwide</span> <span style="color: windowtext; text-decoration: none;">economic</span> <span style="color: windowtext; text-decoration: none;">depression</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">mass</span> <span style="color: windowtext; text-decoration: none;">unemployment</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">Depression</span>}, {<span style="color: windowtext; text-decoration: none;">Great</span> <span style="color: windowtext; text-decoration: none;">Depression</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A period during the
+1930s when there was a worldwide economic depression and mass unemployment [<i>syn</i>:
+{Depression}, {Great Depression}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Depression</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">An</span> <span style="color: windowtext; text-decoration: none;">air</span> <span style="color: windowtext; text-decoration: none;">mass</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">lower</span> <span style="color: windowtext; text-decoration: none;">pressure</span>; <span style="color: windowtext; text-decoration: none;">often</span> <span style="color: windowtext; text-decoration: none;">brings</span> <span style="color: windowtext; text-decoration: none;">precipitation</span>; "<span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">low</span> <span style="color: windowtext; text-decoration: none;">moved</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">over</span> <span style="color: windowtext; text-decoration: none;">night</span> <span style="color: windowtext; text-decoration: none;">bringing</span> <span style="color: windowtext; text-decoration: none;">sleet</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">snow</span>" [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">low</span>}, {<span style="color: windowtext; text-decoration: none;">depression</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) An air mass of lower
+pressure; often brings precipitation; "a low moved in over night bringing
+sleet and snow" [<i>syn</i>: {low}, {depression}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Depression</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">state</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">depression</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">anhedonia</span> <span style="color: windowtext; text-decoration: none;">so</span> <span style="color: windowtext; text-decoration: none;">severe</span> <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">require</span> <span style="color: windowtext; text-decoration: none;">clinical</span> <span style="color: windowtext; text-decoration: none;">intervention</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">depressive</span> <span style="color: windowtext; text-decoration: none;">disorder</span>}, {<span style="color: windowtext; text-decoration: none;">clinical</span> <span style="color: windowtext; text-decoration: none;">depression</span>}, {<span style="color: windowtext; text-decoration: none;">depression</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A state of
+depression and anhedonia so severe as to require clinical intervention [<i>syn</i>:
+{depressive disorder}, {clinical depression}, {depression}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Depression</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">concavity</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">surface</span> <span style="color: windowtext; text-decoration: none;">produced</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">pressing</span>; "<span style="color: windowtext; text-decoration: none;">he</span> <span style="color: windowtext; text-decoration: none;">left</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">impression</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">his</span> <span style="color: windowtext; text-decoration: none;">fingers</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">soft</span> <span style="color: windowtext; text-decoration: none;">mud</span>" [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">depression</span>}, {<span style="color: windowtext; text-decoration: none;">impression</span>}, {<span style="color: windowtext; text-decoration: none;">imprint</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A concavity in a
+surface produced by pressing; "he left the impression of his fingers in
+the soft mud" [<i>syn</i>: {depression}, {impression}, {imprint}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Depression</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">Angular</span> <span style="color: windowtext; text-decoration: none;">distance</span> <span style="color: windowtext; text-decoration: none;">below</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">horizon</span> (<span style="color: windowtext; text-decoration: none;">especially</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">celestial</span> <span style="color: windowtext; text-decoration: none;">object</span>).</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Angular distance
+below the horizon (especially of a celestial object).</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Depression</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">Pushing</span> <span style="color: windowtext; text-decoration: none;">down</span>; "<span style="color: windowtext; text-decoration: none;">depression</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">space</span> <span style="color: windowtext; text-decoration: none;">bar</span> <span style="color: windowtext; text-decoration: none;">on</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">typewriter</span>".</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Pushing down;
+"depression of the space bar on the typewriter".</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (UNHAPPINESS) (B2) [
 U ] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">憂鬱，抑鬱；消沉，沮喪<span lang="EN-US"> The state of feeling very unhappy and without hope for the future.</span></span></p>
@@ -234,9 +332,9 @@ overwhelmed by feelings of <i>depression</i>.</span><span style="font-family: &q
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depression
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) (B2)
-[ C or U ] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">抑鬱症 <span lang="EN-US">A mental illness in which a person is very unhappy and anxious (=
-worried and nervous) for long periods and cannot have a normal life during
-these periods.</span></span></p>
+[ C or U ] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">抑鬱症<span lang="EN-US">
+A mental illness in which a person is very unhappy and anxious (= worried and
+nervous) for long periods and cannot have a normal life during these periods.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Examples:</span></p>
 
@@ -285,9 +383,9 @@ was a <i>depression</i> in the sand where he'd been lying.</span></p>
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) Able
 or tending to depress or cast down.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depressomotor</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Depressing or
-diminishing the capacity for movement, as depressomotor nerves, which lower or
-inhibit muscular activity.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depressomotor</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Depressing or diminishing
+the capacity for movement, as depressomotor nerves, which lower or inhibit
+muscular activity.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depressomotor</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Any agent that
 depresses the activity of the motor centers, as bromides, etc.</span></p>
@@ -306,8 +404,9 @@ disesteem; contempt.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprivable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Capable of being, or
 liable to be, deprived; liable to be deposed.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprivation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">剝奪，剝奪官職，免職<span lang="EN-US"> The act of depriving,
-dispossessing, or bereaving; the act of deposing or divesting of some dignity.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprivation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">剝奪，剝奪官職，免職<span lang="EN-US"> The act of
+depriving, dispossessing, or bereaving; the act of deposing or divesting of
+some dignity.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprivation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The state of being
 deprived; privation; loss; want; bereavement.</span></p>
@@ -332,7 +431,7 @@ of depriving someone of food or money or rights; "nutritional
 privation"; "deprivation of civil rights" [<i>syn</i>:
 {privation}, {deprivation}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprivation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) [ C or U ] (C2) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">缺失，缺乏，匱乏 <span lang="EN-US">A situation in
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprivation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) [ C or U ] (C2) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">缺失，缺乏，匱乏<span lang="EN-US"> A situation in
 which you do not have things or conditions that are usually considered
 necessary for a pleasant life.</span></span></p>
 
@@ -344,8 +443,8 @@ used sleep <i>deprivation</i> as a form of torture.</span></p>
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">There is
 awful <i>deprivation</i> in the shanty towns.</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">There were
-food shortages and other<i> deprivations</i> during the Civil War.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">There
+were food shortages and other<i> deprivations</i> during the Civil War.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprived</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p</i>.) of
 Deprive</span></p>
@@ -363,9 +462,9 @@ with a remoter object, usually preceded by of.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprive</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) To divest of
 office; to depose; to dispossess of dignity, especially ecclesiastical.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprive</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Take away
-possessions from someone; "The Nazis stripped the Jews of all their
-assets" [<i>syn</i>: {deprive}, {strip}, {divest}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprive</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Take away possessions
+from someone; "The Nazis stripped the Jews of all their assets" [<i>syn</i>:
+{deprive}, {strip}, {divest}].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprive</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Keep from having,
 keeping, or obtaining.</span></p>
@@ -373,8 +472,8 @@ keeping, or obtaining.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprive</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Take away [<i>syn</i>:
 {deprive}, {impoverish}] [<i>ant</i>: {enrich}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprive</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) [ T ] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">奪走，搶走，剝奪<span lang="EN-US"> (B2) To take something,
-especially something necessary or pleasant, away from someone.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deprive</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) [ T ] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">奪走，搶走，剝奪<span lang="EN-US"> (B2) To take
+something, especially something necessary or pleasant, away from someone.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Examples:</span></p>
 
@@ -426,8 +525,8 @@ shallow.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depthless</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of measureless
 depth; unfathomable.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depucelate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To deflour; to deprive
-of virginity.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depucelate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To deflour; to
+deprive of virginity.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depudicate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To deflour; to
 dishonor.</span></p>
@@ -460,8 +559,8 @@ of depurating or freeing from foreign or impure matter, as a liquid or wound.</s
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depurative</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Purifying the blood
 or the humors; depuratory.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depurative</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A depurative remedy
-or agent; or a disease which is believed to be depurative.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depurative</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A depurative remedy or
+agent; or a disease which is believed to be depurative.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depurator</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One who, or that
 which, cleanses.</span></p>
@@ -472,8 +571,8 @@ to depurate or cleanse; depurative.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depure</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To depurate; to
 purify.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depurgatory</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Serving to purge;
-tending to cleanse or purify.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depurgatory</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Serving to purge; tending
+to cleanse or purify.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Depurition</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) See Depuration.</span></p>
 
@@ -481,8 +580,8 @@ tending to cleanse or purify.</span></p>
 suitable to act as a deputy.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">代理任命，代表，代表團<span lang="EN-US"> The act of
-deputing, or of appointing or commissioning a deputy or representative; office
-of a deputy or delegate; vicegerency.</span></span></p>
+deputing, or of appointing or commissioning a deputy or representative; office of
+a deputy or delegate; vicegerency.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) The person or
 persons deputed or commissioned by another person, party, or public body to act
@@ -490,8 +589,8 @@ in his or its behalf; delegation; as, the general sent a deputation to the
 enemy to propose a truce.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A group of
-representatives or delegates [<i>syn</i>: {deputation}, {commission}, {delegation},
-{delegacy}, {mission}].</span></p>
+representatives or delegates [<i>syn</i>: {deputation}, {commission},
+{delegation}, {delegacy}, {mission}].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Authorizing
 subordinates to make certain decisions [<i>syn</i>: {delegating}, {delegation},
@@ -500,7 +599,8 @@ subordinates to make certain decisions [<i>syn</i>: {delegating}, {delegation},
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputator</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) One who deputes, or
 makes a deputation.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputed</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p.</i>) of Depute</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputed</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p.</i>) of
+Depute</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputing</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>p. pr. &amp; vb. n.</i>) of
 Depute</span></p>
@@ -519,14 +619,46 @@ one's deputy; to empower to act in one's stead; to depute.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputies</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>pl. </i>) of Deputy</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One appointed as the
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) One appointed as the
 substitute of another, and empowered to act for him, in his name or his behalf;
 a substitute in office; a lieutenant; a representative; a delegate; a
 vicegerent; as, the deputy of a prince, of a sheriff, of a township, etc.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputy
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
-member of the Chamber of Deputies.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">There</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">then</span> [<span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">days</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Jehoshaphat</span>] <span style="color: windowtext; text-decoration: none;">no</span> <span style="color: windowtext; text-decoration: none;">king</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">Edom</span>; <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">deputy</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">king</span>. --<span style="color: windowtext; text-decoration: none;">1</span> <span style="color: windowtext; text-decoration: none;">Kings</span> <span style="color: windowtext; text-decoration: none;">xxii</span>. <span style="color: windowtext; text-decoration: none;">47</span>.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">God</span>'<span style="color: windowtext; text-decoration: none;">s</span> <span style="color: windowtext; text-decoration: none;">substitute</span>, <span style="color: windowtext; text-decoration: none;">His</span> <span style="color: windowtext; text-decoration: none;">deputy</span> <span style="color: windowtext; text-decoration: none;">anointed</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">His</span> <span style="color: windowtext; text-decoration: none;">sight</span>. -- <span style="color: windowtext; text-decoration: none;">Shak</span>.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Note</span>: <span style="color: windowtext; text-decoration: none;">Deputy</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">used</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">combination</span> <span style="color: windowtext; text-decoration: none;">with</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">names</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">various</span> <span style="color: windowtext; text-decoration: none;">executive</span> <span style="color: windowtext; text-decoration: none;">officers</span>, <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">denote</span> <span style="color: windowtext; text-decoration: none;">an</span> <span style="color: windowtext; text-decoration: none;">assistant</span> <span style="color: windowtext; text-decoration: none;">empowered</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">act</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">their</span> <span style="color: windowtext; text-decoration: none;">name</span>; <span style="color: windowtext; text-decoration: none;">as</span>, <span style="color: windowtext; text-decoration: none;">deputy</span> <span style="color: windowtext; text-decoration: none;">collector</span>, <span style="color: windowtext; text-decoration: none;">deputy</span> <span style="color: windowtext; text-decoration: none;">marshal</span>, <span style="color: windowtext; text-decoration: none;">deputy</span> <span style="color: windowtext; text-decoration: none;">sheriff</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">member</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Chamber</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Deputies</span>. [<span style="color: windowtext; text-decoration: none;">France</span>]</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">{<b><span style="color: windowtext; text-decoration: none;">Chamber</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Deputies</span></b>}, <span style="color: windowtext; text-decoration: none;">one</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">two</span> <span style="color: windowtext; text-decoration: none;">branches</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">French</span> <span style="color: windowtext; text-decoration: none;">legislative</span> <span style="color: windowtext; text-decoration: none;">assembly</span>; -- <span style="color: windowtext; text-decoration: none;">formerly</span> <span style="color: windowtext; text-decoration: none;">called</span> {<span style="color: windowtext; text-decoration: none;">Corps</span> <span style="color: windowtext; text-decoration: none;">L</span>['<span style="color: windowtext; text-decoration: none;">e</span>]<span style="color: windowtext; text-decoration: none;">gislatif</span>}. <span style="color: windowtext; text-decoration: none;">Its</span> <span style="color: windowtext; text-decoration: none;">members</span>, <span style="color: windowtext; text-decoration: none;">called</span> <span style="color: windowtext; text-decoration: none;">deputies</span>, <span style="color: windowtext; text-decoration: none;">are</span> <span style="color: windowtext; text-decoration: none;">elected</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">people</span> <span style="color: windowtext; text-decoration: none;">voting</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">districts</span>.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Syn</span>: <span style="color: windowtext; text-decoration: none;">Substitute</span>; <span style="color: windowtext; text-decoration: none;">representative</span>; <span style="color: windowtext; text-decoration: none;">legate</span>; <span style="color: windowtext; text-decoration: none;">delegate</span>; <span style="color: windowtext; text-decoration: none;">envoy</span>; <span style="color: windowtext; text-decoration: none;">agent</span>; <span style="color: windowtext; text-decoration: none;">factor</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Deputy</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">Someone</span> <span style="color: windowtext; text-decoration: none;">authorized</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">exercise</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">powers</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">sheriff</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">emergencies</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">deputy</span>}, {<span style="color: windowtext; text-decoration: none;">deputy</span> <span style="color: windowtext; text-decoration: none;">sheriff</span>}].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Deputy</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">An</span> <span style="color: windowtext; text-decoration: none;">assistant</span> <span style="color: windowtext; text-decoration: none;">with</span> <span style="color: windowtext; text-decoration: none;">power</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">act</span> <span style="color: windowtext; text-decoration: none;">when</span> <span style="color: windowtext; text-decoration: none;">his</span> <span style="color: windowtext; text-decoration: none;">superior</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">absent</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">deputy</span>}, {<span style="color: windowtext; text-decoration: none;">lieutenant</span>}].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Deputy</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">member</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">lower</span> <span style="color: windowtext; text-decoration: none;">chamber</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">legislative</span> <span style="color: windowtext; text-decoration: none;">assembly</span> (<span style="color: windowtext; text-decoration: none;">such</span> <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">France</span>).</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Deputy</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">person</span> <span style="color: windowtext; text-decoration: none;">appointed</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">represent</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">act</span> <span style="color: windowtext; text-decoration: none;">on</span> <span style="color: windowtext; text-decoration: none;">behalf</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">others</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">deputy</span>}, {<span style="color: windowtext; text-decoration: none;">surrogate</span>}].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Deputy</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">In</span> <span style="color: windowtext; text-decoration: none;">1</span> <span style="color: windowtext; text-decoration: none;">Kings</span> <span style="color: windowtext; text-decoration: none;">22</span>:<span style="color: windowtext; text-decoration: none;">47</span>, <span style="color: windowtext; text-decoration: none;">means</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">prefect</span>; <span style="color: windowtext; text-decoration: none;">one</span> <span style="color: windowtext; text-decoration: none;">set</span> <span style="color: windowtext; text-decoration: none;">over</span> <span style="color: windowtext; text-decoration: none;">others</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">same</span> <span style="color: windowtext; text-decoration: none;">Hebrew</span> <span style="color: windowtext; text-decoration: none;">word</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">rendered</span> "<span style="color: windowtext; text-decoration: none;">officer</span>;" <span style="color: windowtext; text-decoration: none;">i</span>.<span style="color: windowtext; text-decoration: none;">e</span>., <span style="color: windowtext; text-decoration: none;">chief</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">commissariat</span> <span style="color: windowtext; text-decoration: none;">appointed</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">Solomon</span> (<span style="color: windowtext; text-decoration: none;">1</span> <span style="color: windowtext; text-decoration: none;">Kings</span> <span style="color: windowtext; text-decoration: none;">4</span>:<span style="color: windowtext; text-decoration: none;">5</span>, <span style="color: windowtext; text-decoration: none;">etc</span>.).</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">In</span> <span style="color: windowtext; text-decoration: none;">Esther</span> <span style="color: windowtext; text-decoration: none;">8</span>:<span style="color: windowtext; text-decoration: none;">9</span>; <span style="color: windowtext; text-decoration: none;">9</span>:<span style="color: windowtext; text-decoration: none;">3</span> (<span style="color: windowtext; text-decoration: none;">R</span>.<span style="color: windowtext; text-decoration: none;">V</span>., "<span style="color: windowtext; text-decoration: none;">governor</span>") <span style="color: windowtext; text-decoration: none;">it</span> <span style="color: windowtext; text-decoration: none;">denotes</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">Persian</span> <span style="color: windowtext; text-decoration: none;">prefect</span> "<span style="color: windowtext; text-decoration: none;">on</span> <span style="color: windowtext; text-decoration: none;">this</span> <span style="color: windowtext; text-decoration: none;">side</span>" <span style="color: windowtext; text-decoration: none;">i</span>.<span style="color: windowtext; text-decoration: none;">e</span>., <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">region</span> <span style="color: windowtext; text-decoration: none;">west</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Euphrates</span>. <span style="color: windowtext; text-decoration: none;">It</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">modern</span> <span style="color: windowtext; text-decoration: none;">word</span> _pasha_.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">In</span> <span style="color: windowtext; text-decoration: none;">Acts</span> <span style="color: windowtext; text-decoration: none;">13</span>:<span style="color: windowtext; text-decoration: none;">7</span>, <span style="color: windowtext; text-decoration: none;">8</span>, <span style="color: windowtext; text-decoration: none;">12</span>; <span style="color: windowtext; text-decoration: none;">18</span>:<span style="color: windowtext; text-decoration: none;">12</span>, <span style="color: windowtext; text-decoration: none;">it</span> <span style="color: windowtext; text-decoration: none;">denotes</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">proconsul</span>; <span style="color: windowtext; text-decoration: none;">i</span>.<span style="color: windowtext; text-decoration: none;">e</span>., <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">governor</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">Roman</span> <span style="color: windowtext; text-decoration: none;">province</span> <span style="color: windowtext; text-decoration: none;">holding</span> <span style="color: windowtext; text-decoration: none;">his</span> <span style="color: windowtext; text-decoration: none;">appointment</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">senate</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">Roman</span> <span style="color: windowtext; text-decoration: none;">provinces</span> <span style="color: windowtext; text-decoration: none;">were</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">two</span> <span style="color: windowtext; text-decoration: none;">kinds</span>, (<span style="color: windowtext; text-decoration: none;">1</span>) <span style="color: windowtext; text-decoration: none;">senatorial</span> <span style="color: windowtext; text-decoration: none;">and</span> (<span style="color: windowtext; text-decoration: none;">2</span>) <span style="color: windowtext; text-decoration: none;">imperial</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">appointment</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">governor</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">former</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">hands</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">senate</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">he</span> <span style="color: windowtext; text-decoration: none;">bore</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">title</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">proconsul</span> (<span style="color: windowtext; text-decoration: none;">Gr</span>. <span style="color: windowtext; text-decoration: none;">anthupatos</span>). <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">appointment</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">governor</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">latter</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">hands</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">emperor</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">he</span> <span style="color: windowtext; text-decoration: none;">bore</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">title</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">propraetor</span> (<span style="color: windowtext; text-decoration: none;">Gr</span>. <span style="color: windowtext; text-decoration: none;">antistrategos</span>).</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><b><span style="color: windowtext; text-decoration: none;">Deputy</span></b><span style="color: windowtext; text-decoration: none;"> (<i>n</i>.)
+</span><span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">male</span> <span style="color: windowtext; text-decoration: none;">relative</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">an</span> <span style="color: windowtext; text-decoration: none;">office</span>-<span style="color: windowtext; text-decoration: none;">holder</span>, <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">his</span> <span style="color: windowtext; text-decoration: none;">bondsman</span>. &nbsp;<span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">deputy</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">commonly</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">beautiful</span> <span style="color: windowtext; text-decoration: none;">young</span> <span style="color: windowtext; text-decoration: none;">man</span>, <span style="color: windowtext; text-decoration: none;">with</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">red</span> <span style="color: windowtext; text-decoration: none;">necktie</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">an</span> <span style="color: windowtext; text-decoration: none;">intricate</span> <span style="color: windowtext; text-decoration: none;">system</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">cobwebs</span> <span style="color: windowtext; text-decoration: none;">extending</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">his</span> <span style="color: windowtext; text-decoration: none;">nose</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">his</span> <span style="color: windowtext; text-decoration: none;">desk</span>. &nbsp;<span style="color: windowtext; text-decoration: none;">When</span> <span style="color: windowtext; text-decoration: none;">accidentally</span> <span style="color: windowtext; text-decoration: none;">struck</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">janitor</span>'<span style="color: windowtext; text-decoration: none;">s</span> <span style="color: windowtext; text-decoration: none;">broom</span>, <span style="color: windowtext; text-decoration: none;">he</span> <span style="color: windowtext; text-decoration: none;">gives</span> <span style="color: windowtext; text-decoration: none;">off</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">cloud</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">dust</span>.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">"<span style="color: windowtext; text-decoration: none;">Chief</span> <span style="color: windowtext; text-decoration: none;">Deputy</span>," <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Master</span> <span style="color: windowtext; text-decoration: none;">cried</span>, "<span style="color: windowtext; text-decoration: none;">To</span>-<span style="color: windowtext; text-decoration: none;">day</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">books</span> <span style="color: windowtext; text-decoration: none;">are</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">be</span> <span style="color: windowtext; text-decoration: none;">tried</span> <span style="color: windowtext; text-decoration: none;">By</span> <span style="color: windowtext; text-decoration: none;">experts</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">accountants</span> <span style="color: windowtext; text-decoration: none;">who</span> <span style="color: windowtext; text-decoration: none;">Have</span> <span style="color: windowtext; text-decoration: none;">been</span> <span style="color: windowtext; text-decoration: none;">commissioned</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">go</span> <span style="color: windowtext; text-decoration: none;">through</span> <span style="color: windowtext; text-decoration: none;">Our</span> <span style="color: windowtext; text-decoration: none;">office</span> <span style="color: windowtext; text-decoration: none;">here</span>, <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">see</span> <span style="color: windowtext; text-decoration: none;">if</span> <span style="color: windowtext; text-decoration: none;">we</span> <span style="color: windowtext; text-decoration: none;">Have</span> <span style="color: windowtext; text-decoration: none;">stolen</span> <span style="color: windowtext; text-decoration: none;">injudiciously</span>. <span style="color: windowtext; text-decoration: none;">Please</span> <span style="color: windowtext; text-decoration: none;">have</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">proper</span> <span style="color: windowtext; text-decoration: none;">entries</span> <span style="color: windowtext; text-decoration: none;">made</span>, <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">proper</span> <span style="color: windowtext; text-decoration: none;">balances</span> <span style="color: windowtext; text-decoration: none;">displayed</span>, <span style="color: windowtext; text-decoration: none;">Conforming</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">whole</span> <span style="color: windowtext; text-decoration: none;">amount</span> <span style="color: windowtext; text-decoration: none;">Of</span> <span style="color: windowtext; text-decoration: none;">cash</span> <span style="color: windowtext; text-decoration: none;">on</span> <span style="color: windowtext; text-decoration: none;">hand</span> -- <span style="color: windowtext; text-decoration: none;">which</span> <span style="color: windowtext; text-decoration: none;">they</span> <span style="color: windowtext; text-decoration: none;">will</span> <span style="color: windowtext; text-decoration: none;">count</span>. <span style="color: windowtext; text-decoration: none;">I</span>'<span style="color: windowtext; text-decoration: none;">ve</span> <span style="color: windowtext; text-decoration: none;">long</span> <span style="color: windowtext; text-decoration: none;">admired</span> <span style="color: windowtext; text-decoration: none;">your</span> <span style="color: windowtext; text-decoration: none;">punctual</span> <span style="color: windowtext; text-decoration: none;">way</span> -- <span style="color: windowtext; text-decoration: none;">Here</span> <span style="color: windowtext; text-decoration: none;">at</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">break</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">close</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">day</span>, <span style="color: windowtext; text-decoration: none;">Confronting</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">your</span> <span style="color: windowtext; text-decoration: none;">chair</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">crowd</span> <span style="color: windowtext; text-decoration: none;">Of</span> <span style="color: windowtext; text-decoration: none;">business</span> <span style="color: windowtext; text-decoration: none;">men</span>, <span style="color: windowtext; text-decoration: none;">whose</span> <span style="color: windowtext; text-decoration: none;">voices</span> <span style="color: windowtext; text-decoration: none;">loud</span> <span style="color: windowtext; text-decoration: none;">And</span> <span style="color: windowtext; text-decoration: none;">gestures</span> <span style="color: windowtext; text-decoration: none;">violent</span> <span style="color: windowtext; text-decoration: none;">you</span> <span style="color: windowtext; text-decoration: none;">quell</span> <span style="color: windowtext; text-decoration: none;">By</span> <span style="color: windowtext; text-decoration: none;">some</span> <span style="color: windowtext; text-decoration: none;">mysterious</span>, <span style="color: windowtext; text-decoration: none;">calm</span> <span style="color: windowtext; text-decoration: none;">spell</span> -- <span style="color: windowtext; text-decoration: none;">Some</span> <span style="color: windowtext; text-decoration: none;">magic</span> <span style="color: windowtext; text-decoration: none;">lurking</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">your</span> <span style="color: windowtext; text-decoration: none;">look</span> <span style="color: windowtext; text-decoration: none;">That</span> <span style="color: windowtext; text-decoration: none;">brings</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">noisiest</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">book</span> <span style="color: windowtext; text-decoration: none;">And</span> <span style="color: windowtext; text-decoration: none;">spreads</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">holy</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">profound</span> <span style="color: windowtext; text-decoration: none;">Tranquillity</span> <span style="color: windowtext; text-decoration: none;">o</span>'<span style="color: windowtext; text-decoration: none;">er</span> <span style="color: windowtext; text-decoration: none;">all</span> <span style="color: windowtext; text-decoration: none;">around</span>. <span style="color: windowtext; text-decoration: none;">So</span> <span style="color: windowtext; text-decoration: none;">orderly</span> <span style="color: windowtext; text-decoration: none;">all</span>'<span style="color: windowtext; text-decoration: none;">s</span> <span style="color: windowtext; text-decoration: none;">done</span> <span style="color: windowtext; text-decoration: none;">that</span> <span style="color: windowtext; text-decoration: none;">they</span> <span style="color: windowtext; text-decoration: none;">Who</span> <span style="color: windowtext; text-decoration: none;">came</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">draw</span> <span style="color: windowtext; text-decoration: none;">remain</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">pay</span>. <span style="color: windowtext; text-decoration: none;">But</span> <span style="color: windowtext; text-decoration: none;">now</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">time</span> <span style="color: windowtext; text-decoration: none;">demands</span>, <span style="color: windowtext; text-decoration: none;">at</span> <span style="color: windowtext; text-decoration: none;">last</span>, <span style="color: windowtext; text-decoration: none;">That</span> <span style="color: windowtext; text-decoration: none;">you</span> <span style="color: windowtext; text-decoration: none;">employ</span> <span style="color: windowtext; text-decoration: none;">your</span> <span style="color: windowtext; text-decoration: none;">genius</span> <span style="color: windowtext; text-decoration: none;">vast</span> <span style="color: windowtext; text-decoration: none;">In</span> <span style="color: windowtext; text-decoration: none;">energies</span> <span style="color: windowtext; text-decoration: none;">more</span> <span style="color: windowtext; text-decoration: none;">active</span>.&nbsp; <span style="color: windowtext; text-decoration: none;">Rise</span> <span style="color: windowtext; text-decoration: none;">And</span> <span style="color: windowtext; text-decoration: none;">shake</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">lightnings</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">your</span> <span style="color: windowtext; text-decoration: none;">eyes</span>; <span style="color: windowtext; text-decoration: none;">Inspire</span> <span style="color: windowtext; text-decoration: none;">your</span> <span style="color: windowtext; text-decoration: none;">underlings</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">fling</span> <span style="color: windowtext; text-decoration: none;">Your</span> <span style="color: windowtext; text-decoration: none;">spirit</span> <span style="color: windowtext; text-decoration: none;">into</span> <span style="color: windowtext; text-decoration: none;">everything</span>!" <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">Master</span>'<span style="color: windowtext; text-decoration: none;">s</span> <span style="color: windowtext; text-decoration: none;">hand</span> <span style="color: windowtext; text-decoration: none;">here</span> <span style="color: windowtext; text-decoration: none;">dealt</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">whack</span> <span style="color: windowtext; text-decoration: none;">Upon</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Deputy</span>'<span style="color: windowtext; text-decoration: none;">s</span> <span style="color: windowtext; text-decoration: none;">bent</span> <span style="color: windowtext; text-decoration: none;">back</span>, <span style="color: windowtext; text-decoration: none;">When</span> <span style="color: windowtext; text-decoration: none;">straightway</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">floor</span> <span style="color: windowtext; text-decoration: none;">there</span> <span style="color: windowtext; text-decoration: none;">fell</span> <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">shrunken</span> <span style="color: windowtext; text-decoration: none;">globe</span>, <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">rattling</span> <span style="color: windowtext; text-decoration: none;">shell</span> <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">blackened</span>, <span style="color: windowtext; text-decoration: none;">withered</span>, <span style="color: windowtext; text-decoration: none;">eyeless</span> <span style="color: windowtext; text-decoration: none;">head</span>! <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">man</span> <span style="color: windowtext; text-decoration: none;">had</span> <span style="color: windowtext; text-decoration: none;">been</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">twelvemonth</span> <span style="color: windowtext; text-decoration: none;">dead</span>. -- <span style="color: windowtext; text-decoration: none;">Jamrach</span> <span style="color: windowtext; text-decoration: none;">Holobom</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Deputy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) [ C ]</span><span style="font-family: &quot;MS Mincho&quot;;">​</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (C1) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">代理人；副職，副手<span lang="EN-US"> A person who is given the power to do something instead of another
 person, or the person whose rank is immediately below that of the leader of an
