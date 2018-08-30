@@ -27,14 +27,20 @@ span.A0
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -84,6 +90,12 @@ p
 	margin-left:0cm;
 	font-size:12.0pt;
 	font-family:"Times New Roman","serif";}
+pre
+	{mso-style-link:"HTML 預設格式 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Courier New";}
 p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
 	{mso-style-link:"註解方塊文字 字元";
 	margin:0cm;
@@ -100,6 +112,10 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 span.a
 	{mso-style-name:"頁首 字元";
 	mso-style-link:頁首;
@@ -124,10 +140,15 @@ span.sense-regions
 	{mso-style-name:sense-regions;}
 span.sense-registers
 	{mso-style-name:sense-registers;}
+span.ib-brac
+	{mso-style-name:ib-brac;}
+span.ib-content
+	{mso-style-name:ib-content;}
+span.ib-comma
+	{mso-style-name:ib-comma;}
 .MsoChpDefault
 	{font-size:10.0pt;}
- /* Page Definitions */
- @page WordSection1
+@page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -419,16 +440,36 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) o
 Whaleman</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whaleman</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A man employed in
-the whale fishery.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>捕鯨者；捕鯨船員</span> <span lang=EN-US
+style='font-family:"新細明體","serif"'>A man employed in the whale fishery.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whaler</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A vessel or person
-employed in the whale fishery.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>捕鯨者；捕鯨船<span lang=EN-US> A vessel or person
+employed in the whale fishery.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whaler</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) One who whales, or
-beats; a big, strong fellow; hence, anything of great or unusual size.</span></p>
+beats; a big, strong fellow; hence, anything of great or unusual size. [Colloq.
+U. S.]</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whaler</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A seaman who works
+on a ship that hunts whales.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whaler</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A ship engaged in
+whale fishing [<i>syn</i>: {whaler}, {whaling ship}].</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whaler</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.), Mar. law. A vessel
+employed in the whale fishery.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whaler</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) It is usual for the
+owner of the vessel, the captain and crew, to divide the profits in just
+proportions, under an agreement similar to the contract Di Colonna. (q.v.)</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whaleship
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
@@ -479,10 +520,16 @@ died. When that proved insufficient, members of the crew drew lots to determine
 whom they would sacrifice so that the others could live. A total of seven crew
 members were&nbsp; cannibalized&nbsp; before the last of the eight survivors
 were rescued, more than three months after the sinking of the &nbsp;Essex.
-First mate &nbsp;Owen Chase&nbsp; and cabin boy&nbsp; Thomas Nickerson&nbsp;
-later wrote accounts of the ordeal. The tragedy garnered international
-attention, and inspired&nbsp; Herman Melville &nbsp;to write his famous novel
-&nbsp;Moby-Dick.</span></p>
+First mate &nbsp;Owen Chase&nbsp; and cabin boy&nbsp; Thomas Nickerson&nbsp; later
+wrote accounts of the ordeal. The tragedy garnered international attention, and
+inspired&nbsp; Herman Melville &nbsp;to write his famous novel &nbsp;Moby-Dick.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whale-road</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Obsolete,
+&nbsp;poetic) &nbsp;The &nbsp;<span style='orphans: 2;widows: 2;word-spacing:
+0px'>sea</span><span style='orphans: 2;widows: 2;float:none;word-spacing:0px'>,
+the &nbsp;</span><span style='orphans: 2;widows: 2;word-spacing:0px'>ocean</span><span
+style='orphans: 2;widows: 2;float:none;word-spacing:0px'>.&nbsp;</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whaling
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
@@ -501,8 +548,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A light color
 iris in horses; wall-eye.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whally</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Having the iris of
-light color; -- said of horses.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Having the iris of light
+color; -- said of horses.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whame</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A breeze fly.</span></p>
@@ -526,9 +573,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) See Wanghee.<
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) Alt. of Whop</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whop</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To throw one's
-self quickly, or by an abrupt motion; to turn suddenly; as, she whapped down on
-the floor; the fish whapped over.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To throw one's self
+quickly, or by an abrupt motion; to turn suddenly; as, she whapped down on the
+floor; the fish whapped over.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whapped</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
@@ -658,8 +705,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>pron., a., &amp; adv.
 As a relative pronoun</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>What</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>pron., a., &amp; adv.</i>)
-Used substantively with the antecedent suppressed, equivalent to that which, or
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>pron., a., &amp; adv.</i>) Used
+substantively with the antecedent suppressed, equivalent to that which, or
 those [persons] who, or those [things] which; -- called a compound relative.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>What</span></b><span
@@ -677,8 +724,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>pron., a., &amp; adv.
 Whatever; whatsoever; what thing soever; -- used indefinitely.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>What</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>pron., a., &amp; adv.</i>) Used
-adverbially, in part; partly; somewhat; -- with a following preposition,
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>pron., a., &amp; adv.</i>)
+Used adverbially, in part; partly; somewhat; -- with a following preposition,
 especially, with, and commonly with repetition.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>What</span></b><span
