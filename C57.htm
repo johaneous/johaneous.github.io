@@ -9,23 +9,116 @@
 <!--
  /* Font Definitions */
  @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Courier;
+	panose-1:2 7 4 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:"Tms Rmn";
+	panose-1:2 2 6 3 4 5 5 2 3 4;}
+@font-face
+	{font-family:Helv;
+	panose-1:2 11 6 4 2 2 2 3 2 4;}
+@font-face
+	{font-family:"New York";
+	panose-1:2 4 5 3 6 5 6 2 3 4;}
+@font-face
+	{font-family:System;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
 	{font-family:"MS Mincho";
 	panose-1:2 2 6 9 4 2 5 8 3 4;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
 @font-face
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:Dotum;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:SimHei;
+	panose-1:2 1 6 9 6 1 1 1 1 1;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:Mincho;
+	panose-1:2 2 6 9 4 3 5 8 3 5;}
+@font-face
+	{font-family:Gulim;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Century;
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:"Angsana New";
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+@font-face
+	{font-family:"Cordia New";
+	panose-1:2 11 3 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Mangal;
+	panose-1:2 4 5 3 5 2 3 3 2 2;}
+@font-face
+	{font-family:Latha;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Sylfaen;
+	panose-1:1 10 5 2 5 3 6 3 3 3;}
+@font-face
+	{font-family:Vrinda;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Raavi;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Shruti;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Sendnya;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Gautami;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Tunga;
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:"Estrangelo Edessa";
+	panose-1:3 8 6 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"\@MS Mincho";
 	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -64,6 +157,12 @@ p
 	margin-left:0cm;
 	font-size:12.0pt;
 	font-family:"新細明體","serif";}
+pre
+	{mso-style-link:"HTML 預設格式 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:細明體;}
 span.2
 	{mso-style-name:"標題 2 字元";
 	mso-style-link:"標題 2";
@@ -83,6 +182,20 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:細明體;}
+span.source
+	{mso-style-name:source;}
+span.msoIns
+	{mso-style-name:"";
+	text-decoration:underline;
+	color:teal;}
+span.msoDel
+	{mso-style-name:"";
+	text-decoration:line-through;
+	color:red;}
 .MsoChpDefault
 	{font-size:10.0pt;}
 @page WordSection1
@@ -92,7 +205,7 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 div.WordSection1
 	{page:WordSection1;}
 -->
-</style></head><body style="" lang="ZH-TW" link="blue" vlink="purple">
+</style></head><body lang="ZH-TW" link="blue" vlink="purple">
 
 <div class="WordSection1">
 
@@ -111,7 +224,8 @@ with difficulty. Its chief commercial importance is for its compounds, as potass
 chromate, lead chromate, etc., which are brilliantly colored and are used
 dyeing and calico printing. Called also chrome.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chromos</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>pl. </i>) of Chromo</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chromos</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>. <i>pl. </i>) of
+Chromo</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chromo</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A chromolithograph.</span></p>
 
@@ -221,11 +335,11 @@ chronicle; a recorder of events in the order of time; an historian.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronique</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A chronicle.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronogram</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) An inscription in
-which certain numeral letters, made to appear specially conspicuous, on being
-added together, express a particular date or epoch, as in the motto of a medal
-struck by Gustavus Adolphus in 1632: ChrIstVs DVX; ergo trIVMphVs.- the
-capitals of which give, when added as numerals, the sum 1632.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronogram</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) An inscription in which
+certain numeral letters, made to appear specially conspicuous, on being added
+together, express a particular date or epoch, as in the motto of a medal struck
+by Gustavus Adolphus in 1632: ChrIstVs DVX; ergo trIVMphVs.- the capitals of
+which give, when added as numerals, the sum 1632.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronogram</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The record or
 inscription made by a chronograph.</span></p>
@@ -236,8 +350,7 @@ Chronogrammatical</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronogrammatical</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Belonging to a
 chronogram, or containing one.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronogrammatist</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A writer of
-chronograms.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronogrammatist</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A writer of chronograms.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronograph</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) An instrument for
 measuring or recording intervals of time, upon a revolving drum or strip of
@@ -270,14 +383,81 @@ the order of time; as, chronological tables.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronologist</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Alt. of Chronologer</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronologer</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A person who
-investigates dates of events and transactions; one skilled in chronology.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronologer</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A person who investigates
+dates of events and transactions; one skilled in chronology.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronologies</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>pl. </i>) of Chronology</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronologies</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>. <i>pl. </i>) of
+Chronology</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronology</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The science which
-treats of measuring time by regular divisions or periods, and which assigns to
-events or transactions their proper dates.</span></p>
+treats of measuring time by regular divisions or periods, and which assigns to events
+or transactions their proper dates.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">If</span> <span style="color: windowtext; text-decoration: none;">history</span> <span style="color: windowtext; text-decoration: none;">without</span> <span style="color: windowtext; text-decoration: none;">chronology</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">dark</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">confused</span>, <span style="color: windowtext; text-decoration: none;">chronology</span> <span style="color: windowtext; text-decoration: none;">without</span> <span style="color: windowtext; text-decoration: none;">history</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">dry</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">insipid</span>. -- <span style="color: windowtext; text-decoration: none;">A</span>. <span style="color: windowtext; text-decoration: none;">Holmes</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">C<span style="color: windowtext; text-decoration: none;">hronology</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">An</span> <span style="color: windowtext; text-decoration: none;">arrangement</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">events</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">time</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">C<span style="color: windowtext; text-decoration: none;">hronology</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">record</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">events</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">order</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">their</span> <span style="color: windowtext; text-decoration: none;">occurrence</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">C<span style="color: windowtext; text-decoration: none;">hronology</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">determination</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">actual</span> <span style="color: windowtext; text-decoration: none;">temporal</span> <span style="color: windowtext; text-decoration: none;">sequence</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">past</span> <span style="color: windowtext; text-decoration: none;">events</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Chronology</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) I<span style="color: windowtext; text-decoration: none;">s</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">arrangement</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">facts</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">events</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">order</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">time</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">writers</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Bible</span> <span style="color: windowtext; text-decoration: none;">themselves</span> <span style="color: windowtext; text-decoration: none;">do</span> <span style="color: windowtext; text-decoration: none;">not</span> <span style="color: windowtext; text-decoration: none;">adopt</span> <span style="color: windowtext; text-decoration: none;">any</span> <span style="color: windowtext; text-decoration: none;">standard</span> <span style="color: windowtext; text-decoration: none;">era</span> <span style="color: windowtext; text-decoration: none;">according</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">which</span> <span style="color: windowtext; text-decoration: none;">they</span> <span style="color: windowtext; text-decoration: none;">date</span> <span style="color: windowtext; text-decoration: none;">events</span>. <span style="color: windowtext; text-decoration: none;">Sometimes</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">years</span> <span style="color: windowtext; text-decoration: none;">are</span> <span style="color: windowtext; text-decoration: none;">reckoned</span>, <span style="color: windowtext; text-decoration: none;">e</span>.<span style="color: windowtext; text-decoration: none;">g</span>., <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">time</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Exodus</span> (<span style="color: windowtext; text-decoration: none;">Num</span>. <span style="color: windowtext; text-decoration: none;">1</span>:<span style="color: windowtext; text-decoration: none;">1</span>; <span style="color: windowtext; text-decoration: none;">33</span>:<span style="color: windowtext; text-decoration: none;">38</span>; <span style="color: windowtext; text-decoration: none;">1</span> <span style="color: windowtext; text-decoration: none;">Kings</span> <span style="color: windowtext; text-decoration: none;">6</span>:<span style="color: windowtext; text-decoration: none;">1</span>), <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">sometimes</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">accession</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">kings</span> (<span style="color: windowtext; text-decoration: none;">1</span> <span style="color: windowtext; text-decoration: none;">Kings</span> <span style="color: windowtext; text-decoration: none;">15</span>:<span style="color: windowtext; text-decoration: none;">1</span>, <span style="color: windowtext; text-decoration: none;">9</span>, <span style="color: windowtext; text-decoration: none;">25</span>, <span style="color: windowtext; text-decoration: none;">33</span>, <span style="color: windowtext; text-decoration: none;">etc</span>.), <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">sometimes</span> <span style="color: windowtext; text-decoration: none;">again</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">return</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">Exile</span> (<span style="color: windowtext; text-decoration: none;">Ezra</span> <span style="color: windowtext; text-decoration: none;">3</span>:<span style="color: windowtext; text-decoration: none;">8</span>).</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Hence</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">constructing</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">system</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Biblecal</span> <span style="color: windowtext; text-decoration: none;">chronology</span>, <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">plan</span> <span style="color: windowtext; text-decoration: none;">has</span> <span style="color: windowtext; text-decoration: none;">been</span> <span style="color: windowtext; text-decoration: none;">adopted</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">reckoning</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">years</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">ages</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">patriarchs</span> <span style="color: windowtext; text-decoration: none;">before</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">birth</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">their</span> <span style="color: windowtext; text-decoration: none;">first</span>-<span style="color: windowtext; text-decoration: none;">born</span> <span style="color: windowtext; text-decoration: none;">sons</span> <span style="color: windowtext; text-decoration: none;">for</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">period</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Creation</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">Abraham</span>. <span style="color: windowtext; text-decoration: none;">After</span> <span style="color: windowtext; text-decoration: none;">this</span> <span style="color: windowtext; text-decoration: none;">period</span> <span style="color: windowtext; text-decoration: none;">other</span> <span style="color: windowtext; text-decoration: none;">data</span> <span style="color: windowtext; text-decoration: none;">are</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">be</span> <span style="color: windowtext; text-decoration: none;">taken</span> <span style="color: windowtext; text-decoration: none;">into</span> <span style="color: windowtext; text-decoration: none;">account</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">determining</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">relative</span> <span style="color: windowtext; text-decoration: none;">sequence</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">events</span>.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">As</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">patriarchal</span> <span style="color: windowtext; text-decoration: none;">period</span>, <span style="color: windowtext; text-decoration: none;">there</span> <span style="color: windowtext; text-decoration: none;">are</span> <span style="color: windowtext; text-decoration: none;">three</span> <span style="color: windowtext; text-decoration: none;">principal</span> <span style="color: windowtext; text-decoration: none;">systems</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">chronology</span>: (<span style="color: windowtext; text-decoration: none;">1</span>) <span style="color: windowtext; text-decoration: none;">that</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Hebrew</span> <span style="color: windowtext; text-decoration: none;">text</span>, (<span style="color: windowtext; text-decoration: none;">2</span>) <span style="color: windowtext; text-decoration: none;">that</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Septuagint</span> <span style="color: windowtext; text-decoration: none;">version</span>, <span style="color: windowtext; text-decoration: none;">and</span> (<span style="color: windowtext; text-decoration: none;">3</span>) <span style="color: windowtext; text-decoration: none;">that</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Samaritan</span> <span style="color: windowtext; text-decoration: none;">Pentateuch</span>, <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">seen</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">scheme</span> <span style="color: windowtext; text-decoration: none;">on</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">opposite</span> <span style="color: windowtext; text-decoration: none;">page</span>.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">Samaritan</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Septuagint</span> <span style="color: windowtext; text-decoration: none;">have</span> <span style="color: windowtext; text-decoration: none;">considerably</span> <span style="color: windowtext; text-decoration: none;">modified</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Hebrew</span> <span style="color: windowtext; text-decoration: none;">chronology</span>. <span style="color: windowtext; text-decoration: none;">This</span> <span style="color: windowtext; text-decoration: none;">modification</span> <span style="color: windowtext; text-decoration: none;">some</span> <span style="color: windowtext; text-decoration: none;">regard</span> <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">having</span> <span style="color: windowtext; text-decoration: none;">been</span> <span style="color: windowtext; text-decoration: none;">wilfully</span> <span style="color: windowtext; text-decoration: none;">made</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">be</span> <span style="color: windowtext; text-decoration: none;">rejected</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">same</span> <span style="color: windowtext; text-decoration: none;">system</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">variations</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">observed</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">chronology</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">period</span> <span style="color: windowtext; text-decoration: none;">between</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Flood</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">Abraham</span>. <span style="color: windowtext; text-decoration: none;">Thus</span>:</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="color: windowtext; text-decoration: none;">Hebrew</span> <span style="color: windowtext; text-decoration: none;">Septuigant</span>&nbsp; <span style="color: windowtext; text-decoration: none;">Samaritan</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">| <span style="color: windowtext; text-decoration: none;">From</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">birth</span> <span style="color: windowtext; text-decoration: none;">of</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">|&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">Arphaxad</span>, <span style="color: windowtext; text-decoration: none;">2</span> <span style="color: windowtext; text-decoration: none;">years</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">|&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">after</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Flood</span>, <span style="color: windowtext; text-decoration: none;">to</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">|&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">birth</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Terah</span>.&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">220</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">1000</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">870</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">| <span style="color: windowtext; text-decoration: none;">From</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">birth</span> <span style="color: windowtext; text-decoration: none;">of</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">|&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">Terah</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">birth</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">|&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Abraham</span>.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">130</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">70</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">72</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">Septuagint</span> <span style="color: windowtext; text-decoration: none;">fixes</span> <span style="color: windowtext; text-decoration: none;">on</span> <span style="color: windowtext; text-decoration: none;">seventy</span> <span style="color: windowtext; text-decoration: none;">years</span> <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">age</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Terah</span> <span style="color: windowtext; text-decoration: none;">at</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">birth</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Abraham</span>, <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">Gen</span>. <span style="color: windowtext; text-decoration: none;">11</span>:<span style="color: windowtext; text-decoration: none;">26</span>; <span style="color: windowtext; text-decoration: none;">but</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">comparison</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Gen</span>. <span style="color: windowtext; text-decoration: none;">11</span>:<span style="color: windowtext; text-decoration: none;">32</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">Acts</span> <span style="color: windowtext; text-decoration: none;">7</span>:<span style="color: windowtext; text-decoration: none;">4</span> <span style="color: windowtext; text-decoration: none;">with</span> <span style="color: windowtext; text-decoration: none;">Gen</span>. <span style="color: windowtext; text-decoration: none;">12</span>:<span style="color: windowtext; text-decoration: none;">4</span> <span style="color: windowtext; text-decoration: none;">shows</span> <span style="color: windowtext; text-decoration: none;">that</span> <span style="color: windowtext; text-decoration: none;">when</span> <span style="color: windowtext; text-decoration: none;">Terah</span> <span style="color: windowtext; text-decoration: none;">died</span>, <span style="color: windowtext; text-decoration: none;">at</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">age</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">two</span> <span style="color: windowtext; text-decoration: none;">hundred</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">five</span> <span style="color: windowtext; text-decoration: none;">years</span>, <span style="color: windowtext; text-decoration: none;">Abraham</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">seventy</span>-<span style="color: windowtext; text-decoration: none;">five</span> <span style="color: windowtext; text-decoration: none;">years</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">hence</span> <span style="color: windowtext; text-decoration: none;">Terah</span> <span style="color: windowtext; text-decoration: none;">must</span> <span style="color: windowtext; text-decoration: none;">have</span> <span style="color: windowtext; text-decoration: none;">been</span> <span style="color: windowtext; text-decoration: none;">one</span> <span style="color: windowtext; text-decoration: none;">hundred</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">thirty</span> <span style="color: windowtext; text-decoration: none;">years</span> <span style="color: windowtext; text-decoration: none;">when</span> <span style="color: windowtext; text-decoration: none;">Abraham</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">born</span>. <span style="color: windowtext; text-decoration: none;">Thus</span>, <span style="color: windowtext; text-decoration: none;">including</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">two</span> <span style="color: windowtext; text-decoration: none;">years</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Flood</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">birth</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Arphaxad</span>, <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">period</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Flood</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">birth</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Abraham</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">three</span> <span style="color: windowtext; text-decoration: none;">hundred</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">fifty</span>-<span style="color: windowtext; text-decoration: none;">two</span> <span style="color: windowtext; text-decoration: none;">years</span>.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">next</span> <span style="color: windowtext; text-decoration: none;">period</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">birth</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Abraham</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Exodus</span>. <span style="color: windowtext; text-decoration: none;">This</span>, <span style="color: windowtext; text-decoration: none;">according</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Hebrew</span>, <span style="color: windowtext; text-decoration: none;">extends</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">five</span> <span style="color: windowtext; text-decoration: none;">hundred</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">five</span> <span style="color: windowtext; text-decoration: none;">years</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">difficulty</span> <span style="color: windowtext; text-decoration: none;">here</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">four</span> <span style="color: windowtext; text-decoration: none;">hundred</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">thirty</span> <span style="color: windowtext; text-decoration: none;">years</span> <span style="color: windowtext; text-decoration: none;">mentioned</span> <span style="color: windowtext; text-decoration: none;">Ex</span>. <span style="color: windowtext; text-decoration: none;">12</span>:<span style="color: windowtext; text-decoration: none;">40</span>, <span style="color: windowtext; text-decoration: none;">41</span>; <span style="color: windowtext; text-decoration: none;">Gal</span>. <span style="color: windowtext; text-decoration: none;">3</span>:<span style="color: windowtext; text-decoration: none;">17</span>. <span style="color: windowtext; text-decoration: none;">These</span> <span style="color: windowtext; text-decoration: none;">years</span> <span style="color: windowtext; text-decoration: none;">are</span> <span style="color: windowtext; text-decoration: none;">regarded</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">some</span> <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">dating</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">covenant</span> <span style="color: windowtext; text-decoration: none;">with</span> <span style="color: windowtext; text-decoration: none;">Abraham</span> (<span style="color: windowtext; text-decoration: none;">Gen</span>. <span style="color: windowtext; text-decoration: none;">15</span>), <span style="color: windowtext; text-decoration: none;">which</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">entered</span> <span style="color: windowtext; text-decoration: none;">into</span> <span style="color: windowtext; text-decoration: none;">soon</span> <span style="color: windowtext; text-decoration: none;">after</span> <span style="color: windowtext; text-decoration: none;">his</span> <span style="color: windowtext; text-decoration: none;">sojourn</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">Egypt</span>; <span style="color: windowtext; text-decoration: none;">others</span>, <span style="color: windowtext; text-decoration: none;">with</span> <span style="color: windowtext; text-decoration: none;">more</span> <span style="color: windowtext; text-decoration: none;">probability</span>, <span style="color: windowtext; text-decoration: none;">reckon</span> <span style="color: windowtext; text-decoration: none;">these</span> <span style="color: windowtext; text-decoration: none;">years</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">Jacob</span>'<span style="color: windowtext; text-decoration: none;">s</span> <span style="color: windowtext; text-decoration: none;">going</span> <span style="color: windowtext; text-decoration: none;">down</span> <span style="color: windowtext; text-decoration: none;">into</span> <span style="color: windowtext; text-decoration: none;">Egypt</span>. (<span style="color: windowtext; text-decoration: none;">See</span> {<span style="color: windowtext; text-decoration: none;">EXODUS</span>}.)</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">In</span> <span style="color: windowtext; text-decoration: none;">modern</span> <span style="color: windowtext; text-decoration: none;">times</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">systems</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Biblical</span> <span style="color: windowtext; text-decoration: none;">chronology</span> <span style="color: windowtext; text-decoration: none;">that</span> <span style="color: windowtext; text-decoration: none;">have</span> <span style="color: windowtext; text-decoration: none;">been</span> <span style="color: windowtext; text-decoration: none;">adopted</span> <span style="color: windowtext; text-decoration: none;">are</span> <span style="color: windowtext; text-decoration: none;">chiefly</span> <span style="color: windowtext; text-decoration: none;">those</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Ussher</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">Hales</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">former</span> <span style="color: windowtext; text-decoration: none;">follows</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Hebrew</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">latter</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Septuagint</span> <span style="color: windowtext; text-decoration: none;">mainly</span>. <span style="color: windowtext; text-decoration: none;">Archbishop</span> <span style="color: windowtext; text-decoration: none;">Ussher</span>'<span style="color: windowtext; text-decoration: none;">s</span> (<span style="color: windowtext; text-decoration: none;">died</span> <span style="color: windowtext; text-decoration: none;">1656</span>) <span style="color: windowtext; text-decoration: none;">system</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">called</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">short</span> <span style="color: windowtext; text-decoration: none;">chronology</span>. <span style="color: windowtext; text-decoration: none;">It</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">that</span> <span style="color: windowtext; text-decoration: none;">given</span> <span style="color: windowtext; text-decoration: none;">on</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">margin</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Authorized</span> <span style="color: windowtext; text-decoration: none;">Version</span>, <span style="color: windowtext; text-decoration: none;">but</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">really</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">no</span> <span style="color: windowtext; text-decoration: none;">authority</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">quite</span> <span style="color: windowtext; text-decoration: none;">uncertain</span>.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: windowtext; text-decoration: none;">Ussher</span>&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">Hales</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: windowtext; text-decoration: none;">B</span>.<span style="color: windowtext; text-decoration: none;">C</span>.&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">B</span>.<span style="color: windowtext; text-decoration: none;">C</span>.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">| <span style="color: windowtext; text-decoration: none;">Creation</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: windowtext; text-decoration: none;">4004</span>&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">5411</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">| <span style="color: windowtext; text-decoration: none;">Flood</span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: windowtext; text-decoration: none;">2348</span>&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">3155</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">| <span style="color: windowtext; text-decoration: none;">Abram</span> <span style="color: windowtext; text-decoration: none;">leaves</span> <span style="color: windowtext; text-decoration: none;">Haran</span>&nbsp;&nbsp; &nbsp;<span style="color: windowtext; text-decoration: none;">1921</span>&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">2078</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">| <span style="color: windowtext; text-decoration: none;">Exodus</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: windowtext; text-decoration: none;">1491</span>&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">1648</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">| <span style="color: windowtext; text-decoration: none;">Destruction</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">|&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">Temple</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: windowtext; text-decoration: none;">588</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: windowtext; text-decoration: none;">586</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">To</span> <span style="color: windowtext; text-decoration: none;">show</span> <span style="color: windowtext; text-decoration: none;">at</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">glance</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">different</span> <span style="color: windowtext; text-decoration: none;">ideas</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">date</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">creation</span>, <span style="color: windowtext; text-decoration: none;">it</span> <span style="color: windowtext; text-decoration: none;">may</span> <span style="color: windowtext; text-decoration: none;">be</span> <span style="color: windowtext; text-decoration: none;">interesting</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">note</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">following</span>: <span style="color: windowtext; text-decoration: none;">From</span> <span style="color: windowtext; text-decoration: none;">Creation</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">1894</span>.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">According</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">Ussher</span>, <span style="color: windowtext; text-decoration: none;">5</span>,<span style="color: windowtext; text-decoration: none;">898</span>; <span style="color: windowtext; text-decoration: none;">Hales</span>, <span style="color: windowtext; text-decoration: none;">7</span>,<span style="color: windowtext; text-decoration: none;">305</span>; <span style="color: windowtext; text-decoration: none;">Zunz</span> (<span style="color: windowtext; text-decoration: none;">Hebrew</span> <span style="color: windowtext; text-decoration: none;">reckoning</span>), <span style="color: windowtext; text-decoration: none;">5</span>,<span style="color: windowtext; text-decoration: none;">882</span>; <span style="color: windowtext; text-decoration: none;">Septuagint</span> (<span style="color: windowtext; text-decoration: none;">Perowne</span>), <span style="color: windowtext; text-decoration: none;">7</span>,<span style="color: windowtext; text-decoration: none;">305</span>; <span style="color: windowtext; text-decoration: none;">Rabbinical</span>, <span style="color: windowtext; text-decoration: none;">5</span>,<span style="color: windowtext; text-decoration: none;">654</span>; <span style="color: windowtext; text-decoration: none;">Panodorus</span>, <span style="color: windowtext; text-decoration: none;">7</span>,<span style="color: windowtext; text-decoration: none;">387</span>; <span style="color: windowtext; text-decoration: none;">Anianus</span>, <span style="color: windowtext; text-decoration: none;">7</span>,<span style="color: windowtext; text-decoration: none;">395</span>; <span style="color: windowtext; text-decoration: none;">Constantinopolitan</span>, <span style="color: windowtext; text-decoration: none;">7</span>,<span style="color: windowtext; text-decoration: none;">403</span>; <span style="color: windowtext; text-decoration: none;">Eusebius</span>, <span style="color: windowtext; text-decoration: none;">7</span>,<span style="color: windowtext; text-decoration: none;">093</span>; <span style="color: windowtext; text-decoration: none;">Scaliger</span>, <span style="color: windowtext; text-decoration: none;">5</span>,<span style="color: windowtext; text-decoration: none;">844</span>; <span style="color: windowtext; text-decoration: none;">Dionysius</span> (<span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">whom</span> <span style="color: windowtext; text-decoration: none;">we</span> <span style="color: windowtext; text-decoration: none;">take</span> <span style="color: windowtext; text-decoration: none;">our</span> <span style="color: windowtext; text-decoration: none;">Christian</span> <span style="color: windowtext; text-decoration: none;">era</span>), <span style="color: windowtext; text-decoration: none;">7</span>,<span style="color: windowtext; text-decoration: none;">388</span>; <span style="color: windowtext; text-decoration: none;">Maximus</span>, <span style="color: windowtext; text-decoration: none;">7</span>,<span style="color: windowtext; text-decoration: none;">395</span>; <span style="color: windowtext; text-decoration: none;">Syncellus</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">Theophanes</span>, <span style="color: windowtext; text-decoration: none;">7</span>,<span style="color: windowtext; text-decoration: none;">395</span>; <span style="color: windowtext; text-decoration: none;">Julius</span> <span style="color: windowtext; text-decoration: none;">Africanus</span>, <span style="color: windowtext; text-decoration: none;">7</span>,<span style="color: windowtext; text-decoration: none;">395</span>; <span style="color: windowtext; text-decoration: none;">Jackson</span>, <span style="color: windowtext; text-decoration: none;">7</span>,<span style="color: windowtext; text-decoration: none;">320</span>.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronometer</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) An instrument for
 measuring time; a timekeeper.</span></p>
@@ -302,17 +482,19 @@ time; the measuring of time by periods or divisions.</span></p>
 signaling the correct time to distant points by electricity.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chronoscope</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) An instrument for
-measuring minute intervals of time; used in determining the velocity of projectiles,
-the duration of short-lived luminous phenomena, etc.</span></p>
+measuring minute intervals of time; used in determining the velocity of
+projectiles, the duration of short-lived luminous phenomena, etc.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chrysalid</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Pertaining to a
 chrysalis; resembling a chrysalis.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chrysalids</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>pl. </i>) of Chrysalid</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chrysalids</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>. <i>pl. </i>) of
+Chrysalid</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chrysalid</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) See Chrysalis.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chrysalides</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>pl. </i>) of Chrysalis</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chrysalides</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>. <i>pl. </i>) of
+Chrysalis</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chrysalis</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The pupa state of
 certain insects, esp. of butterflies, from which the perfect insect emerges.
@@ -334,8 +516,8 @@ chrysophanic acid proper; hence formerly called also chrysphanic acid.</span></p
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chrysaurin</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) An orange-colored
 dyestuff, of artificial production.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chryselephantine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Composed of, or
-adorned with, gold and ivory.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chryselephantine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Composed of, or adorned
+with, gold and ivory.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chrysene</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One of the higher
 aromatic hydrocarbons of coal tar, allied to naphthalene and anthracene. It is
@@ -397,49 +579,42 @@ means of creating gold.</span></p>
 picture taken upon paper prepared by the use of a sensitive salt of iron and
 developed by the application of chloride of gold.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chrysotype</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) 2process, invented by
-Sir J.Herschel.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chrysotype</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) 2process, invented
+by Sir J.Herschel.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chthonic
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
 Pertaining to the earth; earthy; as, chthonic religions.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Chthonic</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
-<span style="color: windowtext; text-decoration: none;">Dwelling</span> <span style="color: windowtext; text-decoration: none;">beneath</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">surface</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">earth</span>; "<span style="color: windowtext; text-decoration: none;">nether</span> <span style="color: windowtext; text-decoration: none;">regions</span>" [<span style="color: windowtext; text-decoration: none;">syn</span>: {<span style="color: windowtext; text-decoration: none;">chthonian</span>}, {<span style="color: windowtext; text-decoration: none;">chthonic</span>}, {<span style="color: windowtext; text-decoration: none;">nether</span>}]</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chthonic
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
+Dwelling beneath the surface of the earth; "nether regions" [syn:
+{chthonian}, {chthonic}, {nether}]</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chthonic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) (= Chthonian) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">陰間的；冥府的；黑暗的；原始的；神祕的<span lang="EN-US"> Of or
-relating to the <span style="color: windowtext; text-decoration: none;">underworld</span>
-: <span style="color: windowtext; text-decoration: none;">infernal</span>.</span></span></p>
+relating to the underworld : infernal.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Compare:</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Infernal
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)</span><span style="font-family: &quot;MS Mincho&quot;;">​</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">
-<span lang="EN-US"><span style="color: windowtext; text-decoration: none;">[ before noun ]</span> (old-fashioned)
-</span>壞透的，可惡的；煩人的<span lang="EN-US"> Very <span style="color: windowtext; text-decoration: none;">bad</span> or
-<span style="color: windowtext; text-decoration: none;">unpleasant</span>.</span></span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)</span><span style="font-family: &quot;MS Mincho&quot;;">​</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> [ before noun ] (old-fashioned) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">壞透的，可惡的；煩人的<span lang="EN-US"> Very bad or unpleasant.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Examples:</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">What an <i>infernal</i>
-<span style="color: windowtext; text-decoration: none;">noise</span>!</span></p>
+noise!</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Compare:</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Infernal
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">地獄的；地獄般的<span lang="EN-US"> Having the <span style="color: windowtext; text-decoration: none;">qualities</span>
-of <span style="color: windowtext; text-decoration: none;">hell</span>
-(= the <span style="color: windowtext; text-decoration: none;">place</span>
-where some <span style="color: windowtext; text-decoration: none;">people</span>
-<span style="color: windowtext; text-decoration: none;">believe</span>
-<span style="color: windowtext; text-decoration: none;">bad</span> <span style="color: windowtext; text-decoration: none;">people</span>
-go after <span style="color: windowtext; text-decoration: none;">death</span>).</span></span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">地獄的；地獄般的<span lang="EN-US"> Having the
+qualities of hell (= the place where some people believe bad people go after
+death).</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Examples:</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">He <span style="color: windowtext; text-decoration: none;">described</span>
-a <span style="color: windowtext; text-decoration: none;">journey</span>
-through the<i> infernal</i> <span style="color: windowtext; text-decoration: none;">world</span>.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">He
+described a journey through the<i> infernal</i> world.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chthonophagia</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Alt. of Chthonophagy</span></p>
 
@@ -447,11 +622,12 @@ through the<i> infernal</i> <span style="color: windowtext; text-decoration: non
 characterized by an irresistible desire to eat earth, observed in some parts of
 the southern United States, the West Indies, etc.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chub</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A species to fresh-water
-fish of the Cyprinidae or Carp family. The common European species is Leuciscus
-cephalus; the cheven. In America the name is applied to various fishes of the
-same family, of the genera Semotilus, Squalius, Ceratichthys, etc., and locally
-to several very different fishes, as the tautog, black bass, etc.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chub</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A species to
+fresh-water fish of the Cyprinidae or Carp family. The common European species
+is Leuciscus cephalus; the cheven. In America the name is applied to various
+fishes of the same family, of the genera Semotilus, Squalius, Ceratichthys,
+etc., and locally to several very different fishes, as the tautog, black bass,
+etc.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Chubbed</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Chubby.</span></p>
 
