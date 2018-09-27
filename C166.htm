@@ -9,14 +9,20 @@
 <!--
  /* Font Definitions */
  @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
 	{font-family:"MS Mincho";
 	panose-1:2 2 6 9 4 2 5 8 3 4;}
 @font-face
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
@@ -29,6 +35,9 @@
 @font-face
 	{font-family:"\@MS Mincho";
 	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -78,6 +87,10 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 span.a
 	{mso-style-name:"頁首 字元";
 	mso-style-link:頁首;
@@ -92,14 +105,12 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
-span.HTML
-	{mso-style-name:"HTML 預設格式 字元";
-	mso-style-link:"HTML 預設格式";
-	font-family:"Courier New";}
 span.ind
 	{mso-style-name:ind;}
 span.trans
 	{mso-style-name:trans;}
+span.source
+	{mso-style-name:source;}
 .MsoChpDefault
 	{font-size:10.0pt;}
 @page WordSection1
@@ -108,6 +119,11 @@ span.trans
 	layout-grid:18.0pt;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
 -->
 </style></head><body lang="ZH-TW" link="blue" vlink="purple">
 
@@ -119,8 +135,8 @@ div.WordSection1
 at least two flat and transparent sides, used to hold a liquid sample to be
 analysed in the light path of a spectrometer.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyamelide</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A white amorphous
-substance, regarded as a polymeric modification of isocyanic acid.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyamelide</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A white amorphous substance,
+regarded as a polymeric modification of isocyanic acid.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyamellone</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A complex derivative
 of cyanogen, regarded as an acid, and known chiefly in its salts; -- called
@@ -143,8 +159,8 @@ a blue color.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyanide</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A compound formed by
 the union of cyanogen with an element or radical.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyanin</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The blue coloring matter
-of flowers; -- called also anthokyan and anthocyanin.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyanin</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The blue coloring
+matter of flowers; -- called also anthokyan and anthocyanin.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyanine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One of a series of
 artificial blue or red dyes obtained from quinoline and lepidine and used in
@@ -222,50 +238,33 @@ the family Cyathophyllidae; sometimes extended to fossil corals of other
 related families belonging to the group Rugosa; -- also called cup corals. Thay
 are found in paleozoic rocks.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyber-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>prefix</i>) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">電腦的；與電腦有關的；網路的（尤指網際網路） <span lang="EN-US">I<span style="color: windowtext; text-decoration: none;">nvolving</span>,
-using, or <span style="color: windowtext; text-decoration: none;">relating</span>
-to <span style="color: windowtext; text-decoration: none;">computers</span>,
-<span style="color: windowtext; text-decoration: none;">especially</span>
-the internet.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyber-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>prefix</i>) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">電腦的；與電腦有關的；網路的（尤指網際網路）<span lang="EN-US">
+Involving, using, or relating to computers, especially the internet.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Examples:</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Cybercrime</span>.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cybercrime.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyberculture.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyberattack</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) <span style="color: windowtext; text-decoration: none;">[ C ]</span> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">（由駭客發起的）網路攻擊 <span lang="EN-US">An <span style="color: windowtext; text-decoration: none;">illegal</span>
-<span style="color: windowtext; text-decoration: none;">attempt</span>
-to <span style="color: windowtext; text-decoration: none;">harm</span>
-someone's <span style="color: windowtext; text-decoration: none;">computer</span>
-<span style="color: windowtext; text-decoration: none;">system</span>
-or the <span style="color: windowtext; text-decoration: none;">information</span>
-on it, using the <span style="color: windowtext; text-decoration: none;">internet</span>.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyberattack</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) [ C ] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">（由駭客發起的）網路攻擊<span lang="EN-US"> An illegal
+attempt to harm someone's computer system or the information on it, using the
+internet.</span></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyberbully</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) <span style="color: windowtext; text-decoration: none;">[ C ]</span> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網路霸凌 <span lang="EN-US">Someone who uses the
-internet to <span style="color: windowtext; text-decoration: none;">harm</span>
-or <span style="color: windowtext; text-decoration: none;">frighten</span>
-another <span style="color: windowtext; text-decoration: none;">person</span>,
-<span style="color: windowtext; text-decoration: none;">especially</span>
-by <span style="color: windowtext; text-decoration: none;">sending</span>
-them <span style="color: windowtext; text-decoration: none;">unpleasant</span>
-<span style="color: windowtext; text-decoration: none;">messages</span>.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyberbully</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) [ C ] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網路霸凌<span lang="EN-US"> Someone who uses the
+internet to harm or frighten another person, especially by sending them
+unpleasant messages.</span></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cybercafé</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) <span style="color: windowtext; text-decoration: none;">[ C ]</span> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網吧；網路咖啡 <span lang="EN-US">A <span style="color: windowtext; text-decoration: none;">small</span>,
-<span style="color: windowtext; text-decoration: none;">informal</span>
-<span style="color: windowtext; text-decoration: none;">restaurant</span>
-where you can <span style="color: windowtext; text-decoration: none;">pay</span> to
-use the internet.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cybercaf</span></b><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">é</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) [ C ] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網吧；網路咖啡<span lang="EN-US"> A small, informal
+restaurant where you can pay to use the internet.</span></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cybercrime</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) <span style="color: windowtext; text-decoration: none;">[ U ]</span> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網路（或電腦）犯罪 <span lang="EN-US"><span style="color: windowtext; text-decoration: none;">Crime</span>
-or <span style="color: windowtext; text-decoration: none;">illegal</span>
-<span style="color: windowtext; text-decoration: none;">activity</span>
-that is done using the internet.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cybercrime</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) [ U ] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網路（或電腦）犯罪<span lang="EN-US"> Crime or illegal
+activity that is done using the internet.</span></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyberculture</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">電腦文化 <span lang="EN-US">Is the culture that
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyberculture</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">電腦文化<span lang="EN-US"> Is the culture that
 has emerged from the use of computer networks for communication, entertainment
-and business. It is also the study of various social phenomena associated with
-the Internet and other new forms of network communication, such as online
+and business. It is also the study of various social phenomena associated with the
+Internet and other new forms of network communication, such as online
 communities, online multi-player gaming, social gaming, social media and
 texting.&nbsp;</span></span></p>
 
@@ -281,58 +280,51 @@ culture that is directly mediated by the computer.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyber
 Monday</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.)
-<span style="color: windowtext; text-decoration: none;">[ U ]</span> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網路星期一（美國的一項常年促銷項目，在感恩節之後的第一個星期一，網路商家降價促銷，以刺激消費者購物需求）
-<span lang="EN-US">The <span style="color: windowtext; text-decoration: none;">Monday</span>
-after the Thanksgiving <span style="color: windowtext; text-decoration: none;">holiday</span>
-in the US, when <span style="color: windowtext; text-decoration: none;">online</span>
-<span style="color: windowtext; text-decoration: none;">stores</span>
-<span style="color: windowtext; text-decoration: none;">reduce</span>
-the <span style="color: windowtext; text-decoration: none;">price</span>
-of <span style="color: windowtext; text-decoration: none;">goods</span>
-in <span style="color: windowtext; text-decoration: none;">order</span>
-to <span style="color: windowtext; text-decoration: none;">attract</span>
-<span style="color: windowtext; text-decoration: none;">customers</span>.</span></span></p>
+[ U ] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網路星期一（美國的一項常年促銷項目，在感恩節之後的第一個星期一，網路商家降價促銷，以刺激消費者購物需求）<span lang="EN-US"> The Monday after the Thanksgiving holiday in the US, when online
+stores reduce the price of goods in order to attract customers.</span></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cybersecurity</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網路安全性 <span lang="EN-US">Cybersecurity is the
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cybersecurity</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網路安全性<span lang="EN-US"> Cybersecurity is the
 protection of internet-connected systems, including hardware, software and
 data, from cyberattacks.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">In a
-computing context, <span style="color: windowtext; text-decoration: none;">security</span> comprises
-cybersecurity and physical security -- both are used by enterprises to protect
-against unauthorized access to data centers and other computerized systems.
-Information security, which is designed to maintain the confidentiality,
-integrity and availability of data, is a subset of cybersecurity.</span></p>
+computing context, security comprises cybersecurity and physical security --
+both are used by enterprises to protect against unauthorized access to data
+centers and other computerized systems. Information security, which is designed
+to maintain the confidentiality, integrity and availability of data, is a
+subset of cybersecurity.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cybersex</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Sex performed in <span style="color: windowtext; text-decoration: none;">real time</span> via a digital <span style="color: windowtext; text-decoration: none;">medium</span>.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cybersex</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Sex performed in
+real time via a digital medium.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Cybersex</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網路性交 <span lang="EN-US"><span style="color: windowtext; text-decoration: none;">Sexual</span> <span style="color: windowtext; text-decoration: none;">arousal</span> <span style="color: windowtext; text-decoration: none;">involving</span> <span style="color: windowtext; text-decoration: none;">communication</span> <span style="color: windowtext; text-decoration: none;">on</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">internet</span>.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cybersex</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網路性交<span lang="EN-US"> Sexual arousal
+involving communication on the internet.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Compare:<b>
-T<span style="color: windowtext; text-decoration: none;">eledildonics</span></b>.</span></p>
+Teledildonics</b>.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">T<span style="color: windowtext; text-decoration: none;">eledildonics</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (With singular concord) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">遠程性愛 <span lang="EN-US">The use of virtual
-reality or the Internet to mediate sexual interaction, especially by means of
-haptic devices used to produce or replicate physical sensations or (in later
-use) electronic sex toys that can be controlled remotely over the Internet.</span></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Teledildonics</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (With singular
+concord) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">遠程性愛<span lang="EN-US">
+The use of virtual reality or the Internet to mediate sexual interaction,
+especially by means of haptic devices used to produce or replicate physical
+sensations or (in later use) electronic sex toys that can be controlled
+remotely over the Internet.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyber
 spying</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (or <b>Cyber
-espionage</b>) (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網絡間諜
-<span lang="EN-US">Is the act or practice of obtaining secrets and information
-without the permission and knowledge of the holder of the information from
-individuals, competitors, rivals, groups, governments and enemies for personal,
-economic, political or military advantage using methods on the Internet,
-networks or individual computers through the use of proxy servers[1], cracking
-techniques and malicious software including Trojan horses and spyware.[2][3] It
-may wholly be perpetrated online from computer desks of professionals on bases
-in far away countries or may involve infiltration at home by computer trained
-conventional spies and moles or in other cases may be the criminal handiwork of
-amateur malicious hackers and software programmers.[2]</span></span></p>
+espionage</b>) (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">網絡間諜<span lang="EN-US"> Is the act or practice of obtaining secrets and information without
+the permission and knowledge of the holder of the information from individuals,
+competitors, rivals, groups, governments and enemies for personal, economic,
+political or military advantage using methods on the Internet, networks or
+individual computers through the use of proxy servers[1], cracking techniques
+and malicious software including Trojan horses and spyware.[2][3] It may wholly
+be perpetrated online from computer desks of professionals on bases in far away
+countries or may involve infiltration at home by computer trained conventional
+spies and moles or in other cases may be the criminal handiwork of amateur
+malicious hackers and software programmers.[2]</span></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cycad</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Any plant of the natural
-order Cycadaceae, as the sago palm, etc.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cycad</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Any plant of the
+natural order Cycadaceae, as the sago palm, etc.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cycadaceous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Pertaining to, or
 resembling, an order of plants like the palms, but having exogenous wood. The
@@ -347,9 +339,8 @@ the Primrose family, having depressed rounded corms, and pretty nodding flowers
 with the petals so reflexed as to point upwards, whence it is called rabbits'
 ears. It is also called sow bread, because hogs are said to eat the corms.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclamin</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A white amorphous
-substance, regarded as a glucoside, extracted from the corm of Cyclamen
-Europaeum.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclamin</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A white amorphous substance,
+regarded as a glucoside, extracted from the corm of Cyclamen Europaeum.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclas</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A long gown or
 surcoat (cut off in front), worn in the Middle Ages. It was sometimes
@@ -437,9 +428,9 @@ of Cyclical</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclical</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of or pertaining to
 a cycle or circle; moving in cycles; as, cyclical time.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclide</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A surface of the
-fourth degree, having certain special relations to spherical surfaces. The tore
-or anchor ring is one of the cyclides.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclide</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A surface of the fourth
+degree, having certain special relations to spherical surfaces. The tore or
+anchor ring is one of the cyclides.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cycling</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The act, art, or
 practice, of riding a cycle, esp. a bicycle or tricycle.</span></p>
@@ -476,16 +467,17 @@ line, keeping always in the same plane.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cycloid</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of or pertaining to
 the Cycloidei.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cycloid</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One of the Cycloidei.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cycloid</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One of the
+Cycloidei.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cycloidal</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Pertaining to, or
 resembling, a cycloid; as, the cycloidal space is the space contained between a
 cycloid and its base.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cycloidei</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n. pl.</i>) An order of
-fishes, formerly proposed by Agassiz, for those with thin, smooth scales, destitute
-of marginal spines, as the herring and salmon. The group is now regarded as
-artificial.</span></p>
+fishes, formerly proposed by Agassiz, for those with thin, smooth scales,
+destitute of marginal spines, as the herring and salmon. The group is now
+regarded as artificial.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cycloidian</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a. &amp; n.</i>) Same as 2d
 and 3d Cycloid.</span></p>
@@ -493,13 +485,26 @@ and 3d Cycloid.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclometer</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A contrivance for
 recording the revolutions of a wheel, as of a bicycle.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclometry</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The art of measuring
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclometry</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) The art of measuring
 circles.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclone</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A violent storm,
-often of vast extent, characterized by high winds rotating about a calm center
-of low atmospheric pressure. This center moves onward, often with a velocity of
-twenty or thirty miles an hour.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Cyclone</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) (<span style="color: windowtext; text-decoration: none;">Meteor</span>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">【氣】氣旋
+<span lang="EN-US">[U]</span>；旋風；暴風；龍卷風 <span lang="EN-US">[C] <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">violent</span> <span style="color: windowtext; text-decoration: none;">storm</span>, <span style="color: windowtext; text-decoration: none;">often</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">vast</span> <span style="color: windowtext; text-decoration: none;">extent</span>, <span style="color: windowtext; text-decoration: none;">characterized</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">high</span> <span style="color: windowtext; text-decoration: none;">winds</span> <span style="color: windowtext; text-decoration: none;">rotating</span> <span style="color: windowtext; text-decoration: none;">about</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">calm</span> <span style="color: windowtext; text-decoration: none;">center</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">low</span> <span style="color: windowtext; text-decoration: none;">atmospheric</span> <span style="color: windowtext; text-decoration: none;">pressure</span>. <span style="color: windowtext; text-decoration: none;">This</span> <span style="color: windowtext; text-decoration: none;">center</span> <span style="color: windowtext; text-decoration: none;">moves</span> <span style="color: windowtext; text-decoration: none;">onward</span>, <span style="color: windowtext; text-decoration: none;">often</span> <span style="color: windowtext; text-decoration: none;">with</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">velocity</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">twenty</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">thirty</span> <span style="color: windowtext; text-decoration: none;">miles</span> <span style="color: windowtext; text-decoration: none;">an</span> <span style="color: windowtext; text-decoration: none;">hour</span>.</span></span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Note</span>: <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">atmospheric</span> <span style="color: windowtext; text-decoration: none;">disturbance</span> <span style="color: windowtext; text-decoration: none;">usually</span> <span style="color: windowtext; text-decoration: none;">accompanying</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">cyclone</span>, <span style="color: windowtext; text-decoration: none;">marked</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">an</span> <span style="color: windowtext; text-decoration: none;">onward</span> <span style="color: windowtext; text-decoration: none;">moving</span> <span style="color: windowtext; text-decoration: none;">area</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">high</span> <span style="color: windowtext; text-decoration: none;">pressure</span>, <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">called</span> <span style="color: windowtext; text-decoration: none;">an</span> <span style="color: windowtext; text-decoration: none;">anticyclone</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Cyclone</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) (<span style="color: windowtext; text-decoration: none;">Meteor</span>.) <span style="color: windowtext; text-decoration: none;">In</span> <span style="color: windowtext; text-decoration: none;">general</span>, <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">condition</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">atmosphere</span> <span style="color: windowtext; text-decoration: none;">characterized</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">central</span> <span style="color: windowtext; text-decoration: none;">area</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">pressure</span> <span style="color: windowtext; text-decoration: none;">much</span> <span style="color: windowtext; text-decoration: none;">lower</span> <span style="color: windowtext; text-decoration: none;">than</span> <span style="color: windowtext; text-decoration: none;">that</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">surrounding</span> <span style="color: windowtext; text-decoration: none;">areas</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">system</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">winds</span> <span style="color: windowtext; text-decoration: none;">blowing</span> <span style="color: windowtext; text-decoration: none;">inward</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">around</span> (<span style="color: windowtext; text-decoration: none;">clockwise</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">southern</span> <span style="color: windowtext; text-decoration: none;">hemisphere</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">counter</span>-<span style="color: windowtext; text-decoration: none;">clockwise</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">northern</span>); -- <span style="color: windowtext; text-decoration: none;">called</span> <span style="color: windowtext; text-decoration: none;">also</span> <span style="color: windowtext; text-decoration: none;">a</span> {<span style="color: windowtext; text-decoration: none;">low</span>-<span style="color: windowtext; text-decoration: none;">area</span> <span style="color: windowtext; text-decoration: none;">storm</span>}. <span style="color: windowtext; text-decoration: none;">It</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">attended</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">high</span> <span style="color: windowtext; text-decoration: none;">temperature</span>, <span style="color: windowtext; text-decoration: none;">moist</span> <span style="color: windowtext; text-decoration: none;">air</span>, <span style="color: windowtext; text-decoration: none;">abundant</span> <span style="color: windowtext; text-decoration: none;">precipitation</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">clouded</span> <span style="color: windowtext; text-decoration: none;">sky</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">term</span> <span style="color: windowtext; text-decoration: none;">includes</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">hurricane</span>, <span style="color: windowtext; text-decoration: none;">typhoon</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">tropical</span> <span style="color: windowtext; text-decoration: none;">storms</span>; <span style="color: windowtext; text-decoration: none;">it</span> <span style="color: windowtext; text-decoration: none;">should</span> <span style="color: windowtext; text-decoration: none;">not</span> <span style="color: windowtext; text-decoration: none;">be</span> <span style="color: windowtext; text-decoration: none;">applied</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">moderate</span> <span style="color: windowtext; text-decoration: none;">disturbances</span> <span style="color: windowtext; text-decoration: none;">attending</span> <span style="color: windowtext; text-decoration: none;">ordinary</span> <span style="color: windowtext; text-decoration: none;">areas</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">low</span> <span style="color: windowtext; text-decoration: none;">pressure</span> <span style="color: windowtext; text-decoration: none;">nor</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">tornadoes</span>, <span style="color: windowtext; text-decoration: none;">waterspouts</span>, <span style="color: windowtext; text-decoration: none;">or</span> "<span style="color: windowtext; text-decoration: none;">twisters</span>," <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">which</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">vertical</span> <span style="color: windowtext; text-decoration: none;">motion</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">more</span> <span style="color: windowtext; text-decoration: none;">important</span> <span style="color: windowtext; text-decoration: none;">than</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">horizontal</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Cyclone</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">tornado</span>. <span style="color: windowtext; text-decoration: none;">See</span> <span style="color: windowtext; text-decoration: none;">above</span>, <span style="color: windowtext; text-decoration: none;">and</span> {<span style="color: windowtext; text-decoration: none;">Tornado</span>}. [<span style="color: windowtext; text-decoration: none;">Middle</span> <span style="color: windowtext; text-decoration: none;">U</span>. <span style="color: windowtext; text-decoration: none;">S</span>.] <span style="color: windowtext; text-decoration: none;">Cyclone</span> <span style="color: windowtext; text-decoration: none;">cellar</span></span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Cyclone</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) (<span style="color: windowtext; text-decoration: none;">Meteorology</span>) <span style="color: windowtext; text-decoration: none;">Rapid</span> <span style="color: windowtext; text-decoration: none;">inward</span> <span style="color: windowtext; text-decoration: none;">circulation</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">air</span> <span style="color: windowtext; text-decoration: none;">masses</span> <span style="color: windowtext; text-decoration: none;">about</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">low</span> <span style="color: windowtext; text-decoration: none;">pressure</span> <span style="color: windowtext; text-decoration: none;">center</span>; <span style="color: windowtext; text-decoration: none;">circling</span> <span style="color: windowtext; text-decoration: none;">counterclockwise</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">northern</span> <span style="color: windowtext; text-decoration: none;">hemisphere</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">clockwise</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">southern</span> [<i><span style="color: windowtext; text-decoration: none;">ant</span></i>: {<span style="color: windowtext; text-decoration: none;">anticyclone</span>}].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Cyclone</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">A</span> <span style="color: windowtext; text-decoration: none;">violent</span> <span style="color: windowtext; text-decoration: none;">rotating</span> <span style="color: windowtext; text-decoration: none;">windstorm</span>.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclone
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) [ C
@@ -555,9 +560,9 @@ alphabetical order, information in all departments of knowledge, or on a
 particular department or branch; as, a cyclopedia of the physical sciences, or
 of mechanics. See Encyclopedia.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclopedic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Belonging to the circle
-of the sciences, or to a cyclopedia; of the nature of a cyclopedia; hence, of
-great range, extent, or amount; as, a man of cyclopedic knowledge.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclopedic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Belonging to the
+circle of the sciences, or to a cyclopedia; of the nature of a cyclopedia;
+hence, of great range, extent, or amount; as, a man of cyclopedic knowledge.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclopedist</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A maker of, or
 writer for, a cyclopedia.</span></p>
@@ -576,11 +581,11 @@ genus of minute Entomostraca, found both in fresh and salt water. See Copepoda.<
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclops</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n. sing. &amp; pl.</i>) A
 portable forge, used by tinkers, etc.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclorama</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A pictorial view which
-is extended circularly, so that the spectator is surrounded by the objects
-represented as by things in nature. The realistic effect is increased by
-putting, in the space between the spectator and the picture, things adapted to
-the scene represented, and in some places only parts of these objects, the
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclorama</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A pictorial view
+which is extended circularly, so that the spectator is surrounded by the
+objects represented as by things in nature. The realistic effect is increased
+by putting, in the space between the spectator and the picture, things adapted
+to the scene represented, and in some places only parts of these objects, the
 completion of them being carried out pictorially.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cycloscope</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A machine for
@@ -592,12 +597,13 @@ movement of protoplasmic granules within a living vegetable cell.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclostomata</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n. pl.</i>) Alt. of
 Cyclostoma</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclostoma</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n. pl.</i>) A division of
-Bryozoa, in which the cells have circular apertures.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclostoma</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n. pl.</i>) A division of Bryozoa,
+in which the cells have circular apertures.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclostome</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Alt. of Cyclostomous</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclostomous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Pertaining to the Cyclostomi.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclostomous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Pertaining to the
+Cyclostomi.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cyclostomi</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n. pl.</i>) A glass of
 fishes having a suckerlike mouth, without jaws, as the lamprey; the
@@ -635,8 +641,8 @@ by any cylindrical surface. The space may be limited or unlimited in length.</sp
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cylinder</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Any hollow body of
 cylindrical form</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cylinder</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The chamber of a steam
-engine in which the piston is moved by the force of steam.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cylinder</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The chamber of a
+steam engine in which the piston is moved by the force of steam.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cylinder</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The barrel of an air
 or other pump.</span></p>
@@ -650,8 +656,8 @@ the turning chambered breech of a revolver.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cylinder</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The revolving square
 prism carrying the cards in a Jacquard loom.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cylindraceous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Cylindrical, or
-approaching a cylindrical form.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Cylindraceous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Cylindrical, or approaching
+a cylindrical form.</span></p>
 
 <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><a href="C165.htm">[previous page]</a> <a href="index.html">[Index]</a> <a href="C167.htm">[next page]</a></span></p>
 
