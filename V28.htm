@@ -25,17 +25,26 @@ span.A0
 
  /* Font Definitions */
  @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
 @font-face
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -85,6 +94,10 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:"Courier New";}
 span.a
 	{mso-style-name:"頁首 字元";
 	mso-style-link:頁首;
@@ -99,13 +112,10 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"Times New Roman","serif";}
-span.HTML
-	{mso-style-name:"HTML 預設格式 字元";
-	mso-style-link:"HTML 預設格式";
-	font-family:"Courier New";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -231,9 +241,9 @@ metals.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulcanic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of or pertaining to
 Vulcan; made by Vulcan; Vulcanian.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulcanic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of or pertaining to volcanoes;
-specifically, relating to the geological theory of the Vulcanists, or
-Plutonists.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulcanic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of or pertaining to
+volcanoes; specifically, relating to the geological theory of the Vulcanists,
+or Plutonists.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="ES-TRAD">Vulcanicity</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="ES-TRAD"> (<i>n.</i>) Volcanicity.</span></p>
 
@@ -270,10 +280,10 @@ springs</st1:city>, etc.</span></p>
 the mass, or multitude, of people; common; general; ordinary; public; hence, in
 general use; vernacular.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulgar</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Belonging or
-relating to the common people, as distinguished from the cultivated or
-educated; pertaining to common life; plebeian; not select or distinguished;
-hence, sometimes, of little or no value.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulgar</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Belonging or relating
+to the common people, as distinguished from the cultivated or educated;
+pertaining to common life; plebeian; not select or distinguished; hence,
+sometimes, of little or no value.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulgar</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Hence, lacking
 cultivation or refinement; rustic; boorish; also, offensive to good taste or
@@ -320,31 +330,40 @@ manner.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulgarness</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The quality of being
 vulgar.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulgate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) An ancient Latin
-version of the Scripture, and the only version which the Roman Church admits to
-be authentic; -- so called from its common use in the Latin Church.</span></p>
-
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulgate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of or pertaining to
 the Vulgate, or the old Latin version of the Scriptures.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerability</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The quality or state
-of being vulnerable; vulnerableness.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulgate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) An ancient Latin
+version of the Scripture, and the only version which the Roman Church admits to
+be authentic; -- so called from its common use in the Latin Church.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">易受傷害的，有弱點的，易受攻擊的，脆弱的，成局的 <span lang="EN-US">Capable
-of being wounded; susceptible of wounds or external injuries; as, a vulnerable
-body.</span></span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Note</span>: <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">Vulgate</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">made</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">Jerome</span> <span style="color: windowtext; text-decoration: none;">at</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">close</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">4th</span> <span style="color: windowtext; text-decoration: none;">century</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">Old</span> <span style="color: windowtext; text-decoration: none;">Testament</span> <span style="color: windowtext; text-decoration: none;">he</span> <span style="color: windowtext; text-decoration: none;">translated</span> <span style="color: windowtext; text-decoration: none;">mostly</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Hebrew</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">Chaldaic</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">New</span> <span style="color: windowtext; text-decoration: none;">Testament</span> <span style="color: windowtext; text-decoration: none;">he</span> <span style="color: windowtext; text-decoration: none;">revised</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">an</span> <span style="color: windowtext; text-decoration: none;">older</span> <span style="color: windowtext; text-decoration: none;">Latin</span> <span style="color: windowtext; text-decoration: none;">version</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">Douay</span> <span style="color: windowtext; text-decoration: none;">version</span>, <span style="color: windowtext; text-decoration: none;">so</span> <span style="color: windowtext; text-decoration: none;">called</span>, <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">an</span> <span style="color: windowtext; text-decoration: none;">English</span> <span style="color: windowtext; text-decoration: none;">translation</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Vulgate</span>. <span style="color: windowtext; text-decoration: none;">See</span> {<span style="color: windowtext; text-decoration: none;">Douay</span> <span style="color: windowtext; text-decoration: none;">Bible</span>}.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Vulgate</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">Latin</span> <span style="color: windowtext; text-decoration: none;">edition</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Bible</span> <span style="color: windowtext; text-decoration: none;">translated</span> <span style="color: windowtext; text-decoration: none;">from</span> <span style="color: windowtext; text-decoration: none;">Hebrew</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">Greek</span> <span style="color: windowtext; text-decoration: none;">mainly</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">St</span>. <span style="color: windowtext; text-decoration: none;">Jerome</span> <span style="color: windowtext; text-decoration: none;">at</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">end</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">4th</span> <span style="color: windowtext; text-decoration: none;">century</span>; <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">revised</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">1592</span> <span style="color: windowtext; text-decoration: none;">it</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">adopted</span> <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">official</span> <span style="color: windowtext; text-decoration: none;">text</span> <span style="color: windowtext; text-decoration: none;">for</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Roman</span> <span style="color: windowtext; text-decoration: none;">Catholic</span> <span style="color: windowtext; text-decoration: none;">Church</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerability</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">易損壞；易受傷；易受責難；弱點</span> <span lang="EN-US">The
+quality or state of being vulnerable; vulnerableness.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">易受傷害的，有弱點的，易受攻擊的，脆弱的，成局的<span lang="EN-US">
+Capable of being wounded; susceptible of wounds or external injuries; as, a
+vulnerable body.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Liable to injury;
 subject to be affected injuriously; assailable; as, a vulnerable reputation.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) S<span style="color: windowtext; text-decoration: none;">usceptible</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">attack</span>; "<span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">vulnerable</span> <span style="color: windowtext; text-decoration: none;">bridge</span>" [<i><span style="color: windowtext; text-decoration: none;">ant</span></i>: {<span style="color: windowtext; text-decoration: none;">invulnerable</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Susceptible to
+attack; "a vulnerable bridge" [<i>ant</i>: {invulnerable}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) <span style="color: windowtext; text-decoration: none;">Susceptible</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">criticism</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">persuasion</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">temptation</span>; "<span style="color: windowtext; text-decoration: none;">vulnerable</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">bribery</span>"; "<span style="color: windowtext; text-decoration: none;">an</span> <span style="color: windowtext; text-decoration: none;">argument</span> <span style="color: windowtext; text-decoration: none;">vulnerable</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">refutation</span>".</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Susceptible to
+criticism or persuasion or temptation; "vulnerable to bribery";
+"an argument vulnerable to refutation".</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) <span style="color: windowtext; text-decoration: none;">Capable</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">being</span> <span style="color: windowtext; text-decoration: none;">wounded</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">hurt</span>; "<span style="color: windowtext; text-decoration: none;">vulnerable</span> <span style="color: windowtext; text-decoration: none;">parts</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">body</span>".</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Capable of being
+wounded or hurt; "vulnerable parts of the body".</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerableness</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) The quality or state
-of being vulnerable; vulnerability.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerableness</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">易損壞；</span><span style="background: white none repeat scroll 0%; font-family: &quot;新細明體&quot;,&quot;serif&quot;; color: black; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">易受傷；易受責難</span><span style="background: white none repeat scroll 0%; font-family: &quot;新細明體&quot;,&quot;serif&quot;; color: black; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">；</span><span style="background: white none repeat scroll 0%; font-family: &quot;新細明體&quot;,&quot;serif&quot;; color: black; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;">弱點</span><span style="background: white none repeat scroll 0%; font-family: &quot;Helvetica&quot;,&quot;sans-serif&quot;; color: black; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial;"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The quality or state of being
+vulnerable; vulnerability.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulnerary</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Useful in healing
 wounds; adapted to the cure of external injuries; as, vulnerary plants or
@@ -399,8 +418,8 @@ species of rapacious birds belonging to Vultur, Cathartes, Catharista, and
 various other genera of the family Vulturidae.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulturine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of or pertaining to
-a vulture; resembling a vulture in qualities or looks; as, the vulturine sea
-eagle (Gypohierax Angolensis); vulturine rapacity.</span></p>
+a vulture; resembling a vulture in qualities or looks; as, the vulturine sea eagle
+(Gypohierax Angolensis); vulturine rapacity.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vulturish</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Vulturous.</span></p>
 
