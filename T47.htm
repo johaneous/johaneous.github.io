@@ -27,11 +27,20 @@ span.A0
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -44,6 +53,15 @@ h2
 	margin-left:0cm;
 	font-size:18.0pt;
 	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+h3
+	{mso-style-link:"標題 3 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:300%;
+	page-break-after:avoid;
+	font-size:18.0pt;
+	font-family:"Cambria","serif";
 	font-weight:bold;}
 p.MsoHeader, li.MsoHeader, div.MsoHeader
 	{mso-style-link:"頁首 字元";
@@ -70,11 +88,26 @@ p
 	margin-left:0cm;
 	font-size:12.0pt;
 	font-family:"Times New Roman","serif";}
+pre
+	{mso-style-link:"HTML 預設格式 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:細明體;}
 span.2
 	{mso-style-name:"標題 2 字元";
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.3
+	{mso-style-name:"標題 3 字元";
+	mso-style-link:"標題 3";
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:細明體;}
 span.a
 	{mso-style-name:"頁首 字元";
 	mso-style-link:頁首;
@@ -89,8 +122,32 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"Times New Roman","serif";}
+p.note, li.note, div.note
+	{mso-style-name:note;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"新細明體","serif";}
 span.hw
 	{mso-style-name:hw;}
+span.span
+	{mso-style-name:span;}
+span.pron
+	{mso-style-name:pron;}
+span.pos
+	{mso-style-name:pos;}
+span.iteration
+	{mso-style-name:iteration;}
+span.ind
+	{mso-style-name:ind;}
+span.subsenseiteration
+	{mso-style-name:subsenseiteration;}
+span.grammaticalnote
+	{mso-style-name:grammatical_note;}
+span.sense-regions
+	{mso-style-name:sense-regions;}
+span.ipa
+	{mso-style-name:ipa;}
 .MsoChpDefault
 	{font-size:10.0pt;}
 @page WordSection1
@@ -116,8 +173,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A small toad.
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toadstone</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A local name for the
 igneous rocks of <st1:city u1:st="on">Derbyshire</st1:city>, England; -- said
-by some to be derived from the German todter stein, meaning dead stone, that
-is, stone which contains no ores.</span></p>
+by some to be derived from the German todter stein, meaning dead stone, that is,
+stone which contains no ores.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toadstone</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Bufonite, formerly
@@ -129,7 +186,7 @@ umbrella-shaped fungi, mostly of the genus Agaricus. The species are almost
 numberless. They grow on decaying organic matter.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toadies</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl. </i>) of Toady</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of Toady</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toady</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A mean flatterer; a
@@ -211,10 +268,10 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The handle of
 joiner's plane.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Tobacco</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An American plant (Nicotiana
-Tabacum) of the Nightshade family, much used for smoking and chewing, and as
-snuff. As a medicine, it is narcotic, emetic, and cathartic. Tobacco has a
-strong, peculiar smell, and an acrid taste.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An American plant
+(Nicotiana Tabacum) of the Nightshade family, much used for smoking and
+chewing, and as snuff. As a medicine, it is narcotic, emetic, and cathartic.
+Tobacco has a strong, peculiar smell, and an acrid taste.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Tobacco</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The leaves of the
@@ -232,8 +289,8 @@ also, a manufacturer of tobacco.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A smoker of tobacco.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>To-beat</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To beat thoroughly
-or severely.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To beat
+thoroughly or severely.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Tobias
 fish</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> () The
@@ -249,9 +306,9 @@ Apocrypha.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toboggan</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A kind of sledge
-made of pliable board, turned up at one or both ends, used for coasting down hills
-or prepared inclined planes; also, a sleigh or sledge, to be drawn by dogs, or
-by hand, over soft and deep snow.</span></p>
+made of pliable board, turned up at one or both ends, used for coasting down
+hills or prepared inclined planes; also, a sleigh or sledge, to be drawn by
+dogs, or by hand, over soft and deep snow.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Tobogganed</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
@@ -262,8 +319,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</
 Toboggan</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toboggan</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To slide down
-hill over the snow or ice on a toboggan.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To slide down hill
+over the snow or ice on a toboggan.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Tobogganer</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Alt. of Tobogganist</span></p>
@@ -307,8 +364,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A cuban trogo
 (Priotelus temnurus) having a serrated bill and a tail concave at the end.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Tocsin
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n.</i>) An alarm
-bell, or the ringing of a bell for the purpose of alarm.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n.</i>) An
+alarm bell, or the ringing of a bell for the purpose of alarm.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Tocsin
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n.</i>) A
@@ -353,28 +410,170 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>)
 Toddle</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toddling</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n</i>.) of
 Toddle</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toddle</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To walk with short,
-tottering steps, as a child.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) &nbsp;</span><span
+style='font-family:"新細明體","serif"'>（幼兒等）東倒西歪地走；【口】溜躂，散步<span lang=EN-US> To
+walk with short, tottering steps, as a child.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toddle</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A toddling walk.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>（幼兒等的）蹣跚行走；【口】學步的小孩<span lang=EN-US> A
+toddling walk. -- Trollope.</span></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toddle</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Walk unsteadily;
+&quot;small children toddle&quot; [<i>syn</i>: toddle, coggle, totter, dodder,
+paddle, waddle].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toddler</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One who toddles;
-especially, a young child.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>學步的小孩；蹣跚行走者；幼童裝<span lang=EN-US> One who
+toddles; especially, a young child. -- Mrs. Gaskell.</span></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toddler</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A young child [syn:
+toddler, yearling, tot, bambino].</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toddy
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>棕櫚汁；棕櫚酒；（用溫水調威士忌、甜酒並加糖的）香甜熱酒<span
+lang=EN-US> A juice drawn from various kinds of palms in the East Indies; or, a
+spirituous liquor procured from it by fermentation.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toddy</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A juice drawn from
-various kinds of palms in the East Indies; or, a spirituous liquor procured
-from it by fermentation.</span></p>
-
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toddy</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A mixture of spirit
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A mixture of spirit
 and hot water sweetened.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note:
+Toddy differs from grog in having a less proportion of spirit, and is being
+made hot and sweetened.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toddy
+bird</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (Zool.), A
+weaver bird of the East Indies and India: -- so called from its fondness for
+the juice of the palm.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toddy
+cat </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(Zool.), The
+common paradoxure; the palm cat.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:
+<b>Paradoxure</b></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Paradoxure</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (In British)</span><span
+style='font-family:"新細明體","serif"'>【動物；動物學】（亞洲南部產）長尾麝香貓；椰子貓<span lang=EN-US>
+Any of a number of&nbsp; palm &nbsp;<span style='font-weight:inherit;
+font-size:inherit;color:inherit;cursor:pointer'>civet</span> &nbsp;<span
+style='font-weight:inherit;font-size:inherit;color:inherit;cursor:pointer'>species</span>.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:<b>
+Civet</b></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Civet</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Also &nbsp;civet
+cat)</span><span style='font-family:"新細明體","serif"'>【動】麝貓；麝貓香料<span lang=EN-US>
+A slender nocturnal carnivorous mammal with a barred and spotted coat and
+well-developed anal scent glands, native to Africa and Asia.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Family
+Viverridae (the civet family): several genera and species. The civet family
+also includes the genets, linsang, and fossa, and formerly included the
+mongooses</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:<b>
+Viverridae</b></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Viverridae</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>靈貓科<span style='orphans: 2;text-align:start;
+widows: 2;float:none;word-spacing:0px'>（學名</span><span lang=EN-US>Viverridae<span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'></span>）是</span><span
+style='orphans: 2;text-align:start;widows: 2;word-spacing:0px'>食肉目</span><span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'>下的一個科，包括</span><span
+style='orphans: 2;text-align:start;widows: 2;word-spacing:0px'>大靈貓</span><span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'>、</span><span
+style='orphans: 2;text-align:start;widows: 2;word-spacing:0px'>小靈貓</span><span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'>、</span><span
+style='orphans: 2;text-align:start;widows: 2;word-spacing:0px'>熊狸</span><span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'>等</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Viverridae<span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'>&nbsp;
+is a &nbsp;</span><span style='orphans: 2;text-align:start;widows: 2;
+word-spacing:0px'>family</span><span style='orphans: 2;text-align:start;
+widows: 2;float:none;word-spacing:0px'> &nbsp;of small to medium-sized &nbsp;</span><span
+style='orphans: 2;text-align:start;widows: 2;word-spacing:0px'>mammals</span><span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'>, the
+&nbsp;</span>viverrids<span style='orphans: 2;text-align:start;widows: 2;
+float:none;word-spacing:0px'>, comprising 15 &nbsp;</span><span
+style='orphans: 2;text-align:start;widows: 2;word-spacing:0px'>genera</span><span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'>,
+which are subdivided into 38&nbsp;</span> species<span style='orphans: 2;
+text-align:start;widows: 2;float:none;word-spacing:0px'>.</span> [2]<span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'>&nbsp;
+This family was named and first described by&nbsp;</span> John Edward Gray<span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'>&nbsp;in
+1821.</span> [3]<span style='orphans: 2;text-align:start;widows: 2;float:none;
+word-spacing:0px'> Members of this family are commonly called &nbsp;</span>civets<span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'>
+&nbsp;or&nbsp;</span> genets<span style='orphans: 2;text-align:start;
+widows: 2;float:none;word-spacing:0px'>. Viverrids are found in &nbsp;</span><span
+style='orphans: 2;text-align:start;widows: 2;word-spacing:0px'>South and
+Southeast Asia</span><span style='orphans: 2;text-align:start;widows: 2;
+float:none;word-spacing:0px'>, across the &nbsp;</span><span style='orphans: 2;
+text-align:start;widows: 2;word-spacing:0px'>Wallace Line</span><span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'>, all
+over&nbsp;</span> Africa<span style='orphans: 2;text-align:start;widows: 2;
+float:none;word-spacing:0px'>, and into southern Europe<span style='orphans: 2;
+text-align:start;widows: 2;float:none;word-spacing:0px'>. Their occurrence in &nbsp;</span><span
+style='orphans: 2;text-align:start;widows: 2;word-spacing:0px'>Sulawesi</span><span
+style='orphans: 2;text-align:start;widows: 2;float:none;word-spacing:0px'>&nbsp;
+and in some of the adjoining islands shows them to be ancient inhabitants of
+the&nbsp;</span> Old World<span style='orphans: 2;text-align:start;widows: 2;
+float:none;word-spacing:0px'>&nbsp;</span> tropics<span style='orphans: 2;
+text-align:start;widows: 2;float:none;word-spacing:0px'>.</span> [4]</span></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Civet</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [Mass noun] &nbsp;A
+strong musky perfume obtained from the secretions of the civet's scent glands.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Civet</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [US] &nbsp;The
+ring-tailed cat or cacomistle.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:
+<b>Cacomistle</b></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cacomistle</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>【動】蓬尾浣熊（產於美國西南部）<span lang=EN-US>The
+&nbsp;cacomistle,&nbsp; Bassariscus sumichrasti, is a &nbsp;nocturnal,
+&nbsp;arboreal&nbsp; and&nbsp; omnivorous&nbsp; member of the&nbsp; carnivoran
+&nbsp;family&nbsp; Procyonidae. Its preferred habitats are wet,&nbsp; tropical,
+evergreen woodlands and mountain forests, though seasonally it will venture
+into drier&nbsp; deciduous&nbsp; forests.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Nowhere
+in its range (from southern&nbsp; Mexico&nbsp;to western &nbsp;Panama) is&nbsp;
+B. sumichrasti&nbsp; common. This is especially true in &nbsp;Costa Rica, where
+it inhabits only a very small area. It is completely dependent on forest
+habitat, making it particularly susceptible to&nbsp; deforestation.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The term
+&nbsp;cacomistle&nbsp; is from the&nbsp;Nahuatl language (tlahcomiztli) and
+means &quot;half cat&quot; or &quot;half mountain lion&quot;; [2] &nbsp;it is
+sometimes also used to refer to the &nbsp;ringtail,&nbsp; Bassariscus astutus,
+a similar species that inhabits arid northern Mexico and the&nbsp; American
+Southwest.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toddy</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A mixed drink made
+of liquor and water with sugar and spices and served hot [<i>syn</i>: hot
+toddy, toddy].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>To-do</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Bustle; stir;
@@ -394,8 +593,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The fore part
 hoof or foot of an animal.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toe</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Anything, or any
-part, corresponding to the toe of the foot; as, the toe of a boot; the toe of a
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Anything, or any part,
+corresponding to the toe of the foot; as, the toe of a boot; the toe of a
 skate.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toe</span></b><span
@@ -408,8 +607,8 @@ at one end, or between the ends, of a piece, as a rod or bolt, by means of
 which it is moved.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toe</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A projection from the
-periphery of a revolving piece, acting as a cam to lift another piece.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A projection from
+the periphery of a revolving piece, acting as a cam to lift another piece.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toed</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of Toe</span></p>
@@ -464,7 +663,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A place where
 messuage has once stood; the site of a burnt or decayed house.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toftmen</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl. </i>) of Toftman</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of
+Toftman</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toftman</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The owner of a toft.
@@ -478,16 +678,16 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Tufa. See und
 Tufa, and Toph.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Togas</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl. </i>) of Toga</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of Toga</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Togae</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>pl. </i>) of Toga</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of Toga</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Toga</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The loose outer
-garment worn by the ancient Romans, consisting of a single broad piece of
-woolen cloth of a shape approaching a semicircle. It was of undyed wool, except
-the border of the toga praetexta.</span></p>
+garment worn by the ancient Romans, consisting of a single broad piece of woolen
+cloth of a shape approaching a semicircle. It was of undyed wool, except the
+border of the toga praetexta.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Togated</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Dressed in a toga or
