@@ -52,13 +52,13 @@ p
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"&\#65533";}
-@font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"&\#65533";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -92,6 +92,20 @@ h3
 	font-size:18.0pt;
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -143,6 +157,14 @@ span.HTML
 	mso-style-link:"HTML 預設格式";
 	font-family:"Courier New";}
 span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
+span.a1
 	{mso-style-name:"註解方塊文字 字元";
 	mso-style-link:註解方塊文字;
 	font-family:"Cambria","serif";}
@@ -154,6 +176,12 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	font-family:"&\#65533";}
 p.note, li.note, div.note
 	{mso-style-name:note;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"新細明體","serif";}
+p.def-head, li.def-head, div.def-head
+	{mso-style-name:def-head;
 	margin-right:0cm;
 	margin-left:0cm;
 	font-size:12.0pt;
@@ -198,6 +226,34 @@ span.sense-regions
 	{mso-style-name:sense-regions;}
 span.sense-registers
 	{mso-style-name:sense-registers;}
+span.posgram
+	{mso-style-name:posgram;}
+span.gram
+	{mso-style-name:gram;}
+span.gcs
+	{mso-style-name:gcs;}
+span.gc
+	{mso-style-name:gc;}
+span.uk
+	{mso-style-name:uk;}
+span.region
+	{mso-style-name:region;}
+span.circle
+	{mso-style-name:circle;}
+span.pron
+	{mso-style-name:pron;}
+span.ipa
+	{mso-style-name:ipa;}
+span.us
+	{mso-style-name:us;}
+span.usage
+	{mso-style-name:usage;}
+span.def-info
+	{mso-style-name:def-info;}
+span.domain
+	{mso-style-name:domain;}
+span.trans
+	{mso-style-name:trans;}
 .MsoChpDefault
 	{font-size:10.0pt;}
 @page WordSection1
@@ -424,9 +480,10 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Any of variou
 aromatic resinous substances used for healing and soothing.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Balm</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Semisolid preparation
-(usually containing a medicine) applied externally as a remedy or for soothing
-an irritation [<i>syn</i>: ointment, unction, unguent, balm, salve].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Semisolid
+preparation (usually containing a medicine) applied externally as a remedy or
+for soothing an irritation [<i>syn</i>: ointment, unction, unguent, balm,
+salve].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Balmify</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To render balmy.
@@ -460,8 +517,7 @@ walking shoe.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Balmoral</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A brimless dark blue
-Scottish cap with a flat top and a plume on one side [<i>syn</i>: Balmoral,
-bluebonnet].</span></p>
+Scottish cap with a flat top and a plume on one side [<i>syn</i>: Balmoral, bluebonnet].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Balmy</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) &nbsp;</span><span
@@ -492,7 +548,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Informal or s
 terms for mentally irregular; &quot;it used to drive my husband balmy&quot; [<i>syn</i>:
 {balmy}, {barmy}, {bats}, {batty}, {bonkers}, {buggy}, {cracked}, {crackers},
 {daft}, {dotty}, {fruity}, {haywire}, {kooky}, {kookie}, {loco}, {loony},
-{loopy}, {nuts}, {nutty}, {round the bend}, {around the bend}, {wacky}, {whacky}].</span></p>
+{loopy}, {nuts}, {nutty}, {round the bend}, {around the bend}, {wacky},
+{whacky}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Balmy</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Mild and pleasant;
@@ -507,7 +564,7 @@ style='font-family:"新細明體","serif"'>Of or pertaining to a bath. -- Howell
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Balneary</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>浴室 <span lang=EN-US>A bathing room. -- Sir
+style='font-family:"新細明體","serif"'>浴室<span lang=EN-US> A bathing room. -- Sir
 T. Browne.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Balneation</span></b><span
@@ -581,8 +638,8 @@ disease by baths.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Hydrotherapy</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [Mass noun]</span><span
-style='font-family:"新細明體","serif"'>【醫】水治療法<span lang=EN-US> &nbsp;The use of
-exercises in a pool as part of treatment for conditions such as arthritis.</span></span></p>
+style='font-family:"新細明體","serif"'>【醫】水治療法<span lang=EN-US> &nbsp;The use of exercises
+in a pool as part of treatment for conditions such as arthritis.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>[As
 modifier]&nbsp;</span><span style='font-family:"新細明體","serif"'>‘<span
@@ -617,9 +674,9 @@ feet are in the air, he shows only the shoes of his hind feet, without jerking
 out.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ballotade</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A bouncing step or leap;
-(Dressage) a kind of leap in which a horse bends all four legs without kicking
-out the hind ones.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A bouncing step or
+leap; (Dressage) a kind of leap in which a horse bends all four legs without
+kicking out the hind ones.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ballotade</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Dressage) A
@@ -669,9 +726,9 @@ raft or float, used principally on the Pacific coast of South America.</span></s
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Raft</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>木排，木筏；筏子；（救生用）橡皮艇；（海水浴場等的）浮臺 <span
-lang=EN-US>A flat buoyant structure of timber or other materials fastened
-together, used as a boat or floating platform.</span></span></p>
+style='font-family:"新細明體","serif"'>木排，木筏；筏子；（救生用）橡皮艇；（海水浴場等的）浮臺<span
+lang=EN-US> A flat buoyant structure of timber or other materials fastened together,
+used as a boat or floating platform.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Raft</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A small inflatable
@@ -751,8 +808,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (Bot.) A spec
 tree ({Abies balsamea).</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Balsam</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (Bot.) An annual garden
-plant ({Impatiens balsamina) with beautiful flowers; balsamine.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (Bot.) An annual
+garden plant ({Impatiens balsamina) with beautiful flowers; balsamine.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Balsam</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Anything that heals,
@@ -851,7 +908,7 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Alt. of Balsa
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Balsamical</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>（植物的）香膠或香脂的；含有香膠或香脂的 <span lang=EN-US>Having
+style='font-family:"新細明體","serif"'>（植物的）香膠或香脂的；含有香膠或香脂的<span lang=EN-US> Having
 the qualities of balsam; containing, or resembling, balsam; soft; mitigative;
 soothing; restorative.</span></span></p>
 
@@ -873,8 +930,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To stick
 together.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Baltic</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of or pertaining to
-the sea which separates Norway and Sweden from <st1:city u1:st="on">Jutland</st1:city>,
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of or pertaining to the
+sea which separates Norway and Sweden from <st1:city u1:st="on">Jutland</st1:city>,
 Denmark, and Germany; situated on the Baltic Sea.</span></p>
 
 <p class=MsoNormal><st1:city u1:st="on"><b><span lang=EN-US style='font-family:
@@ -950,8 +1007,8 @@ object] </span><span style='font-family:"新細明體","serif"'>鞭打，鞭策�
 lang=EN-US><span style='orphans: 2;widows: 2;float:none;word-spacing:0px'>&nbsp;</span></span><span
 style='outline-color: invert;outline-style: none;outline-width: 0px;orphans: 2;
 widows: 2;word-spacing:0px'><span style='font-family:"新細明體","serif"'>迫使</span></span>
-<span lang=EN-US style='font-family:"新細明體","serif"'>Beat (someone) with a whip
-or stick as a punishment.</span></p>
+<span lang=EN-US style='font-family:"新細明體","serif"'>Beat (someone) with a whip or
+stick as a punishment.</span></p>
 
 <p class=MsoNormal><span style='font-family:"新細明體","serif"'>‘<span lang=EN-US>The
 men had been <i>flogged</i> and branded on the forehead.</span>’</span></p>
@@ -1091,8 +1148,8 @@ deception to deprive someone of money or possessions.</span></span></p>
 used his charm to become a small-time <i>swindler</i>.</span>’</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ban </span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A kind of fine muslin,
-made in the East Indies from the fiber of the banana leaf stalks.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A kind of fine
+muslin, made in the East Indies from the fiber of the banana leaf stalks.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ban</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To curse; to
@@ -1101,6 +1158,69 @@ invoke evil upon. -- Sir W. Scott.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ban</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To forbid; to
 interdict. -- Byron.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:
+<b>Interdict</b></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Interdict</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) &nbsp;</span><span
+style='font-family:"新細明體","serif"'>禁止；制止；封鎖；阻斷</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Interdict</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) An authoritative
+prohibition.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Interdict</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Scottish &nbsp;Law)
+&nbsp;A court order forbidding an act; a negative injunction.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Interdict</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (In the Roman
+Catholic Church) A sentence debarring a person or place from ecclesiastical
+functions and privileges.</span></p>
+
+<p class=MsoNormal><span style='font-family:"新細明體","serif"'>‘<span lang=EN-US>A
+papal <i>interdict</i>.</span>’</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Interdict</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) (<i>v</i>.) [With
+object] (North American) </span><span style='font-family:"新細明體","serif"'>禁止；制止；封鎖；阻斷<span
+lang=EN-US> Prohibit or forbid (something).</span></span></p>
+
+<p class=MsoNormal><span style='font-family:"新細明體","serif"'>‘<span lang=EN-US>Society
+will never<i> interdict</i> sex.</span>’</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Interdict</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) (<i>v</i>.) [With
+object] (Interdict someone from) Prohibit someone from (doing something).</span></p>
+
+<p class=MsoNormal><span style='font-family:"新細明體","serif"'>‘<span lang=EN-US>I
+have not been <i>interdicted</i> from consuming alcoholic beverages.</span>’</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Interdict</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) (<i>v</i>.) [With
+object] (North American) &nbsp;Intercept and prevent the movement of (a
+prohibited commodity or person).</span></p>
+
+<p class=MsoNormal><span style='font-family:"新細明體","serif"'>‘<span lang=EN-US>Army
+efforts to <i>interdic</i>t enemy supply shipments</span>’</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Interdict</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) (<i>v</i>.) [With
+object] (Military) &nbsp;Impede (an enemy force), especially by bombing lines
+of communication or supply.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Interdict</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [&nbsp;C&nbsp;]
+(Specialized) (Law) </span><span style='font-family:"新細明體","serif"'>（法庭發出的）強制令；禁令<span
+lang=EN-US> An official instruction from a law court telling someone that they
+are not allowed to do something.</span></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Interdict</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [&nbsp;C&nbsp;]
+(Specialized) (Religion) </span><span style='font-family:"新細明體","serif"'>（羅馬天主教發出的）禁止令<span
+lang=EN-US> An instruction from the Roman Catholic Church telling someone they
+are not allowed to take part in official Church activities.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ban </span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
@@ -1117,9 +1237,9 @@ usage, in France and Prussia, the most effective part of the population liable
 to military duty and not in the standing army.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ban</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (<i>pl</i>.) Notice
-of a proposed marriage, proclaimed in church. See Banns (the common spelling in
-this sense).</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (<i>n</i>. <i>pl</i>.)
+Notice of a proposed marriage, proclaimed in church. See Banns (the common
+spelling in this sense).</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ban</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) An interdiction,
@@ -1195,8 +1315,8 @@ means or social pressure; &quot;Smoking is banned in this building&quot;.</span>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif";
 color:black'>B</span></b><b><span lang=EN-US style='font-family:"新細明體","serif"'>an</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Ban from a place of
-residence, as for punishment [<i>syn</i>: banish, ban].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Ban from a place of residence,
+as for punishment [<i>syn</i>: banish, ban].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif";
 color:black'>Ban</span></b><span lang=EN-US style='font-family:"新細明體","serif";
@@ -1267,9 +1387,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Something
 commonplace, hackneyed, or trivial; the commonplace, in speech.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Banana</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A perennial herbaceous
-plant of almost treelike size (Musa sapientum); also, its edible fruit. See
-Musa.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A perennial
+herbaceous plant of almost treelike size (Musa sapientum); also, its edible
+fruit. See Musa.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Banat</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The territory
@@ -1384,9 +1504,9 @@ strips of linen hanging from the neck in front as part of a clerical, legal, or
 academic dress.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Band</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A narrow strip of cloth
-or other material on any article of dress, to bind, strengthen, ornament, or
-complete it.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A narrow strip of
+cloth or other material on any article of dress, to bind, strengthen, ornament,
+or complete it.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Band</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A company of persons
@@ -1422,8 +1542,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Pledge; secur
 [Obs.] -- Spenser.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Band
-saw</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, A saw in
-the form of an endless steel belt, with teeth on one edge, running over wheels.</span></p>
+saw</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, A saw in the
+form of an endless steel belt, with teeth on one edge, running over wheels.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Big
 band</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, A band
@@ -1502,8 +1622,8 @@ playing popular music for dancing [<i>syn</i>: dance band, band, dance
 orchestra].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Band</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A range of frequencies
-between two limits.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A range of
+frequencies between two limits.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Band</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A thin flat strip of
