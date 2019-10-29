@@ -52,13 +52,13 @@ p
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"&\#65533";}
-@font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"&\#65533";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -72,6 +72,29 @@ h2
 	font-size:18.0pt;
 	font-family:"&\#65533";
 	font-weight:bold;}
+h3
+	{mso-style-link:"標題 3 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:300%;
+	page-break-after:avoid;
+	font-size:18.0pt;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -102,16 +125,47 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.3
+	{mso-style-name:"標題 3 字元";
+	mso-style-link:"標題 3";
+	font-family:"Cambria","serif";
+	font-weight:bold;}
 span.HTML
 	{mso-style-name:"HTML 預設格式 字元";
 	mso-style-link:"HTML 預設格式";
 	font-family:"Courier New";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"&\#65533";}
+span.hw
+	{mso-style-name:hw;}
+span.pos
+	{mso-style-name:pos;}
+span.iteration
+	{mso-style-name:iteration;}
+span.sense-regions
+	{mso-style-name:sense-regions;}
+span.ind
+	{mso-style-name:ind;}
+span.sense-registers
+	{mso-style-name:sense-registers;}
+span.inflection-text
+	{mso-style-name:inflection-text;}
+span.grammaticalnote
+	{mso-style-name:grammatical_note;}
+span.subsenseiteration
+	{mso-style-name:subsenseiteration;}
 .MsoChpDefault
 	{font-size:10.0pt;}
 @page WordSection1
@@ -216,7 +270,7 @@ as {Questionary}.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Questionnaire</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.; pl</i>. {-naires}) </span><span
-style='font-family:"新細明體","serif"'>（調查情況用的）問卷；（意見）調查表 <span lang=EN-US>[C] A
+style='font-family:"新細明體","serif"'>（調查情況用的）問卷；（意見）調查表<span lang=EN-US> [C] A
 list of questions, usually on a printed form, to be answered by an individual.
 The forms often have blank spaces in which the answers can be written. Sets of
 such forms are distributed to groups and the answers used for various purposes,
@@ -239,8 +293,8 @@ style='font-family:"新細明體","serif"'>調查表；問卷<span lang=EN-US> O
 business to seek after relics and carry them about for sale.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Questionary</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A set of questions
-for submission to a group of persons for the purpose of bringing out their
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A set of questions for
+submission to a group of persons for the purpose of bringing out their
 resemblances and differences in the matter considered. The questionary method
 is a recognized form of psychological investigation.</span></p>
 
@@ -260,8 +314,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A questioner;
 inquirer. [Obs.]</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Questionist</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (Eng. Univ.) A
-candidate for honors or degrees who is near the time of his examination.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (Eng. Univ.) A candidate
+for honors or degrees who is near the time of his examination.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Questionless</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
@@ -351,18 +405,58 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The common
 guillemot.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queue</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A tail-like
-appendage of hair; a pigtail.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>髮辮，辮子<span lang=EN-US> A tail-like appendage
+of hair; a pigtail.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queue</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A line of persons
-waiting anywhere.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) </span><span
+style='font-family:"新細明體","serif"'>（人或車輛等的）行列，長隊<span lang=EN-US> A line of
+persons waiting anywhere.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queue</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To fasten, as
-hair, in a queue.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) </span><span
+style='font-family:"新細明體","serif"'>把（髮）梳成辮子<span lang=EN-US> To fasten, as
+hair, in a queue.</span></span></p>
 
-<p class=MsoNormal><b><span lang=ES-TRAD style='font-family:"新細明體","serif"'>Quey</span></b><span
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queue</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [British] &nbsp;A
+line or sequence of people or vehicles awaiting their turn to be attended to or
+to proceed.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queue</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [Computing] A list
+of data items, commands, etc., stored so as to be retrievable in a definite
+order, usually the order of insertion.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queue</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [Archaic] &nbsp;A
+plait of hair worn at the back.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'><button data-behaviour="ga-event" data-value="more example sentences" style="border: 2px solid rgb(219, 222, 226); margin: 0px; padding: 2px 8px 3px 20px; overflow: visible; font-family: &quot;Open Sans&quot;,Helvetica,Arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 13px; line-height: normal; font-size-adjust: none; font-stretch: normal; cursor: pointer; outline-color: invert; outline-style: none; outline-width: medium; color: rgb(102, 102, 102);">Queue</button></span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) (queues,
+&nbsp;queuing, &nbsp;queueing, &nbsp;queued) [British] [No object&nbsp;] </span><span
+style='font-family:"新細明體","serif"'>排隊；排隊等候<span lang=EN-US> Take one's place in
+a queue.</span></span></p>
+
+<p class=MsoNormal><span style='font-family:"新細明體","serif"'>‘<span lang=EN-US>In
+the war they had<i> queued</i> for food.</span>’</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'><button data-behaviour="ga-event" data-value="more example sentences" style="border: 2px solid rgb(219, 222, 226); margin: 0px; padding: 2px 8px 3px 20px; overflow: visible; font-family: &quot;Open Sans&quot;,Helvetica,Arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 13px; line-height: normal; font-size-adjust: none; font-stretch: normal; cursor: pointer; outline-color: invert; outline-style: none; outline-width: medium; color: rgb(102, 102, 102);">Queue</button></span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v.</i>) (Queue up) Be
+extremely keen to do or have something.</span></p>
+
+<p class=MsoNormal><span style='font-family:"新細明體","serif"'>‘<span lang=EN-US>Companies
+are <i>queuing</i> <i>up</i> to move to the bay.</span>’</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queue</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v.</i>) [Computing] [With
+object&nbsp;] Arrange in a queue.</span></p>
+
+<p class=MsoNormal><span style='font-family:"新細明體","serif"'>‘<span lang=EN-US>Input
+or output requests to a file are<i> queued</i> by the operating system.</span>’</span></p>
+
+<p class=MsoNormal><b><span lang=ES-TRAD style='font-family:"新細明體","serif"'><button data-behaviour="ga-event" data-value="more example sentences" style="border: 2px solid rgb(219, 222, 226); margin: 0px; padding: 2px 8px 3px 20px; overflow: visible; font-family: &quot;Open Sans&quot;,Helvetica,Arial,sans-serif; font-style: normal; font-variant: normal; font-weight: normal; font-size: 13px; line-height: normal; font-size-adjust: none; font-stretch: normal; cursor: pointer; outline-color: invert; outline-style: none; outline-width: medium; color: rgb(102, 102, 102);">Quey</button></span></b><span
 lang=ES-TRAD style='font-family:"新細明體","serif"'> (<i>n.</i>) A heifer.</span></p>
 
 <p class=MsoNormal><b><span lang=ES-TRAD style='font-family:"新細明體","serif"'>Quib</span></b><span
@@ -435,8 +529,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>superl.</i>) Fresh; b
 sharp; keen.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quick</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>superl.</i>) Sensitive; perceptive
-in a high degree; ready; as, a quick ear.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>superl.</i>) Sensitive;
+perceptive in a high degree; ready; as, a quick ear.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quick</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>superl.</i>) Pregnant; with
@@ -489,9 +583,9 @@ quick or rapid; to hasten; to accelerate; as, to quicken one's steps or
 thoughts; to quicken one's departure or speed.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quicken</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) To shorten the
-radius of (a curve); to make (a curve) sharper; as, to quicken the sheer, that
-is, to make its curve more pronounced.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) To shorten the radius
+of (a curve); to make (a curve) sharper; as, to quicken the sheer, that is, to
+make its curve more pronounced.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quicken</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To come to life;
@@ -520,8 +614,8 @@ becoming possessed of independent life.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Quitch grass.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quicken
-tree</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> () The
-European rowan tree; -- called also quickbeam, and quickenbeam. See Rowan tree.</span></p>
+tree</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> () The European
+rowan tree; -- called also quickbeam, and quickenbeam. See Rowan tree.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quickhatch</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The wolverine.</span></p>
@@ -532,8 +626,8 @@ unslacked lime; -- so called because when wet it develops great heat. See 4th
 Lime, 2.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quickly</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) Speedily; with
-haste or celerity; soon; without delay; quick.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) Speedily; with haste
+or celerity; soon; without delay; quick.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quickness</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The condition or
@@ -544,8 +638,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Activity; bri
 especially, rapidity of motion; speed; celerity; as, quickness of wit.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quickness</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Acuteness of
-perception; keen sensibility.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Acuteness of perception;
+keen sensibility.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quickness</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Sharpness; pungency
@@ -553,10 +647,10 @@ of taste.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quicksand</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Sand easily moved or
-readily yielding to pressure; especially, a deep mass of loose or moving sand
-mixed with water, sometimes found at the mouth of a river or along some coasts,
-and very dangerous, from the difficulty of extricating a person who begins
-sinking into it.</span></p>
+readily yielding to pressure; especially, a deep mass of loose or moving sand mixed
+with water, sometimes found at the mouth of a river or along some coasts, and
+very dangerous, from the difficulty of extricating a person who begins sinking
+into it.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quick-scented</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Acute of smell.</span></p>
