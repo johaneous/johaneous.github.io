@@ -59,6 +59,15 @@ h2
 	font-size:18.0pt;
 	font-family:"Times New Roman","serif";
 	font-weight:bold;}
+h3
+	{mso-style-link:"標題 3 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:300%;
+	page-break-after:avoid;
+	font-size:18.0pt;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
 h4
 	{mso-style-link:"標題 4 字元";
 	margin:0cm;
@@ -118,6 +127,11 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.3
+	{mso-style-name:"標題 3 字元";
+	mso-style-link:"標題 3";
+	font-family:"Cambria","serif";
+	font-weight:bold;}
 span.4
 	{mso-style-name:"標題 4 字元";
 	mso-style-link:"標題 4";
@@ -150,9 +164,14 @@ span.trans
 	{mso-style-name:trans;}
 span.source
 	{mso-style-name:source;}
+span.pos
+	{mso-style-name:pos;}
+span.ind
+	{mso-style-name:ind;}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -213,10 +232,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) (Formal) </sp
 style='font-family:"新細明體","serif"'>相當的，相稱的<span lang=EN-US> In a correct and
 suitable amount compared to something else.</span></span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>A salary
-that is <i>commensurate</i> with skills and experience. </span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// A
+salary that is <i>commensurate</i> with skills and experience. </span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commensurately
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>adv</i>.) In
@@ -257,9 +274,9 @@ Comment.</span></p>
 style='font-family:"新細明體","serif"'>做註解，做評註<span lang=EN-US> [</span>（<span
 lang=EN-US>+on/ upon</span>）<span lang=EN-US>]</span>；發表意見，評論<span lang=EN-US>
 [</span>（<span lang=EN-US>+on/ upon</span>）<span lang=EN-US>] To make remarks,
-observations, or criticism; especially, to write notes on the works of an author,
-with a view to illustrate his meaning, or to explain particular passages; to
-write annotations; -- often followed by on or upon.</span></span></p>
+observations, or criticism; especially, to write notes on the works of an
+author, with a view to illustrate his meaning, or to explain particular
+passages; to write annotations; -- often followed by on or upon.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Comment</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.)&nbsp; </span><span
@@ -305,48 +322,45 @@ lang=EN-US> [</span>（<span lang=EN-US>+on/ about</span>）<span lang=EN-US>] A
 remark, observation, or criticism; gossip; discourse; talk.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Comment
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A note
-or observation intended to explain, illustrate, or criticise the meaning of a
-writing, book, etc.; explanation; annotation; exposition.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A
+note or observation intended to explain, illustrate, or criticise the meaning
+of a writing, book, etc.; explanation; annotation; exposition.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Comment</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [ C or U ] (B1) </span><span
 style='font-family:"新細明體","serif"'>評論；意見；評價；評語<span lang=EN-US> Something that
 you say or write that expresses your opinion.</span></span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// I
+don't want any <i>comments</i> on/ about my new haircut, thank you!</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>I don't
-want any <i>comments</i> on/ about my new haircut, thank you!</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// He
+made negative <i>comments</i> to the press.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>He made
-negative <i>comments</i> to the press.</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>I
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// I
 suppose his criticism was fair <i>comment</i> (= a reasonable opinion).</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>She was
-asked about the pay increase but made no <i>comment</i> (= did not give an
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// She
+was asked about the pay increase but made no <i>comment</i> (= did not give an
 opinion).</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>No comment
-(C2) (<i>ph</i>.) </span><span style='font-family:"新細明體","serif"'>無可奉告<span
-lang=EN-US> Used to say that you do not want to answer someone's question.</span></span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>No
+comment</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (C2) (<i>ph</i>.)
+</span><span style='font-family:"新細明體","serif"'>無可奉告<span lang=EN-US> Used to
+say that you do not want to answer someone's question.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Comment</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) [ I or T ] (B2) </span><span
 style='font-family:"新細明體","serif"'>評論；議論；發表意見<span lang=EN-US> To make a
 comment.</span></span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// My
+mum always <i>comments</i> on what I'm wearing.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>My mum
-always <i>comments</i> on what I'm wearing.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// [ +
+that ] He <i>commented</i> that the two essays were rather similar.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>[ + that
-] He <i>commented</i> that the two essays were rather similar.</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// The
 official refused to/ declined to <i>comment</i> on the matter.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commentaries</span></b><span
@@ -378,9 +392,7 @@ style='font-family:"MS Mincho","serif"'>​</span><span style='font-family:"新�
 lang=EN-US style='font-family:"新細明體","serif"'>A spoken description of an event
 on the radio or television that is broadcast as the event happens.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The <i>commentary</i>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// The <i>commentary</i>
 on the Olympic Games was much better on the other channel. </span><span
 style='font-family:"MS Mincho","serif"'>​</span><span style='font-family:"新細明體","serif"'>
 </span></p>
@@ -392,9 +404,7 @@ or U ] </span><span class=trans><span style='font-family:"新細明體","serif"'
 remarks on an event, book, or person that explains its subject or expresses an
 opinion on it.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Examples:</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>There's
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// There's
 good arts coverage in the newspaper, but not much political <i>commentary</i>. </span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Running
@@ -437,8 +447,8 @@ style='font-family:"新細明體","serif"'>評論員的<span lang=EN-US> Pertain
 making of commentaries. &nbsp;-- Whewell.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commentatorship</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The office or
-occupation of a commentator.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The office or occupation
+of a commentator.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commenter</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
@@ -487,12 +497,12 @@ cards, in which the cards are subject to exchange, barter, or trade.</span></p>
 name of a card-game. Any number can play with an ordinary pack. There are
 several variations of the game, but the following is a common one. Each player
 receives three cards, and three more are turned up as a </span><span
-style='font-family:"新細明體","serif"'>“<span lang=EN-US>pool.</span>” <span
-lang=EN-US>The first player may exchange one or two of his cards for one or two
-of the exposed cards, putting his own, face upwards, in their place. His object
-is to </span>“<span lang=EN-US>make his hand</span>”<span lang=EN-US> (see
-below), but if he changes all three cards at once he cannot change again. The
-next player can do likewise, and so on. Usually there are as many rounds as
+style='font-family:"新細明體","serif"'>“<span lang=EN-US>pool.</span>”<span
+lang=EN-US> The first player may exchange one or two of his cards for one or
+two of the exposed cards, putting his own, face upwards, in their place. His
+object is to </span>“<span lang=EN-US>make his hand</span>”<span lang=EN-US>
+(see below), but if he changes all three cards at once he cannot change again.
+The next player can do likewise, and so on. Usually there are as many rounds as
 there are players, and a fresh card is added to the pool at the beginning of
 each. If a player passes once he cannot exchange afterwards. When the rounds
 are finished the hands are shown, the holder of the best either receiving a
@@ -563,8 +573,8 @@ Wilson.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commerce</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Transactions (sales
-and purchases) having the objective of supplying commodities (goods and services)
-[<i>syn</i>: {commerce}, {commercialism}, {mercantilism}].</span></p>
+and purchases) having the objective of supplying commodities (goods and
+services) [<i>syn</i>: {commerce}, {commercialism}, {mercantilism}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commerce</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The United States
@@ -626,9 +636,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A threat or
 threatening; a denunciation of punishment or vengeance.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commination</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) An office in the
-liturgy of the Church of England, used on Ash Wednesday, containing a recital
-of God's anger and judgments against sinners.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) An office in the liturgy
+of the Church of England, used on Ash Wednesday, containing a recital of God's
+anger and judgments against sinners.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commination</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A denunciation.</span></p>
@@ -678,7 +688,7 @@ accounts.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commingling</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [ U ] A mixing or
-mixture</span>.</span></p>
+mixture</span><span lang=EN-US>.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// He
 had to answer questions about the <i>commingling</i> of endowment funds with
@@ -735,12 +745,12 @@ Commiserate.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commiserate
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) (<i>v.
 t</i>.) </span><span style='font-family:"新細明體","serif"'>憐憫；同情<span lang=EN-US>
-(<i>v. i</i>.) </span>弔慰；同情<span lang=EN-US> To feel sorrow, pain, or regret
-for; to pity.</span></span></p>
+(<i>v. i</i>.) </span>弔慰；同情<span lang=EN-US> To feel sorrow, pain, or regret for;
+to pity.</span></span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Then must
-we those, who groan, beneath the weight Of age, disease, or want, commiserate.
--- Denham.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Then
+must we those, who groan, beneath the weight Of age, disease, or want,
+commiserate. -- Denham.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>We
 should commiserate our mutual ignorance. -- Locke.</span></p>
@@ -787,27 +797,41 @@ expressing sympathy; &quot;made commiserative clicking sounds with his
 tongue&quot; -- Kenneth Roberts</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commiserator</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n. pl</i>. -s) One who
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n. pl. -s</i>) One who
 commiserates or pities.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissarial
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
-&nbsp;</span><span style='font-family:"新細明體","serif"'>前蘇聯之委員或代表的</span><span
-style='font-family:"新細明體","serif"'>；軍需官的；供應糧食或日用品之商店的；主教之特別代理的</span><span
-lang=EN-US> Of or pertaining to a commissary.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commiserator
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A
+person who commiserates with another or others; a person given to sympathizing
+or compassion.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissarial</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) &nbsp;</span><span
+style='font-family:"新細明體","serif"'>前蘇聯之委員或代表的；軍需官的；供應糧食或日用品之商店的；主教之特別代理的<span
+lang=EN-US> Of or pertaining to a commissary.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissariat</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The organized system
-by which armies and military posts are supplied with food and daily
-necessaries.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mil.) </span><span
+style='font-family:"新細明體","serif"'>軍需部；糧食補給；舊蘇俄人民委員部<span lang=EN-US> The
+organized system by which armies and military posts are supplied with food and
+daily necessaries.</span></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissariat
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
+(Mil.) The body of officers charged with such service.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissariat
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A
+stock or supply of foods [<i>syn</i>: commissariat, provisions, provender,
+viands, victuals].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissariat</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The body of officers
-charged with such service.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The whole body of
+officers who act in the department of the commissary, are called the,
+commissariate. </span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissaries</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of
-Commissary.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of Commissary.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissary</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
@@ -850,8 +874,8 @@ commissary general of subsistence. [U. S.]</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissary
 general of subsistence</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>
-(Mil. U. S.), The head of the subsistence department, who has charge of the
-purchase and issue of provisions for the army.</span></p>
+(Mil. U. S.), The head of the subsistence department, who has charge of the purchase
+and issue of provisions for the army.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissary</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A retail store that
@@ -925,9 +949,8 @@ a charge or commission.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commission</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A special group
-delegated to consider some matter; &quot;a committee is a group that keeps
-minutes and loses hours&quot; - Milton Berle [<i>syn</i>: {committee},
-{commission}].</span></p>
+delegated to consider some matter; &quot;a committee is a group that keeps minutes
+and loses hours&quot; - Milton Berle [<i>syn</i>: {committee}, {commission}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commission</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A fee for services
@@ -941,8 +964,8 @@ authority to undertake certain functions [<i>syn</i>: {commission},
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commission</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The state of being
-in good working order and ready for operation; &quot;put the ships into commission&quot;;
-&quot;the motor was out of commission&quot;.</span></p>
+in good working order and ready for operation; &quot;put the ships into
+commission&quot;; &quot;the motor was out of commission&quot;.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commission</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A group of
@@ -984,8 +1007,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Alt. of
 Commissionary.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissionary</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of, pertaining to,
-or conferring, a commission; conferred by a commission or warrant.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of, pertaining to, or
+conferring, a commission; conferred by a commission or warrant.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissionate
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
@@ -998,9 +1021,10 @@ officers) Holding by virtue of a commission a rank of second lieutenant or
 ensign or above.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissioned</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Given official approval
-to act; &quot;an accredited college&quot;; &quot;commissioned broker&quot;;
-&quot;licensed pharmacist&quot;; &quot;authorized representative&quot;.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Given official
+approval to act; &quot;an accredited college&quot;; &quot;commissioned
+broker&quot;; &quot;licensed pharmacist&quot;; &quot;authorized
+representative&quot;.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissioner
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) [C] </span><span
@@ -1021,9 +1045,10 @@ charge of some department or bureau of the public service.</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Herbert
 was first commissioner of the Admiralty. -- Macaulay.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The commissioner
-of patents, the commissioner of the land office, the commissioner of Indian
-affairs, are subordinates of the secretary of the interior. -- Bartlett.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The
+commissioner of patents, the commissioner of the land office, the commissioner
+of Indian affairs, are subordinates of the secretary of the interior. --
+Bartlett.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>{<b>Commissioner
 of deeds</b>}, An officer having authority to take affidavits, depositions,
@@ -1093,8 +1118,8 @@ A collection of fibers connecting parts of the brain or spinal marrow; a
 chiasma.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissure</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Bot.) The line of
-junction or cohering face of two carpels, as in the parsnip, caraway, etc.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Bot.) The line of junction
+or cohering face of two carpels, as in the parsnip, caraway, etc.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commissure</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A bundle of nerve
@@ -1119,8 +1144,8 @@ unto.</span></span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Commit
 thy way unto the Lord. -- Ps. xxxvii. 5.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Bid him
-farewell, commit him to the grave. -- Shak.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Bid him farewell,
+commit him to the grave. -- Shak.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Commit</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To put in charge
