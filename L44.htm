@@ -40,6 +40,12 @@ p
 
  /* Font Definitions */
  @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
@@ -112,6 +118,12 @@ pre
 	margin-bottom:.0001pt;
 	font-size:12.0pt;
 	font-family:細明體;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"註解方塊文字 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Cambria","serif";}
 span.2
 	{mso-style-name:"標題 2 字元";
 	mso-style-link:"標題 2";
@@ -134,24 +146,62 @@ span.a0
 	{mso-style-name:"頁尾 字元";
 	mso-style-link:頁尾;
 	font-family:"新細明體","serif";}
+span.a1
+	{mso-style-name:"註解方塊文字 字元";
+	mso-style-link:註解方塊文字;
+	font-family:"Cambria","serif";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"&\#65533";}
+p.tb, li.tb, div.tb
+	{mso-style-name:tb;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"新細明體","serif";}
 span.pos
 	{mso-style-name:pos;}
 span.ind
 	{mso-style-name:ind;}
+span.hw
+	{mso-style-name:hw;}
+span.gram
+	{mso-style-name:gram;}
+span.gc
+	{mso-style-name:gc;}
+span.lab
+	{mso-style-name:lab;}
+span.region
+	{mso-style-name:region;}
+span.daud
+	{mso-style-name:daud;}
+span.pron
+	{mso-style-name:pron;}
+span.ipa
+	{mso-style-name:ipa;}
+span.trans
+	{mso-style-name:trans;}
+span.eg
+	{mso-style-name:eg;}
+span.b
+	{mso-style-name:b;}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
 -->
 </style>
 
@@ -170,12 +220,12 @@ perceptive faculty concerned with the ability to remember the relative
 positions of places.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locality</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A surrounding or nearby
-region; &quot;the plane crashed in the vicinity of Asheville&quot;; &quot;it is
-a rugged locality&quot;; &quot;he always blames someone else in the immediate
-neighborhood&quot;; &quot;I will drop in on you the next time I am in this neck
-of the woods&quot; [<i>syn</i>: {vicinity}, {locality}, {neighborhood},
-{neighbourhood}, {neck of the woods}].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A surrounding or
+nearby region; &quot;the plane crashed in the vicinity of Asheville&quot;;
+&quot;it is a rugged locality&quot;; &quot;he always blames someone else in the
+immediate neighborhood&quot;; &quot;I will drop in on you the next time I am in
+this neck of the woods&quot; [<i>syn</i>: {vicinity}, {locality},
+{neighborhood}, {neighbourhood}, {neck of the woods}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locality</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>), Scotch law. This
@@ -330,9 +380,9 @@ canal with gates at each end, used in raising or lowering boats as they pass
 from one level to another; -- called also lift lock.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Lock</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) That part or apparatus
-of a firearm by which the charge is exploded; as, a matchlock, flintlock,
-percussion lock, etc.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) That part or
+apparatus of a firearm by which the charge is exploded; as, a matchlock,
+flintlock, percussion lock, etc.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Lock</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A device for keeping
@@ -393,18 +443,35 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Toll paid for
 passing the locks of a canal.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Lockage</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Amount of elevation
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Amount of elevation
 and descent made by the locks of a canal.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Lock-down</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A contrivance to
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A contrivance to
 fasten logs together in rafting; -- used by lumbermen.</span></p>
 
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Lockdown</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif";color:black;background:white'>（尤指監獄暴動時的）嚴防禁閉；一級封鎖</span></span><span
+style='font-family:"新細明體","serif"'> <span lang=EN-US>[North American] The
+confining of prisoners to their cells, typically after an escape or to regain
+control during a riot.</span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>‘The<i>
+lockdown</i> has been in effect since October 1983.’</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Lockdown</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A state of isolation
+or restricted access instituted as a security measure.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>‘The
+university is on <i>lockdown</i> and nobody has been able to leave.’&nbsp;</span></p>
+
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locked-jaw</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) See Lockjaw.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) See Lockjaw.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locken</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>obs. p. p.</i>) of Lock.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>obs. p. p</i>.) of Lock.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locken</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The globeflower
@@ -467,8 +534,8 @@ peculiar sort of stitch formed by the locking of two threads together, as in
 the work done by some sewing machines. See Stitch.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Lockup</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A place where
-persons under arrest are temporarily locked up; a watchhouse.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A place where persons
+under arrest are temporarily locked up; a watchhouse.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Lock-weir</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A waste weir for a
@@ -545,9 +612,9 @@ Mogul.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locomotive</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>運動的；活動的；移動的；機車的，火車頭的；有運動（或移動）力的 <span
-lang=EN-US>Moving from place to place; changing place, or able to change place;
-as, a locomotive animal.</span></span></p>
+style='font-family:"新細明體","serif"'>運動的；活動的；移動的；機車的，火車頭的；有運動（或移動）力的<span
+lang=EN-US> Moving from place to place; changing place, or able to change
+place; as, a locomotive animal.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locomotive</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Used in producing
@@ -566,8 +633,8 @@ tracks [<i>syn</i>: locomotive, engine, locomotive engine, railway locomotive].<
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Alt. of Locomotivity</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locomotivity</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The power of changing
-place. </span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The power of
+changing place. </span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locomotiveness</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The quality of being
@@ -591,8 +658,7 @@ locomotion [<i>syn</i>: locomotive, locomotor].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locomotor</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) [U] Of or pertaining
-to&nbsp; movement<span style='orphans: 2;widows: 2;float:none;word-spacing:
-0px'> &nbsp;or&nbsp;</span> locomotion.</span></p>
+to&nbsp; movement &nbsp;or&nbsp; locomotion.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locomotor
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) (<i>pl</i>.
@@ -660,11 +726,11 @@ described by a point or line that moves according to a given law.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locust</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Any one of numerous
-species of long-winged, migratory, orthopterous insects, of the family Acrididae,
-allied to the grasshoppers; esp., (Edipoda, / Pachytylus, migratoria, and
-Acridium perigrinum, of Southern Europe, Asia, and Africa. In the United States
-the related species with similar habits are usually called grasshoppers. See
-Grasshopper.</span></p>
+species of long-winged, migratory, orthopterous insects, of the family
+Acrididae, allied to the grasshoppers; esp., (Edipoda, / Pachytylus,
+migratoria, and Acridium perigrinum, of Southern Europe, Asia, and Africa. In
+the United States the related species with similar habits are usually called
+grasshoppers. See Grasshopper.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Locust</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The locust tree. See
