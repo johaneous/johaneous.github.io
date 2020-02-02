@@ -52,13 +52,13 @@ p
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"&\#65533";}
-@font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"&\#65533";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -81,6 +81,20 @@ h4
 	font-size:18.0pt;
 	font-family:"Cambria","serif";
 	font-weight:normal;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -125,9 +139,18 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"&\#65533";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -150,9 +173,12 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</
 Inhere</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inhere</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To be inherent;
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) To be inherent;
 to stick (in); to be fixed or permanently incorporated with something; to
 cleave (to); to belong, as attributes or qualities.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>They do
+but inhere in the subject that supports them. -- Digby. Inherence</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inherence</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
@@ -180,9 +206,9 @@ baseness.&quot; -- Shak.</span></span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The sore
 disease which seems inherent in civilization. -- Southey.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Syn:
-Innate; inborn; native; natural; inbred; inwrought; inseparable; essential;
-indispensable.</span></p>
+<p class=MsoNormal><i><span lang=EN-US style='font-family:"新細明體","serif"'>Syn</span></i><span
+lang=EN-US style='font-family:"新細明體","serif"'>: Innate; inborn; native;
+natural; inbred; inwrought; inseparable; essential; indispensable.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inherent</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Existing as an
@@ -293,9 +319,9 @@ blood</b>}, blood or relationship by which a person becomes qualified to be an
 heir, or to transmit possessions by inheritance.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inheritable</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Capable of being
-inherited; &quot;inheritable traits such as eye color&quot;; &quot;an
-inheritable title&quot; [<i>syn</i>: {inheritable}, {heritable}] [<i>ant</i>:
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Capable of being inherited;
+&quot;inheritable traits such as eye color&quot;; &quot;an inheritable
+title&quot; [<i>syn</i>: {inheritable}, {heritable}] [<i>ant</i>:
 {nonheritable}, {noninheritable}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inheritably</span></b><span
@@ -359,8 +385,7 @@ and reception by animal or plant generation.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (Law) A perpetual or
 continuing right which a man and his heirs have to an estate; an estate which a
 man has by descent as heir to another, or which he may transmit to another as
-his heir; an estate derived from an ancestor to an heir in course of law. --
-Blackstone.</span></p>
+his heir; an estate derived from an ancestor to an heir in course of law. -- Blackstone.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note:
 The word inheritance (used simply) is mostly confined to the title to land and
@@ -377,9 +402,9 @@ Hereditary succession to a title or an office or property [<i>syn</i>:
 {inheritance}, {heritage}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inheritance</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) That which is
-inherited; a title or property or estate that passes by law to the heir on the
-death of the owner [<i>syn</i>: {inheritance}, {heritage}].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) That which is inherited;
+a title or property or estate that passes by law to the heir on the death of
+the owner [<i>syn</i>: {inheritance}, {heritage}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inheritance</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Genetics)
@@ -393,10 +418,10 @@ only inheritance was my mother's blessing&quot;; &quot;the world's heritage of
 knowledge&quot; [<i>syn</i>: {inheritance}, {heritage}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inheritance
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.), Estates.
-A perpetuity in lands to a man and his heirs; or it is the right to succeed to
-the estate of a person who died intestate. Dig. 50, 16, 24. The term is applied
-to lands.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.),
+Estates. A perpetuity in lands to a man and his heirs; or it is the right to
+succeed to the estate of a person who died intestate. Dig. 50, 16, 24. The term
+is applied to lands.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inheritance
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) The
@@ -406,8 +431,8 @@ property which is inherited is called an inheritance.</span></p>
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) The
 term inheritance includes not only lands and tenements which have been acquired
 by descent, but also every fee simple or fee tail, which a person has acquired
-by purchase, may be said to be an inheritance, because the purchaser's heirs may
-inherit it. Litt. s. 9.</span></p>
+by purchase, may be said to be an inheritance, because the purchaser's heirs
+may inherit it. Litt. s. 9.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inheritance
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
@@ -419,11 +444,11 @@ Retraits, n. 2 8.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inheritance
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
-Among the civilians, by inheritance is understood the succession to all the rights
-of the deceased. It is of two kinds, 1 . That which arises by testament, when
-the testator gives his succession to a particular person; and, 2. That which
-arises by operation of law, which is called succession ab intestat. Hein. Lec.
-El. Sec. 484, 485.</span></p>
+Among the civilians, by inheritance is understood the succession to all the
+rights of the deceased. It is of two kinds, 1 . That which arises by testament,
+when the testator gives his succession to a particular person; and, 2. That
+which arises by operation of law, which is called succession ab intestat. Hein.
+Lec. El. Sec. 484, 485.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inheritor</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) One who inherits; an
@@ -443,8 +468,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The state of
 existing, of being inherent, in something; inherence.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inhiation</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A gaping after; eager
-desire; craving.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A gaping after;
+eager desire; craving.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inhibited</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
@@ -485,8 +510,9 @@ inhibitory action; esp., an inhibitory nerve.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inhibitory</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of or pertaining to,
-or producing, inhibition; consisting in inhibition; tending or serving to inhibit;
-as, the inhibitory action of the pneumogastric on the respiratory center.</span></p>
+or producing, inhibition; consisting in inhibition; tending or serving to
+inhibit; as, the inhibitory action of the pneumogastric on the respiratory
+center.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inhibitory-motor</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) A term applied to
@@ -494,8 +520,8 @@ certain nerve centers which govern or restrain subsidiary centers, from which
 motor impressions issue.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inhive</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To place in a hive;
-to hive.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To place in a
+hive; to hive.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inheld</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
@@ -519,10 +545,9 @@ hoop, or as in a hoop.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inhospitable</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) </span><span
 style='font-family:"新細明體","serif"'>不好客的，招待不殷勤的；冷淡的<span lang=EN-US> [</span>（<span
-lang=EN-US>+to</span>）<span lang=EN-US>]</span>；無遮掩的；荒涼的；不適</span><span
-style='font-family:"新細明體","serif"'>居留的</span> <span lang=EN-US
-style='font-family:"新細明體","serif"'>Not hospitable; not disposed to show
-hospitality to strangers or guests; as, an inhospitable person or people.</span></p>
+lang=EN-US>+to</span>）<span lang=EN-US>]</span>；無遮掩的；荒涼的；不適居留的</span> <span
+lang=EN-US style='font-family:"新細明體","serif"'>Not hospitable; not disposed to
+show hospitality to strangers or guests; as, an inhospitable person or people.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Have you
 no touch of pity, that the poor Stand starved at your inhospitable door? --
@@ -536,8 +561,8 @@ Affording no shelter or sustenance; barren; desert; bleak; cheerless; wild.
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inhospitable</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Unfavorable to life
-or growth; &quot;the barren inhospitable desert&quot;; &quot;inhospitable
-mountain areas&quot; [<i>ant</i>: hospitable].</span></p>
+or growth; &quot;the barren inhospitable desert&quot;; &quot;inhospitable mountain
+areas&quot; [<i>ant</i>: hospitable].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inhospitable</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Not hospitable;
@@ -556,8 +581,8 @@ inconsiderate welcome; &quot;he was taken aback by such inhospitality&quot; [<i>
 cordial reception, hospitality].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inhuman</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Destitute of the kindness
-and tenderness that belong to a human being; cruel; barbarous; savage;
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Destitute of the
+kindness and tenderness that belong to a human being; cruel; barbarous; savage;
 unfeeling; as, an inhuman person or people.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inhuman</span></b><span
@@ -640,8 +665,7 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) In an inimi
 manner.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inimicitious</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Inimical;
-unfriendly.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Inimical; unfriendly.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Inimicous</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Inimical; hurtful.</span></p>
@@ -674,9 +698,9 @@ Iniquity</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Iniquity</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Absence of, or
-deviation from, just dealing; want of rectitude or uprightness; gross injustice;
-unrighteousness; wickedness; as, the iniquity of bribery; the iniquity of an
-unjust judge.</span></p>
+deviation from, just dealing; want of rectitude or uprightness; gross
+injustice; unrighteousness; wickedness; as, the iniquity of bribery; the
+iniquity of an unjust judge.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Iniquity</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An iniquitous act or
