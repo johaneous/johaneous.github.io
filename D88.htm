@@ -38,6 +38,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -64,6 +78,14 @@ span.HTML
 	{mso-style-name:"HTML 預設格式 字元";
 	mso-style-link:"HTML 預設格式";
 	font-family:細明體;}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 p.definition-inner-item, li.definition-inner-item, div.definition-inner-item
 	{mso-style-name:definition-inner-item;
 	margin-right:0cm;
@@ -80,7 +102,8 @@ span.intro-colon
 	{mso-style-name:intro-colon;}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -134,12 +157,11 @@ but sounds can travel anywhere and alert monsters of your approach.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Doom</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) [U] PS1] </span><span
 style='-moz-background-clip: -moz-initial;-moz-background-origin: -moz-initial;
--moz-background-inline-policy: -moz-initial;background-position-x:0%;
-background-position-y:50%;background-attachment:scroll'><span style='font-family:
-"新細明體","serif"'>厄運，毀滅，死亡；【宗】末日審判，世界末日<span style='-moz-background-clip: -moz-initial;
+-moz-background-inline-policy: -moz-initial;background-attachment:scroll'><span
+style='font-family:"新細明體","serif"'>厄運，毀滅，死亡；【宗】末日審判，世界末日<span style='-moz-background-clip: -moz-initial;
 -moz-background-origin: -moz-initial;-moz-background-inline-policy: -moz-initial;
-background-position-x:0%;background-position-y:50%;background-attachment:scroll'></span><span
-lang=EN-US> Judgment; judicial sentence; penal decree; condemnation.</span></span></span></p>
+background-attachment:scroll'><span lang=EN-US> Judgment; judicial sentence;
+penal decree; condemnation.</span></span></span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The
 first dooms of London provide especially the recovery of cattle belonging to
@@ -272,7 +294,7 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Marked by or
 promising bad fortune; &quot;their business venture was doomed from the
 start&quot;; &quot;an ill-fated business venture&quot;; &quot;an ill-starred
 romance&quot;; &quot;the unlucky prisoner was again put in irons&quot;-
-W.H.Prescott [syn: {doomed}, {ill-fated}, {ill- omened}, {ill-starred},
+W.H.Prescott [<i>syn</i>: {doomed}, {ill-fated}, {ill- omened}, {ill-starred},
 {unlucky}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Doomed</span></b><span
@@ -476,8 +498,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The European
 goatsucker; -- so called because it eats the dor beetle. See Goatsucker.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorian</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of or pertaining to
-the ancient Greeks of Doris; Doric; as, a Dorian fashion.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of or pertaining to the
+ancient Greeks of Doris; Doric; as, a Dorian fashion.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorian</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Same as Doric, 3.</span></p>
@@ -615,37 +637,95 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) See 1st Dor.<
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) See Dorhawk.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorsad</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) Toward the dorsum
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) Toward the dorsum
 or back; on the dorsal side; dorsally.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorsal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Pertaining to, or
-situated near, the back, or dorsum, of an animal or of one of its parts; notal;
-tergal; neural; as, the dorsal fin of a fish; the dorsal artery of the tongue;
--- opposed to ventral.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:
+<b>Neural</b></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Neural</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) (Anat. &amp; Zool.)
+Relating to the nerves or nervous system; taining to, situated in the region
+of, or on the side with, the neural, or cerebro-spinal, axis; -- opposed to
+hemal. As applied to vertebrates, neural is the same as dorsal; as applied to
+invertebrates it is usually the same as ventral. Cf. Hemal.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Neural
+arch</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (Anat.),
+The cartilaginous or bony arch on the dorsal side of the centrum of the
+vertebra in a segment of the spinal skeleton, usually inclosing a segment of
+the spinal cord.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:
+<b>Posterior</b></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Posterior</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Later in time;
+hence, later in the order of proceeding or moving; coming after; -- opposed to
+prior.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Hesiod
+was posterior to Homer. -- Broome.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Posterior</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Situated behind;
+hinder; -- opposed to anterior.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Posterior</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) (Anat.) At or toward
+the caudal extremity; caudal; -- in human anatomy often used for dorsal.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Posterior</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) (Bot.) On the side
+next the axis of inflorescence; -- said of an axillary flower. -- Gray.</span></p>
+
+<pre><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorsal</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Fine Arts) A hanging, usually of rich stuff, at the back of a throne, or of an altar, or in any similar position.</span></pre>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorsal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Pertaining to the
-surface naturally inferior, as of a leaf.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) (Anat.) Pertaining to,
+or situated near, the back, or dorsum, of an animal or of one of its parts;
+notal; tergal; neural; as, the dorsal fin of a fish; the dorsal artery of the
+tongue; -- opposed to ventral.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorsal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Pertaining to the
-surface naturally superior, as of a creeping hepatic moss.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) (Bot.) Pertaining to
+the surface naturally inferior, as of a leaf.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorsal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) A hanging, usually
-of rich stuff, at the back of a throne, or of an altar, or in any similar
-position.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) (Bot.) Pertaining to
+the surface naturally superior, as of a creeping hepatic moss.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorsal
+vessel</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (Zool.),
+A central pulsating blood vessel along the back of insects, acting as a heart.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorsal</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Belonging to or on
+or near the back or upper surface of an animal or organ or part; &quot;the
+dorsal fin is the vertical fin on the back of a fish and certain marine
+mammals&quot; [<i>ant:</i> ventral].</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorsal</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Facing away from the
+axis of an organ or organism; &quot;the abaxial surface of a leaf is the underside
+or side facing away from the stem&quot; [<i>syn</i>: abaxial, dorsal] [<i>ant</i>:
+adaxial, ventral].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorsale</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Same as Dorsal, n.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Same as Dorsal, <i>n</i>.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorsally</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) On, or toward, the
-dorsum, or back; on the dorsal side of; dorsad.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) (Anat.) On, or
+toward, the dorsum, or back; on the dorsal side of; dorsad.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorsally</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) In a dorsal
+location or direction.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dorse</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Same as dorsal, n.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Same as dorsal, <i>n</i>.
+[Obs.]</span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
 style='font-family:"新細明體","serif"'><a href="D87.htm">[previous page]</a> <a
