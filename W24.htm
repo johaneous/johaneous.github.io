@@ -40,6 +40,9 @@ p
 
  /* Font Definitions */
  @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
@@ -52,13 +55,13 @@ p
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"&\#65533";}
-@font-face
 	{font-family:"\@新細明體";
-	panose-1:2 1 6 1 0 1 1 1 1 1;}
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"&\#65533";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -72,6 +75,20 @@ h2
 	font-size:18.0pt;
 	font-family:"&\#65533";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -89,6 +106,14 @@ pre
 	margin-bottom:.0001pt;
 	font-size:12.0pt;
 	font-family:細明體;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"註解方塊文字 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Cambria","serif";}
+span.MsoPlaceholderText
+	{color:gray;}
 span.2
 	{mso-style-name:"標題 2 字元";
 	mso-style-link:"標題 2";
@@ -98,6 +123,14 @@ span.HTML
 	{mso-style-name:"HTML 預設格式 字元";
 	mso-style-link:"HTML 預設格式";
 	font-family:細明體;}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
@@ -106,14 +139,34 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	font-family:"&\#65533";}
 span.source
 	{mso-style-name:source;}
+span.a1
+	{mso-style-name:"註解方塊文字 字元";
+	mso-style-link:註解方塊文字;
+	font-family:"Cambria","serif";}
+span.orth
+	{mso-style-name:orth;}
+span.pron
+	{mso-style-name:pron;}
+span.gramgrp
+	{mso-style-name:gramgrp;}
+span.lbl
+	{mso-style-name:lbl;}
+span.i
+	{mso-style-name:i;}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
 -->
 </style>
 
@@ -121,11 +174,13 @@ div.WordSection1
 
 <body lang=ZH-TW link=blue vlink=purple>
 
-<div class=WordSection1 style='layout-grid:18.0pt'>
+<div class=WordSection1 style='layout-grid:18.0pt'><pre><b><span lang=EN-US
+style='font-size:18.0pt;font-family:"新細明體","serif"'>Webster's Unabridged Dictionary - Letter W - Page 24</span></b></pre><pre><span
+lang=EN-US style='font-family:"新細明體","serif"'>Compare: <b>Marysole</b></span></pre><pre><b><span
+lang=EN-US style='font-family:"新細明體","serif"'>Marysole</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Zool.) A large British fluke, or flounder ({Rhombus megastoma); -- called also carter, and whiff.</span></pre>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-size:18.0pt;font-family:
-"新細明體","serif"'>Webster's Unabridged Dictionary - Letter W - Page 24<br>
-</span></b><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiffed</span></b><span
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiffed</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
 Whiff</span></p>
 
@@ -133,21 +188,49 @@ Whiff</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
 Whiff</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiff</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To throw out in
-whiffs; to consume in whiffs; to puff.</span></p>
+<pre><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiff</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) </span><span
+style='font-family:"新細明體","serif"'>輕輕地吹送（或吹起）；輕輕地吸入（或噴出）</span> <span
+lang=EN-US>To throw out in whiffs; to consume in whiffs; to puff.</span></span></pre><pre><b><span
+lang=EN-US style='font-family:"新細明體","serif"'>Whiff</span></b><span lang=EN-US
+style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To carry or convey by a whiff, or as by a whiff; to puff or blow away.</span></pre><pre><span
+lang=EN-US style='font-family:"新細明體","serif"'>Old Empedocles, . . . who, when he leaped into Etna, having a dry, sear body, and light, the smoke took him, and whiffed him up into the moon. -- B. Jonson.</span></pre>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiff</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To carry or convey
-by a whiff, or as by a whiff; to puff or blow away.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiff
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i.</i>) </span><span
+style='font-family:"新細明體","serif"'>輕吹，輕拂</span> <span lang=EN-US>To emit
+whiffs, as of smoke; to puff.</span></span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiff</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To emit whiffs,
-as of smoke; to puff.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiff
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) [S1]
+[+of] </span><span style='font-family:"新細明體","serif"'>（空氣、香菸等的）一吸；（風、煙等的）一陣，一吹，一噴</span>；一陣（微弱的）氣味；
+一點點 <span lang=EN-US>A short light gust of air [<i>syn</i>: puff, puff of air,
+whiff].</span></span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiffet</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A little whiff or
-puff.</span></p>
+<pre><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiff</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A lefteye flounder found in coastal waters from New England to Brazil.</span></pre><pre><b><span
+lang=EN-US style='font-family:"新細明體","serif"'>Whiff</span></b><span lang=EN-US
+style='font-family:"新細明體","serif"'> (<i>n</i>.) A strikeout resulting from the batter swinging at and missing the ball for the third strike.</span></pre><pre><b><span
+lang=EN-US style='font-family:"新細明體","serif"'>Whiff</span></b><span lang=EN-US
+style='font-family:"新細明體","serif"'> (<i>v</i>.) Perceive by inhaling through the nose; &quot;sniff the perfume&quot; [<i>syn</i>: sniff, whiff].</span></pre><pre><b><span
+lang=EN-US style='font-family:"新細明體","serif"'>Whiff</span></b><span lang=EN-US
+style='font-family:"新細明體","serif"'> (<i>v</i>.) Drive or carry as if by a puff of air; &quot;The gust of air whiffed away the clouds&quot;.</span></pre><pre><b><span
+lang=EN-US style='font-family:"新細明體","serif"'>Whiff</span></b><span lang=EN-US
+style='font-family:"新細明體","serif"'> (<i>v</i>.) Strike out by swinging and missing the pitch charged as the third.</span></pre><pre><b><span
+lang=EN-US style='font-family:"新細明體","serif"'>Whiff</span></b><span lang=EN-US
+style='font-family:"新細明體","serif"'> (<i>v</i>.) Smoke and exhale strongly; &quot;puff a cigar&quot;; &quot;whiff a pipe&quot; [<i>syn</i>: puff, whiff].</span></pre><pre><b><span
+lang=EN-US style='font-family:"新細明體","serif"'>Whiff</span></b><span lang=EN-US
+style='font-family:"新細明體","serif"'> (<i>v</i>.) Utter with a puff of air; &quot;whiff out a prayer&quot;.</span></pre><pre><b><span
+lang=EN-US style='font-family:"新細明體","serif"'>Whiffet</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>小狗</span>；【美】【口】小人物；無用的人；（風、煙的）一吹，一噴 <span
+lang=EN-US>A little whiff or puff.</span></span></pre><pre><b><span lang=EN-US
+style='font-family:"新細明體","serif"'>Whiffet</span></b><span lang=EN-US
+style='font-family:"新細明體","serif"'> (<i>n</i>.) A small, young, or unimportant person</span>.</span></pre><pre><b><span
+lang=EN-US style='font-family:"新細明體","serif"'>Whiffet</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (In British English) (<i>n</i>.) [US] An insignificant person.</span></pre><pre><b><span
+lang=EN-US style='font-family:"新細明體","serif"'>Whiffet</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A little dog.</span></pre>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiffing</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act of one who,
@@ -171,8 +254,7 @@ shake, as if moved by gusts of wind; to shift, turn, or veer about.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiffle</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To change from
-one opinion or course to another; to use evasions; to prevaricate; to be
-fickle.</span></p>
+one opinion or course to another; to use evasions; to prevaricate; to be fickle.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiffle</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To disperse with,
@@ -196,9 +278,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One who plays
 whiffle; a fifer or piper.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiffler</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An officer who went before
-procession to clear the way by blowing a horn, or otherwise; hence, any person
-who marched at the head of a procession; a harbinger.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An officer who went
+before procession to clear the way by blowing a horn, or otherwise; hence, any
+person who marched at the head of a procession; a harbinger.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiffler</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The golden-eye.</span></p>
@@ -211,14 +293,14 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Acidulated wh
 sometimes mixed with buttermilk and sweet herbs, used as a cooling beverage.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whig</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One of a political
-party which grew up in England in the seventeenth century, in the reigns of
-Charles I. and II., when great contests existed respecting the royal
-prerogatives and the rights of the people. Those who supported the king in his
-high claims were called Tories, and the advocates of popular rights, of
-parliamentary power over the crown, and of toleration to Dissenters, were,
-after 1679, called Whigs. The terms Liberal and Radical have now generally
-superseded Whig in English politics. See the note under Tory.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One of a political party
+which grew up in England in the seventeenth century, in the reigns of Charles
+I. and II., when great contests existed respecting the royal prerogatives and
+the rights of the people. Those who supported the king in his high claims were
+called Tories, and the advocates of popular rights, of parliamentary power over
+the crown, and of toleration to Dissenters, were, after 1679, called Whigs. The
+terms Liberal and Radical have now generally superseded Whig in English
+politics. See the note under Tory.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whig</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A friend and
@@ -257,58 +339,136 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The principle
 the Whigs.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whigling</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A petty or inferior Whig;
--- used in contempt.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A petty or inferior
+Whig; -- used in contempt.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>While</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Space of time, or
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Space of time, or
 continued duration, esp. when short; a time; as, one while we thought him
-innocent.</span></p>
+innocent. &quot;All this while.&quot; -- Shak.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>This
+mighty queen may no while endure. -- Chaucer.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Some
+guest that] hath outside his welcome while,</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'>and tells the jest without the
+smile. -- Coleridge.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>I will
+go forth and breathe the air a while. -- Longfellow.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>While</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) That which requires
-time; labor; pains.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) That which requires
+time; labor; pains. [Obs.]</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Satan .
+. . cast him how he might quite her while. -- Chaucer.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>At
+whiles</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, At
+times; at intervals.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>And so
+on us at whiles it falls, to claim Powers that we dread. -- J. H. Newman.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>The
+while, The whiles</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>,
+In or during the time that; meantime; while. -- Tennyson.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Within
+a while</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, In a
+short time; soon.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Worth
+while</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, Worth the
+time which it requires; worth the time and pains; hence, worth the expense; as,
+it is not always worth while for a man to prosecute for small debts.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiled</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p</i>.) of
 While</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiling</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n</i>.) of
 While</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>While</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To cause to pass
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To cause to pass
 away pleasantly or without irksomeness or disgust; to spend or pass; -- usually
 followed by away.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>While</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To loiter.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The
+lovely lady whiled the hours away. -- Longfellow.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>While
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.)
+To loiter. [R.] -- Spectator.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>While</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>conj.</i>) During the time
-that; as long as; whilst; at the same time that; as, while I write, you sleep.</span></p>
+that; as long as; whilst; at the same time that; as, while I write, you sleep.
+&quot;While I have time and space.&quot; -- Chaucer.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Use your
+memory; you will sensibly experience a gradual improvement, while you take care
+not to overload it. -- I. Watts.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>While</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>conj.</i>) Hence, under
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>conj</i>.) Hence, under
 which circumstances; in which case; though; whereas.</span></p>
 
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>While
+as, While that</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, During
+or at the time that. [Obs.]</span></p>
+
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>While</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>prep.</i>) Until; till.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>prep</i>.) Until; till.
+[Obs. or Prov. Eng. &amp; Scot.]</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>I may be
+conveyed into your chamber; I'll lie under your bed while midnight. -- Beau.
+&amp; Fl.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>While</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A period of
+indeterminate length (usually short) marked by some action or condition;
+&quot;he was here for a little while&quot;;<b> </b>&quot;I need to rest for a
+piece&quot;; &quot;a spell of good weather&quot;; &quot;a patch of bad
+weather&quot; [<i>syn</i>: while, piece, spell, patch].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whilere</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) A little while
-ago; recently; just now; erewhile.</span></p>
+ago; recently; just now; erewhile. [Obs.]</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Helpeth
+me now as I did you whilere. --&nbsp; Chaucer.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>He who,
+with all heaven's heraldry, whilere Entered the world. -- Milton.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiles</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Meanwhile; meantime.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Meanwhile; meantime.
+[R.]</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The good
+knight whiles humming to himself the lay of some majored troubadour. -- Sir. W.
+Scott.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiles
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
+sometimes; at times. [Scot.] -- Sir W. Scott.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The
+whiles. See under While, <i>n</i>.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiles</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) sometimes; at times.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>conj</i>.) During the time
+that; while. [Archaic] -- Chaucer. Fuller.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whiles</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>conj.</i>) During the time
-that; while.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Agree
+with thine adversary quickly, whiles thou art in the way with him. -- Matt. v.
+25.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whilk</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A kind of mollusk, a
@@ -351,11 +511,18 @@ gin</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (Mini
 whim. See Whim, 2.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whim
-shaft</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (Mining), A
-shaft through which ore, water, etc., is raised from a mine by means of a whim.</span></p>
+shaft</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (Mining),
+A shaft through which ore, water, etc., is raised from a mine by means of a
+whim.</span></p>
 
 <p class=MsoNormal><i><span lang=EN-US style='font-family:"新細明體","serif"'>Syn</span></i><span
 lang=EN-US style='font-family:"新細明體","serif"'>: Freak; caprice; whimsey; fancy.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Usage:
+Whim, Freak, Caprice. Freak denotes an impulsive, inconsiderate change of mind,
+as by a child or a lunatic. Whim is a mental eccentricity due to peculiar
+processes or habits of thought. Caprice is closely allied in meaning to freak,
+but implies mor definitely a quality of willfulness or wantonness.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whim</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) To be subject to,
@@ -374,18 +541,33 @@ moon&quot;; &quot;whimsy can be humorous to someone with time to enjoy it&quot;
 [<i>syn</i>: {notion}, {whim}, {whimsy}, {whimsey}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimbrel</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Any one of several
-species of small curlews, especially the European species (Numenius phaeopus),
-called also Jack curlew, half curlew, stone curlew, and tang whaup. See
-Illustration in Appendix.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (Zool.) Any one of
+several species of small curlews, especially the European species (Numenius
+phaeopus), called also Jack curlew, half curlew, stone curlew, and tang whaup.
+See Illustration in Appendix.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Hudsonian
+or, Eskimo, whimbreal, the Hudsonian curlew.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimling</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One given to whims;
 hence, a weak, childish person; a child.</span></p>
 
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Go,
+whimling, and fetch two or three grating loaves. -- Beau. &amp; Fl.</span></p>
+
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimmy</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Full of whims;
 whimsical.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The
+study of Rabbinical literature either finds a man whimmy or makes him so. --
+Coleridge.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimper</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) </span><span
+style='font-family:"新細明體","serif"'>啜泣地說，抽噎地說<span lang=EN-US> To utter in alow,
+whining tone.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimpered</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
@@ -395,17 +577,33 @@ Whimper</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
 Whimper</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimper</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To cry with a
-low, whining, broken voice; to whine; to complain; as, a child whimpers.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimper
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.) </span><span
+style='font-family:"新細明體","serif"'>啜泣，抽噎；嗚咽；（狗等）低吠</span><span
+style='font-family:"新細明體","serif"'>；</span> <span style='font-family:"新細明體","serif"'>發抱怨聲</span><span
+lang=EN-US style='font-family:"新細明體","serif"'> To cry with a low, whining,
+broken voice; to whine; to complain; as, a child whimpers.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Was
+there ever yet preacher but there were gainsayers that spurned, that winced,
+that whimpered against him? -- Latimer.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimper</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To utter in alow,
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To utter in alow,
 whining tone.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimper</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A low, whining,
 broken cry; a low, whining sound, expressive of complaint or grief.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimper
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A
+complaint uttered in a plaintive whining way [<i>syn</i>: whimper, whine].</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimper</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Cry weakly or
+softly; &quot;she wailed with pain&quot; [<i>syn</i>: wail, whimper, mewl,
+pule].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimperer</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One who whimpers.</span></p>
@@ -413,9 +611,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One who whimp
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimple</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) See Wimple.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimple</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To whiffle; to
-veer.</span></p>
+<pre><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimple</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) To whiffle; to veer. Whimsey</span></pre>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimseys</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of
@@ -429,15 +626,23 @@ Whimsy</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Alt. of Whimsy</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimsy</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A whim; a freak; a
-capricious notion, a fanciful or odd conceit.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A whim; a freak; a capricious
+notion, a fanciful or odd conceit. &quot;The whimsies of poets and
+painters.&quot; -- Ray.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimsy</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A whim.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Men's
+folly, whimsies, and inconstancy. -- Swift.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimsey</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To fill with
-whimseys, or whims; to make fantastic; to craze.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Mistaking
+the whimseys of a feverish brain for the calm revelation of truth. -- Bancroft.</span></p>
+
+<pre><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimsy</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mining) A whim.</span></pre><pre><b><span
+lang=EN-US style='font-family:"新細明體","serif"'>Whimsey</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To fill with whimseys, or whims; to make fantastic; to craze. [R.]</span></pre>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>To have
+a man's brain whimsied with his wealth. -- J. Fletcher.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whimsical</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
@@ -504,18 +709,21 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>)
 Whine</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whining</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
-Whine</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb</i>. <i>n</i>.)
+of Whine</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whine</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To utter a plaintive
-cry, as some animals; to moan with a childish noise; to complain, or to tell of
-sorrow, distress, or the like, in a plaintive, nasal tone; hence, to complain
-or to beg in a mean, unmanly way; to moan basely.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) </span><span
+style='font-family:"新細明體","serif"'>（狗等）發哀鳴聲；（機器等）嘎嘎響；嗖嗖響；嘀咕，發牢騷<span
+lang=EN-US> [</span>（<span lang=EN-US>+about</span>）<span lang=EN-US>] To utter
+a plaintive cry, as some animals; to moan with a childish noise; to complain,
+or to tell of sorrow, distress, or the like, in a plaintive, nasal tone; hence,
+to complain or to beg in a mean, unmanly way; to moan basely.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whine</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To utter or
-express plaintively, or in a mean, unmanly way; as, to whine out an excuse.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) </span><span
+style='font-family:"新細明體","serif"'>哀訴；嘀咕著說<span lang=EN-US> To utter or express
+plaintively, or in a mean, unmanly way; as, to whine out an excuse.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whine</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A plaintive tone;
@@ -548,8 +756,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</
 Whinny</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whinny</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To utter the ordinary
-call or cry of a horse; to neigh.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To utter the
+ordinary call or cry of a horse; to neigh.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whinnies</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of
@@ -560,8 +768,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The ordinary 
 call of a horse; a neigh.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Whinny</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Abounding in whin,
-gorse, or furze.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Abounding in whin, gorse,
+or furze.</span></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span lang=EN-US
 style='font-family:"新細明體","serif"'><a href="W23.htm">[previous page]</a> <a
