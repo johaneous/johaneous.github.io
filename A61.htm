@@ -35,19 +35,28 @@ h2
 
  /* Font Definitions */
  @font-face
-	{font-family:新細明體;
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:細明體;
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"&\#65533";}
-@font-face
 	{font-family:"\@新細明體";
-	panose-1:2 1 6 1 0 1 1 1 1 1;}
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"&\#65533";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -60,12 +69,32 @@ h2
 	margin-left:0cm;
 	font-size:18.0pt;
 	font-family:"&\#65533";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
 a:visited, span.MsoHyperlinkFollowed
 	{color:purple;
 	text-decoration:underline;}
+pre
+	{mso-style-link:"HTML 預設格式 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:細明體;}
 span.2
 	{mso-style-name:"標題 2 字元";
 	mso-style-link:"標題 2";
@@ -77,13 +106,31 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:細明體;}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
 -->
 </style>
 
@@ -115,12 +162,14 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To give ex
 unction to.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Anelectric</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Not becoming
-electrified by friction; -- opposed to idioelectric.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) (Physics) </span><span
+style='font-family:"新細明體","serif"'>【古】不能一摩擦就生電的</span> <span lang=EN-US>Not
+becoming electrified by friction; -- opposed to idioelectric.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Anelectric</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A substance
-incapable of being electrified by friction.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>不能摩擦生電的物質 <span lang=EN-US>A substance
+incapable of being electrified by friction. -- Faraday.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Anelectrode</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The positive pole of
@@ -152,7 +201,7 @@ or lithophytic ferns having pinnatifid fronds; chiefly of tropical America [<i>s
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Anaemia</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.)
-&nbsp;[&nbsp;U&nbsp;]&nbsp; (UK &nbsp;US <b>&nbsp;Anemia</b>) </span><span
+&nbsp;[&nbsp;U&nbsp;]&nbsp; (UK &nbsp;US &nbsp;Anemia) </span><span
 style='font-family:"新細明體","serif"'>貧血（症）<span lang=EN-US> A &nbsp;medical
 &nbsp;condition &nbsp;in which there are not enough &nbsp;red &nbsp;blood
 &nbsp;cells&nbsp; in the &nbsp;blood.</span></span></p>
@@ -217,8 +266,8 @@ of ascertaining the force or velocity of the wind.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Anemone</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A genus of plants of
-the Ranunculus or Crowfoot family; windflower. Some of the species are cultivated
-in gardens.</span></p>
+the Ranunculus or Crowfoot family; windflower. Some of the species are
+cultivated in gardens.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Anemone</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The sea anemone. See
@@ -241,13 +290,14 @@ agency of the wind; -- said of plants in which the pollen is carried to the
 stigma by the wind; wind-Fertilized.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Anemoscope</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An instrument which shows
-the direction of the wind; a wind vane; a weathercock; -- usually applied to a
-contrivance consisting of a vane above, connected in the building with a dial
-or index with pointers to show the changes of the wind.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An instrument which
+shows the direction of the wind; a wind vane; a weathercock; -- usually applied
+to a contrivance consisting of a vane above, connected in the building with a
+dial or index with pointers to show the changes of the wind.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Anencephalic</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Alt. of Anencephalous</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Alt. of
+Anencephalous</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Anencephalous</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Without a brain;
@@ -343,8 +393,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A sinuous dep
 or sulcus like those separating the convolutions of the brain.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Anfractuous</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Winding; full of windings
-and turnings; sinuous; tortuous; as, the anfractuous spires of a born.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Winding; full of
+windings and turnings; sinuous; tortuous; as, the anfractuous spires of a born.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Anfracture</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A mazy winding.</span></p>
@@ -398,8 +448,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A small gold 
 formerly current in England; a half angel.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Angel
-fish</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> () See
-under Angel.</span></p>
+fish</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> () See under
+Angel.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Angelhood</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The state of being
@@ -455,8 +505,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A discourse o
 angels, or a body of doctrines in regard to angels.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Angelophany</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The actual appearance
-of an angel to man.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The actual
+appearance of an angel to man.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Angelot</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A French gold coin
@@ -464,8 +514,8 @@ of the reign of Louis XI., bearing the image of St. Michael; also, a piece
 coined at Paris by the English under Henry VI.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Angelot</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An instrument of
-music, of the lute kind, now disused.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An instrument of music,
+of the lute kind, now disused.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Angelot</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A sort of small,
@@ -533,9 +583,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Pertaining to
 or angina pectoris.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Angio-</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> () A prefix, or combining form, in
-numerous compounds, usually relating to seed or blood vessels, or to something
-contained in, or covered by, a vessel.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> () A prefix, or combining form,
+in numerous compounds, usually relating to seed or blood vessels, or to
+something contained in, or covered by, a vessel.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Angiocarpous</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Having fruit
