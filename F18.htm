@@ -21,11 +21,11 @@
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"\@新細明體";
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
-@font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@新細明體";
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -39,6 +39,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -73,6 +87,14 @@ span.HTML
 	{mso-style-name:"HTML 預設格式 字元";
 	mso-style-link:"HTML 預設格式";
 	font-family:"Courier New";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
@@ -81,9 +103,12 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	font-family:"新細明體","serif";}
 span.source
 	{mso-style-name:source;}
+span.msonormal0
+	{mso-style-name:msonormal;}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -96,8 +121,27 @@ div.WordSection1
 
 <p class="MsoNormal"><b><span style="font-size: 18pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Webster's Unabridged Dictionary - Letter F - Page 18</span></b></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Feoffment</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The instrument or
-deed by which corporeal hereditaments are conveyed.</span></p>
+<p class="MsoNormal"><b><span style="font-size: 12pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Feoffment </span></b><span style="font-size: 12pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) The instrument or deed by which corporeal hereditaments are conveyed. [Obs. in the U.S., Rare in Eng.] Feofor</span></p>
+
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Feoffment</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">, () Conveyancing. A gift of any corporeal
+hereditaments to another. It operates by transmutation of possession, and it is
+essential to its completion that the seisin be passed. Watk. Prin. Conv. 183.
+This term also signifies the instrument or deed by which such hereditament is
+conveyed.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Feoffment</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">, () This instrument was used as
+one of the earliest modes of conveyance of the common law. It signified,
+originally, the grant of a feud or fee; but it came, in time, to signify the
+grant of a free inheritance in fee, respect being had to the perpetuity of the
+estate granted, rather than to the feudal tenure. The feoffment was, likewise,
+accompanied by livery of seisin. The conveyance, by feoffment, with livery of
+seisin, has become infrequent, if not obsolete, in England; and in this country
+it has not been used in practice. Cruise, Dig. t. 32, c. 4. s. 3; Touchs. c. 9;
+2 Bl. Corn. 20; Co. Litt. 9; 4 Kent, Com. 467; Perk.. c. 3; Com. Dig. h.t.; 12
+Vin. Ab. 167; Bac. Ab. h.t. in pr.; Doct. Plac. 271; Dane's Ab. c. 104, a. 3,
+s. 4. He who gives or enfeoffs is called the feoffor; and the person enfeoffed
+is denominated the feoffee. 2 Bl. Com. 20. See 2 Bouv. Inst. n. 2045, note.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Feofor</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Alt. of Feoffer</span></p>
 
@@ -171,8 +215,8 @@ day which is neither a festival nor a fast.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferial</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of or pertaining to
 holidays.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferial</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Belonging to any
-week day, esp. to a day that is neither a festival nor a fast.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferial</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Belonging to any week
+day, esp. to a day that is neither a festival nor a fast.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Feriation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The act of keeping
 holiday; cessation from work.</span></p>
@@ -182,11 +226,11 @@ holiday; cessation from work.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferier</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) compar. of Fere,
 fierce.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Wild; untamed;
-savage; as, lions, tigers, wolves, and bears are ferine beasts.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Wild; untamed; savage;
+as, lions, tigers, wolves, and bears are ferine beasts.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A wild beast; a beast
-of prey.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A wild beast; a
+beast of prey.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Feringee</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The name given to
 Europeans by the Hindos.</span></p>
@@ -236,9 +280,9 @@ effervesce.</span></p>
 excited by violent emotions.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferment</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A state of agitation
-or turbulent change or development; "the political ferment produced new
-leadership"; "social unrest" [<i>syn</i>: {agitation},
-{ferment}, {fermentation}, {tempestuousness}, {unrest}].</span></p>
+or turbulent change or development; "the political ferment produced new leadership";
+"social unrest" [<i>syn</i>: {agitation}, {ferment}, {fermentation},
+{tempestuousness}, {unrest}].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferment
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
@@ -274,7 +318,7 @@ sour or spoil; "The milk has soured"; "The wine worked";
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Fermentability</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">發酵能力<span lang="EN-US"> Capability of
 fermentation.</span></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Fermentable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">沸騰的<span lang="EN-US"> Capable of
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Fermentable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">沸騰的 <span lang="EN-US">Capable of
 fermentation; as, cider and other vegetable liquors are fermentable.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Fermental</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">促起發酵的；發酵性的<span lang="EN-US"> Fermentative.</span></span></p>
@@ -331,19 +375,19 @@ Whenever urine is exposed to the air in open vessels for several days it
 undergoes this alkaline fermentation.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">{<b>Butyric
-fermentation</b>}, The decomposition of various forms of organic matter,
-through the agency of a peculiar worm-shaped vibrio, with formation of more or
-less butyric acid. It is one of the many forms of fermentation that
-collectively constitute putrefaction. See {Lactic fermentation}.</span></p>
+fermentation</b>}, The decomposition of various forms of organic matter, through
+the agency of a peculiar worm-shaped vibrio, with formation of more or less
+butyric acid. It is one of the many forms of fermentation that collectively
+constitute putrefaction. See {Lactic fermentation}.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">{<b>Enzymatic
 fermentation</b>} or {<b>Fermentation by an unorganized ferment</b>}.
 Fermentations of this class are purely chemical reactions, in which the enzyme
 acts as a simple catalytic agent. Of this nature are the decomposition or
-inversion of cane sugar into levulose and dextrose by boiling with dilute
-acids, the conversion of starch into dextrin and sugar by similar treatment,
-the conversion of starch into like products by the action of diastase of malt
-or ptyalin of saliva, the conversion of albuminous food into peptones and other
+inversion of cane sugar into levulose and dextrose by boiling with dilute acids,
+the conversion of starch into dextrin and sugar by similar treatment, the
+conversion of starch into like products by the action of diastase of malt or
+ptyalin of saliva, the conversion of albuminous food into peptones and other
 like products by the action of pepsin-hydrochloric acid of the gastric juice or
 by the ferment of the pancreatic juice.</span></p>
 
@@ -429,8 +473,8 @@ well known ferns.</span></p>
 fern</b>}. See under {Christmas}.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">{<b>Climbing
-fern</b>} (Bot.), a delicate North American fern ({Lygodium palmatum}), which
-climbs several feet high over bushes, etc., and is much sought for purposes of
+fern</b>} (Bot.), a delicate North American fern ({Lygodium palmatum}), which climbs
+several feet high over bushes, etc., and is much sought for purposes of
 decoration.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">{<b>Fern
@@ -478,8 +522,8 @@ the disposition; fierce, the haste and violence of an act; barbarous, the
 coarseness and brutality by which it was marked; savage, the cruel and
 unfeeling spirit which it showed. A man is ferocious in his temper, fierce in
 his actions, barbarous in the manner of carrying out his purposes, savage in
-the spirit and feelings expressed in his words or deeds. --
-{Fe*ro"cious*ly}, <i>adv</i>. -- {Fe*ro"cious*ness}, <i>n</i>.</span></p>
+the spirit and feelings expressed in his words or deeds. -- {Fe*ro"cious*ly},
+<i>adv</i>. -- {Fe*ro"cious*ness}, <i>n</i>.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferocious</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Marked by extreme
 and violent energy; "a ferocious beating"; "fierce
@@ -541,7 +585,13 @@ of Fer.</span></p>
 trying the melted glass to see if is fit to work, and for shaping the rings at
 the mouths of bottles.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ferret</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i><span style="color: windowtext; text-decoration: none;">n</span></i>.) (<span style="color: windowtext; text-decoration: none;">Zool</span>.) <span style="color: windowtext; text-decoration: none;">An</span> <span style="color: windowtext; text-decoration: none;">animal</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Weasel</span> <span style="color: windowtext; text-decoration: none;">family</span> ({<span style="color: windowtext; text-decoration: none;">Mustela</span> <span style="color: windowtext; text-decoration: none;">furo</span>} <span style="color: windowtext; text-decoration: none;">syn</span>. {<span style="color: windowtext; text-decoration: none;">Putorius</span> <span style="color: windowtext; text-decoration: none;">furo</span>}), <span style="color: windowtext; text-decoration: none;">about</span> <span style="color: windowtext; text-decoration: none;">fourteen</span> <span style="color: windowtext; text-decoration: none;">inches</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">length</span>, <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">pale</span> <span style="color: windowtext; text-decoration: none;">yellow</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">white</span> <span style="color: windowtext; text-decoration: none;">color</span>, <span style="color: windowtext; text-decoration: none;">with</span> <span style="color: windowtext; text-decoration: none;">red</span> <span style="color: windowtext; text-decoration: none;">eyes</span>. <span style="color: windowtext; text-decoration: none;">It</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">native</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">Africa</span>, <span style="color: windowtext; text-decoration: none;">but</span> <span style="color: windowtext; text-decoration: none;">has</span> <span style="color: windowtext; text-decoration: none;">been</span> <span style="color: windowtext; text-decoration: none;">domesticated</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">Europe</span>. <span style="color: windowtext; text-decoration: none;">Ferrets</span> <span style="color: windowtext; text-decoration: none;">are</span> <span style="color: windowtext; text-decoration: none;">used</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">drive</span> <span style="color: windowtext; text-decoration: none;">rabbits</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">rats</span> <span style="color: windowtext; text-decoration: none;">out</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">their</span> <span style="color: windowtext; text-decoration: none;">holes</span>. <span style="color: windowtext; text-decoration: none;">They</span> <span style="color: windowtext; text-decoration: none;">are</span> <span style="color: windowtext; text-decoration: none;">sometimes</span> <span style="color: windowtext; text-decoration: none;">kept</span> <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">pets</span>.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferret
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
+(Zool.) An animal of the Weasel family ({Mustela furo} syn. {Putorius furo}),
+about fourteen inches in length, of a pale yellow or white color, with red
+eyes. It is a native of Africa, but has been domesticated in Europe. Ferrets
+are used to drive rabbits and rats out of their holes. They are sometimes kept
+as pets.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferreted</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p.</i>) of
 Ferret</span></p>
@@ -553,39 +603,40 @@ Ferret</span></p>
 out of a lurking place, as a ferret does the cony; to search out by patient and
 sagacious efforts; -- often used with out; as, to ferret out a secret.</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Master</span> <span style="color: windowtext; text-decoration: none;">Fer</span>! <span style="color: windowtext; text-decoration: none;">I</span>'<span style="color: windowtext; text-decoration: none;">ll</span> <span style="color: windowtext; text-decoration: none;">fer</span> <span style="color: windowtext; text-decoration: none;">him</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">firk</span> <span style="color: windowtext; text-decoration: none;">him</span>, <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">ferret</span> <span style="color: windowtext; text-decoration: none;">him</span>. -- <span style="color: windowtext; text-decoration: none;">Shak</span>.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Master
+Fer! I'll fer him, and firk him, and ferret him. -- Shak.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferret</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A kind of narrow
-tape, usually made of woolen; sometimes of cotton or silk; -- called also {ferreting}.</span></p>
+tape, usually made of woolen; sometimes of cotton or silk; -- called also
+{ferreting}.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ferret</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">Musteline</span> <span style="color: windowtext; text-decoration: none;">mammal</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">prairie</span> <span style="color: windowtext; text-decoration: none;">regions</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">United</span> <span style="color: windowtext; text-decoration: none;">States</span>; <span style="color: windowtext; text-decoration: none;">nearly</span> <span style="color: windowtext; text-decoration: none;">extinct</span> [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">black</span>-<span style="color: windowtext; text-decoration: none;">footed</span> <span style="color: windowtext; text-decoration: none;">ferret</span>}, {<span style="color: windowtext; text-decoration: none;">ferret</span>}, {<span style="color: windowtext; text-decoration: none;">Mustela</span> <span style="color: windowtext; text-decoration: none;">nigripes</span>}]</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferret</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Musteline mammal of
+prairie regions of United States; nearly extinct [<i>syn</i>: {black-footed
+ferret}, {ferret}, {Mustela nigripes}]</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ferret</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">Domesticated</span> <span style="color: windowtext; text-decoration: none;">albino</span> <span style="color: windowtext; text-decoration: none;">variety</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">European</span> <span style="color: windowtext; text-decoration: none;">polecat</span> <span style="color: windowtext; text-decoration: none;">bred</span> <span style="color: windowtext; text-decoration: none;">for</span> <span style="color: windowtext; text-decoration: none;">hunting</span> <span style="color: windowtext; text-decoration: none;">rats</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">rabbits</span>.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferret</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Domesticated albino
+variety of the European polecat bred for hunting rats and rabbits.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ferret</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>v</i>.) <span style="color: windowtext; text-decoration: none;">Hound</span> <span style="color: windowtext; text-decoration: none;">or</span> <span style="color: windowtext; text-decoration: none;">harry</span> <span style="color: windowtext; text-decoration: none;">relentlessly</span>.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferret</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Hound or harry
+relentlessly.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ferret</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>v</i>.) <span style="color: windowtext; text-decoration: none;">Hunt</span> <span style="color: windowtext; text-decoration: none;">with</span> <span style="color: windowtext; text-decoration: none;">ferrets</span>.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferret</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Hunt with ferrets.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ferret</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v</i>.)
-<span style="color: windowtext; text-decoration: none;">Search</span> <span style="color: windowtext; text-decoration: none;">and</span> <span style="color: windowtext; text-decoration: none;">discover</span> <span style="color: windowtext; text-decoration: none;">through</span> <span style="color: windowtext; text-decoration: none;">persistent</span> <span style="color: windowtext; text-decoration: none;">investigation</span>; "<span style="color: windowtext; text-decoration: none;">She</span> <span style="color: windowtext; text-decoration: none;">ferreted</span> <span style="color: windowtext; text-decoration: none;">out</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">truth</span>" [<i><span style="color: windowtext; text-decoration: none;">syn</span></i>: {<span style="color: windowtext; text-decoration: none;">ferret</span> <span style="color: windowtext; text-decoration: none;">out</span>}, {<span style="color: windowtext; text-decoration: none;">ferret</span>}].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferret
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v</i>.)
+Search and discover through persistent investigation; "She ferreted out
+the truth" [<i>syn</i>: {ferret out}, {ferret}].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ferret</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
-(<i>n</i>.) <span style="color: windowtext; text-decoration: none;">Lev</span>. <span style="color: windowtext; text-decoration: none;">11</span>:<span style="color: windowtext; text-decoration: none;">30</span> (<span style="color: windowtext; text-decoration: none;">R</span>.<span style="color: windowtext; text-decoration: none;">V</span>., "<span style="color: windowtext; text-decoration: none;">gecko</span>"), <span style="color: windowtext; text-decoration: none;">One</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">unclean</span> <span style="color: windowtext; text-decoration: none;">creeping</span> <span style="color: windowtext; text-decoration: none;">things</span>. <span style="color: windowtext; text-decoration: none;">It</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">perhaps</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Lacerta</span> <span style="color: windowtext; text-decoration: none;">gecko</span> <span style="color: windowtext; text-decoration: none;">which</span> <span style="color: windowtext; text-decoration: none;">was</span> <span style="color: windowtext; text-decoration: none;">intended</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Hebrew</span> <span style="color: windowtext; text-decoration: none;">word</span> (<span style="color: windowtext; text-decoration: none;">anakah</span>, <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">cry</span>, "<span style="color: windowtext; text-decoration: none;">mourning</span>," <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">creature</span> <span style="color: windowtext; text-decoration: none;">which</span> <span style="color: windowtext; text-decoration: none;">groans</span>) <span style="color: windowtext; text-decoration: none;">here</span> <span style="color: windowtext; text-decoration: none;">used</span>, <span style="color: windowtext; text-decoration: none;">i</span>.<span style="color: windowtext; text-decoration: none;">e</span>., <span style="color: windowtext; text-decoration: none;">the</span> "<span style="color: windowtext; text-decoration: none;">fan</span>-<span style="color: windowtext; text-decoration: none;">footed</span>" <span style="color: windowtext; text-decoration: none;">lizard</span>, <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">gecko</span> <span style="color: windowtext; text-decoration: none;">which</span> <span style="color: windowtext; text-decoration: none;">makes</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">mournful</span> <span style="color: windowtext; text-decoration: none;">wail</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">LXX</span>. <span style="color: windowtext; text-decoration: none;">translate</span> <span style="color: windowtext; text-decoration: none;">it</span> <span style="color: windowtext; text-decoration: none;">by</span> <span style="color: windowtext; text-decoration: none;">a</span> <span style="color: windowtext; text-decoration: none;">word</span> <span style="color: windowtext; text-decoration: none;">meaning</span> "<span style="color: windowtext; text-decoration: none;">shrew</span>-<span style="color: windowtext; text-decoration: none;">mouse</span>," <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">which</span> <span style="color: windowtext; text-decoration: none;">there</span> <span style="color: windowtext; text-decoration: none;">are</span> <span style="color: windowtext; text-decoration: none;">three</span> <span style="color: windowtext; text-decoration: none;">species</span> <span style="color: windowtext; text-decoration: none;">in</span> <span style="color: windowtext; text-decoration: none;">Palestine</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">Rabbinical</span> <span style="color: windowtext; text-decoration: none;">writers</span> <span style="color: windowtext; text-decoration: none;">regard</span> <span style="color: windowtext; text-decoration: none;">it</span> <span style="color: windowtext; text-decoration: none;">as</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">hedgehog</span>. <span style="color: windowtext; text-decoration: none;">The</span> <span style="color: windowtext; text-decoration: none;">translation</span> <span style="color: windowtext; text-decoration: none;">of</span> <span style="color: windowtext; text-decoration: none;">the</span> <span style="color: windowtext; text-decoration: none;">Revised</span> <span style="color: windowtext; text-decoration: none;">Version</span> <span style="color: windowtext; text-decoration: none;">is</span> <span style="color: windowtext; text-decoration: none;">to</span> <span style="color: windowtext; text-decoration: none;">be</span> <span style="color: windowtext; text-decoration: none;">preferred</span>.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferret</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Lev. 11:30 (R.V.,
+"gecko"), One of the unclean creeping things. It was perhaps the
+Lacerta gecko which was intended by the Hebrew word (anakah, a cry,
+"mourning," the creature which groans) here used, i.e., the
+"fan-footed" lizard, the gecko which makes a mournful wail. The LXX.
+translate it by a word meaning "shrew-mouse," of which there are
+three species in Palestine. The Rabbinical writers regard it as the hedgehog.
+The translation of the Revised Version is to be preferred.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferreter</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One who ferrets.</span></p>
-
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferret-eye</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The spur-winged
-goose; -- so called from the red circle around the eyes.</span></p>
-
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferretto</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Copper sulphide,
-used to color glass.</span></p>
-
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferri-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> () A combining form indicating
-ferric iron as an ingredient; as, ferricyanide.</span></p>
+<pre><b><span style="font-size: 12pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferreter </span></b><span style="font-size: 12pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) One who ferrets. -- Johnson.</span></pre><pre><b><span style="font-size: 12pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferret-eye</span></b><span style="font-size: 12pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Zool.) The spur-winged goose; -- so called from the red circle around the eyes.</span></pre><pre><b><span style="font-size: 12pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferretto</span></b><span style="font-size: 12pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Copper sulphide, used to color glass. -- Hebert.</span></pre><pre><b><span style="font-size: 12pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferri-</span></b><span style="font-size: 12pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> () (Chem.) A combining form indicating ferric iron as an ingredient; as, ferricyanide.</span></pre>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferriage</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The price or fare to
 be paid for passage at a ferry.</span></p>
@@ -595,11 +646,26 @@ derived from, or containing iron. Specifically (Chem.), denoting those
 compounds in which iron has a higher valence than in the ferrous compounds; as,
 ferric oxide; ferric acid.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferricyanate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A salt of
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ferric acid</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(Chem.), An acid, <span style="color: windowtext; text-decoration: none;">H2FeO4</span>, which is not
+known in the free state, but forms definite salts, analogous to the chromates
+and sulphates.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Ferric oxide</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (Chem.), Sesquioxide of iron, <span style="color: windowtext; text-decoration: none;">Fe2O3</span>; hematite. See <span style="color: windowtext; text-decoration: none;">Hematite</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferric</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Of or relating to or
+containing iron [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">ferric</span>, <span style="color: windowtext; text-decoration: none;">ferrous</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferricyanate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Chem.) A salt of
 ferricyanic acid; a ferricyanide.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferricyanic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Pertaining to, or
-derived from, a ferricyanide.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferricyanic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) (Chem.) Pertaining
+to, or derived from, a ferricyanide.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferricyanic
+acid</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (Chem.), A
+brown crystalline substance, H6(CN)12Fe2, obtained from potassium ferricyanide,
+and regarded as the type of the ferricyanides; -- called also hydro-ferricyanic
+acid, hydrogen ferricyanide, etc.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ferricyanide</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) (Chem.) One of a
 complex series of double cyanides of ferric iron and some other base.</span></p>
@@ -638,9 +704,9 @@ ferrocyanic acid; a ferrocyanide.</span></p>
 (Chem.) Pertaining to, derived from, or designating, a ferrocyanide.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">{<b>Ferrocyanic
-acid</b>} (Chem.), &nbsp;(<i>ph</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">【化】硫氰化鐵<span lang="EN-US"> A white crystalline substance, {H4(CN)6Fe}, of strong acid properties,
-obtained from potassium ferrocyanide, and regarded as the type of the
-ferrocyanides; -- called also {hydro-ferrocyanic acid}, {hydrogen
+acid</b>} (Chem.), &nbsp;(<i>ph</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">【化】硫氰化鐵<span lang="EN-US"> A white crystalline substance, {H4(CN)6Fe}, of strong acid
+properties, obtained from potassium ferrocyanide, and regarded as the type of
+the ferrocyanides; -- called also {hydro-ferrocyanic acid}, {hydrogen
 ferrocyanide}. etc.</span></span></p>
 
 <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><a href="F17.htm">[previous page]</a> <a href="index.html">[Index]</a> <a href="F19.htm">[next page]</a></span></p>
