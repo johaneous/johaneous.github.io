@@ -8,6 +8,9 @@
 <!--
  /* Font Definitions */
  @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
 	{font-family:"MS Mincho";
 	panose-1:2 2 6 9 4 2 5 8 3 4;}
 @font-face
@@ -26,10 +29,10 @@
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"\@MS Mincho";}
-@font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@MS Mincho";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -52,6 +55,20 @@ h3
 	font-size:18.0pt;
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -115,14 +132,28 @@ span.sl
 	{mso-style-name:sl;}
 span.dttext
 	{mso-style-name:dttext;}
+span.a0
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a1
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
 -->
 </style>
 
@@ -144,9 +175,9 @@ empty; absence of contents; void space; vacuum; as, the emptiness of a vessel;
 emptiness of the stomach.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emptiness</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Want of solidity or substance;
-unsatisfactoriness; inability to satisfy desire; vacuity; hollowness; the
-emptiness of earthly glory.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Want of solidity or
+substance; unsatisfactoriness; inability to satisfy desire; vacuity;
+hollowness; the emptiness of earthly glory.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emptiness</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Want of knowledge;
@@ -206,8 +237,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Unable to sat
 unsatisfactory; hollow; vain; -- said of pleasure, the world, etc.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empty</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Producing nothing; unfruitful;
--- said of a plant or tree; as, an empty vine.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Producing nothing;
+unfruitful; -- said of a plant or tree; as, an empty vine.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empty</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Destitute of, or
@@ -218,7 +249,7 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Destitute of
 reality, or real existence; unsubstantial; as, empty dreams.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empties</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of Empty</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of Empty.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empty</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An empty box, crate,
@@ -227,25 +258,25 @@ cask, etc.; -- used in commerce, esp. in transportation of freight; as,
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emptied</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
-Empty</span></p>
+Empty.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emptying</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
-Empty</span></p>
+Empty.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empty
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) </span><span
-style='font-family:"新細明體","serif"'>清空，倒空，使變空 ；空的東西，空物<span lang=EN-US> To deprive
-of the contents; to exhaust; to make void or destitute; to make vacant; to pour
-out; to discharge; as, to empty a vessel; to empty a well or a cistern.</span></span></p>
+style='font-family:"新細明體","serif"'>清空，倒空，使變空 ；空的東西，空物<span lang=EN-US> To
+deprive of the contents; to exhaust; to make void or destitute; to make vacant;
+to pour out; to discharge; as, to empty a vessel; to empty a well or a cistern.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empty</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To discharge
 itself; as, a river empties into the ocean.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empty
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i.</i>) To
-become empty.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i.</i>)
+To become empty.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empty
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
@@ -267,11 +298,11 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) (Not sincere)
 Usually before noun ] </span><span style='font-family:"新細明體","serif"'>無誠意的；空洞的；無意義的<span
 lang=EN-US> Not sincere or without any real meaning.</span></span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// <i>Empty</i></span><span
-lang=EN-US style='font-family:"新細明體","serif"'> threats/ rhetoric.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// <i>Empty</i>
+threats/ rhetoric.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// They're
-just <i>empty</i> promises.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>//
+They're just <i>empty</i> promises.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empty
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
@@ -295,8 +326,8 @@ should never go to work<i> on an</i> <i>empty</i> <i>stomach</i>.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empty
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v</i>.) [ T
-] </span><span style='font-family:"新細明體","serif"'>倒空，騰空；傾倒<span lang=EN-US> To
-remove everything from inside something.</span></span></p>
+] </span><span style='font-family:"新細明體","serif"'>倒空，騰空；傾倒<span lang=EN-US> To remove
+everything from inside something.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// I <i>emptied</i>
 the closet and put my belongings into the black overnight case.</span></p>
@@ -304,9 +335,8 @@ the closet and put my belongings into the black overnight case.</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// Would
 you mind<i> emptying </i>(out) your pockets?</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// <i>Empty</i></span><span
-lang=EN-US style='font-family:"新細明體","serif"'> the soup into a saucepan and
-simmer gently for ten<i> minutes</i>.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// <i>Empty</i>
+the soup into a saucepan and simmer gently for ten<i> minutes</i>.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>// She
 quickly<i> emptied</i> her glass (= drank its contents) and ordered another
@@ -361,11 +391,11 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) See Impugn
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empurpled</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
-Empurple</span></p>
+Empurple.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empurpling</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
-Empurple</span></p>
+Empurple.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empurple</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To tinge or dye
@@ -379,9 +409,8 @@ specter.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To puzzle.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empyema</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A collection of
-blood, pus, or other fluid, in some cavity of the body, especially that of the
-pleura.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A collection of blood,
+pus, or other fluid, in some cavity of the body, especially that of the pleura.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empyesis</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An eruption of
@@ -452,7 +481,7 @@ substances when burnt in close vessels.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empyreumatic</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Alt. of
-Empyreumatical</span></p>
+Empyreumatical.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Empyreumatical</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of or pertaining to
@@ -483,21 +512,21 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Capable of be
 emulated.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulate</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Striving to excel; ambitious;
-emulous.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Striving to excel;
+ambitious; emulous.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulated</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
-Emulate</span></p>
+Emulate.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulating</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
-Emulate</span></p>
+Emulate.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulate</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To strive to
-equal or to excel in qualities or actions; to imitate, with a view to equal or to
-outdo, to vie with; to rival; as, to emulate the good and the great.</span></p>
+equal or to excel in qualities or actions; to imitate, with a view to equal or
+to outdo, to vie with; to rival; as, to emulate the good and the great.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulation</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The endeavor to
@@ -509,9 +538,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Jea/ous rival
 envy; envious contention.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulative</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Inclined to
-emulation; aspiring to competition; rivaling; as, an emulative person or
-effort.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Inclined to emulation;
+aspiring to competition; rivaling; as, an emulative person or effort.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulatively</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) In an emulative
@@ -549,9 +577,9 @@ excites the flow of bile.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulous</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Ambitiously desirous
-to equal or even to excel another; eager to emulate or vie with another; desirous
-of like excellence with another; -- with of; as, emulous of another's example
-or virtues.</span></p>
+to equal or even to excel another; eager to emulate or vie with another;
+desirous of like excellence with another; -- with of; as, emulous of another's
+example or virtues.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulous</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Vying with;
@@ -572,8 +600,8 @@ produced from, emulsin; as, emulsic acid.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulsify</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To convert into
 an emulsion; to form an emulsion; to reduce from an oily substance to a milky
-fluid in which the fat globules are in a very finely divided state, giving it the
-semblance of solution; as, the pancreatic juice emulsifies the oily part of
+fluid in which the fat globules are in a very finely divided state, giving it
+the semblance of solution; as, the pancreatic juice emulsifies the oily part of
 food.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulsin</span></b><span
@@ -582,21 +610,23 @@ or extract of bitter almonds.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulsin</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) An unorganized
-ferment (contained in this extract and in other vegetable juices), which effects
-the decomposition of certain glucosides.</span></p>
+ferment (contained in this extract and in other vegetable juices), which
+effects the decomposition of certain glucosides.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulsion</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Any liquid
-preparation of a color and consistency resembling milk; as: (a) In pharmacy, an
-extract of seeds, or a mixture of oil and water united by a mucilaginous
-substance. (b) In photography, a liquid preparation of collodion holding salt
-of silver, used in the photographic process.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Any liquid preparation
+of a color and consistency resembling milk; as: (a) In pharmacy, an extract of
+seeds, or a mixture of oil and water united by a mucilaginous substance. (b) In
+photography, a liquid preparation of collodion holding salt of silver, used in
+the photographic process.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulsive</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Softening; milklike.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
+style='font-family:"新細明體","serif"'>乳劑質的；可榨出油來的；會流出乳狀液的；能乳化的</span> <span
+lang=EN-US>Softening; milklike.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulsive</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Yielding oil by
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Yielding oil by
 expression; as, emulsive seeds.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emulsive</span></b><span
@@ -605,7 +635,7 @@ yielding a milklike substance; as, emulsive acids.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emunctories</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of
-Emunctory</span></p>
+Emunctory.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emunctory</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Any organ or part of
@@ -621,7 +651,7 @@ wrenlike Australian bird (Stipiturus malachurus), having the tail feathers long
 and loosely barbed, like emu feathers.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emyds</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of Emyd</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>. <i>pl. </i>) of Emyd.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Emyd</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Zo[&quot;o]l.) A
@@ -643,18 +673,18 @@ into, used in many English words, chiefly those borrowed from the French. Some
 English words are written indifferently with en-or in-. For ease of
 pronunciation it is commonly changed to em-before p, b, and m, as in employ,
 embody, emmew. It is sometimes used to give a causal force, as in enable,
-enfeeble, to cause to be, or to make, able, or feeble; and sometimes merely
-gives an intensive force, as in enchasten. See In-.</span></p>
+enfeeble, to cause to be, or to make, able, or feeble; and sometimes merely gives
+an intensive force, as in enchasten. See In-.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>En-</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> () A prefix from Gr. / in,
 meaning in; as, encephalon, entomology. See In-.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>-en</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> () A suffix from AS. -an, formerly
-used to form the plural of many nouns, as in ashen, eyen, oxen, all obs. except
-oxen. In some cases, such as children and brethren, it has been added to older
-plural forms.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> () A suffix from AS. -an,
+formerly used to form the plural of many nouns, as in ashen, eyen, oxen, all
+obs. except oxen. In some cases, such as children and brethren, it has been
+added to older plural forms.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>-en</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> () A suffix corresponding to AS.
@@ -680,20 +710,20 @@ half of the unit of space in measuring printed matter. See Em.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Enabled</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
-Enable</span></p>
+Enable.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Enabling</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
-Enable</span></p>
+Enable.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Enable</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To give strength
 or ability to; to make firm and strong.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Enable</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To make able (to do,
-or to be, something); to confer sufficient power upon; to furnish with means,
-opportunities, and the like; to render competent for; to empower; to endow.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To make able (to
+do, or to be, something); to confer sufficient power upon; to furnish with
+means, opportunities, and the like; to render competent for; to empower; to endow.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Enablement</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The act of enabling,
@@ -701,11 +731,11 @@ or the state of being enabled; ability.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Enacted</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p.</i>) of
-Enact</span></p>
+Enact.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Enacting</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n</i>.) of
-Enact</span></p>
+Enact.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Enact</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) </span><span
@@ -722,8 +752,8 @@ perform; to do; to effect. [Obs.]</span></p>
 enacts more wonders than a man. -- Shak.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Enact</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To act the part
-of; to represent; to play.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To act the part of;
+to represent; to play.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>I did
 enact Julius Caesar. -- Shak.</span></p>
