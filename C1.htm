@@ -8,6 +8,9 @@
 <!--
  /* Font Definitions */
  @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
@@ -37,6 +40,15 @@ h2
 	margin-left:0cm;
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
+	font-weight:bold;}
+h3
+	{mso-style-link:"標題 3 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:300%;
+	page-break-after:avoid;
+	font-size:18.0pt;
+	font-family:"Cambria","serif";
 	font-weight:bold;}
 h4
 	{mso-style-link:"標題 4 字元";
@@ -107,6 +119,11 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	font-family:"新細明體","serif";}
 span.msonormal0
 	{mso-style-name:msonormal;}
+span.3
+	{mso-style-name:"標題 3 字元";
+	mso-style-link:"標題 3";
+	font-family:"Cambria","serif";
+	font-weight:bold;}
 .MsoChpDefault
 	{font-size:10.0pt;}
 @page WordSection1
@@ -115,6 +132,11 @@ span.msonormal0
 	layout-grid:18.0pt;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
 -->
 </style>
 
@@ -130,15 +152,15 @@ div.WordSection1
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>C </span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>() C is the third letter of the
 English alphabet. It is from the Latin letter C, which in old Latin represented
-the sounds of k, and g (in go); its original value being the latter. In Anglo-Saxon
-words, or Old English before the Norman Conquest, it always has the sound of k.
-The Latin C was the same letter as the Greek [Gamma], [gamma], and came from
-the Greek alphabet. The Greeks got it from the Ph[oe]nicians. The English name
-of C is from the Latin name ce, and was derived, probably, through the French.
-Etymologically C is related to g, h, k, q, s (and other sibilant sounds).
-Examples of these relations are in L. acutus, E. acute, ague; E. acrid, eager,
-vinegar; L. cornu, E. horn; E. cat, kitten; E. coy, quiet; L. circare, OF.
-cerchier, E. search.</span></p>
+the sounds of k, and g (in go); its original value being the latter. In
+Anglo-Saxon words, or Old English before the Norman Conquest, it always has the
+sound of k. The Latin C was the same letter as the Greek [Gamma], [gamma], and
+came from the Greek alphabet. The Greeks got it from the Ph[oe]nicians. The
+English name of C is from the Latin name ce, and was derived, probably, through
+the French. Etymologically C is related to g, h, k, q, s (and other sibilant
+sounds). Examples of these relations are in L. acutus, E. acute, ague; E.
+acrid, eager, vinegar; L. cornu, E. horn; E. cat, kitten; E. coy, quiet; L.
+circare, OF. cerchier, E. search.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note:
 See Guide to Pronunciation, [sect][sect] 221-228.</span></p>
@@ -171,9 +193,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Being ten mor
 ninety [<i>syn</i>: hundred, one hundred, 100, c].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>C</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A degree on the
-centigrade scale of temperature [<i>syn</i>: degree centigrade, degree Celsius,
-C].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A degree on the centigrade
+scale of temperature [<i>syn</i>: degree centigrade, degree Celsius, C].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>C</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The speed at which
@@ -220,8 +241,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Music) The k
 of the scale of C major.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>C</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The 3rd letter of
-the Roman alphabet [<i>syn</i>: C, c].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The 3rd letter of the
+Roman alphabet [<i>syn</i>: C, c].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>C</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Street names for
@@ -273,8 +294,8 @@ in &quot;BCPL&quot;).</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>C is
 terse, low-level and permissive.&nbsp; It has a macro preprocessor, cpp.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Partly due
-to its distribution with Unix, C became immensely popular outside Bell Labs
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Partly
+due to its distribution with Unix, C became immensely popular outside Bell Labs
 after about 1980 and is now the dominant language in systems and microcomputer
 applications programming.&nbsp; It has grown popular due to its simplicity,
 efficiency, and flexibility.&nbsp; C programs are often easily adapted to new
@@ -347,10 +368,10 @@ small and nearly cubical stone building, toward which all Mohammedans must
 pray. [Written also kaaba.]</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note:
-The Caaba is situated in Mecca, a city of Arabia, and contains a famous black stone
-said to have been brought from heaven. Before the time of Mohammed, the Caaba
-was an idolatrous temple, but it has since been the chief sanctuary and object
-of pilgrimage of the Mohammedan world.</span></p>
+The Caaba is situated in Mecca, a city of Arabia, and contains a famous black
+stone said to have been brought from heaven. Before the time of Mohammed, the
+Caaba was an idolatrous temple, but it has since been the chief sanctuary and
+object of pilgrimage of the Mohammedan world.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Caaba</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Islam) A black
@@ -387,10 +408,11 @@ doctrine. See Cabala.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A secret.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cabal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A number of persons united
-in some close design, usually to promote their private views and interests in
-church or state by intrigue; a secret association composed of a few designing
-persons; a junto.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>陰謀集團；陰謀</span> <span lang=EN-US>A number of
+persons united in some close design, usually to promote their private views and
+interests in church or state by intrigue; a secret association composed of a
+few designing persons; a junto.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cabal</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The secret artifices
@@ -405,9 +427,10 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</
 Cabal.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cabal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To unite in a
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. </i><i>i</i>.) </span><span
+style='font-family:"新細明體","serif"'>密謀策劃</span> <span lang=EN-US>To unite in a
 small party to promote private views and interests by intrigue; to intrigue; to
-plot.</span></p>
+plot.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cabala</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A kind of occult
@@ -423,12 +446,74 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Secret scienc
 general; mystic art; mystery.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cabalism</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) The secret science
-of the cabalists.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>猶太神祕哲學的教義</span> <span lang=EN-US>The secret
+science of the cabalists.</span></span></p>
+
+<pre><b><span lang=EN-US style='font-size:12.0pt;font-family:"新細明體","serif"'>Cabalism</span></b><span
+lang=EN-US style='font-size:12.0pt;font-family:"新細明體","serif"'> (<i>n</i>.) A superstitious devotion to the mysteries of the religion which one professes. [R] -- Emerson.</span></pre>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cabalism</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A superstitious
-devotion to the mysteries of the religion which one professes.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The doctrines of the
+Kabbalah [<i>syn</i>: <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Kabbalism"><span
+style='color:windowtext;text-decoration:none'>Kabbalism</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Cabalism"><span
+style='color:windowtext;text-decoration:none'>Cabalism</span></a>].</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cabalism</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Adherence to some
+extreme traditional theological concept or interpretation [<i>syn</i>: <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=kabbalism"><span
+style='color:windowtext;text-decoration:none'>kabbalism</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=cabalism"><span
+style='color:windowtext;text-decoration:none'>cabalism</span></a>].</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:
+<b>Kabbalah</b></span></p>
+
+<pre><b><span lang=EN-US style='font-size:12.0pt;font-family:"新細明體","serif"'>Kabbalah</span></b><span
+lang=EN-US style='font-size:12.0pt;font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-size:12.0pt;font-family:"新細明體","serif"'>神秘釋經學 <span lang=EN-US>An esoteric or occult matter resembling the Kabbalah that</span></span><span
+lang=EN-US style='font-family:"新細明體","serif"'> is </span><span lang=EN-US
+style='font-size:12.0pt;font-family:"新細明體","serif"'>traditionally secret [<i>syn</i>: <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=cabala"><span
+style='color:windowtext;text-decoration:none'>cabala</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=cabbala"><span
+style='color:windowtext;text-decoration:none'>cabbala</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=cabbalah"><span
+style='color:windowtext;text-decoration:none'>cabbalah</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=kabala"><span
+style='color:windowtext;text-decoration:none'>kabala</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=kabbala"><span
+style='color:windowtext;text-decoration:none'>kabbala</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=kabbalah"><span
+style='color:windowtext;text-decoration:none'>kabbalah</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=qabala"><span
+style='color:windowtext;text-decoration:none'>qabala</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=qabalah"><span
+style='color:windowtext;text-decoration:none'>qabalah</span></a>].</span></pre>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Kabbalah</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) An esoteric
+theosophy of rabbinical origin based on the Hebrew scriptures and developed
+between the 7th and 18th centuries [<i>syn</i>: <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Kabbalah"><span
+style='color:windowtext;text-decoration:none'>Kabbalah</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Kabbala"><span
+style='color:windowtext;text-decoration:none'>Kabbala</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Kabala"><span
+style='color:windowtext;text-decoration:none'>Kabala</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Cabbalah"><span
+style='color:windowtext;text-decoration:none'>Cabbalah</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Cabbala"><span
+style='color:windowtext;text-decoration:none'>Cabbala</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Cabala"><span
+style='color:windowtext;text-decoration:none'>Cabala</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Qabbalah"><span
+style='color:windowtext;text-decoration:none'>Qabbalah</span></a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Qabbala"><span
+style='color:windowtext;text-decoration:none'>Qabbala</span></a>].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cabalist</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One versed in the
@@ -439,8 +524,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Alt. of
 Cabalistical.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cabalistical</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of or pertaining to the
-cabala; containing or conveying an occult meaning; mystic.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of or pertaining to
+the cabala; containing or conveying an occult meaning; mystic.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cabalistically</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) In a cabalistic
@@ -758,9 +843,9 @@ cabinetwork, cabinetry].</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) One of the Cabiri.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cabiri</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>prop. n. pl</i>.) (Myth.)
-Certain deities originally worshiped with mystical rites by the Pelasgians in
-Lemnos and Samothrace and afterwards throughout Greece; -- also called sons of
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>prop. n. pl</i>.) (Myth.) Certain
+deities originally worshiped with mystical rites by the Pelasgians in Lemnos
+and Samothrace and afterwards throughout Greece; -- also called sons of
 Hephaestus (or Vulcan), as being masters of the art of working metals. [Written
 also Cabeiri.] -- Liddell &amp; Scott.</span></p>
 
@@ -838,8 +923,8 @@ in the hawse, et.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>To
 slip the cable</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>,
-To let go the end on board and let it all run out and go overboard, as when
-there is not time to weigh anchor. Hence, in sailor's use, to die.</span></p>
+To let go the end on board and let it all run out and go overboard, as when there
+is not time to weigh anchor. Hence, in sailor's use, to die.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cable</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To fasten with a
@@ -894,8 +979,8 @@ than ten inches in circumference.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Cabling</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Arch.) The
-decoration of a fluted shaft of a column or of a pilaster with reeds, or
-rounded moldings, which seem to be laid in the hollows of the fluting.</span></p>
+decoration of a fluted shaft of a column or of a pilaster with reeds, or rounded
+moldings, which seem to be laid in the hollows of the fluting.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>These
 are limited in length to about one third of the height of the shaft.</span></p>
