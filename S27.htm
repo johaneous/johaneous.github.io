@@ -27,10 +27,10 @@
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"\@MS Mincho";}
-@font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@MS Mincho";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -55,6 +55,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -88,6 +102,10 @@ span.2
 	mso-style-link:"標題 2";
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+span.HTML
+	{mso-style-name:"HTML 預設格式 字元";
+	mso-style-link:"HTML 預設格式";
+	font-family:細明體;}
 span.a
 	{mso-style-name:"註解方塊文字 字元";
 	mso-style-link:註解方塊文字;
@@ -122,13 +140,18 @@ span.ipa
 	{mso-style-name:ipa;}
 span.unicode
 	{mso-style-name:unicode;}
-span.HTML
-	{mso-style-name:"HTML 預設格式 字元";
-	mso-style-link:"HTML 預設格式";
-	font-family:細明體;}
+span.a0
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a1
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -145,9 +168,9 @@ div.WordSection1
 to prop or block with a wedge, chock, etc., as a wheel, to prevent its rolling
 or slipping.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A chock, wedge, prop,
-or other support, to prevent slipping; as, a scotch for a wheel or a log on
-inclined ground.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A chock, wedge,
+prop, or other support, to prevent slipping; as, a scotch for a wheel or a log
+on inclined ground.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To cut
 superficially; to wound; to score.</span></p>
@@ -155,38 +178,60 @@ superficially; to wound; to score.</span></p>
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">We have
 scotched the snake, not killed it. -- Shak.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Scotched collops</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(Cookery), A dish made of pieces
-of beef or veal cut thin, or minced, beaten flat, and stewed with onion and
-other condiments; -- called also Scotch <span style="color: windowtext; text-decoration: none;">collops</span>. [Written also
-<span style="color: windowtext; text-decoration: none;">scotcht collops</span>.]</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotched
+collops </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(Cookery),
+A dish made of pieces of beef or veal cut thin, or minced, beaten flat, and
+stewed with onion and other condiments; -- called also Scotch collops. [Written
+also scotcht collops.]</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A slight cut or incision; a score. -- Walton.</span></p>
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
-Of or relating to or characteristic of Scotland or its people or
-culture or its English dialect or Gaelic language; "Scots Gaelic"; "the
-Scots community in New York"; "`Scottish' tends to be the more formal
-term as in `The Scottish Symphony' or `Scottish authors' or `Scottish
-mountains'"; "`Scotch' is in disfavor with Scottish people and is used
-primarily outside Scotland except in such frozen phrases as `Scotch
-broth' or `Scotch whiskey' or `Scotch plaid'" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">Scots</span>, <span style="color: windowtext; text-decoration: none;">Scottish</span>, <span style="color: windowtext; text-decoration: none;">Scotch</span>].</span></p>
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
-Avoiding waste; "an economical meal"; "an economical shopper"; "a
-frugal farmer"; "a frugal lunch"; "a sparing father and a spending
-son"; "sparing in their use of heat and light"; "stinting in bestowing
-gifts"; "thrifty because they remember the great Depression"; "`scotch'
-is used only informally" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">economical</span>, <span style="color: windowtext; text-decoration: none;">frugal</span>, <span style="color: windowtext; text-decoration: none;">scotch</span>, <span style="color: windowtext; text-decoration: none;">sparing</span>, <span style="color: windowtext; text-decoration: none;">stinting</span>].</span></p>
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A slight surface cut (especially a notch that is made to keep a tally) [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">score</span>, <span style="color: windowtext; text-decoration: none;">scotch</span>].</span></p>
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) Whiskey distilled in Scotland; especially whiskey made from malted barley in a pot still [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">Scotch</span>, Scotch <span style="color: windowtext; text-decoration: none;">whiskey</span>, <span style="color: windowtext; text-decoration: none;">Scotch whisky</span>, <span style="color: windowtext; text-decoration: none;">malt whiskey</span>, <span style="color: windowtext; text-decoration: none;">malt whisky</span>, <span style="color: windowtext; text-decoration: none;">Scotch malt whiskey</span>, <span style="color: windowtext; text-decoration: none;">Scotch malt whisky</span>].</span></p>
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v</i>.)
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+slight cut or incision; a score. -- Walton.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) Of
+or relating to or characteristic of Scotland or its people or culture or its
+English dialect or Gaelic language; "Scots Gaelic"; "the Scots
+community in New York"; "`Scottish' tends to be the more formal term
+as in `The Scottish Symphony' or `Scottish authors' or `Scottish
+mountains'"; "`Scotch' is in disfavor with Scottish people and is
+used primarily outside Scotland except in such frozen phrases as `Scotch broth'
+or `Scotch whiskey' or `Scotch plaid'" [<i>syn</i>: Scots, Scottish,
+Scotch].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
+Avoiding waste; "an economical meal"; "an economical
+shopper"; "a frugal farmer"; "a frugal lunch"; "a
+sparing father and a spending son"; "sparing in their use of heat and
+light"; "stinting in bestowing gifts"; "thrifty because
+they remember the great Depression"; "`scotch' is used only informally"
+[<i>syn</i>: economical, frugal, scotch, sparing, stinting].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+slight surface cut (especially a notch that is made to keep a tally) [<i>syn</i>:
+score, scotch].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
+Whiskey distilled in Scotland; especially whiskey made from malted barley in a
+pot still [<i>syn</i>: Scotch, Scotch whiskey, Scotch whisky, malt whiskey,
+malt whisky, Scotch malt whiskey, Scotch malt whisky].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v</i>.)
 Hinder or prevent (the efforts, plans, or desires) of; "What ultimately
-frustrated every challenger was Ruth's amazing September surge"; "foil
-your opponent" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">thwart</span>, <span style="color: windowtext; text-decoration: none;">queer</span>, <span style="color: windowtext; text-decoration: none;">spoil</span>, <span style="color: windowtext; text-decoration: none;">scotch</span>, <span style="color: windowtext; text-decoration: none;">foil</span>, <span style="color: windowtext; text-decoration: none;">cross</span>, <span style="color: windowtext; text-decoration: none;">frustrate</span>, <span style="color: windowtext; text-decoration: none;">baffle</span>, <span style="color: windowtext; text-decoration: none;">bilk</span>].</span></p>
+frustrated every challenger was Ruth's amazing September surge";
+"foil your opponent" [<i>syn</i>: thwart, queer, spoil, scotch, foil,
+cross, frustrate, baffle, bilk].</span></p>
+
 <pre><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v</i>.) Make a small cut or score into.</span></pre>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotch-hopper</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Hopscotch.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotching</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Dressing stone with
-a pick or pointed instrument.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotching</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Masonry) Dressing stone with a pick or pointed instrument.</span></p>
+
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotchmen</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>. <i>pl. </i>) of
 Scotchman.</span></p>
@@ -194,9 +239,12 @@ Scotchman.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotchman</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A native or
 inhabitant of Scotland; a Scot; a Scotsman.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotchman</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A piece of wood or
-stiff hide placed over shrouds and other rigging to prevent chafe by the running
-gear.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotchman</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) (Naut.) A piece of wood or stiff hide placed over shrouds an</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">d other rigging to prevent chafe by the running gear. -- Ham. Nav. Encyc.</span></p>
+
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotchman
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+native or inhabitant of Scotland [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">Scot</span>, <span style="color: windowtext; text-decoration: none;">Scotsman</span>, <span style="color: windowtext; text-decoration: none;">Scotchman</span>].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scoter</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Any one of several
 species of northern sea ducks of the genus Oidemia.</span></p>
@@ -217,15 +265,13 @@ used especially in classical architecture.</span></p>
 certain doctrines in philosophy and theology, in opposition to the Thomists, or
 followers of Thomas Aquinas, the Dominican scholastic.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotland</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">蘇格蘭（英語、低地蘇格蘭語：<span lang="EN-US">Scotland</span>，<span lang="EN-US">/</span></span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ˈ</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">sk</span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ɒ</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">t.l</span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ə</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">nd/</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">；蘇格蘭蓋爾語：<span lang="EN-US">Alba</span>）是大不列顛及北愛爾蘭聯合王國下屬的組成國之一<span lang="EN-US"> [13] [14] [15]</span>，位於大不列顛島北部，英格蘭之北，被大西洋環繞包圍，東部濱臨北海，西南濱臨北海海峽和愛爾蘭海，由約<span lang="EN-US">790</span>多個島嶼組成。<span lang="EN-US">[16]</span>以格子花紋、風笛音樂、畜牧業與威士忌而聞名。 <b><span lang="EN-US">Scotland</span></b><span lang="EN-US"> (/</span></span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ˈ</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">sk</span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ɒ</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">t.l</span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ə</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">nd/;
-Scots: [</span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ˈ</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">sk</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">ɔ<span lang="EN-US">t.l</span></span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ə</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">nd];
-Scottish Gaelic: Alba [</span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ˈ</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">al</span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">̪</span><span lang="EN-US">ˠ</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">ap</span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ə</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">]&nbsp;(&nbsp;listen)) is a
-country that is part of the United Kingdom and covers the northern third of the
-island of Great Britain. [16] [17] [18] It shares a border with England to the
-south, and is otherwise surrounded by the Atlantic Ocean, with the North Sea to
-the east and the North Channel and Irish Sea to the south-west. In addition to
-the mainland, the country is made up of more than 790 islands, [19] including
-the Northern Isles and the Hebrides.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scotland</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">蘇格蘭（英語、低地蘇格蘭語：<span lang="EN-US">Scotland</span>，<span lang="EN-US">/</span></span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ˈ</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">sk</span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ɒ</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">t.l</span><span style="font-family: &quot;MS Mincho&quot;,&quot;serif&quot;;">ə</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">nd/</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">；蘇格蘭蓋爾語：<span lang="EN-US">Alba</span>）是大不列顛及北愛爾蘭聯合王國下屬的組成國之一<span lang="EN-US"> [13] [14] [15]</span>，位於大不列顛島北部，英格蘭之北，被大西洋環繞包圍，東部濱臨北海，西南濱臨北海海峽和愛爾蘭海，由約<span lang="EN-US">790</span>多個島嶼組成。<span lang="EN-US">[16]</span>以格子花紋、風笛音樂、畜牧業與威士忌而聞名。 <b><span lang="EN-US">Scotland</span></b><span lang="EN-US">; <b>Scottish Gaelic</b>: <b>Alba;</b>
+Is a country that is part of the United Kingdom and covers the northern third
+of the island of Great Britain. [16] [17] [18] It shares a border with England
+to the south, and is otherwise surrounded by the Atlantic Ocean, with the North
+Sea to the east and the North Channel and Irish Sea to the south-west. In
+addition to the mainland, the country is made up of more than 790 islands, [19]
+including the Northern Isles and the Hebrides.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The
 Kingdom of Scotland emerged as an independent sovereign state in the Early
@@ -234,10 +280,10 @@ VI, King of Scots, became King of England and King of Ireland, thus forming a
 personal union of the three kingdoms. Scotland subsequently entered into a
 political union with the Kingdom of England on 1 May 1707 to create the new
 Kingdom of Great Britain. [20] [21] The union also created a new Parliament of
-Great Britain, which succeeded both the Parliament of Scotland and the Parliament
-of England. In 1801, Great Britain itself entered into a political union with
-the Kingdom of Ireland to create the United Kingdom of Great Britain and
-Ireland. [22]</span></p>
+Great Britain, which succeeded both the Parliament of Scotland and the
+Parliament of England. In 1801, Great Britain itself entered into a political
+union with the Kingdom of Ireland to create the United Kingdom of Great Britain
+and Ireland. [22]</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Within
 Scotland, the monarchy of the United Kingdom has continued to use a variety of
@@ -254,8 +300,8 @@ with England. [24]</span></p>
 a Scottish Parliament was re-established, in the form of a devolved unicameral
 legislature comprising 129 members, having authority over many areas of
 domestic policy. [25] Scotland is represented in the United Kingdom Parliament
-by 59 MPs and in the European Parliament by 6 MEPs. [26] Scotland is also a
-member of the British</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">–<span lang="EN-US">Irish Council, [27] and sends five members of the Scottish
+by 59 MPs and in the European Parliament by 6 MEPs. [26] Scotland is also a member
+of the British</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">–<span lang="EN-US">Irish Council, [27] and sends five members of the Scottish
 Parliament to the British</span>–<span lang="EN-US">Irish Parliamentary Assembly.
 [28]</span></span></p>
 
@@ -319,93 +365,247 @@ grease, dirt, etc., as articles of dress.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To purge; as, to
 scour a horse.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To remove by
-rubbing or cleansing; to sweep along or off; to carry away or remove, as by a
-current of water; -- often with off or away.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.)
+To remove by rubbing or cleansing; to sweep along or off; to carry away or
+remove, as by a current of water; -- often with off or away.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To pass swiftly
-over; to brush along; to traverse or search thoroughly; as, to scour the coast.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">[I will]
+stain my favors in a bloody mask, Which, washed away, shall scour my shame with
+it. -- Shak.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i.</i>) To clean anything
-by rubbing.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.)
+To pass swiftly over; to brush along; to traverse or search thoroughly; as, to
+scour the coast.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i.</i>) To cleanse
-anything.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Not so
+when swift Camilla scours the plain. -- Pope.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i.</i>) To be purged
-freely; to have a diarrhoea.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.)
+To cleanse or clear, as by a current of water; to flush.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i.</i>) To run swiftly;
-to rove or range in pursuit or search of something; to scamper.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">If my
+neighbor ought to scour a ditch. -- Blackstone.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Diarrhoea or
-dysentery among cattle.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Scouring barrel</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">, A tumbling barrel. See under <span style="color: windowtext; text-decoration: none;">Tumbling</span>.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourage</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Refuse water after
-scouring.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Scouring cinder</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (Metal.), A basic slag, which
+attacks the lining of a shaft furnace. --Raymond.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourer</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One who, or that
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Scouring rush</span>.</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (Bot.) See <span style="color: windowtext; text-decoration: none;">Dutch rush</span>, under <span style="color: windowtext; text-decoration: none;">Dutch</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Scouring stock</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (Woolen Manuf.), A kind of
+fulling mill.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i</i>.) To clean anything
+by rubbing. -- Shak.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. i</i>.)
+To cleanse anything.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Warm
+water is softer than cold, for it scoureth better. -- Bacon.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. i</i>.)
+To be purged freely; to have a diarrhoea.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. i</i>.)
+To run swiftly; to rove or range in pursuit or search of something; to scamper.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">So four
+fierce coursers, starting to the race, Scour through the plain, and lengthen
+every pace. -- Dryden.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
+Diarrhoea or dysentery among cattle.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The act of scouring.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A place scoured out
+by running water, as in the bed of a stream below a fall.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">If you
+catch the two sole denizens [trout] of a particular scour, you will find
+another pair installed in their place to-morrow. -- Grant Allen.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+place that is scoured (especially by running water).</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Examine minutely;
+"The police scoured the country for the fugitive."</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Clean with hard
+rubbing; "She scrubbed his back" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">scrub</span>, <span style="color: windowtext; text-decoration: none;">scour</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Rub hard or scrub;
+"scour the counter tops" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">scour</span>, <span style="color: windowtext; text-decoration: none;">abrade</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scour</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Rinse, clean, or
+empty with a liquid; "flush the wound with antibiotics"; "purge
+the old gas tank" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">flush</span>, <span style="color: windowtext; text-decoration: none;">scour</span>, <span style="color: windowtext; text-decoration: none;">purge</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourage
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
+Refuse water after scouring.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourer</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) One who, or that
 which, scours.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourer</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A rover or footpad;
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourer</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A rover or footpad;
 a prowling robber.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A lash; a strap or
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">In those
+days of highwaymen and scourers. -- Macaulay.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourer</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Someone who cleanses
+by scouring.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourer</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Someone who travels
+widely and energetically; "he was a scourer of the seven seas."</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A lash; a strap or
 cord; especially, a lash used to inflict pain or punishment; an instrument of
 punishment or discipline; a whip.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Hence, a means of
-inflicting punishment, vengeance, or suffering; an infliction of affliction; a
-punishment.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Up to
+coach then goes The observed maid, takes both the scourge and reins. -- Chapman.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourged</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p.</i>) of
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
+Hence, a means of inflicting punishment, vengeance, or suffering; an infliction
+of affliction; a punishment.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Sharp
+scourges of adversity. -- Chaucer.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">What
+scourge for perjury Can this dark monarchy afford false Clarence? -- Shak.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourged</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p</i>.) of
 Scourge.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourging</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>p. pr. &amp; vb. n.</i>) of
-Scourge.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourging
+(p. pr. &amp; vb. n.) of Scourge.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) To whip severely; to
-lash.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) To whip severely;
+to lash.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) To punish with
-severity; to chastise; to afflict, as for sins or faults, and with the purpose
-of correction.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Is it
+lawful for you to scourge a . . . Roman? -- Acts xxii. 25.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) To harass or afflict
-severely.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.)
+To punish with severity; to chastise; to afflict, as for sins or faults, and
+with the purpose of correction.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourger</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) One who scourges or
-punishes; one who afflicts severely.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Whom the
+Lord loveth he chasteneth, and scourgeth every son whom he receiveth. -- Heb.
+xii. 6.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourse</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) See Scorse.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t.</i>)
+To harass or afflict severely.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scouse</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A sailor's dish.
-Bread scouse contains no meat; lobscouse contains meat, etc. See Lobscouse.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">To
+scourge and impoverish the people. -- Brougham.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A swift sailing
-boat.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A whip used to
+inflict punishment (often used for pedantic humor) [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">scourge</span>, <span style="color: windowtext; text-decoration: none;">flagellum</span>].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A projecting rock.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) Something
+causing misery or death; "the bane of my life" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">bane</span>, <span style="color: windowtext; text-decoration: none;">curse</span>, <span style="color: windowtext; text-decoration: none;">scourge</span>, <span style="color: windowtext; text-decoration: none;">nemesis</span>].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To reject with
-contempt, as something absurd; to treat with ridicule; to flout; as, to scout
-an idea or an apology.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A person who
+inspires fear or dread; "he was the terror of the neighborhood" [<i>syn</i>:
+<span style="color: windowtext; text-decoration: none;">terror</span>, <span style="color: windowtext; text-decoration: none;">scourge</span>, <span style="color: windowtext; text-decoration: none;">threat</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Punish severely;
+excoriate.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Whip; "The
+religious fanatics flagellated themselves" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">flagellate</span>, <span style="color: windowtext; text-decoration: none;">scourge</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourge</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (v.) Cause extensive destruction
+or ruin utterly; "The enemy lay waste to the countryside after the invasion"
+[<i>syn</i>: lay waste <span style="color: windowtext; text-decoration: none;">to</span>, <span style="color: windowtext; text-decoration: none;">waste</span>, <span style="color: windowtext; text-decoration: none;">devastate</span>, <span style="color: windowtext; text-decoration: none;">desolate</span>, <span style="color: windowtext; text-decoration: none;">ravage</span>, <span style="color: windowtext; text-decoration: none;">scourge</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourger
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) One
+who scourges or punishes; one who afflicts severely.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The West
+must own the scourger of the world. -- Byron.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourger
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+torturer who flogs or scourges (especially an official whose duty is to whip
+offenders) [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">flogger</span>, <span style="color: windowtext; text-decoration: none;">scourger</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scourse
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t.</i>)
+See Scorse. [Obs.]</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scouse
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) (Naut.)
+A sailor's dish. Bread scouse contains no meat; lobscouse contains meat, etc.
+See Lobscouse. -- Ham. Nav. Encyc.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scouse</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A stew of meat and
+vegetables and hardtack that is eaten by sailors [syn: <span style="color: windowtext; text-decoration: none;">lobscouse</span>, <span style="color: windowtext; text-decoration: none;">lobscuse</span>, <span style="color: windowtext; text-decoration: none;">scouse</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+swift sailing boat. [Obs.]</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">So we
+took a scout, very much pleased with the manner and conversation of the
+passengers. -- Pepys.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A projecting rock. [Prov. Eng.] -- Wright.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>)
+To reject with contempt, as something absurd; to treat with ridicule;
+to flout; as, to scout an idea or an apology. "Flout 'em and scout
+'em." -- Shak.</span></p>
+
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A person sent out to
 gain and bring in tidings; especially, one employed in war to gain information
 of the movements and condition of an enemy.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A college student's
-or undergraduate's servant; -- so called in Oxford, England; at Cambridge
-called a gyp; and at Dublin, a skip.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scouts
+each coast light-arm[`e]d scour, Each quarter, to descry the distant foe. -- Milton.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A fielder in a game
-for practice.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A college student's or undergraduate's s</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">ervant; -- so called in Oxford, England; at Cambridge called a gyp; and at Dublin, a skip. [Cant]</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Cricket) A fielder in a game for practice.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The act of scouting
-or reconnoitering.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scouted</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p.</i>) of Scout.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">S</span></b><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">cout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) The act of scouting or
+reconnoitering. [Colloq.]</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">While
+the rat is on the scout. -- Cowper.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+boy scout or girl scout (which see, above).</span></p>
+
+<p class="MsoNormal"><i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Syn</span></i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">: <span style="color: windowtext; text-decoration: none;">Scout</span>, <span style="color: windowtext; text-decoration: none;">Spy</span>.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Usage:
+In a military sense a scout is a soldier who does duty in his proper uniform,
+however hazardous his adventure. A spy is one who in disguise penetrates the
+enemies' lines, or lurks near them, to obtain information.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scouted</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p.</i>) of
+Scout.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scouting</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>p. pr. &amp; vb. n.</i>) of
 Scout.</span></p>
@@ -414,16 +614,22 @@ Scout.</span></p>
 watch, or look for, as a scout; to follow for the purpose of observation, as a
 scout.</span></p>
 
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Take
+more men, And scout him round. -- Beau. &amp; Fl.</span></p>
+
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To pass over or
 through, as a scout; to reconnoiter; as, to scout a country.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scout</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i.</i>) To go on the
 business of scouting, or watching the motions of an enemy; to act as a scout.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scovel</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A mop for sweeping
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">With
+obscure wing Scout far and wide into the realm of night. -- Milton.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scovel</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A mop for sweeping
 ovens; a malkin.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scow</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A large
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scow</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Naut.) A large
 flat-bottomed boat, having broad, square ends.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scow</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To transport in a
@@ -439,31 +645,42 @@ Scowl.</span></p>
 brows, as in frowning or displeasure; to put on a frowning look; to look sour,
 sullen, severe, or angry.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowl</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i.</i>) Hence, to look
-gloomy, dark, or threatening; to lower.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">She
+scowled and frowned with froward countenance. -- Spenser.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowl</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To look at or
-repel with a scowl or a frown.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowl </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. i</i>.) Hence, to look gloomy, dark, or threatening; to lower.&nbsp;&nbsp; "The scowling heavens." -- Thomson.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowl</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) To look at or repel with a scowl or a frown. -- Milton.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowl</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To express by a
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowl</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) To express by a
 scowl; as, to scowl defiance.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowl</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The wrinkling of the
-brows or face in frowing; the expression of displeasure, sullenness, or
-discontent in the countenance; an angry frown.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowl
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) The
+wrinkling of the brows or face in frowing; the expression of displeasure,
+sullenness, or discontent in the countenance; an angry frown.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowl</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Hence, gloom; dark
-or threatening aspect.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">With solemn
+phiz, and critic scowl. -- Lloyd.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowlingly</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv.</i>) In a scowling
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowl </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) Hence, gloom; dark or threatening aspect. -- Burns.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">A ruddy storm, whose scowl Made heaven's radiant face look foul. --</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Crashaw.</span></p>
+
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowl
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+facial expression of dislike or displeasure [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">frown</span>, <span style="color: windowtext; text-decoration: none;">scowl</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowl</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Frown with
+displeasure.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scowlingly</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv</i>.) In a scowling
 manner.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrabbed
-eggs</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> () A Lenten
-dish, composed of eggs boiled hard, chopped, and seasoned with butter, salt,
-and pepper.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrabbed eggs</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> () A Lenten dish, composed of eggs boiled hard, chopped, and seasoned with butter, salt, and pepper. -- Halliwell.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrabbled</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p.</i>) of
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrabbled</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p</i>.) of
 Scrabble.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrabbling</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>p. pr. &amp; vb. n.</i>) of
@@ -472,12 +689,19 @@ Scrabble.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrabble</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The act of
 scrabbling; a moving upon the hands and knees; a scramble; also, a scribble.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrabble</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To scrape, paw,
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrabble</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i.</i>) To scrape, paw,
 or scratch with the hands; to proceed by clawing with the hands and feet; to
 scramble; as, to scrabble up a cliff or a tree.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrabble</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To make
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Now
+after a while Little-faith came to himself, and getting up made shift to
+scrabble on his way. -- Bunyan.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrabble</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i.</i>) To make
 irregular, crooked, or unmeaning marks; to scribble; to scrawl.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">David .
+. . scrabbled on the doors of the gate. --1. Sam. xxi. 13.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrabble</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To mark with
 irregular lines or letters; to scribble; as, to scrabble paper.</span></p>
@@ -520,10 +744,33 @@ struggle; to wrangle; also, to be industrious.</span></p>
 lean, or rough; a bony piece; especially, a bony neckpiece of meat; hence,
 humorously or in contempt, the neck.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrag</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A rawboned person.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Lady
+MacScrew, who . . . serves up a scrag of mutton on silver. -- Thackeray.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrag</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A ragged, stunted
-tree or branch.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrag </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A rawboned person. [Low] -- Halliwell.</span></p>
+
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrag</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A ragged, stunted tree
+or branch.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Scrag whale</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (Zool.), A North Atlantic
+whalebone whale<span style="color: windowtext; text-decoration: none;">({Agaphelus gibbosus</span>).
+By some it is considered the young of the right whale.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrag</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A person who is
+unusually thin and scrawny [<i>syn</i>: thin <span style="color: windowtext; text-decoration: none;">person</span>, <span style="color: windowtext; text-decoration: none;">skin and bones</span>, <span style="color: windowtext; text-decoration: none;">scrag</span>] [<i>ant</i>: <span style="color: windowtext; text-decoration: none;">butterball</span>, <span style="color: windowtext; text-decoration: none;">fat person</span>, <span style="color: windowtext; text-decoration: none;">fatso</span>, <span style="color: windowtext; text-decoration: none;">fatty</span>, <span style="color: windowtext; text-decoration: none;">roly-poly</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrag</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Lean end of the neck.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrag</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) The lean end of a
+neck of veal [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">scrag</span>, <span style="color: windowtext; text-decoration: none;">scrag end</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrag</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Strangle with an
+iron collar; "people were garrotted during the Inquisition in Spain"
+[<i>syn</i>: <span style="color: windowtext; text-decoration: none;">garrote</span>, <span style="color: windowtext; text-decoration: none;">garrotte</span>, <span style="color: windowtext; text-decoration: none;">garotte</span>, <span style="color: windowtext; text-decoration: none;">scrag</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrag</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Wring the neck of;
+"The man choked his opponent" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">choke</span>, <span style="color: windowtext; text-decoration: none;">scrag</span>].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scragged</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Rough with irregular
 points, or a broken surface; scraggy; as, a scragged backbone.</span></p>
@@ -534,23 +781,31 @@ scraggy.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scraggedness</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Quality or state of
 being scragged.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scraggily</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv.</i>) In a scraggy manner.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scraggily</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv.</i>) In a scraggy
+manner.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scragginess</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The quality or state
 of being scraggy; scraggedness.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scraggy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Rough with irregular
-points; scragged.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scraggy </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) Rough with irregular points; scragged. "A scraggy rock." -- J. Philips.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scraggy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Lean and rough; scragged. "His sinewy, scraggy neck." -- Sir W. Scott.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scraggy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Lean and rough;
-scragged.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scragly</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) See Scraggy.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scraggy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Being very thin;
+"a child with skinny freckled legs"; "a long scrawny neck"
+[<i>syn</i>: <span style="color: windowtext; text-decoration: none;">scraggy</span>, <span style="color: windowtext; text-decoration: none;">boney</span>, <span style="color: windowtext; text-decoration: none;">scrawny</span>, <span style="color: windowtext; text-decoration: none;">skinny</span>, <span style="color: windowtext; text-decoration: none;">underweight</span>, <span style="color: windowtext; text-decoration: none;">weedy</span>].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrag-necked</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Having a scraggy
-neck.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scraggy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Having a sharply
+uneven surface or outline; "the jagged outline of the crags";
+"scraggy cliffs" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">jagged</span>, <span style="color: windowtext; text-decoration: none;">jaggy</span>, <span style="color: windowtext; text-decoration: none;">scraggy</span>].</span></p>
 
-<p class="MsoNormal" style="text-align: center;" align="center"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><a href="S26.htm">[previous page]</a> <a href="index.html">[Index]</a> <a href="S28.htm">[next page]</a></span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scragly</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) See Scraggy.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Scrag-necked
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
+Having a scraggy neck.</span></p>
+
+<p class="MsoNormal" style="text-align: center;" align="center"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;"></span><a href="S26.htm"><span style="color: windowtext; text-decoration: none;">[previous page]</span></a> <a href="index.html"><span style="color: windowtext; text-decoration: none;">[Index]</span></a> <a href="S28.htm"><span style="color: windowtext; text-decoration: none;">[next page]</span></a></span></p>
 
 </div>
 
