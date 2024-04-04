@@ -59,6 +59,20 @@ h2
 	font-size:18.0pt;
 	font-family:"Times New Roman","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -99,6 +113,14 @@ span.HTML
 	mso-style-link:"HTML 預設格式";
 	font-family:"Courier New";}
 span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
+span.a1
 	{mso-style-name:"註解方塊文字 字元";
 	mso-style-link:註解方塊文字;
 	font-family:"Cambria","serif";}
@@ -138,7 +160,8 @@ span.il
 	{mso-style-name:il;}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -160,9 +183,9 @@ div.WordSection1
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
 style='font-family:"新細明體","serif"'>奇怪的；乖癖的；罕見的；（個人或團體）特有的，獨具的；獨特的<span
 lang=EN-US> [</span>（<span lang=EN-US>+to</span>）<span lang=EN-US>] One's own;
-belonging solely or especially to an individual; not possessed by others; of private,
-personal, or characteristic possession and use; not owned in common or in
-participation.</span></span></p>
+belonging solely or especially to an individual; not possessed by others; of
+private, personal, or characteristic possession and use; not owned in common or
+in participation.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>And
 purify unto himself a peculiar people. -- Titus ii. 14.</span></p>
@@ -171,8 +194,8 @@ purify unto himself a peculiar people. -- Titus ii. 14.</span></p>
 . . that Christianity hath peculiar unto itself. -- Hooker.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Peculiar</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Particular; individual;
-special; appropriate.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Particular;
+individual; special; appropriate.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>While
 each peculiar power forgoes his wonted seat. -- Milton.</span></p>
@@ -185,7 +208,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Unusual; sing
 rare; strange; as, the sky had a peculiar appearance.</span></p>
 
 <p class=MsoNormal><i><span lang=EN-US style='font-family:"新細明體","serif"'>Syn</span></i><span
-lang=EN-US style='font-family:"新細明體","serif"'>: {Peculiar}, {Special}, {Especial}.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>: {Peculiar}, {Special},
+{Especial}.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Usage:
 Peculiar is from the Roman peculium, which was a thing emphatically and
@@ -226,12 +250,12 @@ of peculiars</b>}. See under {Dean}, 1.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Peculiar</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Beyond or deviating
-from the usual or expected; &quot;a curious hybrid accent&quot;; &quot;her
-speech has a funny twang&quot;; &quot;they have some funny ideas about
-war&quot;; &quot;had an odd name&quot;; &quot;the peculiar aromatic odor of
-cloves&quot;; &quot;something definitely queer about this town&quot;;
-&quot;what a rum fellow&quot;; &quot;singular behavior&quot; [<i>syn</i>:
-{curious}, {funny}, {odd}, {peculiar}, {queer}, {rum}, {rummy}, {singular}].</span></p>
+from the usual or expected; &quot;a curious hybrid accent&quot;; &quot;her speech
+has a funny twang&quot;; &quot;they have some funny ideas about war&quot;;
+&quot;had an odd name&quot;; &quot;the peculiar aromatic odor of cloves&quot;;
+&quot;something definitely queer about this town&quot;; &quot;what a rum
+fellow&quot;; &quot;singular behavior&quot; [<i>syn</i>: {curious}, {funny},
+{odd}, {peculiar}, {queer}, {rum}, {rummy}, {singular}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Peculiar</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Unique or specific
@@ -279,8 +303,8 @@ Units (2000): 983</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Land
 area (2000): 3.496290 sq. miles (9.055348 sq. km)</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Water area
-(2000): 0.046421 sq. miles (0.120231 sq. km)</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Water
+area (2000): 0.046421 sq. miles (0.120231 sq. km)</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Total
 area (2000): 3.542711 sq. miles (9.175579 sq. km)</span></p>
@@ -297,8 +321,8 @@ within: Missouri (MO), FIPS 29</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>ZIP
 Codes (1990): 64078</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note: some
-ZIP codes may be omitted esp. for suburbs.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note:
+some ZIP codes may be omitted esp. for suburbs.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Headwords:</span></p>
 
@@ -350,20 +374,22 @@ Peculiarize.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n.</i>) of
 Peculiarize.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Peculiarize
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
-To make peculiar; to set appart or assign, as an exclusive possession. [R.] --
-Dr. John Smith.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Peculiarize</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) </span><span
+style='font-family:"新細明體","serif"'>使特殊<span lang=EN-US> To make peculiar; to
+set appart or assign, as an exclusive possession. [R.] -- Dr. John Smith.</span></span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Peculiarly</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) In a peculiar
-manner; particulary; in a rare and striking degree; unusually.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Peculiarly
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>adv</i>.) </span><span
+style='font-family:"新細明體","serif"'>奇怪地，古怪地；特別，尤其；獨特地，有特色地<span lang=EN-US> In a
+peculiar manner; particulary; in a rare and striking degree; unusually.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Peculiarly</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) Uniquely or
-characteristically; &quot;these peculiarly cinematic elements&quot;; &quot;a peculiarly
-French phenomenon&quot;; &quot;everyone has a moment in history which belongs
-particularly to him&quot;- John Knowles [<i>syn</i>: peculiarly, particularly].</span></p>
+characteristically; &quot;these peculiarly cinematic elements&quot;; &quot;a
+peculiarly French phenomenon&quot;; &quot;everyone has a moment in history
+which belongs particularly to him&quot;- John Knowles [<i>syn</i>: peculiarly,
+particularly].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Peculiarly</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) In a manner
@@ -384,10 +410,11 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The quality o
 of being peculiar; peculiarity. -- Mede.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Peculium</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Rom. Law) The
-saving of a son or a slave with the father's or master's consent; a little
-property or stock of one's own; any exclusive personal or separate property. --
-Burrill.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Rom. Law) </span><span
+style='font-family:"新細明體","serif"'>【律】（羅馬法中）特有產（指准許妻兒或奴僕擁有的私產）；私（有財）產<span
+lang=EN-US> The saving of a son or a slave with the father's or master's
+consent; a little property or stock of one's own; any exclusive personal or
+separate property. -- Burrill.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Peculium</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A special fund for
@@ -413,18 +440,48 @@ Cranch, 270.</span></p>
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
 Pecuniary. [Obs.] -- Chaucer.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pecuniarily</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv.</i>) In a pecuniary
-manner; as regards money.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:
+<b>Pecuniary</b></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pecuniary</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Relating to money;
-monetary; as, a pecuniary penalty; a pecuniary reward. -- Burke.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) [Z] </span><span
+style='font-family:"新細明體","serif"'>金錢的，錢財方面的；應課罰金的<span lang=EN-US>Relating to
+money; monetary; as, a pecuniary penalty; a pecuniary reward. -- Burke.</span></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pecuniary
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+Relating to or involving money; &quot;monetary rewards&quot;; &quot;he received
+thanks but no pecuniary compensation for his services&quot; [<i>syn</i>:
+monetary, pecuniary].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pecuniary</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Relating to or involving
-money; &quot;monetary rewards&quot;; &quot;he received thanks but no pecuniary
-compensation for his services&quot; [<i>syn</i>: monetary, pecuniary].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>. () That which relates to money.
+</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pecuniary</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'>. () Pecuniary punishment, is one
+which imposes a fine on a convict; a pecuniary legacy is one which entitles the
+legatee to receive a sum of money, and not a specific chattel. In the
+ecclesiastical law, by pecuniary causes is understood such causes as arise
+either from the withholding ecclesiastical dues, or the doing or omitting such
+acts relating to the church, in consequence of which damage accrues to the
+plaintiff. In England these causes are cognizable in the ecclesiastical courts.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pecuniarily
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>adv</i>.) </span><span
+style='font-family:"新細明體","serif"'>在金錢上，在金錢方面<span lang=EN-US> In a pecuniary
+manner; as regards money.</span></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pecuniary</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) [Z] </span><span
+style='font-family:"新細明體","serif"'>金錢的，錢財方面的；應課罰金的<span lang=EN-US> Relating to
+money; monetary; as, a pecuniary penalty; a pecuniary reward. -- Burke.</span></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pecuniary</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Relating to or
+involving money; &quot;monetary rewards&quot;; &quot;he received thanks but no
+pecuniary compensation for his services&quot; [<i>syn</i>: monetary,
+pecuniary].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pecuniary</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>. () That which relates to money.</span></p>
@@ -454,30 +511,34 @@ lang=EN-US style='font-family:"新細明體","serif"'>, () Personen-Erkenntnis-D
 <b>Paage</b></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Paage</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A toll for passage
-over another person's grounds. [Written also peage and pedage.] -- Burke.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (O. Eng. Law) A toll
+for passage over another person's grounds. [Written also peage and pedage.] --
+Burke.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedage</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A toll or tax paid by
-passengers, entitling them to safe-conduct and protection. [Obs.] -- Spelman.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A toll or tax paid
+by passengers, entitling them to safe-conduct and protection. [Obs.] --
+Spelman.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagog</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Pedagogue.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Pedagogue.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagog
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
-Someone who educates young people [<i>syn</i>: educator, pedagogue, pedagog].</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagog</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>（小學）教師；喜歡賣弄學問的教師<span lang=EN-US> Someone
+who educates young people [syn: educator, pedagogue, pedagog].</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogic</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) See Pedagogics.
 Pedagogic</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogic</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Alt. of Pedagogical.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Alt. of Pedagogical.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogical</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a.</i>) Of or pertaining to
-a pedagogue; suited to, or characteristic of, a pedagogue.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogical
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) </span><span
+style='font-family:"新細明體","serif"'>教育學的；教學法的；（小學）教師的<span lang=EN-US> Of or
+pertaining to a pedagogue; suited to, or characteristic of, a pedagogue.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogical</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Of or relating to
@@ -513,21 +574,39 @@ who by teaching has become formal, positive, or pedantic in his ways; one who
 has the manner of a schoolmaster; a pedant. -- Goldsmith.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogue</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To play the
-pedagogue toward. [Obs.] -- Prior.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To play the pedagogue
+toward. [Obs.] -- Prior.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogue</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Someone who educates
 young people [<i>syn</i>: educator, pedagogue, pedagog].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogy</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) Pedagogics;
-pedagogism.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Pedagogics;
+pedagogism. -- South.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogy</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The principles and
+methods of instruction [<i>syn</i>: teaching method, pedagogics, pedagogy].</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogy</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The profession of a
+teacher; &quot;he prepared for teaching while still in college&quot;;
+&quot;pedagogy is recognized as an important profession&quot; [<i>syn</i>:
+teaching, instruction, pedagogy].</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogy</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The activities of
+educating or instructing; activities that impart knowledge or skill; &quot;he
+received no formal education&quot;; &quot;our instruction was carefully
+programmed&quot;; &quot;good classroom teaching is seldom rewarded&quot; [<i>syn</i>:
+education, instruction, teaching, pedagogy, didactics, educational activity].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Of or pertaining to
-the foot, or to feet, literally or figuratively; specifically (Zool.),
-pertaining to the foot of a mollusk; as, the pedal ganglion.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
+style='font-family:"新細明體","serif"'>足的；踏板的；腳踏的<span lang=EN-US> Of or pertaining
+to the foot, or to feet, literally or figuratively; specifically (Zool.),
+pertaining to the foot of a mollusk; as, the pedal ganglion.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedal</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Of or pertaining to
@@ -550,17 +629,25 @@ organ which has pedals or a range of keys moved by the feet; that portion of a
 full organ which is played with the feet.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mech.) A lever or
-key acted on by the foot, as in the pianoforte to raise the dampers, or in the
-organ to open and close certain pipes; a treadle, as in a lathe or a bicycle.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mech.) [C] </span><span
+style='-moz-background-clip: -moz-initial;-moz-background-origin: -moz-initial;
+-moz-background-inline-policy: -moz-initial;background-attachment:scroll'><span
+style='-moz-background-clip: -moz-initial;-moz-background-origin: -moz-initial;
+-moz-background-inline-policy: -moz-initial;background-attachment:scroll;
+background-position-x:0%;background-position-y:50%'><span style='font-family:
+"新細明體","serif";color:black;background:white'>踏板；腳蹬；管風琴的腳踏鍵</span></span></span><span
+lang=EN-US style='font-family:"新細明體","serif"'>A lever or key acted on by the
+foot, as in the pianoforte to raise the dampers, or in the organ to open and
+close certain pipes; a treadle, as in a lathe or a bicycle.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedal
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) (Geom.)
-A pedal curve or surface.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
+(Geom.) A pedal curve or surface.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Of or relating to
-the feet; &quot;the word for a pedal extremity is `foot'&quot;.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedal
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a.</i>) </span><span
+style='font-family:"新細明體","serif"'>足的；踏板的；腳踏的<span lang=EN-US> Of or relating
+to the feet; &quot;the word for a pedal extremity is `foot'&quot;.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedal</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A sustained bass
@@ -570,9 +657,10 @@ note [<i>syn</i>: pedal point, pedal].</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A lever that is
 operated with the foot [<i>syn</i>: pedal, treadle, foot pedal, foot lever].</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Ride a bicycle [<i>syn</i>:
-bicycle, cycle, bike, pedal, wheel].</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedal
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v</i>.) (<i>v.
+t</i>.) </span><span style='font-family:"新細明體","serif"'>踩……的踏板；騎（腳踏車） <span
+lang=EN-US>Ride a bicycle [syn: bicycle, cycle, bike, pedal, wheel].</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedal</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Operate the pedals
@@ -588,7 +676,7 @@ act of measuring by paces. [R.] -- Ash.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedaneous</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Going on foot;
-pedestrian.</span></p>
+pedestrian. [R.]</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedant
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
@@ -609,8 +697,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) = Pedagog.</s
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Pedagogue.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagog
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
-Someone who educates young people [<i>syn</i>: educator, pedagogue, pedagog].</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) Someone
+who educates young people [<i>syn</i>: educator, pedagogue, pedagog].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogue</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [Formal, humorous] A
@@ -622,8 +710,8 @@ style='font-family:"新細明體","serif"'>（小學）教師；喜歡賣弄學�
 schoolteacher.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagog</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A person who is
-pedantic, dogmatic, and formal.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A person who is pedantic,
+dogmatic, and formal.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedagogue</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Gr. Antiq.) A slave
@@ -655,9 +743,9 @@ schoolmaster; a pedagogue. [Obs.] -- Dryden.</span></span></p>
 that keeps a school i'th' church. -- Shak.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedant</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) One who puts on an air
-of learning; one who makes a vain display of learning; a pretender to superior
-knowledge. -- Addison.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) One who puts on an
+air of learning; one who makes a vain display of learning; a pretender to
+superior knowledge. -- Addison.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>A
 scholar, yet surely no pedant, was he. -- Goldsmith. Pedantic</span></p>
@@ -725,8 +813,8 @@ assembly or clique of pedants. [Obs.] -- Milton.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedarian</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) One of a class
-eligible to the office of senator, but not yet chosen, who could sit and speak
-in the senate, but could not vote; -- so called because he might indicate his
+eligible to the office of senator, but not yet chosen, who could sit and speak in
+the senate, but could not vote; -- so called because he might indicate his
 opinion by walking over to the side of the party he favored when a vote was
 taken.</span></p>
 
@@ -748,8 +836,8 @@ the lateral lobes cleft into two or more segments; -- said of a leaf. --
 Ped&quot;ate*ly,<i> adv</i>.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedate</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Of a leaf shape;
-having radiating lobes, each deeply cleft or divided.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Of a leaf shape; having
+radiating lobes, each deeply cleft or divided.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedate</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Having or resembling
@@ -831,8 +919,8 @@ style='font-family:"新細明體","serif"'>不重要的<span lang=EN-US> Petty; 
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pederast</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>雞姦者；男同性戀者；戀童癖男子<span lang=EN-US> One guilty of
-pederasty; a sodomite.</span></span></p>
+style='font-family:"新細明體","serif"'>雞姦者；男同性戀者；戀童癖男子<span lang=EN-US> One guilty
+of pederasty; a sodomite.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pederastic</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Of or pertaining to
@@ -884,9 +972,8 @@ support for the desk surface. There may be zero, one, or two such pedestals in
 a desk.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedestal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Railroad Cars) A
-casting secured to the frame of a truck and forming a jaw for holding a journal
-box.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Railroad Cars) A casting
+secured to the frame of a truck and forming a jaw for holding a journal box.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedestal</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mach.) A pillow
@@ -917,8 +1004,8 @@ support or base (as for a column or statue) [<i>syn</i>: {pedestal}, {plinth},
 {footstall}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedestaled
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) Placed
-on, or supported by, a pedestal; figuratively, exalted. -- Hawthorne.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+Placed on, or supported by, a pedestal; figuratively, exalted. -- Hawthorne.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Pedestaled
 haply in a palace court. -- Keats.</span></p>
@@ -1060,8 +1147,8 @@ stem by which certain of the lower animals or their eggs are attached. See
 Illust. of {Aphis lion}.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedicel</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (Anat.) The ventral part
-of each side of the neural arch connecting with the centrum of a vertebra.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (Anat.) The ventral
+part of each side of the neural arch connecting with the centrum of a vertebra.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedicel</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (Anat.) An outgrowth
@@ -1082,10 +1169,10 @@ Pedicellaria.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedicellaria</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>（棘皮動物的）叉棘<span lang=EN-US> A peculiar forcepslike
-organ which occurs in large numbers upon starfishes and echini. Those of
-starfishes have two movable jaws, or blades, and are usually nearly, or quite,
-sessile; those of echini usually have three jaws and a pedicel. See
+style='font-family:"新細明體","serif"'>（棘皮動物的）叉棘<span lang=EN-US> A peculiar
+forcepslike organ which occurs in large numbers upon starfishes and echini.
+Those of starfishes have two movable jaws, or blades, and are usually nearly,
+or quite, sessile; those of echini usually have three jaws and a pedicel. See
 Illustration in Appendix.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pedicellate
