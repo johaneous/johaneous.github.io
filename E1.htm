@@ -52,13 +52,13 @@ p
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"&\#65533";}
-@font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"&\#65533";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -92,6 +92,20 @@ h3
 	font-size:18.0pt;
 	font-family:"Cambria","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -142,9 +156,18 @@ span.fl
 	{mso-style-name:fl;}
 span.dttext
 	{mso-style-name:dttext;}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -172,8 +195,8 @@ model diatonic scale. E/ (E flat) is a tone which is intermediate between D and
 E.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>E-</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> () A Latin prefix meaning out,
-out of, from; also, without. See Ex-.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> () A Latin prefix meaning out, out
+of, from; also, without. See Ex-.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Each</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a. / a. pron.</i>) Every one
@@ -252,8 +275,8 @@ praiseworthy or the</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>contrary. Earnest denotes a permanent state
 of mind,</span><span lang=EN-US> </span><span lang=EN-US style='font-family:
 "新細明體","serif"'>feeling, or sentiment. It is always taken in a good</span><span
-lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>sense;
-as, a preacher is earnest in his appeals to the</span><span lang=EN-US> </span><span
+lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>sense; as,
+a preacher is earnest in his appeals to the</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>conscience; an agent is earnest
 in his solicitations.</span></p>
 
@@ -294,7 +317,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
 style='font-family:"新細明體","serif"'>渴望；熱心；熱切<span lang=EN-US> [U] [</span>（<span
 lang=EN-US>+for/ about</span>）<span lang=EN-US>] [+to-v] The state or quality
 of being eager; ardent desire. &quot;The</span></span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>eagerness of love.&quot; -- Addison.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>eagerness of love.&quot; --
+Addison.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eagerness</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Tartness; sourness.
@@ -325,19 +349,36 @@ lang=EN-US style='font-family:"新細明體","serif"'>tried to explain his forwa
 in battle&quot; [<i>syn</i>:</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>readiness, eagerness, zeal, forwardness].</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eagle
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
-(Zo[&quot;o]l.) Any large, rapacious bird of the Falcon family, esp. of the
-genera Aquila and Haliaeetus. The eagle is remarkable for strength, size,
-graceful figure, keenness of vision, and extraordinary flight. The most noted
-species are the golden eagle (Aquila chrysaetus); the imperial eagle of Europe
-(A. mogilnik / imperialis); the American bald eagle (Haliaeetus leucocephalus);
-the European sea eagle (H. albicilla); and the great harpy eagle (Thrasaetus
-harpyia). The figure of the eagle, as the king of birds, is commonly used as an
-heraldic emblem, and also for standards and emblematic devices. See Bald eagle,
-Harpy, and Golden eagle.</span></p>
+<pre><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eagle </span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
+lang=EN-US style='color:black'>(Zo[&quot;o]l.) Any large, rapacious bird of the Falcon family,</span></pre><pre><span
+lang=EN-US style='color:black'>        esp. of the genera <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Aquila">Aquila</a> and <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Hali%5bae%5detus">Hali[ae]etus</a>. The eagle</span></pre><pre><span
+lang=EN-US style='color:black'>        is remarkable for strength, size, graceful figure,</span></pre><pre><span
+lang=EN-US style='color:black'>        keenness of vision, and extraordinary flight. The most</span></pre><pre><span
+lang=EN-US style='color:black'>        noted species are the golden eagle ({Aquila</span></pre><pre><span
+lang=EN-US style='color:black'>        <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=+chrysa%5b"
+"="">chrysa[&quot;e]tus</a>); the imperial eagle of Europe ({Aquila</span></pre><pre><span
+lang=EN-US style='color:black'>        <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=+mogilnik">mogilnik</a> or <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Aquila+imperialis">Aquila imperialis</a>); the American bald eagle</span></pre><pre><span
+lang=EN-US style='color:black'>        <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=+(%7bHali%5bae%5detus+leucocephalus">({Hali[ae]etus leucocephalus</a>); the European sea eagle</span></pre><pre><span
+lang=EN-US style='color:black'>        <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=+(%7bHali%5bae%5detus+albicilla">({Hali[ae]etus albicilla</a>); and the great harpy eagle</span></pre><pre><span
+lang=EN-US style='color:black'>        <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=+(%7bThrasaetus+harpyia">({Thrasaetus harpyia</a>). The figure of the eagle, as the</span></pre><pre><span
+lang=EN-US style='color:black'>        king of birds, is commonly used as an heraldic emblem, and</span></pre><pre><span
+lang=EN-US style='color:black'>        also for standards and emblematic devices. See <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Bald">Bald</a></span></pre><pre><span
+lang=EN-US style='color:black'>        <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Bald+eagle">eagle</a>, <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Harpy">Harpy</a>, and <a
+href="http://dict.org/bin/Dict?Form=Dict2&amp;Database=*&amp;Query=Golden+eagle">Golden eagle</a>.</span></pre>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eagle</span></b><span
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'> Eagle</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A gold coin of the
 United States, of the value of ten dollars.</span></p>
 
@@ -346,17 +387,17 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Astron.) A n
 constellation, containing Altair, a star of the first magnitude. See Aquila.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eagle</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The figure of an
-eagle borne as an emblem on the standard of the ancient Romans, or so used upon
-the seal or standard of any people.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The figure of an eagle
+borne as an emblem on the standard of the ancient Romans, or so used upon the
+seal or standard of any people.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Though
 the Roman eagle shadow thee. -- Tennyson.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note:
 Some modern nations, as the United States, and France</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>under the Bonapartes, have
-adopted the eagle as their</span><span lang=EN-US> </span><span lang=EN-US
+lang=EN-US style='font-family:"新細明體","serif"'>under the Bonapartes, have adopted
+the eagle as their</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>national emblem. Russia, Austria, and
 Prussia have for</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>an emblem a double-headed eagle.</span></p>
@@ -410,7 +451,7 @@ lang=EN-US style='font-family:"新細明體","serif"'>eagle, bird of Jove].</spa
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eagle</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.)</span><span
 lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>(Golf) A
-score of two strokes under par on a hole</span></p>
+score of two strokes under par on a hole.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eagle</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A former gold coin
@@ -419,7 +460,7 @@ in the United States worth 10 dollars</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eagle</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.)</span><span
 lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>An
-emblem representing power; &quot;the Roman eagle&quot;</span></p>
+emblem representing power; &quot;the Roman eagle&quot;.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eagle</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Shoot two strokes
@@ -493,8 +534,8 @@ style='font-family:"新細明體","serif"'>young ones still and slowly followed,
 apparently flying better</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>as they mounted; and they continued this
 sublime exercise,</span><span lang=EN-US> </span><span lang=EN-US
-style='font-family:"新細明體","serif"'>always rising till they became mere points
-in the air, and the</span><span lang=EN-US> </span><span lang=EN-US
+style='font-family:"新細明體","serif"'>always rising till they became mere points in
+the air, and the</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>young ones were lost, and afterwards their
 parents, to our</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>aching sight.&quot; (See Isa. 40:31.)</span></p>
@@ -568,8 +609,8 @@ Units (2000): 137</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Land
 area (2000): 1.008512 sq. miles (2.612034 sq. km)</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Water
-area (2000): 0.000000 sq. miles (0.000000 sq. km)</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Water area
+(2000): 0.000000 sq. miles (0.000000 sq. km)</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Total
 area (2000): 1.008512 sq. miles (2.612034 sq. km)</span></p>
@@ -777,8 +818,8 @@ Units (2000): 47</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Land
 area (2000): 0.122504 sq. miles (0.317284 sq. km)</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Water
-area (2000): 0.000000 sq. miles (0.000000 sq. km)</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Water area
+(2000): 0.000000 sq. miles (0.000000 sq. km)</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Total
 area (2000): 0.122504 sq. miles (0.317284 sq. km)</span></p>
@@ -795,8 +836,8 @@ within: Michigan (MI), FIPS 26</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>ZIP
 Codes (1990): 48822</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note:
-some ZIP codes may be omitted esp. for suburbs.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note: some
+ZIP codes may be omitted esp. for suburbs.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Headwords:</span></p>
 
@@ -812,8 +853,8 @@ village in Wisconsin</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Population
 (2000): 1707</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Housing Units
-(2000): 605</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Housing
+Units (2000): 605</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Land
 area (2000): 1.267688 sq. miles (3.283297 sq. km)</span></p>
@@ -858,8 +899,8 @@ longsighted].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eagle-sighted</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
-style='font-family:"新細明體","serif"'>眼光銳利的；精明的；機智的；聰明的<span lang=EN-US>
-Farsighted and strong-sighted; sharp-sighted. -- Shak.</span></span></p>
+style='font-family:"新細明體","serif"'>眼光銳利的；精明的；機智的；聰明的<span lang=EN-US> Farsighted
+and strong-sighted; sharp-sighted. -- Shak.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eagless</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Zo[&quot;o]l.) </span><span
@@ -868,9 +909,9 @@ style='font-family:"新細明體","serif"'>雌鷹<span lang=EN-US> A female or h
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eaglestone
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
-(Min.) A concretionary nodule of clay ironstone, of the size of a walnut or
-larger, so called by the ancients, who believed that the eagle transported
-these stones to her nest to facilitate the laying of her eggs; a[&quot;e]tites.</span></p>
+(Min.) A concretionary nodule of clay ironstone, of the size of a walnut or larger,
+so called by the ancients, who believed that the eagle transported these stones
+to her nest to facilitate the laying of her eggs; a[&quot;e]tites.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eaglestone</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Geological science)
@@ -900,8 +941,8 @@ concretion; consisting of concreted matter or masses.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Concretion</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
 style='font-family:"新細明體","serif"'>凝固（物）；【醫】結石；膽石；具體（化）<span lang=EN-US> A hard
-solid mass formed by the local accumulation of matter, especially within the
-body or within a mass of sediment.</span></span></p>
+solid mass formed by the local accumulation of matter, especially within the body
+or within a mass of sediment.</span></span></p>
 
 <p class=MsoNormal><span style='font-family:"新細明體","serif"'>‘<span lang=EN-US>Nodular
 <i>concretions</i> of siderite growing within the sediments.</span>’</span></p>
@@ -1036,8 +1077,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t. &amp; i.</i>) T
 forth, as young; to yean.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eanling</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A lamb just brought
-forth; a yeanling.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A lamb just brought forth;
+a yeanling.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:
 <b>Crossette</b></span></p>
@@ -1062,8 +1103,8 @@ divisible into three parts:</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>the external ear, which includes the pinna
 or auricle</span><span lang=EN-US> </span><span lang=EN-US style='font-family:
 "新細明體","serif"'>and meatus or external opening; the middle ear, drum,</span><span
-lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>or
-tympanum; and the internal ear, or labyrinth. The</span><span lang=EN-US> </span><span
+lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>or tympanum;
+and the internal ear, or labyrinth. The</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>middle ear is a cavity connected
 by the Eustachian tube</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>with the pharynx, separated from the opening
@@ -1099,8 +1140,8 @@ membranous</span><span lang=EN-US> </span><span lang=EN-US style='font-family:
 "新細明體","serif"'>semicircular canals open, while the latter is connected</span><span
 lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>with a
 membranous tube in the cochlea containing the</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>organ of Corti. By the help of the
-external ear the</span><span lang=EN-US> </span><span lang=EN-US
+lang=EN-US style='font-family:"新細明體","serif"'>organ of Corti. By the help of
+the external ear the</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>sonorous vibrations of the air are
 concentrated upon</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>the tympanic membrane and set it vibrating,
@@ -1120,8 +1161,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The sense of
 hearing; the perception of sounds; the power of discriminating between
 different tones; as, a nice ear for music; -- in the singular only.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Songs .
-. . not all ungrateful to thine ear.</span><span lang=EN-US> </span><span
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Songs . .
+. not all ungrateful to thine ear.</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>-- Tennyson.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ear </span></b><span
@@ -1180,8 +1221,8 @@ style='font-family:"新細明體","serif"'>device to overhear the prisoners in h
 dungeons.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ear
-sand </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(Anat.), Otoliths.
-See Otolith.</span></p>
+sand </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(Anat.),
+Otoliths. See Otolith.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ear
 snail </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(Zo[&quot;o]l.),
@@ -1213,8 +1254,8 @@ concretions or</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>otocysts.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Rose
-ear</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (in dogs), An
-ear which folds backward and shows</span><span lang=EN-US> </span><span
+ear</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (in dogs),
+An ear which folds backward and shows</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>part of the inside.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>To
@@ -1242,8 +1283,8 @@ p. p</i>.) of Ear.</span></p>
 vb. n</i>.) of Ear.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ear </span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) To take in with
-the ears; to hear. [Sportive] &quot;I eared her</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) To take in with the
+ears; to hear. [Sportive] &quot;I eared her</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>language.&quot; -- Two Noble
 Kinsmen.</span></p>
 
@@ -1282,8 +1323,8 @@ style='font-family:"新細明體","serif"'>decision, regulation, code, or consti
 made by</span><span lang=EN-US> </span><span lang=EN-US style='font-family:
 "新細明體","serif"'>ecclesiastical authority.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Various
-canons which were made in councils held in</span><span lang=EN-US> </span><span
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Various canons
+which were made in councils held in</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>the second centry. -- Hook.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Canon</span></b><span
@@ -1333,8 +1374,8 @@ used for printing the canons</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>of the church.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Canon</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.)  The part of a bell
-by which it is suspended; -- called</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.)&nbsp; The part of a
+bell by which it is suspended; -- called</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>also ear and shank.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note:
@@ -1345,8 +1386,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Billiards) S
 Carom.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Apostolical
-canons</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>. See
-under Apostolical.</span></p>
+canons</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>. See under
+Apostolical.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Augustinian
 canons</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, Black
@@ -1365,10 +1406,9 @@ law</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>. See 
 Law.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Canon
-of the Mass </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(R.
-C. Ch.), That part of the mass,</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>following the Sanctus, which
-never changes.</span></p>
+of the Mass </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(R. C.
+Ch.), That part of the mass,</span><span lang=EN-US> </span><span lang=EN-US
+style='font-family:"新細明體","serif"'>following the Sanctus, which never changes.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Honorary
 canon</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, A
@@ -1399,8 +1439,8 @@ lang=EN-US> </span></b><span lang=EN-US style='font-family:"新細明體","serif
 The sense organ for hearing and equilibrium.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ear</span><span
-lang=EN-US> </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) 
-Good hearing; &quot;he had a keen ear&quot;; &quot;a good ear for pitch.&quot;</span></p>
+lang=EN-US> </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)&nbsp;
+Good hearing; &quot;he had a keen ear&quot;; &quot;a good ear for pitch&quot;.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ear</span><span
 lang=EN-US> </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
@@ -1410,7 +1450,7 @@ auricle, pinna, ear].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ear</span><span
 lang=EN-US> </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
-Attention to what is said; &quot;he tried to get her ear.&quot;</span></p>
+Attention to what is said; &quot;he tried to get her ear&quot;.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ear</span><span
 lang=EN-US> </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
@@ -1459,8 +1499,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Having the ea
 perforated.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earcap
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A
-cap or cover to protect the ear from cold.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A cap
+or cover to protect the ear from cold.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earcockle</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Bot.)</span><span
@@ -1473,8 +1513,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A pendant for
 ear; an earring; as, a pair of eardrops.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eardrop
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
-(Bot.)</span><span lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>A
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) (Bot.)</span><span
+lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>A
 species of primrose. See Auricula.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eardrop</span></b><span
@@ -1514,19 +1554,17 @@ and short-eared owl.</span></p>
 seal</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>
 (Zo[&quot;o]l.), Any seal of the family</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>Otariid[ae], including the fur
-seals and hair seals. See</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Seal.</span></p>
+seals and hair seals. See</span><span lang=EN-US> </span><span lang=EN-US
+style='font-family:"新細明體","serif"'>Seal.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eared</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Worn or shabby from
-overuse or (of pages) from having</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>corners turned down; &quot;a
-somewhat dog-eared duke...a bit</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>run down&quot;-Clifton Fadiman;
-&quot;an old book with dog-eared</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>pages&quot; [<i>syn</i>:
-dog-eared, eared].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Worn or shabby from overuse
+or (of pages) from having</span><span lang=EN-US> </span><span lang=EN-US
+style='font-family:"新細明體","serif"'>corners turned down; &quot;a somewhat
+dog-eared duke...a bit</span><span lang=EN-US> </span><span lang=EN-US
+style='font-family:"新細明體","serif"'>run down&quot;-Clifton Fadiman; &quot;an old
+book with dog-eared</span><span lang=EN-US> </span><span lang=EN-US
+style='font-family:"新細明體","serif"'>pages&quot; [<i>syn</i>: dog-eared, eared].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Eared</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Having ears (or
@@ -1539,7 +1577,7 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Fear or timid
 especially of something supernatural. [Written also eiryness.]</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The
-sense of eariness, as twilight came on. – De</span><span lang=EN-US> </span><span
+sense of eariness, as twilight came on. -- De</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>Quincey.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earing</span></b><span
@@ -1595,8 +1633,8 @@ garfish.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earl </span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A nobleman of England
-ranking below a marquis, and above a viscount. The rank of an earl corresponds
-to that of a count (comte) in France, and graf in Germany. Hence the wife of an
+ranking below a marquis, and above a viscount. The rank of an earl corresponds to
+that of a count (comte) in France, and graf in Germany. Hence the wife of an
 earl is still called countess. See Count.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earl </span></b><span
@@ -1615,8 +1653,8 @@ nobility next below a marquis and above a viscount.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earl</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>, () Earls were anciently called
 comites, because they were wont comitari regem, to wait upon the king for
-counsel and advice. He was also called shireman, because each earl had the
-civil government of a shire.</span></p>
+counsel and advice. He was also called shireman, because each earl had the civil
+government of a shire.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earl</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>, () After the Norman conquest
@@ -1694,8 +1732,8 @@ lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>(
 The domain controlled by an earl or count or countess.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earldom</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'>. () The seigniory of an earl; the
-title and dignity of an earl.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>. () The seigniory of an earl;
+the title and dignity of an earl.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earldorman
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
@@ -1726,8 +1764,8 @@ earring. [Obs.]</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The
 Ismaelites were accustomed to wear golden earlets.</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>-- Judg. viii.</span><span
-lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>24 (Douay</span><span
-lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>version).</span></p>
+lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>24
+(Douay</span><span lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>version).</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earliness</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The state of being
@@ -1768,12 +1806,12 @@ lang=EN-US style='font-family:"新細明體","serif"'>17.</span></p>
 wake and call me early. -- Tennyson.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Early</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) In advance of the
-usual or appointed time; in good season; prior in time; among or near the
-first; -- opposed to late; as, the early bird; an early spring; early fruit.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) In advance of the usual
+or appointed time; in good season; prior in time; among or near the first; --
+opposed to late; as, the early bird; an early spring; early fruit.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Early and
-provident fear is the mother of safety.</span><span lang=EN-US> </span><span
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Early
+and provident fear is the mother of safety.</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>-- Burke.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>The
@@ -1833,10 +1871,10 @@ In good time; &quot;he awoke betimes that morning&quot; [<i>syn</i>: early,</spa
 lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>betimes].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Early</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) At or near the beginning
-of a period of time or course of</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>events or before the usual or
-expected time; &quot;early</span><span lang=EN-US> </span><span lang=EN-US
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) At or near the
+beginning of a period of time or course of</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'>events or before the usual or expected
+time; &quot;early</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>morning&quot;; &quot;an early warning&quot;;
 &quot;early diagnosis&quot;; &quot;an</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>early death&quot;; &quot;took
@@ -1880,7 +1918,7 @@ style='font-family:"新細明體","serif"'>to 1700&quot; [<i>ant</i>: late, midd
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Early</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Expected in the near
 future; &quot;look for an early end to the</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>negotiations.&quot;</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>negotiations&quot;.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Early</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> -- U.S. County in Georgia</span></p>
@@ -1931,8 +1969,8 @@ Units (2000): 293</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Land
 area (2000): 0.394821 sq. miles (1.022582 sq. km)</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Water
-area (2000): 0.000000 sq. miles (0.000000 sq. km)</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Water area
+(2000): 0.000000 sq. miles (0.000000 sq. km)</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Total
 area (2000): 0.394821 sq. miles (1.022582 sq. km)</span></p>
@@ -2046,9 +2084,9 @@ earmarked for dormitory construction.</span></p>
 Identification mark on the ear of a domestic animal.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earmark
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A
-distinctive characteristic or attribute [<i>syn</i>: hallmark, trademark,
-earmark, stylemark].</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A distinctive
+characteristic or attribute [<i>syn</i>: hallmark, trademark, earmark,
+stylemark].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earmark</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Give or assign a
@@ -2062,7 +2100,7 @@ style='font-family:"新細明體","serif"'>appropriate, earmark, set aside, rese
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earn </span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) (Zo[&quot;o]l.)</span><span
 lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>See Ern,
-n. -- Sir W. Scott.</span></p>
+<i>n</i>. -- Sir W. Scott.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earned</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p</i>.) of
@@ -2163,8 +2201,8 @@ lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>S
 given in earnest what I begged in jest. -- Shak.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>In
-earnest</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, () Serious;
-seriously; not in jest; earnestly.</span></p>
+earnest</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, ()
+Serious; seriously; not in jest; earnestly.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earnest
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
@@ -2222,9 +2260,10 @@ of value given by the buyer to the seller, by way of token or pledge, to bind
 the bargain and prove the sale. -- Kent. Ayliffe. Benjamin.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Earnest
-money</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (Law), Money
-paid as earnest, to bind a</span><span lang=EN-US> </span><span lang=EN-US
-style='font-family:"新細明體","serif"'>bargain or to ratify and prove a sale.</span></p>
+money</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (Law),
+Money paid as earnest, to bind a</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'>bargain or to ratify and prove a
+sale.</span></p>
 
 <p class=MsoNormal><i><span lang=EN-US style='font-family:"新細明體","serif"'>Syn</span></i><span
 lang=EN-US style='font-family:"新細明體","serif"'>: Earnest, Pledge.</span></p>
