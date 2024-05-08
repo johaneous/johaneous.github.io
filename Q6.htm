@@ -52,13 +52,13 @@ p
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"&\#65533";}
-@font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"&\#65533";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -72,6 +72,20 @@ h2
 	font-size:18.0pt;
 	font-family:"&\#65533";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -98,6 +112,14 @@ span.HTML
 	{mso-style-name:"HTML 預設格式 字元";
 	mso-style-link:"HTML 預設格式";
 	font-family:細明體;}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
@@ -106,7 +128,8 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	font-family:"&\#65533";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -180,7 +203,7 @@ queen, under May.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queen
 of the meadow</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>
-(Bot.), a European herbaceous plant</span><span lang=EN-US> </span><span
+(Bot.), A European herbaceous plant</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>({Spir[ae]a Ulmaria). See
 Meadowsweet.</span></p>
 
@@ -191,20 +214,18 @@ lang=EN-US style='font-family:"新細明體","serif"'>lobata) with ample cluster
 pale pink flowers.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queen
-pigeon </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(Zool.), Any
-one of several species of very</span><span lang=EN-US> </span><span lang=EN-US
-style='font-family:"新細明體","serif"'>large and handsome crested ground pigeons of
-the genus</span><span lang=EN-US> </span><span lang=EN-US style='font-family:
-"新細明體","serif"'>Goura, native of New Guinea and the adjacent islands.</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>They are
-mostly pale blue, or ash-blue, marked with white,</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>and have a large occipital crest
-of spatulate feathers.</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Called
-also crowned pigeon, goura, and Victoria</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>pigeon.</span></p>
+pigeon </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(Zool.),
+Any one of several species of very</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'>large and handsome crested ground
+pigeons of the genus</span><span lang=EN-US> </span><span lang=EN-US
+style='font-family:"新細明體","serif"'>Goura, native of New Guinea and the adjacent
+islands.</span><span lang=EN-US> </span><span lang=EN-US style='font-family:
+"新細明體","serif"'>They are mostly pale blue, or ash-blue, marked with white,</span><span
+lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>and have
+a large occipital crest of spatulate feathers.</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'>Called also crowned pigeon,
+goura, and Victoria</span><span lang=EN-US> </span><span lang=EN-US
+style='font-family:"新細明體","serif"'>pigeon.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queen
 regent</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, or <b>Queen
@@ -216,20 +237,20 @@ Bench</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>. Se
 King's Bench.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queen's
-counsel</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, Queen's
-evidence. See King's counsel,</span><span lang=EN-US> </span><span lang=EN-US
-style='font-family:"新細明體","serif"'>King's evidence, under King.</span></p>
+counsel</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>,<b>
+Queen's evidence</b>. See King's counsel,</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'>King's evidence, under King.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queen's
-delight</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (Bot.), An
-American plant ({Stillinqia</span><span lang=EN-US> </span><span lang=EN-US
+delight</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (Bot.),
+An American plant ({Stillinqia</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>sylvatica) of the Spurge family, having an
 herbaceous</span><span lang=EN-US> </span><span lang=EN-US style='font-family:
 "新細明體","serif"'>stem and a perennial woody root.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queen's
-metal </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(Metal.), An
-alloy somewhat resembling pewter</span><span lang=EN-US> </span><span
+metal </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(Metal.),
+An alloy somewhat resembling pewter</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>or britannia, and consisting
 essentially of tin with a</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>slight admixture of antimony, bismuth, and
@@ -269,8 +290,8 @@ vb. n</i>.) of Queen.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queen</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) (Chess.)</span><span
-lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>To make a
-queen (or other piece, at the player's discretion) of by moving it to the
+lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>To make
+a queen (or other piece, at the player's discretion) of by moving it to the
 eighth row; as, to queen a pawn.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queen</span><span
@@ -294,8 +315,8 @@ lang=EN-US> </span></b><span lang=EN-US style='font-family:"新細明體","serif
 Something personified as a woman who is considered the best</span><span
 lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>or most
 important of her kind; &quot;Paris is the queen of</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>cities&quot;; &quot;the queen of ocean
-liners&quot;.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>cities&quot;; &quot;the queen of
+ocean liners&quot;.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queen</span><span
 lang=EN-US> </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
@@ -316,7 +337,7 @@ One of four face cards in a deck bearing a picture of a queen.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queen</span><span
 lang=EN-US> </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
-(Chess)tThe most powerful piece.</span></p>
+(Chess) The most powerful piece.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queen</span><span
 lang=EN-US> </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
@@ -360,12 +381,12 @@ lang=EN-US style='font-family:"新細明體","serif"'>Cant. 6:8, 9, the king's w
 are styled &quot;queens&quot; (Heb.</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>melakhoth).</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>In the
-New Testament we read of the &quot;queen of the south&quot;,</span><span
-lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>i.e., Southern
-Arabia, Sheba (Matt. 12:42; Luke 11:31) and the</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>&quot;queen of the
-Ethiopians&quot; (Acts 8:27), Candace.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>In the New
+Testament we read of the &quot;queen of the south&quot;,</span><span
+lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>i.e.,
+Southern Arabia, Sheba (Matt. 12:42; Luke 11:31) and the</span><span
+lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>&quot;queen
+of the Ethiopians&quot; (Acts 8:27), Candace.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>QUEEN</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>. () There are several kinds of
@@ -462,8 +483,8 @@ queer</span><span lang=EN-US> </span><span lang=EN-US style='font-family:"新細
 -- W. Irving.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queer
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
-Mysterious; suspicious; questionable; as, a queer transaction. [Colloq.]</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) Mysterious;
+suspicious; questionable; as, a queer transaction. [Colloq.]</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queer
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a.</i>)
@@ -582,8 +603,8 @@ lang=EN-US style='font-family:"新細明體","serif"'>-- Longfellow.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quell
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t.</i>)
-To quiet; to allay; to pacify; to cause to yield or cease; as, to quell grief;
-to quell the tumult of the soul.</span></p>
+To quiet; to allay; to pacify; to cause to yield or cease; as, to quell grief; to
+quell the tumult of the soul.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Much did
 his words the gentle lady quell. -- Spenser.</span></p>
@@ -726,7 +747,8 @@ trees constituted by the oak. See Oak.</span></p>
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) (O.
 Eng. Law)</span><span lang=EN-US> </span><span lang=EN-US style='font-family:
 "新細明體","serif"'>A complaint to a court. See Audita Querela. [Obs.]</span><span
-lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>-- Ayliffe.</span></p>
+lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>--
+Ayliffe.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Querent</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (O. Eng. Law)</span><span
@@ -747,9 +769,10 @@ Quer`i*mo&quot;ni*ous*ness, <i>n</i>.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A complaint or
 complaining. [Obs.] --E. Hall.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Querist
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) One
-who inquires, or asks questions. -- Swift.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Querist</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>訊問者，質問者<span lang=EN-US> One who inquires,
+or asks questions. -- Swift.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Querken</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To stifle or
@@ -818,8 +841,9 @@ Quer&quot;u*lous*ly, <i>adv</i>. -- Quer&quot;u*lous*ness, <i>n</i>.</span></p>
 of Query.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Query</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A question; an
-inquiry to be answered or solved.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>質問；詢問；疑問<span lang=EN-US>[C]</span>；（用以提出問題）請問<span
+lang=EN-US> [U] A question; an inquiry to be answered or solved.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>I shall
 conclude with proposing only some queries, in order to a . . . search to be
@@ -833,29 +857,31 @@ question in the mind; a doubt; as, I have a query about his sincerity.</span></p
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) An interrogation
 point [?] as the sign of a question or a doubt.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Query
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.)
-To ask questions; to make inquiry.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Query</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) </span><span
+style='font-family:"新細明體","serif"'>詢問；表示懷疑<span lang=EN-US>To ask questions; to
+make inquiry.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Each
 prompt to query, answer, and debate. -- Pope.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Query
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i.</i>)
-To have a doubt; as, I query if he is right.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Query</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) To have a doubt;
+as, I query if he is right.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Queried</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p</i>.) of
 Query.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Querying</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n</i>.) of
-Query.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Querying
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>p. pr. &amp;
+vb. n</i>.) of Query.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Query
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
-To put questions about; to elicit by questioning; to inquire into; as, to query
-the items or the amount; to query the motive or the fact.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) </span><span
+style='font-family:"新細明體","serif"'>問；詢問<span lang=EN-US> [+wh-]</span>；對……表示疑問<span
+lang=EN-US> [+wh-] To put questions about; to elicit by questioning; to inquire
+into; as, to query the items or the amount; to query the motive or the fact.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Query</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To address
@@ -899,7 +925,8 @@ ended was his quest, there ceased his care.</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>-- Milton.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quest</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Request; desire; solicitation.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Request; desire;
+solicitation.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Gad not
 abroad at every quest and call</span><span lang=EN-US> </span><span lang=EN-US
@@ -917,8 +944,8 @@ lang=EN-US style='font-family:"新細明體","serif"'>search you out. -- Shak.</
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
 Inquest; jury of inquest.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>What
-lawful quest have given their verdict ? -- Shak.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>What lawful
+quest have given their verdict ? -- Shak.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Quest</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To search for; to
