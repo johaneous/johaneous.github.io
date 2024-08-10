@@ -52,13 +52,13 @@ p
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"&\#65533";}
-@font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"&\#65533";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -72,6 +72,20 @@ h2
 	font-size:18.0pt;
 	font-family:"&\#65533";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -106,9 +120,18 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	font-family:"&\#65533";}
 span.source
 	{mso-style-name:source;}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -136,9 +159,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Move deeply;
 {disturb}, {upset}, {trouble}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disturb</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Change the
-arrangement or position of [<i>syn</i>: {agitate}, {vex}, {disturb}, {commove},
-{shake up}, {stir up}, {raise up}].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Change the arrangement
+or position of [<i>syn</i>: {agitate}, {vex}, {disturb}, {commove}, {shake up},
+{stir up}, {raise up}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disturb</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Tamper with;
@@ -197,8 +220,8 @@ neural function&quot; [<i>syn</i>: {perturbation}, {disturbance}].</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disturbance</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) An unhappy and
 worried mental state; &quot;there was too much anger and disturbance&quot;;
-&quot;she didn't realize the upset she caused me&quot; [<i>syn</i>:
-{disturbance}, {perturbation}, {upset}].</span></p>
+&quot;she didn't realize the upset she caused me&quot; [<i>syn</i>: {disturbance},
+{perturbation}, {upset}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disturbance</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A disorderly
@@ -215,10 +238,10 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The act of
 disturbing something or someone; setting something in motion.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disturbance</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Psychiatry) A
-psychological disorder of thought or emotion; a more neutral term than mental
-illness [syn: {mental disorder}, {mental disturbance}, {disturbance},
-{psychological disorder}, {folie}].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Psychiatry) A psychological
+disorder of thought or emotion; a more neutral term than mental illness [syn:
+{mental disorder}, {mental disturbance}, {disturbance}, {psychological
+disorder}, {folie}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disturbance</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Electrical or
@@ -260,25 +283,21 @@ commotion.</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:
 <b>Disquiet</b></span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>D</span></b><b><span
-lang=EN-US style='font-family:"新細明體","serif"'>isquiet </span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) Deprived of quiet;
-impatient; restless; uneasy. [R.] -- Shak.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disquiet
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+Deprived of quiet; impatient; restless; uneasy. [R.] -- Shak.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disquiet
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) </span><span
 style='font-family:"新細明體","serif"'>使焦急不安；使憂慮<span lang=EN-US>To render unquiet;
-to deprive of peace, rest, or tranquility;</span></span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>to make
-uneasy or restless; to disturb.</span></p>
+to deprive of peace, rest, or tranquility;</span></span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'>to make uneasy or restless; to
+disturb.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Why art
-thou cast down, O my soul, and why art thou</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>disquieted
-within me? -- Ps. xlii.</span><span lang=EN-US> </span><span lang=EN-US
-style='font-family:"新細明體","serif"'>11.</span></p>
+thou cast down, O my soul, and why art thou</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'>disquieted within me? -- Ps.
+xlii.</span><span lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>11.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>As quiet
 as these disquieted times will permit. -- Sir</span><span lang=EN-US> </span><span
@@ -334,8 +353,8 @@ of sulphuric acid, having only one equivalent of base to two of the acid.</span>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disulphide</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Chem.) A binary
-compound of sulphur containing two atoms of sulphur in each molecule; --
-formerly called disulphuret. Cf. Bisulphide.</span></p>
+compound of sulphur containing two atoms of sulphur in each molecule; -- formerly
+called disulphuret. Cf. Bisulphide.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disulphuret</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Chem.) See
@@ -400,8 +419,9 @@ Webster.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disunion</span></b><span
 lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
 The termination or destruction of union [<i>ant</i>:</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>conjugation, jointure, unification,
-union,</span><span lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>uniting].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>conjugation, jointure,
+unification, union,</span><span lang=EN-US> </span><span lang=EN-US
+style='font-family:"新細明體","serif"'>uniting].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disunionist</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) An advocate of
@@ -412,13 +432,12 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>imp. &amp; p. p</i>.)
 Disunite.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disuniting</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n</i>.) of
-Disunite.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n</i>.) of Disunite.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disunite</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To destroy the union
-of; to divide; to part; to sever; to disjoin; to sunder; to separate; as, to
-disunite particles of matter.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To destroy the
+union of; to divide; to part; to sever; to disjoin; to sunder; to separate; as,
+to disunite particles of matter.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disunite
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
@@ -426,8 +445,8 @@ To alienate in spirit; to break the concord of.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Go on
 both in hand, O nations, never be disunited,</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>be the praise . . . of all posterity!
--- Milton.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>be the praise . . . of all
+posterity! -- Milton.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disunite
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.)
@@ -450,8 +469,8 @@ disassociate,</span><span lang=EN-US> </span><span lang=EN-US style='font-family
 lang=EN-US> (</span><i><span lang=EN-US style='font-family:"新細明體","serif"'>v</span></i><span
 lang=EN-US style='font-family:"新細明體","serif"'>.) Force, take, or pull apart;
 &quot;He separated the fighting</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>children&quot;; &quot;Moses
-parted the Red Sea&quot; [<i>syn</i>: separate,</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'>children&quot;; &quot;Moses parted
+the Red Sea&quot; [<i>syn</i>: separate,</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>disunite, divide, part].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Disuniter
@@ -545,9 +564,9 @@ To discredit; to contradict. [Obs.] -- Shak.</span></p>
 To dissuade from by previous warning. [Obs.]</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Diswitted</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Deprived of wits or understanding;
-distracted. [Obs.]</span><span lang=EN-US> </span><span lang=EN-US
-style='font-family:"新細明體","serif"'>-- Drayton.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Deprived of wits or
+understanding; distracted. [Obs.]</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'>-- Drayton.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Diswont
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
@@ -604,9 +623,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n. pl</i>. ) of Ditch
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ditch</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A trench made in the
-earth by digging, particularly a trench for draining wet land, for guarding or fencing
-inclosures, or for preventing an approach to a town or fortress. In the latter
-sense, it is called also a moat or a fosse.</span></p>
+earth by digging, particularly a trench for draining wet land, for guarding or
+fencing inclosures, or for preventing an approach to a town or fortress. In the
+latter sense, it is called also a moat or a fosse.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ditch</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Any long, narrow
@@ -665,7 +684,7 @@ landing on water.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ditch</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Crash or crash-land;
-&quot;ditch a car&quot;; &quot;ditch a plane&quot;.</span></p>
+&quot;ditch a car&quot;; &quot;ditch a plane.&quot;</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ditch
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v</i>.) Cut
@@ -677,8 +696,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) One who digs
 ditches.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dite </span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) To prepare for action
-or use; to make ready; to dight. [Obs.]</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) To prepare for
+action or use; to make ready; to dight. [Obs.]</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>His
 hideous club aloft he dites. -- Spenser.</span></p>
@@ -696,16 +715,17 @@ oily liquid, formerly obtained by distillation of colophony. It is regarded as
 a polymeric form of terebenthene. Called also diterebene.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dithecal</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Alt. of Dithecous</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Alt. of Dithecous.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dithecous
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
 (Bot.) Having two thecae, cells, or compartments.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ditheism</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The doctrine of
-those who maintain the existence of two gods or of two original principles (as
-in Manicheism), one good and one evil; dualism.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ditheism
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>善惡二神論</span> <span lang=EN-US>The doctrine
+of those who maintain the existence of two gods or of two original principles
+(as in Manicheism), one good and one evil; dualism.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ditheist</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) One who holds the
@@ -767,7 +787,7 @@ a dithyramb.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dithyrambic</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Of or in the manner
-of a dithyramb</span></p>
+of a dithyramb.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dithyrambus</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [L.] See Dithyramb.</span></p>
@@ -777,8 +797,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [L.] See Dith
 Dominion; rule. [Obs.] -- Evelyn.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ditionary
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) Under
-rule; subject; tributary. [Obs.] -- Chapman.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
+Under rule; subject; tributary. [Obs.] -- Chapman.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ditionary
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A
@@ -831,8 +851,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Bot.) A kind
 peppergrass ({Lepidium latifolium).</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dittany
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
-(Bot.) A plant of the Mint family ({Origanum Dictamnus), a native of Crete.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) (Bot.)
+A plant of the Mint family ({Origanum Dictamnus), a native of Crete.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Dittany</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Bot.) The Dictamnus
@@ -864,9 +884,9 @@ aforesaid thing; the same (as before). Often contracted to do., or to two
 &quot;turned commas&quot; (&quot;), or small marks. Used in bills, books of
 account, tables of names, etc., to save repetition.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>A spacious
-table in the center, and a variety of smaller dittos in the corners. --
-Dickens.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>A
+spacious table in the center, and a variety of smaller dittos in the corners.
+-- Dickens.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Ditto</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) As before, or
