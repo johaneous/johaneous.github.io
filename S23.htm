@@ -11,6 +11,9 @@
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
+	{font-family:"MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
 	{font-family:細明體;
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
@@ -20,17 +23,31 @@
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
+	{font-family:"\@細明體";
+	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"\@細明體";
-	panose-1:2 2 5 9 0 0 0 0 0 0;}
+	{font-family:"\@MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
 	margin-bottom:.0001pt;
 	font-size:12.0pt;
 	font-family:"Times New Roman","serif";}
+h1
+	{mso-style-link:"標題 1 字元";
+	margin-top:9.0pt;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:0cm;
+	line-height:300%;
+	page-break-after:avoid;
+	font-size:26.0pt;
+	font-family:"Cambria","serif";
+	font-weight:bold;}
 h2
 	{mso-style-link:"標題 2 字元";
 	margin-right:0cm;
@@ -87,6 +104,11 @@ pre
 	margin-bottom:.0001pt;
 	font-size:12.0pt;
 	font-family:細明體;}
+span.1
+	{mso-style-name:"標題 1 字元";
+	mso-style-link:"標題 1";
+	font-family:"Cambria","serif";
+	font-weight:bold;}
 span.2
 	{mso-style-name:"標題 2 字元";
 	mso-style-link:"標題 2";
@@ -131,6 +153,12 @@ p.def-head, li.def-head, div.def-head
 	margin-left:0cm;
 	font-size:12.0pt;
 	font-family:"新細明體","serif";}
+p.hword, li.hword, div.hword
+	{mso-style-name:hword;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"新細明體","serif";}
 span.intro-colon
 	{mso-style-name:intro-colon;}
 span.pos
@@ -151,10 +179,17 @@ span.eg
 	{mso-style-name:eg;}
 span.grammaticalnote
 	{mso-style-name:grammatical_note;}
+span.lbl
+	{mso-style-name:lbl;}
+span.badge
+	{mso-style-name:badge;}
+span.mw
+	{mso-style-name:mw;}
+span.dttext
+	{mso-style-name:dttext;}
 .MsoChpDefault
 	{font-size:10.0pt;}
- /* Page Definitions */
- @page WordSection1
+@page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -360,13 +395,13 @@ buy&quot; [<i>syn</i>: textbook, text, text edition, schoolbook, school text] [<
 trade book, trade edition].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolboy
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A boy
-belonging to, or attending, a school.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>男學生 <span lang=EN-US>[C] A boy belonging to,
+or attending, a school.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolboy</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
-style='font-family:"新細明體","serif"'>男學生<span lang=EN-US> [C] A boy attending
-school.</span></span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A boy attending
+school.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schooldame</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A schoolmistress.</span></p>
@@ -388,6 +423,11 @@ schoolma'am, schoolmistress, mistress].</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Something taught;
 precepts; schooling. [Obs.] -- Spenser.</span></p>
 
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolery</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (In British English)
+(<i>pl</i>. - ries) (archaic)</span><span lang=EN-US> </span><span lang=EN-US
+style='font-family:"新細明體","serif"'>Something that is&nbsp; taught.</span></p>
+
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolfellow</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
 style='font-family:"新細明體","serif"'>同學；校友<span lang=EN-US> One bred at the same
@@ -404,12 +444,13 @@ style='font-family:"新細明體","serif"'>女學生<span lang=EN-US> [C] A girl
 to, or attending, a school.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolgirl</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A girl attending
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) A girl attending
 school.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolhouse</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A house appropriated
-for the use of a school or schools, or for instruction.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) </span><span
+style='font-family:"新細明體","serif"'>校舍<span lang=EN-US> [C] A house appropriated
+for the use of a school or schools, or for instruction.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolhouse</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A building where
@@ -418,16 +459,18 @@ young people receive education; &quot;the school was built in 1932&quot;;
 schoolhouse].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schooling</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Instruction in
-school; tuition; education in an institution of learning; act of teaching.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>學校教育；培養<span lang=EN-US> Instruction in
+school; tuition; education in an institution of learning; act of teaching.</span></span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schooling</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Discipline; reproof;
-reprimand; as, he gave his son a good schooling. -- Sir W. Scott.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schooling
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) Discipline;
+reproof; reprimand; as, he gave his son a good schooling. -- Sir W. Scott.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schooling</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Compensation for
-instruction; price or reward paid to an instructor for teaching pupils.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schooling
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>學費；學校膳宿費<span lang=EN-US> Compensation for
+instruction; price or reward paid to an instructor for teaching pupils.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schooling</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) (Zool.) Collecting
@@ -485,7 +528,7 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.)&nbsp; One ski
 academic disputation.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolman</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) capitalized :&nbsp;
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Capitalized :&nbsp;
 Scholastic sense 1a.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolman</span></b><span
@@ -496,8 +539,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.)&nbsp; Educato
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Educator sense 2b.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolmaster</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The man who presides
-over and teaches a school; a male teacher of a school.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) [C] </span><span
+style='font-family:"新細明體","serif"'>男校長；男教師；教導者；起教導作用的事物<span lang=EN-US> The
+man who presides over and teaches a school; a male teacher of a school.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Let the
 soldier be abroad if he will; he can do nothing in this age. There is another
@@ -517,8 +561,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Presiding off
 a school [<i>syn</i>: headmaster, schoolmaster, master].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolmaster</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Any person (or institution)
-who acts as an educator.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Any person (or
+institution) who acts as an educator.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolmaster</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Food fish of warm
@@ -528,13 +572,13 @@ Caribbean and Atlantic waters [<i>syn</i>: schoolmaster, Lutjanus apodus].</span
 lang=EN-US style='font-family:"新細明體","serif"'>, ()</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>The law so designated by Paul
 (Gal. 3:24, 25). As so used, the word does not mean teacher, but pedagogue
-(shortened into the modern page), i.e., one who was intrusted with the
-supervision of a family, taking them to and from the school, being responsible
-for their safety and manners. Hence the pedagogue was stern and severe in his
-discipline. Thus the law was a &nbsp;&nbsp;pedagogue to the Jews, with a view
-to Christ, i.e., to prepare for faith in Christ by producing convictions of
-guilt and helplessness. The office of the pedagogue ceased when &quot;faith
-came&quot;, i.e., the object of that faith, the seed, which is Christ.</span></p>
+(shortened into the modern page), i.e., one who was intrusted with the supervision
+of a family, taking them to and from the school, being responsible for their
+safety and manners. Hence the pedagogue was stern and severe in his discipline.
+Thus the law was a &nbsp;&nbsp;pedagogue to the Jews, with a view to Christ,
+i.e., to prepare for faith in Christ by producing convictions of guilt and
+helplessness. The office of the pedagogue ceased when &quot;faith came&quot;,
+i.e., the object of that faith, the seed, which is Christ.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolmaster</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>, () One employed in teaching a
@@ -555,8 +599,9 @@ what he has undertaken, and to have a special care over their morals. See 1
 Stark. R. 421.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolmate</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A pupil who attends
-the same school as another.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>同學<span lang=EN-US> [C] A pupil who attends
+the same school as another.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolmate</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) An acquaintance that
@@ -564,8 +609,9 @@ you go to school with [<i>syn</i>: schoolmate, classmate, schoolfellow, class
 fellow].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolmistress</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A woman who governs
-and teaches a school; a female school-teacher.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>女教師；女教員；女校長<span lang=EN-US> A woman who
+governs and teaches a school; a female school-teacher.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolmistress</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A woman
@@ -573,8 +619,9 @@ schoolteacher (especially one regarded as strict) [<i>syn</i>: schoolmarm,
 schoolma'am, schoolmistress, mistress].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolroom</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A room in which
-pupils are taught.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>教室<span lang=EN-US> [C] A room in which
+pupils are taught.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolroom</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A room in a school
@@ -595,9 +642,17 @@ instructs a school. -- School&quot;-teach`ing, <i>n</i>.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) Toward school. --
 Chaucer.</span></p>
 
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schoolward</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Directed or
+extending toward &nbsp;school.</span></p>
+
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schooner</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Naut.) Originally, a
-small, sharp-built vessel, with two masts and fore-and-aft rig. Sometimes it
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [D] A large goblet or
+drinking glass, -- used for lager beer or ale. [U.S]</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schooner</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Naut.) Originally,
+a small, sharp-built vessel, with two masts and fore-and-aft rig. Sometimes it
 carried square topsails on one or both masts and was called a topsail schooner.
 About 1840, longer vessels with three masts, fore-and-aft rigged, came into
 use, and since that time vessels with four masts and even with six masts, so
@@ -622,10 +677,6 @@ letter written in that place Sept. 25, 1721, by Dr. Moses Prince, brother of
 the Rev. Thomas Prince, the annalist of New England: &quot;This gentleman
 (Captain Robinson) was first contriver of schooners, and built the first of
 that sort about eight years since.&quot;</span></p>
-
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schooner</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A large goblet or
-drinking glass, -- used for lager beer or ale. [U.S</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schooner</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A large beer glass.</span></p>
@@ -669,6 +720,14 @@ nickel, and phosphorus, and is found only in meteoric iron.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schrode</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) See Scrod.</span></p>
 
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schwa</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>英文的<span lang=EN-US> /</span></span><span
+style='font-family:"MS Gothic"'>ə</span><span lang=EN-US style='font-family:
+"新細明體","serif"'>/ (Schwa) </span><span style='font-family:"新細明體","serif"'>中央母音<span
+lang=EN-US> A neutral middle vowel; occurs in unstressed syllables [<i>syn</i>:
+schwa, shwa].</span></span></p>
+
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Schwann's
 sheath</span></b><span lang=EN-US style='font-family:"新細明體","serif"'> (Anat.)
 The neurilemma.</span></p>
@@ -703,10 +762,10 @@ of Christ.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sciaenoid
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
-(Zool.) Of or pertaining to the Sciaenidae, a family of carnivorous marine
-fishes which includes the meagre ({Sciaena umbra or Sciaena aquila), and fish
-of the drum and croaker families. The croaker is so called because it may make
-a croaking noise by use of its bladder; the Atlantic croaker ({Micropogonias
+(Zool.) Of or pertaining to the Sciaenidae, a family of carnivorous marine fishes
+which includes the meagre ({Sciaena umbra or Sciaena aquila), and fish of the
+drum and croaker families. The croaker is so called because it may make a
+croaking noise by use of its bladder; the Atlantic croaker ({Micropogonias
 undulatus, formerly Micropogon undulatus) and the squeteague are a members of
 the croaker family, and the kingfish is a drum.</span></p>
 
@@ -724,8 +783,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Pertaining to
 sciagraphy. -- Sci`a*graph&quot;ic*al*ly, <i>adv</i>.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sciagraphy</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The art or science of
-projecting or delineating shadows as they fall in nature. -- Gwilt.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The art or science
+of projecting or delineating shadows as they fall in nature. -- Gwilt.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sciagraphy</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Arch.) Same as
@@ -764,16 +823,16 @@ caused by or afflicted with sciatica.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sciatic</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Of or relating to
 the ischium (or the part of the hipbone containing it); &quot;sciatic
-nerve&quot;.</span></p>
+nerve.&quot;</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Sciatica</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Med.) </span><span
-style='font-family:"新細明體","serif"'>【醫】坐骨神經痛<span lang=EN-US> Neuralgia of the sciatic
-nerve, an affection characterized by paroxysmal attacks of pain in the buttock,
-back of the thigh, or in the leg or foot, following the course of the branches
-of the sciatic nerve. The name is also popularly applied to various painful
-affections of the hip and the parts adjoining it. See Ischiadic passion, under
-Ischiadic.</span></span></p>
+style='font-family:"新細明體","serif"'>【醫】坐骨神經痛<span lang=EN-US> Neuralgia of the
+sciatic nerve, an affection characterized by paroxysmal attacks of pain in the
+buttock, back of the thigh, or in the leg or foot, following the course of the
+branches of the sciatic nerve. The name is also popularly applied to various
+painful affections of the hip and the parts adjoining it. See Ischiadic
+passion, under Ischiadic.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:
 <b>Ischiadic</b></span></p>
@@ -802,8 +861,8 @@ Pelvis</b></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pelvis</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) &nbsp;</span><span
-style='font-family:"新細明體","serif"'>【解】骨盆；腎盂<span lang=EN-US> The large bony
-frame near the base of the spine to which the hindlimbs or legs are attached in
+style='font-family:"新細明體","serif"'>【解】骨盆；腎盂<span lang=EN-US> The large bony frame
+near the base of the spine to which the hindlimbs or legs are attached in
 humans and many other vertebrates.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:
@@ -832,22 +891,23 @@ contrasted with <b>&nbsp;Animus</b>. &nbsp;(sense 3)</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Animus</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [Mass noun] </span><span
-style='font-family:"新細明體","serif"'>敵意，惡意；基本態度，主導精神；【律】意圖 <span lang=EN-US>&nbsp;Hostility
-or ill feeling.</span></span></p>
+style='font-family:"新細明體","serif"'>敵意，惡意；基本態度，主導精神；【律】意圖<span lang=EN-US>
+&nbsp;Hostility or ill feeling.</span></span></p>
 
 <p class=MsoNormal><span style='font-family:"新細明體","serif"'>‘<span lang=EN-US>The
 author's<i> animus</i> towards her.</span>’</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Animus</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [Mass noun]
-&nbsp;Motivation to do something.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [Mass noun] &nbsp;Motivation
+to do something.</span></p>
 
 <p class=MsoNormal><span style='font-family:"新細明體","serif"'>‘<span lang=EN-US>The
 reformist <i>animus</i> came from within the Party.</span>’</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Animus</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.)
-[Psychoanalysis]&nbsp; (In Jungian psychology) The masculine part of a woman's personality.</span></p>
+[Psychoanalysis]&nbsp; (In Jungian psychology) The masculine part of a woman's
+personality.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Often
 contrasted with&nbsp; <b>Anima</b>.</span></p>
@@ -942,21 +1002,20 @@ comprehensive, profound, or philosophical knowledge.</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>All this
 new science that men lere [teach]. -- Chaucer.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Science is
-. . . a complement of cognitions, having, in point of form, the character of
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Science
+is . . . a complement of cognitions, having, in point of form, the character of
 logical perfection, and in point of matter, the character of real truth. -- Sir
 W. Hamilton.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Science
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
 Especially, such knowledge when it relates to the physical world and its
-phenomena, the nature, constitution, and forces of matter, the qualities and
-functions of living tissues, etc.; -- called also natural science, and physical
-science.</span></p>
+phenomena, the nature, constitution, and forces of matter, the qualities and functions
+of living tissues, etc.; -- called also natural science, and physical science.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Voltaire
-hardly left a single corner of the field entirely unexplored in science, poetry,
-history, philosophy. -- J. Morley.</span></p>
+hardly left a single corner of the field entirely unexplored in science,
+poetry, history, philosophy. -- J. Morley.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Science</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Any branch or
@@ -964,10 +1023,10 @@ department of systematized knowledge considered as a distinct field of
 investigation or object of study; as, the science of astronomy, of chemistry,
 or of mind.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note: The
-ancients reckoned seven sciences, namely, grammar, rhetoric, logic, arithmetic,
-music, geometry, and astronomy; -- the first three being included in the
-Trivium, the remaining four in the Quadrivium.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note:
+The ancients reckoned seven sciences, namely, grammar, rhetoric, logic,
+arithmetic, music, geometry, and astronomy; -- the first three being included
+in the Trivium, the remaining four in the Quadrivium.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Good
 sense, which only is the gift of Heaven, And though no science, fairly worth
@@ -992,8 +1051,8 @@ observation, etc., are possible. The mathematical and physical sciences are
 called the exact sciences.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Comparative
-sciences</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>,
-Inductive sciences. See under Comparative, and Inductive.</span></p>
+sciences</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, Inductive
+sciences. See under Comparative, and Inductive.</span></p>
 
 <p class=MsoNormal><i><span lang=EN-US style='font-family:"新細明體","serif"'>Syn</span></i><span
 lang=EN-US style='font-family:"新細明體","serif"'>: Literature; art; knowledge.</span></p>
@@ -1007,14 +1066,14 @@ principles or laws thus arranged in natural order. The term literature
 sometimes denotes all compositions not embraced under science, but usually
 confined to the belles-lettres. [See Literature.] Art is that which depends on
 practice and skill in performance. &quot;In science, scimus ut sciamus; in art,
-scimus ut producamus. And, therefore, science and art may be said to be
-investigations of truth; but one, science, inquires for the sake of knowledge;
-the other, art, for the sake of production; and hence science is more concerned
-with the higher truths, art with the lower; and science never is engaged, as
-art is, in productive application. And the most perfect state of science,
-therefore, will be the most high and accurate inquiry; the perfection of art
-will be the most apt and efficient system of rules; art always throwing itself
-into the form of rules.&quot; -- Karslake.</span></p>
+scimus ut producamus. And, therefore, science and art may be said to be investigations
+of truth; but one, science, inquires for the sake of knowledge; the other, art,
+for the sake of production; and hence science is more concerned with the higher
+truths, art with the lower; and science never is engaged, as art is, in
+productive application. And the most perfect state of science, therefore, will
+be the most high and accurate inquiry; the perfection of art will be the most
+apt and efficient system of rules; art always throwing itself into the form of
+rules.&quot; -- Karslake.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Science</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To cause to
@@ -1040,8 +1099,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) (Law) Knowi
 willfully. -- Bouvier.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Scienter
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>adv</i>.)
-(Law) Deliberately or knowingly.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>adv</i>.) (Law)
+Deliberately or knowingly.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Scienter</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>, () Knowingly.</span></p>
@@ -1079,8 +1138,8 @@ principles; scientific apparatus; scientific observations.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Scientific</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Agreeing with, or
-depending on, the rules or principles of science; as, a scientific classification;
-a scientific arrangement of fossils.</span></p>
+depending on, the rules or principles of science; as, a scientific
+classification; a scientific arrangement of fossils.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Scientific
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
@@ -1114,8 +1173,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) </span><spa
 style='font-family:"新細明體","serif"'>合乎科學地<span lang=EN-US> In a scientific
 manner; according to the rules or principles of science.</span></span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>It is
-easier to believe than to be scientifically instructed. -- Locke.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>It is easier
+to believe than to be scientifically instructed. -- Locke.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Scientifically</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) With respect to
@@ -1159,8 +1218,8 @@ entry.</span>’</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Scientist</span></b><span
 lang=EN-US> (</span><i><span lang=EN-US style='font-family:"新細明體","serif"'>n</span></i><span
-lang=EN-US style='font-family:"新細明體","serif"'>.) A person with advanced
-knowledge of one or more sciences</span><span lang=EN-US>.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>.) A person with advanced knowledge
+of one or more sciences</span><span lang=EN-US>.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Scilicet</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) <span
@@ -1195,8 +1254,8 @@ rejected as surplusage. Cro. Jac. 428; and vide 6 Binn. 15; 3 Saund. 291, note
 1, and the cases there cited. This word is sometimes abbreviated, ss. or sst.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Scillain</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Chem.) A glucoside extracted
-from squill ({Scilla maritima) as a light porous substance.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Chem.) A glucoside
+extracted from squill ({Scilla maritima) as a light porous substance.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Scillitin</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Chem.) A bitter
@@ -1264,9 +1323,9 @@ slunk calf. [Obs. or Prov. Eng.]</span></p>
 <b>Skink</b></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Skink</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [Written also
-scink.] (Zool.) Any one of numerous species of regularly scaled harmless
-lizards of the family Scincidae, common in the warmer parts &nbsp;of all the continents.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [Written also scink.]
+(Zool.) Any one of numerous species of regularly scaled harmless lizards of the
+family Scincidae, common in the warmer parts &nbsp;of all the continents.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note:
 The officinal skink ({Scincus officinalis) inhabits the sandy plains of South
@@ -1297,14 +1356,14 @@ or fine igneous particles; sparkling. -- M. Green.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Scintillant</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Having brief
-brilliant points or flashes of light; &quot;bugle beads all aglitter&quot;; &quot;glinting
-eyes&quot;; &quot;glinting water&quot;; &quot;his glittering eyes were cold and
-malevolent&quot;; &quot;shop window full of glittering Christmas trees&quot;;
-&quot;glittery costume jewelry&quot;; &quot;scintillant mica&quot;; &quot;the
-scintillating stars&quot;; &quot;a dress with sparkly sequins&quot;;
-&quot;`glistering' is an archaic term&quot; [<i>syn</i>: aglitter(p),
-coruscant, fulgid, glinting, glistering, glittering, glittery, scintillant,
-scintillating, sparkly].</span></p>
+brilliant points or flashes of light; &quot;bugle beads all aglitter&quot;;
+&quot;glinting eyes&quot;; &quot;glinting water&quot;; &quot;his glittering
+eyes were cold and malevolent&quot;; &quot;shop window full of glittering
+Christmas trees&quot;; &quot;glittery costume jewelry&quot;; &quot;scintillant
+mica&quot;; &quot;the scintillating stars&quot;; &quot;a dress with sparkly
+sequins&quot;; &quot;`glistering' is an archaic term&quot; [<i>syn</i>:
+aglitter(p), coruscant, fulgid, glinting, glistering, glittering, glittery,
+scintillant, scintillating, sparkly].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Scintillated
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>imp. &amp;
@@ -1350,8 +1409,8 @@ phosphor fluoresced.&quot;</span></p>
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v</i>.) Be
 lively or brilliant or exhibit virtuosity; &quot;The musical performance
 sparkled&quot;; &quot;A scintillating conversation&quot;; &quot;his playing
-coruscated throughout the concert hall&quot; [<i>syn</i>: {sparkle},
-{scintillate}, {coruscate}].</span></p>
+coruscated throughout the concert hall&quot; [<i>syn</i>: {sparkle}, {scintillate},
+{coruscate}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Scintillate</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) To emit
