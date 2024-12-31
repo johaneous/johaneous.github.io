@@ -38,6 +38,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -64,6 +78,14 @@ span.HTML
 	{mso-style-name:"HTML 預設格式 字元";
 	mso-style-link:"HTML 預設格式";
 	font-family:"Courier New";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
@@ -72,7 +94,8 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -153,9 +176,10 @@ into the surface of; &quot;score the clay</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>before firing it&quot; [<i>syn</i>:
 score, nock, mark].</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Noctambulation</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Somnambulism;
-sleepwalking; walking in one's sleep. -- Quain.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Noctambulation
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>夢遊<span lang=EN-US> Somnambulism;
+sleepwalking; walking in one's sleep. -- Quain.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Noctambulation</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Walking by a person
@@ -170,7 +194,7 @@ lang=EN-US style='font-family:"新細明體","serif"'>: sleepwalking; noctambula
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Noctambulism</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Walking by a person
-who is asleep [<b><i>syn</i></b>: sleepwalking, somnambulism, somnambulation,
+who is asleep [<i>syn</i>: sleepwalking, somnambulism, somnambulation,
 noctambulism, noctambulation].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Noctambulist
@@ -247,7 +271,8 @@ instrument or register which records the presence of watchmen on their beats.
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Noctuary</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A record of what
-passes in the night; a nightly journal; -- distinguished from diary. [R.] -- Addison.</span></p>
+passes in the night; a nightly journal; -- distinguished from diary. [R.] --
+Addison.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Noctuid
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
@@ -269,8 +294,8 @@ agricultural pests [<i>syn</i>: noctuid moth, noctuid, owlet moth].</span></p>
 altivolans).</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nocturn</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) An office of
-devotion, or act of religious service, by night.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) An office of devotion,
+or act of religious service, by night.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nocturn
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) One
@@ -295,12 +320,12 @@ formerly used for taking the altitude of the stars, etc., at sea. -- I. Watts.</
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nocturnal
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
 Belonging to or active during the night; &quot;nocturnal animals are active at
-night&quot;; &quot;nocturnal plants have flowers that open at night and close
-by day&quot; [<i>ant</i>: {diurnal}].</span></p>
+night&quot;; &quot;nocturnal plants have flowers that open at night and close by
+day&quot; [<i>ant</i>: {diurnal}].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nocturnal
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) Of
-or relating to or occurring in the night; &quot;nocturnal darkness&quot;.</span></p>
+or relating to or occurring in the night; &quot;nocturnal darkness.&quot;</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:<b>
 Diurnal</b></span></p>
@@ -352,17 +377,19 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Having a dail
 or occurring every day; &quot;diurnal rotation of the heavens.&quot;</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nocturnally</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) By night; nightly.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) </span><span
+style='font-family:"新細明體","serif"'>在夜間；每夜<span lang=EN-US> By night; nightly.</span></span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nocturnally</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) At night;
-&quot;nocturnally active bird.&quot;</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nocturnally
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>adv</i>.) At
+night; &quot;nocturnally active bird.&quot;</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nocturne</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mus.) A night
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mus.) </span><span
+style='font-family:"新細明體","serif"'>【音】夜曲；夢幻曲；夜景畫<span lang=EN-US> A night
 piece, or serenade. The name is now used for a certain graceful and expressive
 form of instrumental composition, as the nocturne for orchestra in Mendelsohn's
-&quot;Midsummer-Night's Dream&quot; music.</span></p>
+&quot;Midsummer-Night's Dream&quot; music.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nocturne</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A pensive lyrical
@@ -375,6 +402,30 @@ detriment. [Obs.]</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nocuous
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
 Hurtful; noxious. [R.] -- Noc&quot;u*ous*ly, <i>adv</i>. [R.]</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodded
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>imp. &amp;
+p. p</i>.) of Nod.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodding
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>p. pr. &amp;
+vb. n.</i>) of Nod.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nod </span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) To incline or bend,
+as the head or top; to make a motion of assent, of salutation, or of drowsiness
+with; as, to nod the head.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nod</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To signify by a
+nod; as, to nod approbation.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nod </span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) To cause to bend.
+[Poetic]</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>By every
+wind that nods the mountain pine. -- Keats.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nod </span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.) To bend or incline
@@ -397,30 +448,6 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) To be drow
 dull; to doze off, especially while in a sitting position; as, half the class
 nodded while the professor droned on.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodded
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>imp. &amp;
-p. p</i>.) of Nod.</span></p>
-
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodding
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>p. pr. &amp;
-vb. n.</i>) of Nod.</span></p>
-
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nod </span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) To incline or
-bend, as the head or top; to make a motion of assent, of salutation, or of
-drowsiness with; as, to nod the head.</span></p>
-
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nod</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To signify by a
-nod; as, to nod approbation.</span></p>
-
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nod </span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) To cause to bend.
-[Poetic]</span></p>
-
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>By every
-wind that nods the mountain pine. -- Keats.</span></p>
-
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nod </span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>(<i>n.</i>) A dropping or bending
 forward of the upper oart or top of anything.</span></p>
@@ -441,7 +468,8 @@ Locke.</span></p>
 obey my word and wait my nod. -- Prior.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>The
-land of Nod</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, Sleep.</span></p>
+land of Nod</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>,
+Sleep.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nod </span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A sign of assent or
@@ -466,8 +494,7 @@ forward through drowsiness; &quot;The old man was nodding in his chair.&quot;</s
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nod </span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>(<i>v</i>.) Sway gently back and
-forth, as in a nodding motion; &quot;the flowers were nodding in the
-breeze.&quot;</span></p>
+forth, as in a nodding motion; &quot;the flowers were nodding in the breeze.&quot;</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nod </span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>(<i>v</i>.) Be almost asleep;
@@ -479,16 +506,16 @@ name given to the country to which Cain fled (Gen.4:16). It lay on the east of
 Eden.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nod</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'>, vagabond; fugitive.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>, Vagabond; fugitive.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodal</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Of the nature of, or
 relating to, a node; as, a nodal point.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodal
-line</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>, Nodal
-point, in a vibrating plate or cord, that line or point which remains at rest
-while the other parts of the body are in a state of vibration.</span></p>
+line</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>,<b> Nodal
+point</b>, In a vibrating plate or cord, that line or point which remains at
+rest while the other parts of the body are in a state of vibration.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>NODAL</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>, () Interpreted language
@@ -535,8 +562,10 @@ master, I have a project in my noddle. -- L'Estrange.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Noddle
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) The
-back part of the head or neck. [Obs.]<br>
-For occasion . . . turneth a bald noddle, after she hath presented her locks in
+back part of the head or neck. [Obs.]</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>For
+occasion . . . turneth a bald noddle, after she hath presented her locks in
 front, and no hold taken. -- Bacon.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Noodle</span></b><span
@@ -620,10 +649,10 @@ used of real hardware or software to imply that it isn't worth using.
 &quot;This editor's a bit noddy.&quot;</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Noddy</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'>, () A program that is more or less
-instant to produce.&nbsp; In this use, the term does not necessarily connote
-uselessness, but describes a hack sufficiently trivial that it can be written
-and debugged while carrying on (and during the space of) a normal
+lang=EN-US style='font-family:"新細明體","serif"'>, () A program that is more or
+less instant to produce.&nbsp; In this use, the term does not necessarily
+connote uselessness, but describes a hack sufficiently trivial that it can be
+written and debugged while carrying on (and during the space of) a normal
 conversation.&nbsp; &quot;I'll just throw together a noddy awk script to dump
 all the first fields.&quot;&nbsp; In North America this might be called a
 mickey mouse program.&nbsp; See toy program.</span></p>
@@ -714,8 +743,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A connecting 
 at which several lines come together.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Node </span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) Any thickened enlargement
-[<i>syn</i>: node, knob, thickening].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) Any thickened
+enlargement [<i>syn</i>: node, knob, thickening].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Node</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Botany) The small
@@ -784,7 +813,7 @@ certain insects.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodosity
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) The
 quality of being knotty or nodose; resemblance to a node or swelling;
-knottiness. --Holland.</span></p>
+knottiness. -- Holland.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodosity
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A
@@ -803,13 +832,15 @@ or pertaining to a nodule or knot.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodular</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Having nodules or in
-the form of a nodule or knot.<br>
-<b>Nodular</b> (<i>a</i>.) Relating to or characterized by or having nodules;
-&quot;Nodular vaginitis.&quot;</span></p>
+the form of a nodule or knot.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodular</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Relating to or
+characterized by or having nodules; &quot;Nodular vaginitis.&quot;</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodular
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
-Having nodules or occurring in the form of nodules; &quot;nodular ores&quot; [<i>syn</i>:
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) Having
+nodules or occurring in the form of nodules; &quot;nodular ores&quot; [<i>syn</i>:
 nodular, nodulated, noduled].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodule</span></b><span
@@ -820,8 +851,8 @@ irregular shape; a little knot or lump.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A small node.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodule</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Small rounded
-wartlike protuberance on a plant [<i>syn</i>: nodule, tubercle].</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) Small rounded wartlike
+protuberance on a plant [<i>syn</i>: nodule, tubercle].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Nodule</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mineralogy) A small
@@ -895,8 +926,8 @@ Location: 36.543361 N, 94.486238 W</span></p>
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>ZIP
 Codes (1990): 64854</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note:
-some ZIP codes may be omitted esp. for suburbs.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note: some
+ZIP codes may be omitted esp. for suburbs.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Headwords:</span></p>
 
