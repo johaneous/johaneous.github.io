@@ -40,9 +40,6 @@ p
 
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
 	{font-family:新細明體;
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
@@ -115,6 +112,14 @@ pre
 	margin-bottom:.0001pt;
 	font-size:12.0pt;
 	font-family:細明體;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"註解方塊文字 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Cambria","serif";}
+span.MsoPlaceholderText
+	{color:gray;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	{margin-top:0cm;
 	margin-right:0cm;
@@ -145,6 +150,10 @@ span.a0
 	{mso-style-name:"頁尾 字元";
 	mso-style-link:頁尾;
 	font-family:"新細明體","serif";}
+span.a1
+	{mso-style-name:"註解方塊文字 字元";
+	mso-style-link:註解方塊文字;
+	font-family:"Cambria","serif";}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	margin-right:0cm;
@@ -159,11 +168,6 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	layout-grid:18.0pt;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0cm;}
-ul
-	{margin-bottom:0cm;}
 -->
 </style>
 
@@ -183,8 +187,8 @@ prescription or recipe for the preparation of a medicinal compound.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formula
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
 (Chem.)</span><span lang=EN-US> </span><span lang=EN-US style='font-family:
-"新細明體","serif"'>A symbolic expression (by means of letters, figures, etc.) of the
-constituents or constitution of a compound.</span></p>
+"新細明體","serif"'>A symbolic expression (by means of letters, figures, etc.) of
+the constituents or constitution of a compound.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Note:
 Chemical formul[ae] consist of the abbreviations of the</span><span lang=EN-US>
@@ -237,7 +241,7 @@ lang=EN-US style='font-family:"新細明體","serif"'>principle.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formula</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A representation of
 a substance using symbols for its</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>constituent elements [<i>sy</i><i>n</i>:
+lang=EN-US style='font-family:"新細明體","serif"'>constituent elements [<i>syn</i>:
 formula, chemical formula].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formula</span></b><span
@@ -255,8 +259,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A liquid food
 infants.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formula</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mathematics) A standard
-procedure for solving a class of</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mathematics) A
+standard procedure for solving a class of</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>mathematical problems; &quot;he
 determined the upper bound with</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>Descartes' rule of signs&quot;;
@@ -301,9 +305,10 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The act of
 formularizing; a formularized or formulated statement or exhibition. -- C.
 Kingsley.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formularize</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To reduce to a
-forula; to formulate.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formularize
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t.</i>) </span><span
+style='font-family:"新細明體","serif"'>以公式表示；明確地陳述<span lang=EN-US> To reduce to a
+forula; to formulate.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formularize</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Express as a formula
@@ -332,13 +337,31 @@ of the nature of a formula.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formulary
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
 (Pharmacology) A book containing a compilation of</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>pharmaceutical products with their
-formulas and methods of</span><span lang=EN-US> </span><span lang=EN-US
+lang=EN-US style='font-family:"新細明體","serif"'>pharmaceutical products with
+their formulas and methods of</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>preparation; &quot;postexposure prophylaxis
 is an integral part</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>of the pharmacopeia in preventing severe
 disease after</span><span lang=EN-US> </span><span lang=EN-US style='font-family:
 "新細明體","serif"'>acute infections&quot; [<i>syn</i>: formulary, pharmacopeia].</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:<b>
+Pharmacology</b></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pharmacology</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) </span><span
+style='font-family:"新細明體","serif"'>藥理學<span lang=EN-US>The science dealing with
+knowledge of the preparation, use, and effects of drugs or medicines; the art
+of preparing medicines.</span></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pharmacology
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) A
+treatise on the art of preparing medicines.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Pharmacology
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) The
+science or study of drugs: their preparation and properties and uses and
+effects [<i>syn</i>: pharmacology, pharmacological medicine, materia medica].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formulary</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'>. () A book of forms or
@@ -352,15 +375,16 @@ Formulate.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n</i>.) of
 Formulate.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formulate
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
-To reduce to, or express in, a formula; to put in a clear and definite form of
-statement or expression. -- G. P. Marsh.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formulate</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) </span><span
+style='font-family:"新細明體","serif"'>使公式化；用公式表示；系統地闡述（或說明）<span lang=EN-US> To
+reduce to, or express in, a formula; to put in a clear and definite form of
+statement or expression. -- G. P. Marsh.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formulate
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v</i>.) Elaborate,
-as of theories and hypotheses; &quot;Could you develop the ideas in your
-thesis&quot; [<i>syn</i>: explicate, formulate, develop].</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v</i>.)
+Elaborate, as of theories and hypotheses; &quot;Could you develop the ideas in
+your thesis&quot; [<i>syn</i>: explicate, formulate, develop].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formulate
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v</i>.) Come
@@ -373,12 +397,12 @@ invent, contrive, devise, excogitate, formulate, forge].</span></p>
 into words or an expression; &quot;He formulated his concerns to the board of
 trustees&quot; [<i>syn</i>: give voice, formulate, word, phrase, articulate].</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formulate
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v</i>.) Prepare
-according to a formula.</span><span lang=EN-US><br>
-</span><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formulation</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The act, process, or
-result of formulating or reducing to a formula.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formulate</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Prepare according to
+a formula.<br>
+<b>Formulation</b> (<i>n</i>.) </span><span style='font-family:"新細明體","serif"'>公式化（的表述）；規劃；構想<span
+lang=EN-US> The act, process, or result of formulating or reducing to a
+formula.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formulation</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A substance prepared
@@ -413,8 +437,9 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n</i
 Formulize.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formulize</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To reduce to a
-formula; to formulate. -- Emerson.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) </span><span
+style='font-family:"新細明體","serif"'>用公式表示；闡述<span lang=EN-US> To reduce to a
+formula; to formulate. -- Emerson.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Formyl</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Chem.) A univalent
@@ -440,8 +465,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Vaulted like 
 or furnace; arched.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fornicated
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.)
-(Bot.) Arching over; overarched. -- Gray.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>a</i>.) (Bot.)
+Arching over; overarched. -- Gray.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fornicate</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i.</i>) To commit
@@ -540,14 +565,14 @@ jade, loose woman, slut, strumpet,</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>trollop]</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fornices
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n. pl</i>. )
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n. pl.</i> )
 of Fornix.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fornix</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n.</i>) (Anat.)</span><span
-lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>An arch
-or fold; as, the fornix, or vault, of the cranium; the fornix, or reflection,
-of the conjuctiva.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fornix
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
+(Anat.) </span><span style='font-family:"新細明體","serif"'>【解】穹窿；拱形空間<span
+lang=EN-US> An arch or fold; as, the fornix, or vault, of the cranium; the
+fornix, or reflection, of the conjuctiva.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fornix</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Anat.)</span><span
@@ -615,9 +640,10 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. p</i>.) of Forsake
 vb. n</i>.) of Forsake.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forsake
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
-To quit or leave entirely; to desert; to abandon; to depart or withdraw from;
-to leave; as, false friends and flatterers forsake us in adversity.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) </span><span
+style='font-family:"新細明體","serif"'>【書】拋棄；遺棄；背棄；摒棄，革除<span lang=EN-US> To quit
+or leave entirely; to desert; to abandon; to depart or withdraw from; to leave;
+as, false friends and flatterers forsake us in adversity.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>If his
 children forsake my law, and walk not in my</span><span lang=EN-US> </span><span
@@ -625,20 +651,24 @@ lang=EN-US style='font-family:"新細明體","serif"'>judgments. -- Ps. lxxxix.<
 lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>30.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forsake</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To renounce; to
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To renounce; to
 reject; to refuse.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forsaker</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) One who forsakes or
-deserts.</span></p>
-
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>If you
-forsake the offer of their love. -- Shak.</span></p>
+forsake the offer of their love. --Shak.</span></p>
 
-<p class=MsoNormal><i><span lang=EN-US style='font-family:"新細明體","serif"'>Syn</span></i><span
-lang=EN-US style='font-family:"新細明體","serif"'>: To abandon; quit; desert; fail;
-relinquish; give up;</span><span lang=EN-US> </span><span lang=EN-US
-style='font-family:"新細明體","serif"'>renounce; reject. See Abandon.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>&nbsp;<i>Syn</i>:
+To abandon; quit; desert; fail; relinquish; give up; renounce; reject. See
+Abandon.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Forsake
+</b>(<i>v.</i>) Leave someone who needs or counts on you; leave in the lurch;
+&quot;The mother deserted her children&quot; [<i>syn</i>: abandon, forsake,
+desolate, desert].</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forsaker
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) One
+who forsakes or deserts.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forsay</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To forbid; to
@@ -666,20 +696,20 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) To loiter.
 [Also spelled foreslow.] -- Shak.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forslugge
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
-To lsoe by idleness or slotch. [Obs.] -- Chaucer.</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.) To
+lsoe by idleness or slotch. [Obs.] -- Chaucer.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forsooth</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) In truth; in fact;
-certainly; very well; -- formerly used as an expression of deference or
-respect, especially to woman; now used ironically or contemptuously.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) </span><span
+style='font-family:"新細明體","serif"'>【舊】真的，的確，當然<span lang=EN-US> In truth; in
+fact; certainly; very well; -- formerly used as an expression of deference or
+respect, especially to woman; now used ironically or contemptuously.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>A fit
 man, forsooth, to govern a realm!&nbsp; -- Hayward.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Our old English
-word forsooth has been changed for the</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>French madam. -- Guardian.</span></p>
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Our old
+English word forsooth has been changed for the French madam. -- Guardian.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forsooth</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) To address
@@ -700,7 +730,8 @@ so like a forsooth of the city. -- B. Jonson.</span></p>
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forsooth</span><span
 lang=EN-US> </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>adv</i>.)
 An archaic word originally meaning `in truth' but now</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>usually used to express disbelief.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'>usually used to express
+disbelief.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forspeak</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t.</i>) To forbid; to
@@ -711,8 +742,9 @@ prohibit. -- Shak.</span></p>
 To bewitch. [Obs.] -- Drayton.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forspent</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Wasted in strength;
-tired; exhausted. [Archaic]</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) </span><span
+style='font-family:"新細明體","serif"'>疲倦極了的</span><span lang=EN-US> Wasted in
+strength; tired; exhausted. [Archaic]</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>A
 gentleman almost forspent with speed. -- Shak.</span></p>
@@ -740,17 +772,19 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. p</i>.) of Forswea
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>p. pr. &amp; vb. n</i>.) of
 Forswear.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forswear
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t</i>.)
-To reject or renounce upon oath; hence, to renounce earnestly, determinedly, or
-with protestations.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forswear</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) </span><span
+style='font-family:"新細明體","serif"'>發誓拋棄；發誓否認<span lang=EN-US> To reject or
+renounce upon oath; hence, to renounce earnestly, determinedly, or with
+protestations.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>I . . .
 do forswear her. -- Shak.</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forswear
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. i</i>.)
-To deny upon oath.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forswear</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) </span><span
+style='font-family:"新細明體","serif"'>發偽誓；作偽證；背誓 <span lang=EN-US>To deny upon
+oath.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Like
 innocence, and as serenely bold</span><span lang=EN-US> </span><span
@@ -765,6 +799,20 @@ shalt not forswear thyself.&quot; -- Matt. v. 33.</span></p>
 
 <p class=MsoNormal><i><span lang=EN-US style='font-family:"新細明體","serif"'>Syn</span></i><span
 lang=EN-US style='font-family:"新細明體","serif"'>: See Perjure.</span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Compare:
+<b>Perjure</b></span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Perjure</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A perjured person.
+[Obs.] -- Shak.</span></p>
+
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Perjure</span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. t</i>.) </span><span
+style='font-family:"新細明體","serif"'>使發假誓；使作偽證；為……作偽證<span lang=EN-US> To cause
+to violate an oath or a vow; to cause to make oath knowingly to what is untrue;
+to make guilty of perjury; to forswear; to corrupt; -- often used reflexively;
+as, he perjured himself.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forswear</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>v. i</i>.) To swear falsely;
@@ -803,11 +851,11 @@ lang=EN-US style='font-family:"新細明體","serif"'>widely cultivated for thei
 branches of bright yellow bell-shaped flowers.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fort</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mil.)</span><span
-lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>A strong
-or fortified place; usually, a small fortified place, occupied only by troops,
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mil.) </span><span
+style='font-family:"新細明體","serif"'>堡壘，要塞<span lang=EN-US> [C] A strong or
+fortified place; usually, a small fortified place, occupied only by troops,
 surrounded with a ditch, rampart, and parapet, or with palisades, stockades, or
-other means of defense; a fortification.</span></p>
+other means of defense; a fortification.</span></span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Detached
 works, depending solely on their own strength,</span><span lang=EN-US> </span><span
@@ -835,14 +883,14 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Enclose by or
 by a fortification [<i>syn</i>: fortify,</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>fort].</span></p>
 
-<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fort</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Station (troops) in
-a fort.</span></p>
+<p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fort </span></b><span
+lang=EN-US style='font-family:"新細明體","serif"'>(<i>v.</i>) Station (troops) in a
+fort.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Fortalice</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mil.)</span><span
-lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>A small
-outwork of a fortification; a fortilage; -- called also fortelace.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) (Mil.) </span><span
+style='font-family:"新細明體","serif"'>【古】 小堡壘；外堡；要塞<span lang=EN-US> A small
+outwork of a fortification; a fortilage; -- called also fortelace.</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forte</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) [</span><span
@@ -858,8 +906,8 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) The stronger 
 the blade of a sword; the part of half nearest the hilt; -- opposed to foible.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forte</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>a. &amp; adv</i>.) (Mus.)
-Loudly; strongly; powerfully.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>a. &amp; adv</i>.) (Mus.) Loudly;
+strongly; powerfully.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forte
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>adv</i>.) [</span><span
@@ -869,10 +917,10 @@ forte, loudly] [<i>ant</i>: piano, softly].</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forte</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) [</span><span
-style='font-family:"新細明體","serif"'>義<span lang=EN-US>] </span>響的，強的 <span
-lang=EN-US>Used chiefly as a direction or description in music; &quot;the forte
-passages in the composition&quot; [<i>syn</i>: forte, loud] [<i>ant</i>: piano,
-soft].</span></span></p>
+style='font-family:"新細明體","serif"'>義<span lang=EN-US>] </span>響的，強的<span
+lang=EN-US> Used chiefly as a direction or description in music; &quot;the
+forte passages in the composition&quot; [<i>syn</i>: forte, loud] [<i>ant</i>:
+piano, soft].</span></span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forte</span></b><span
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) An asset of special
@@ -881,8 +929,8 @@ suit, long suit, metier, specialty, speciality, strong point, strength] [<i>ant<
 weak point].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forte
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.)
-(Music) Loud [<i>syn</i>: forte, fortissimo].</span></p>
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) (Music)
+Loud [<i>syn</i>: forte, fortissimo].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forte
 </span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>n</i>.) The
@@ -929,8 +977,8 @@ boundary; away; abroad; out.</span></p>
 no mind of feasting forth to-night. -- Shak.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forth</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Throughly; from
-beginning to end. [Obs.] -- Shak.</span></p>
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>v</i>.) Throughly; from beginning
+to end. [Obs.] -- Shak.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>And so
 forth, Back and forth, From forth. See under</span><span lang=EN-US> </span><span
@@ -1006,8 +1054,8 @@ Forth takes the idea of</span><span lang=EN-US> </span><span lang=EN-US
 style='font-family:"新細明體","serif"'>subroutines to an extreme - nearly
 everything is a subroutine.</span></p>
 
-<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>A word
-is any string of characters except the separator which</span><span lang=EN-US> </span><span
+<p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>A word is
+any string of characters except the separator which</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>defaults to space.&nbsp; Numbers
 are treated specially.&nbsp; Words are</span><span lang=EN-US> </span><span
 lang=EN-US style='font-family:"新細明體","serif"'>read one at a time from the input
@@ -1051,11 +1099,11 @@ style='font-family:"新細明體","serif"'>definition.</span></p>
 can include in-line assembly language between &quot;CODE&quot;</span><span
 lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>and
 &quot;ENDCODE&quot; or similar constructs.&nbsp; Forth primitives are</span><span
-lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>written entirely
-in assembly language, secondaries contain a</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>mixture.&nbsp; In fact code
-in-lining is the basis of compilation</span><span lang=EN-US> </span><span
-lang=EN-US style='font-family:"新細明體","serif"'>in some implementations.</span></p>
+lang=EN-US> </span><span lang=EN-US style='font-family:"新細明體","serif"'>written
+entirely in assembly language, secondaries contain a</span><span lang=EN-US> </span><span
+lang=EN-US style='font-family:"新細明體","serif"'>mixture.&nbsp; In fact code in-lining
+is the basis of compilation</span><span lang=EN-US> </span><span lang=EN-US
+style='font-family:"新細明體","serif"'>in some implementations.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>Once
 assembled, primitives are used exactly like other words.</span></p>
@@ -1201,8 +1249,8 @@ going forth; an utterance. -- A. Chalmers.</span></p>
 lang=EN-US style='font-family:"新細明體","serif"'> (<i>a</i>.) Going forth.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forthink
-</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t.</i>) To
-repent; to regret; to be sorry for; to cause regret. [Obs.] &quot;Let it
+</span></b><span lang=EN-US style='font-family:"新細明體","serif"'>(<i>v. t.</i>)
+To repent; to regret; to be sorry for; to cause regret. [Obs.] &quot;Let it
 forthink you.&quot; -- Tyndale.</span></p>
 
 <p class=MsoNormal><span lang=EN-US style='font-family:"新細明體","serif"'>That me
@@ -1232,10 +1280,10 @@ lang=EN-US style='font-family:"新細明體","serif"'> (<i>n</i>.) A straight pa
 maze trod, indeed, Through forthrights and meanders! -- Shak.</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forthright</span></b><span
-lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) Directly and
-without evasion; not roundabout; &quot;to face a problem squarely&quot;;
-&quot;the responsibility lies squarely with them&quot;; &quot;spoke forthright
-(or forthrightly) and to the point&quot; [<i>syn</i>: squarely, forthrightly,
+lang=EN-US style='font-family:"新細明體","serif"'> (<i>adv</i>.) Directly and without
+evasion; not roundabout; &quot;to face a problem squarely&quot;; &quot;the
+responsibility lies squarely with them&quot;; &quot;spoke forthright (or
+forthrightly) and to the point&quot; [<i>syn</i>: squarely, forthrightly,
 forthright].</span></p>
 
 <p class=MsoNormal><b><span lang=EN-US style='font-family:"新細明體","serif"'>Forthright</span></b><span
