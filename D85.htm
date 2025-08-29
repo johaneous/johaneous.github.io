@@ -53,13 +53,13 @@ p
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"&\#65533";}
-@font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"&\#65533";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -73,6 +73,20 @@ h2
 	font-size:18.0pt;
 	font-family:"&\#65533";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -125,9 +139,18 @@ span.gramgrp
 	{mso-style-name:gramgrp;}
 span.msonormal0
 	{mso-style-name:msonormal;}
+span.a0
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a1
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -145,8 +168,8 @@ div.WordSection1
 resolution or persistence.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Doggedness</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Persistent
-determination [<i>syn</i>: {doggedness}, {perseverance}, {persistence}, {persistency},
-{tenacity}, {tenaciousness}, {pertinacity}].</span></p>
+determination [<i>syn</i>: {doggedness}, {perseverance}, {persistence},
+{persistency}, {tenacity}, {tenaciousness}, {pertinacity}].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogger</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) (Naut.) A two-masted
 fishing vessel, used by the Dutch.</span></p>
@@ -245,8 +268,8 @@ obscure and loose dogmas of early antiquity. -- Whewell.</span></p>
 and authoritatively settled doctrine; a definite, established, and
 authoritative tenet.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogma</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A doctrinal notion asserted
-without regard to evidence or truth; an arbitrary dictum.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogma</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A doctrinal notion
+asserted without regard to evidence or truth; an arbitrary dictum.</span></p>
 
 <p class="MsoNormal"><i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Syn</span></i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">: tenet; opinion; proposition;
 doctrine.</span></p>
@@ -398,8 +421,8 @@ character, or individuality, of a dog.</span></p>
 several shores used to hold a ship firmly and prevent her moving while the
 blocks are knocked away before launching.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogsick</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Sick as a dog sometimes
-is very sick. [Colloq.]</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogsick</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Sick as a dog
+sometimes is very sick. [Colloq.]</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogskin</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The skin of a dog,
 or leather made of the skin. Also used adjectively.</span></p>
@@ -456,19 +479,20 @@ Calcite.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogtooth
 violet </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(Bot.), A
-small, bulbous herb of the Lily family (genus Erythronium). It has two shining
-flat leaves and commonly one large flower. [Written also dog's-tooth violet.]</span></p>
+small, bulbous herb of the Lily family (genus Erythronium). It has two shining flat
+leaves and commonly one large flower. [Written also dog's-tooth violet.]</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogtooth</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Perennial woodland
 spring-flowering plant; widely cultivated [<i>syn</i>: dogtooth violet,
 dogtooth, dog's-tooth violet].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogtooth</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) One of the four pointed
-conical teeth (two in each jaw) located between the incisors and the premolars
-[<i>syn</i>: canine, canine tooth, eyetooth, eye tooth, dogtooth, cuspid].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogtooth</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) One of the four
+pointed conical teeth (two in each jaw) located between the incisors and the
+premolars [<i>syn</i>: canine, canine tooth, eyetooth, eye tooth, dogtooth,
+cuspid].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogtooth</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A carved pyramidal
-ornament; used in 13th century England.</span></p>
+ornament; used in 13th century England. [also: dogteeth (<i>n. pl</i>.)]</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogtrick</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A gentle trot, like
 that of a dog.</span></p>
@@ -488,7 +512,7 @@ watches: from 4-6 pm or 6-8 pm.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dog-weary</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Extremely weary. --
 Shak.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogwood</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Bot.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">山茱萸屬<span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">（</span><span lang="EN-US"><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">學名</span></span></span></span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">：</span><span lang="EN-US"><span title="拉丁語文本">Cornus</span></span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">），又稱棶木屬，是</span><span lang="EN-US"><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">山茱萸科</span></span></span></span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">的一個屬，約<span lang="EN-US">30-50</span>種，為</span><span lang="EN-US"><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">灌木</span></span></span></span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">或</span><span lang="EN-US"><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">喬木</span></span></span></span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">。聚傘花序，沒有明顯的苞葉，</span><span lang="EN-US"><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">花</span></span></span></span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">為</span><span lang="EN-US"><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">白色</span></span></span></span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">或</span><span lang="EN-US"><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">黃色</span></span></span></span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">，果實為</span><span lang="EN-US"><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">紅色</span></span></span></span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">、</span><span lang="EN-US"><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">藍色</span></span></span></span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">或</span><span lang="EN-US"><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;"><span style="color: windowtext; text-decoration: none;" lang="EN-US"><span lang="EN-US">白色</span></span></span></span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">。屬名</span><span lang="EN-US">Cornus</span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">源於拉丁語<span lang="EN-US">cornu</span>，意為「角」。</span> <span lang="EN-US">The Cornus, a genus of large shrubs or small trees, the wood of
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dogwood</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Bot.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">山茱萸屬<span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">（</span><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;">學名</span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">：</span><span lang="EN-US"><span title="拉丁語文本">Cornus</span></span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">），又稱棶木屬，是</span><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;">山茱萸科</span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">的一個屬，約<span lang="EN-US">30-50</span>種，為</span><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;">灌木</span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">或</span><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;">喬木</span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">。聚傘花序，沒有明顯的苞葉，</span><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;">花</span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">為</span><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;">白色</span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">或</span><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;">黃色</span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">，果實為</span><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;">紅色</span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">、</span><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;">藍色</span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">或</span><span style="orphans: 2; text-align: start; widows: 2; word-spacing: 0px;">白色</span><span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;">。屬名</span><span lang="EN-US">Cornus<span style="orphans: 2; text-align: start; widows: 2; float: none; word-spacing: 0px;"></span>源於拉丁語<span lang="EN-US">cornu</span>，意為「角」。</span><span lang="EN-US"> The Cornus, a genus of large shrubs or small trees, the wood of
 which is exceedingly hard, and serviceable for many purposes.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Note:
@@ -533,8 +557,8 @@ of linen placed under a dish or bowl [<i>syn</i>: doily, doyley, doyly].</span><
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Doings</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>. <i>pl. </i>) of
 Doing.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Doing</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Anything done; a
-deed; an action good or bad; hence, in the plural, conduct; behavior. See Do.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Doing</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Anything done; a deed;
+an action good or bad; hence, in the plural, conduct; behavior. See Do.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">To
 render an account of his doings. -- Barrow.</span></p>
@@ -551,13 +575,39 @@ doit.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dokimastic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Docimastic.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Doko</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) See Lepidosiren.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Compare:
+<b>Docimastic</b></span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Docimastic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Proving by
+experiments or tests.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Docimastic
+art</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">, () Metallurgy,
+or the art of assaying metals; the art of separating metals from foreign
+matters, and determining the nature and quantity of metallic substances
+contained in any ore or mineral.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Doko</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) (Zool.) See
+Lepidosiren.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Compare:
+<b>Lepidosiren</b></span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Lepidosiren
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)&nbsp; (Zool.)
+An eel-shaped ganoid fish of the order Dipnoi, having both gills and lungs. It inhabits
+the rivers of South America. The name is also applied to a related African
+species (Protopterus annectens). The lepidosirens grow to a length of from four
+to six feet. Called also doko.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dolabra</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A rude ancient ax or
 hatchet, seen in museums.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dolabriform</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Shaped like the head
 of an ax or hatchet, as some leaves, and also certain organs of some shellfish.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dolabriform</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Having the shape of
+the head of an ax or cleaver [<i>syn</i>: dolabrate].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dolce</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv.</i>) Alt. of
 Dolcemente.</span></p>
@@ -600,8 +650,8 @@ that day there was dole in Astolat. -- Tennyson.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dole</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Distribution;
 dealing; apportionment.</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">At her general
-dole, Each receives his ancient soul. -- Cleveland.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">At her
+general dole, Each receives his ancient soul. -- Cleveland.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dole </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) That which is dealt
 out; a part, share, or portion also, a scanty share or allowance.</span></p>
@@ -627,8 +677,8 @@ beer</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&qu
 bestowed as alms. [Obs.]</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dole
-bread</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">, Bread bestowed
-as alms. [Obs.]</span></p>
+bread</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">, Bread
+bestowed as alms. [Obs.]</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dole
 meadow</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">, A meadow
@@ -659,8 +709,8 @@ food or clothing that has been charitably given.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dole</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Money received from
 the state [<i>syn</i>: dole, pogy, pogey].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Doleful</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Full of dole or grief;
-expressing or exciting sorrow; sorrowful; sad; dismal.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Doleful</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Full of dole or
+grief; expressing or exciting sorrow; sorrowful; sad; dismal.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">With
 screwed face and doleful whine. -- South.</span></p>
@@ -668,9 +718,9 @@ screwed face and doleful whine. -- South.</span></p>
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Regions
 of sorrow, doleful shades. -- Milton.</span></p>
 
-<p class="MsoNormal"><i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Syn</span></i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">: Piteous; rueful; sorrowful;
-woeful; melancholy; sad gloomy; dismal; dolorous; woe-begone. -- Dole"ful*ly,
-<i>adv</i>. -- Dole"ful*ness, <i>n</i>.</span></p>
+<p class="MsoNormal"><i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Syn</span></i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">: Piteous; rueful; sorrowful; woeful;
+melancholy; sad gloomy; dismal; dolorous; woe-begone. -- Dole"ful*ly, <i>adv</i>.
+-- Dole"ful*ness, <i>n</i>.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Doleful</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Filled with or
 evoking sadness; "the child's doleful expression"; "stared with
@@ -680,8 +730,8 @@ mournful eyes"; "mournful news" [<i>syn</i>: doleful, mournful].</span></p>
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
 Sorrowful. [Obs.] -- Ford.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dolente</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a. &amp; adv</i>.) [It.] (Mus.)
-Plaintively. See Doloroso.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dolente</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a. &amp; adv</i>.) [It.]
+(Mus.) Plaintively. See Doloroso.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dolerite</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Petrography) A
 dark, crystalline, igneous rock, chiefly pyroxene with labradorite.</span></p>
@@ -728,8 +778,8 @@ narrow head.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Brachycephalic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">, <b>Brachycephalous </b>(<i>a</i>.)
 (Anat.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">【解】短頭的<span lang="EN-US">
-Having the skull short in proportion to its breadth; shortheaded; -- in
-distinction from dolichocephalic. Brachycephaly</span></span></p>
+Having the skull short in proportion to its breadth; shortheaded; -- in distinction
+from dolichocephalic. Brachycephaly</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Brachycephalic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Having a short broad
 head with a cephalic index of over 80 [<i>syn</i>: brachycephalic,
@@ -739,7 +789,8 @@ dolichocranic].</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Brachycephalic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) An adult with a
 short broad head.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dolichocephaly</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Alt. of Dolichocephalism.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dolichocephaly</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Alt. of
+Dolichocephalism.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Dolichocephalism</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The quality or
 condition of being dolichocephalic.</span></p>
