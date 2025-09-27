@@ -15,17 +15,17 @@
 	{font-family:細明體;
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
-	{font-family:細明體;
-	panose-1:2 2 5 9 0 0 0 0 0 0;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:"\@新細明體";
-	panose-1:2 2 5 0 0 0 0 0 0 0;}
-@font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@新細明體";
+	panose-1:2 2 5 0 0 0 0 0 0 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -39,6 +39,20 @@ h2
 	font-size:18.0pt;
 	font-family:"新細明體","serif";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -79,9 +93,18 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"新細明體","serif";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
@@ -131,7 +154,7 @@ too highly; to estimate at too dear a rate. [Obs.] -- Shak.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overhang
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.) [<i>imp.
 &amp; p. p</i>. Overhung; <i>p. pr. &amp; vb. n.</i> Overhanging.] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">懸於……之上；突出於……之上<span lang="EN-US"> To impend or
-hang over. [R.] -- Beau. &amp; Fl.&nbsp;<span style="-moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;"><span style="-moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;"> </span></span></span></span></p>
+hang over. [R.] -- Beau. &amp; Fl.&nbsp;<span style="-moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;"><span style="-moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;"> </span></span><span lang="EN-US"></span></span></span></p>
 
 
 
@@ -329,12 +352,11 @@ W. Scott.</span></p>
 of paper pasted upon the tympan sheet to improve the impression by making it
 stronger at a particular place.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlay</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Computers) A
-subroutine which occupies a portion of main memory which is occupied at some
-other time by another subroutine during execution of the same program. Overlays
-were used as an older technique to allow larger programs to be executed in
-restricted main memory space; the same effect is now accomplished by different
-techniques.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlay</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Computers) A subroutine
+which occupies a portion of main memory which is occupied at some other time by
+another subroutine during execution of the same program. Overlays were used as
+an older technique to allow larger programs to be executed in restricted main
+memory space; the same effect is now accomplished by different techniques.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlaid</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>imp. &amp; p. p.</i>) of
 Overlay.</span></p>
@@ -389,8 +411,8 @@ covering; a coating.</span></p>
 p. p.</i> Overlain;<i> p. pr. &amp; vb. n</i>. Overlying.] To lie over or upon;
 specifically, to suffocate by lying upon; as, to overlie an infant. -- Quain.</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">A woman by
-negligence overlieth her child in her sleeping. -- Chaucer.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">A woman
+by negligence overlieth her child in her sleeping. -- Chaucer.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlay</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Protective covering
 consisting, for example, of a layer of boards applied to the studs and joists
@@ -515,8 +537,8 @@ upper lip. [Obs.] -- Chaucer.</span></p>
 The upper lip.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlive
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.)
-To outlive. -- Sir P. Sidney.</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.) To
+outlive. -- Sir P. Sidney.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The
 culture of Northumbria overlived the term of its</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">political supermacy. -- Earle.</span></p>
@@ -533,9 +555,8 @@ in this close London life." -- Mrs. Browning.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Luxurious</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Of or pertaining to
 luxury; ministering to luxury; supplied with the conditions of luxury; as, a
 luxurious life; a luxurious table; luxurious ease. " Luxurious cities.
-" -- Milton. -- <span style="color: windowtext; text-decoration: none;">Lux*u"ri*ous*ly</span>, <i>adv</i>.
--- <span style="color: windowtext; text-decoration: none;">Lux*u"ri*ous*ness</span>,
-<i>n.</i></span></p>
+" -- Milton. -- Lux*u"ri*ous*ly, <i>adv</i>. --
+Lux*u"ri*ous*ness, <i>n.</i></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Compare:
 <b>Luxuriously</b></span></p>
@@ -545,7 +566,7 @@ indulgently luxurious manner; "she sprawled out luxuriously on the
 sofa."</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Luxuriously</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv</i>.) In a rich manner;
-"he lives high" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">high</span>, <span style="color: windowtext; text-decoration: none;">richly</span>, <span style="color: windowtext; text-decoration: none;">luxuriously</span>].</span></p>
+"he lives high" [<i>syn</i>: high, richly, luxuriously].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overliver
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
@@ -596,17 +617,17 @@ Overlook.</span></p>
 Overlook.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlook</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">眺望；俯瞰<span lang="EN-US"> To look down upon
-from a place that is over or above; to look over or view from a higher
-position; to be situated above, so as to command a view of; as, to overlook a
-valley from a hill; a hotel room that overlooks the marketplace. "The pile
-o'erlooked the town." -- Dryden.</span></span></p>
+from a place that is over or above; to look over or view from a higher position;
+to be situated above, so as to command a view of; as, to overlook a valley from
+a hill; a hotel room that overlooks the marketplace. "The pile o'erlooked
+the town." -- Dryden.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">[Titan]
 with burning eye did hotly overlook them.</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">-- Shak.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlook</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) Hence: To
-supervise; to watch over; sometimes, to observe secretly; as, to overlook a gang
-of laborers; to overlook one who is writing a letter.</span></p>
+supervise; to watch over; sometimes, to observe secretly; as, to overlook a
+gang of laborers; to overlook one who is writing a letter.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlook
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.)
@@ -633,9 +654,8 @@ trouble me I will overlook you, and then your pigs will die. -- C. Kingsley.</sp
 ascendency over by charms or incantations; to affect (esp. to injure) by
 witchcraft or sorcery.</span></span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">See how
-I am bewitched; behold, mine arm Is like a blasted sapling withered up. --
-Shak.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">See how I
+am bewitched; behold, mine arm Is like a blasted sapling withered up. -- Shak.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bewitch
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t.</i>)
@@ -651,24 +671,26 @@ entrance.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bewitch
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v</i>.)
 Attract; cause to be enamored; "She captured all the men's hearts" [<i>syn</i>:
-<span style="color: windowtext; text-decoration: none;">capture</span>, <span style="color: windowtext; text-decoration: none;">enamour</span>, <span style="color: windowtext; text-decoration: none;">trance</span>, <span style="color: windowtext; text-decoration: none;">catch</span>, <span style="color: windowtext; text-decoration: none;">becharm</span>, <span style="color: windowtext; text-decoration: none;">enamor</span>, <span style="color: windowtext; text-decoration: none;">captivate</span>, <span style="color: windowtext; text-decoration: none;">beguile</span>, <span style="color: windowtext; text-decoration: none;">charm</span>, <span style="color: windowtext; text-decoration: none;">fascinate</span>, <span style="color: windowtext; text-decoration: none;">bewitch</span>, <span style="color: windowtext; text-decoration: none;">entrance</span>, <span style="color: windowtext; text-decoration: none;">enchant</span>].</span></p>
+capture, enamour, trance, catch, becharm, enamor, captivate, beguile, charm,
+fascinate, bewitch, entrance, enchant].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bewitch
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v</i>.)
 Attract strongly, as if with a magnet; "She magnetized the audience with
-her tricks" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">magnetize</span>, <span style="color: windowtext; text-decoration: none;">mesmerize</span>, <span style="color: windowtext; text-decoration: none;">mesmerise</span>, <span style="color: windowtext; text-decoration: none;">magnetise</span>, <span style="color: windowtext; text-decoration: none;">bewitch</span>, <span style="color: windowtext; text-decoration: none;">spellbind</span>].</span></p>
+her tricks" [<i>syn</i>: magnetize, mesmerize, mesmerise, magnetise,
+bewitch, spellbind].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bewitch
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v</i>.) Cast
 a spell over someone or something; put a hex on someone or something [<i>syn</i>:
-<span style="color: windowtext; text-decoration: none;">hex</span>, <span style="color: windowtext; text-decoration: none;">bewitch</span>, <span style="color: windowtext; text-decoration: none;">glamour</span>, <span style="color: windowtext; text-decoration: none;">witch</span>, <span style="color: windowtext; text-decoration: none;">enchant</span>, <span style="color: windowtext; text-decoration: none;">jinx</span>].</span></p>
+hex, bewitch, glamour, witch, enchant, jinx].</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Compare:
 <b>Fascinate</b></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Fascinate
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">迷住，使神魂顛倒；強烈地吸引<span lang="EN-US"> [</span>（<span lang="EN-US">+by/ with</span>）<span lang="EN-US">]</span>；懾住……使動彈不得，使呆住<span lang="EN-US">To influence in an uncontrollable manner; to operate on by some powerful
-or irresistible charm; to bewitch; to enchant.</span></span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">迷住，使神魂顛倒；強烈地吸引<span lang="EN-US"> [</span>（<span lang="EN-US">+by/ with</span>）<span lang="EN-US">]</span>；懾住……使動彈不得，使呆住<span lang="EN-US">To influence in an uncontrollable manner; to operate on by some
+powerful or irresistible charm; to bewitch; to enchant.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">It has
 been almost universally believed that . . . serpents can stupefy and fascinate
@@ -687,14 +709,17 @@ envy. -- Bacon.</span></p>
 enchant; bewitch; attract.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Fascinate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i</i>.)</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">有吸引力；迷人<span lang="EN-US">cause to be
-interested or curious [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">intrigue</span>, <span style="color: windowtext; text-decoration: none;">fascinate</span>].</span></span></p>
+interested or curious [<i>syn</i>: intrigue, fascinate].</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Fascinate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i</i>.) To render
 motionless, as with a fixed stare or by arousing terror or awe; "The snake
-charmer fascinates the cobra" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">fascinate</span>, <span style="color: windowtext; text-decoration: none;">transfix</span>, <span style="color: windowtext; text-decoration: none;">grip</span>, <span style="color: windowtext; text-decoration: none;">spellbind</span>].</span></p>
+charmer fascinates the cobra" [<i>syn</i>: fascinate, transfix, grip,
+spellbind].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Fascinate</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. i</i>.) Attract; cause to
-be enamored; "She captured all the men's hearts" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">capture</span>, <span style="color: windowtext; text-decoration: none;">enamour</span>, <span style="color: windowtext; text-decoration: none;">trance</span>, <span style="color: windowtext; text-decoration: none;">catch</span>, <span style="color: windowtext; text-decoration: none;">becharm</span>, <span style="color: windowtext; text-decoration: none;">enamor</span>, <span style="color: windowtext; text-decoration: none;">captivate</span>, <span style="color: windowtext; text-decoration: none;">beguile</span>, <span style="color: windowtext; text-decoration: none;">charm</span>, <span style="color: windowtext; text-decoration: none;">fascinate</span>, <span style="color: windowtext; text-decoration: none;">bewitch</span>, <span style="color: windowtext; text-decoration: none;">entrance</span>, <span style="color: windowtext; text-decoration: none;">enchant</span>].</span></p>
+be enamored; "She captured all the men's hearts" [<i>syn</i>:
+capture, enamour, trance, catch, becharm, enamor, captivate, beguile, charm,
+fascinate, bewitch, entrance, enchant].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlook</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">看漏；忽略<span lang="EN-US"> [+v-ing] To look over
 and beyond (anything) without seeing it; to miss or omit in looking; to fail to
@@ -702,8 +727,8 @@ notice; to fail to observe; as, to overlook a mistake in addition; to overlook
 a missing bolt.</span></span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlook</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t</i>.) Hence: To refrain
-from bestowing notice or attention upon;</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">to disregard or deliberately ignore;
-to pass over without</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">censure or punishment; to excuse or pardon
+from bestowing notice or attention upon;</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">to disregard or deliberately
+ignore; to pass over without</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">censure or punishment; to excuse or pardon
 (a fault,</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">error, or misdeed).</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The
@@ -724,8 +749,8 @@ notice.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlook</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Be oriented in a
 certain direction; "The house looks out on a</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">tennis court"; "The
-apartment overlooks the Hudson" [<i>syn</i>:</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">look out on, look out over,
-overlook, look across].</span></p>
+apartment overlooks the Hudson" [<i>syn</i>:</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">look out on, look out over, overlook,
+look across].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlook</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Leave undone or
 leave out; "How could I miss that typo?";</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">"The workers on the conveyor
@@ -757,8 +782,8 @@ A person who has general authority over others [<i>syn</i>:</span><span lang="EN
 master, lord].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlordship
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) Lordship
-or supremacy of a person or a people over others. -- J. R. Green.</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
+Lordship or supremacy of a person or a people over others. -- J. R. Green.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlordship</span></b><span lang="EN-US"> (</span><i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">n</span></i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">.) The position of overlord.</span></p>
 
@@ -771,8 +796,8 @@ excess.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overluscious</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (a.) Excessively luscious.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlusty</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Too lusty, or lively.
--- Shak.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlusty</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Too lusty, or
+lively. -- Shak.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overly
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
@@ -820,8 +845,8 @@ within: North Dakota (ND), FIPS 38</span></p>
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">ZIP
 Codes (1990): 58360</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Note: some
-ZIP codes may be omitted esp. for suburbs.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Note:
+some ZIP codes may be omitted esp. for suburbs.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Headwords:</span></p>
 
@@ -830,8 +855,8 @@ ND</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overly</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlying</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Lying over or upon
-something; as, overlying rocks.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlying</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Lying over or upon something;
+as, overlying rocks.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overlying</span></b><span lang="EN-US"> (</span><i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">a</span></i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">.) Placed on or over something
 else; "an overlying image"</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">[<i>syn</i>: overlying,
@@ -842,8 +867,8 @@ superimposed].</span></p>
 To magnify too much. -- Bp. Hall.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overmalapert
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a.</i>)
-Excessively malapert or impudent. [Obs.] -- Prynne.</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a.</i>) Excessively
+malapert or impudent. [Obs.] -- Prynne.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Overmanner
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>adv</i>.) In
