@@ -47,19 +47,19 @@ p
 	{font-family:細明體;
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
-	{font-family:細明體;
-	panose-1:2 2 5 9 0 0 0 0 0 0;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:"&\#65533";}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
 @font-face
 	{font-family:"\@細明體";
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
+@font-face
+	{font-family:"&\#65533";}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{margin:0cm;
@@ -73,6 +73,20 @@ h2
 	font-size:18.0pt;
 	font-family:"&\#65533";
 	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"頁首 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"頁尾 字元";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	layout-grid-mode:char;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
 a:link, span.MsoHyperlink
 	{color:blue;
 	text-decoration:underline;}
@@ -113,23 +127,27 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	margin-left:0cm;
 	font-size:10.0pt;
 	font-family:"&\#65533";}
+span.a
+	{mso-style-name:"頁首 字元";
+	mso-style-link:頁首;
+	font-family:"新細明體","serif";}
+span.a0
+	{mso-style-name:"頁尾 字元";
+	mso-style-link:頁尾;
+	font-family:"新細明體","serif";}
 .MsoChpDefault
 	{font-size:10.0pt;}
-@page WordSection1
+ /* Page Definitions */
+ @page WordSection1
 	{size:595.3pt 841.9pt;
 	margin:72.0pt 90.0pt 72.0pt 90.0pt;
 	layout-grid:18.0pt;}
 div.WordSection1
 	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0cm;}
-ul
-	{margin-bottom:0cm;}
 -->
 </style></head><body lang="ZH-TW" link="blue" vlink="purple">
 
-<div class="WordSection1">
+<div class="WordSection1" style="">
 
 <p class="MsoNormal"><b><span style="font-size: 18pt; font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Webster's Unabridged Dictionary - Letter V - Page 3</span></b></p>
 
@@ -219,24 +237,24 @@ Sam. xviii. 17.</span></p>
 or bravery; heroic. "Thou bearest the highest name for valiant acts."
 -- Milton.</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">[The
-saints] have made such valiant confessions. -- J. H. Newman. --
-Val"iant*ly, <i>adv</i>. -- Val"iant*ness, <i>n</i>.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">[The saints]
+have made such valiant confessions. -- J. H. Newman. -- Val"iant*ly, <i>adv</i>.
+-- Val"iant*ness, <i>n</i>.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valiant
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
 Having or showing valor; "a valiant attempt to prevent the hijack";
 "a valiant soldier" [<i>syn</i>: valiant, valorous].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valid</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Strong; powerful; efficient.
-[Obs.] "Perhaps more valid arms . . . may serve to better us." --
-Milton.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valid</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Strong; powerful;
+efficient. [Obs.] "Perhaps more valid arms . . . may serve to better
+us." -- Milton.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valid
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
-Having sufficient strength or force; founded in truth; capable of being
-justified, defended, or supported; not weak or defective; sound; good; efficacious;
-as, a valid argument; a valid objection.</span></p>
+Having sufficient strength or force; founded in truth; capable of being justified,
+defended, or supported; not weak or defective; sound; good; efficacious; as, a
+valid argument; a valid objection.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">An
 answer that is open to no valid exception. -- I. Taylor.</span></p>
@@ -300,8 +318,9 @@ a valid manner; "this may not validly be done."</span></p>
 of being valid.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Validness
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) The quality
-of having legal force or effectiveness [<i>syn</i>: validity, validness].</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) The
+quality of having legal force or effectiveness [<i>syn</i>: validity,
+validness].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valinch</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A tube for drawing
 liquors from a cask by the bunghole.</span></p>
@@ -316,7 +335,7 @@ marked out those who were to be slain, and who also ministered at the feasts of
 heroes in Valhalla.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valkyrian</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Of or pertaining to
-the Valkyrias; hence, relating to battle. </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">“<span lang="EN-US">Ourself have often tried Valkyrian hymns.”</span></span></p>
+the Valkyrias; hence, relating to battle. </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">“<span lang="EN-US">Ourself have often tried Valkyrian hymns.</span>”</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vallancy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A large wig that
 shades the face. [Obs.]</span></p>
@@ -325,9 +344,9 @@ shades the face. [Obs.]</span></p>
 a rampart.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vallar
-crown Rom</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">. (Antiq.)
-A circular gold crown with palisades, bestowed upon the soldier who first
-surmounted the rampart and broke into the enemy's camp.</span></p>
+crown Rom</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">.
+(Antiq.) A circular gold crown with palisades, bestowed upon the soldier who
+first surmounted the rampart and broke into the enemy's camp.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vallar</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A vallar crown.</span></p>
 
@@ -342,9 +361,8 @@ a vallation; used for a vallation; as, vallatory reads. [Obs.]</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valleculae</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>. <i>pl. </i>) of
 Vallecula.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vallecula</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) (Anat.) A groove; a
-fossa; as, the vallecula, or fossa, which separates the hemispheres of the
-cerebellum.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vallecula</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) (Anat.) A groove; a fossa;
+as, the vallecula, or fossa, which separates the hemispheres of the cerebellum.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vallecula</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) (Bot.) One of the
 grooves, or hollows, between the ribs of the fruit of umbelliferous plants.</span></p>
@@ -354,17 +372,17 @@ or channel on a bodily structure or part [<i>syn</i>: groove] [also: valleculae
 (<i>pl.</i>)].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vallet's
-pills</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> () (Med.) Pills
-containing sulphate of iron and carbonate of sodium, mixed with saccharine
-matter; -- called also Vallet's mass.</span></p>
+pills</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> () (Med.)
+Pills containing sulphate of iron and carbonate of sodium, mixed with
+saccharine matter; -- called also Vallet's mass.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valleys</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n. pl. </i>) of Valley.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valley
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) [C] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">山谷；溪谷；流域；低凹處；【建】屋谷，屋頂排水溝<span lang="EN-US">
-The space inclosed between ranges of hills or mountains; the strip of land at the
-bottom of the depressions intersecting a country, including usually the bed of
-a stream, with frequently broad alluvial plains on one or both sides of the
+The space inclosed between ranges of hills or mountains; the strip of land at
+the bottom of the depressions intersecting a country, including usually the bed
+of a stream, with frequently broad alluvial plains on one or both sides of the
 stream. Also used figuratively.</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The
@@ -424,9 +442,9 @@ the children of Hinnom (2 Kings 23:10); of Eshcol (Deut. 1:24); of Sorek (Judg.
 "valley of vision" (Isa. 22:1) is usually regarded as denoting
 Jerusalem, which "may be so called," says Barnes (Com. on Isa.),
 "either (1) because there were several valleys within the city and
-adjacent to it, as the vale between Mount Zion and Moriah, the vale between Mount
-Moriah and Mount Ophel, between these and Mount Bezetha, and the valley of
-Jehoshaphat, the valley of the brook Kidron, etc., without the walls of the
+adjacent to it, as the vale between Mount Zion and Moriah, the vale between
+Mount Moriah and Mount Ophel, between these and Mount Bezetha, and the valley
+of Jehoshaphat, the valley of the brook Kidron, etc., without the walls of the
 city; or (2) more probably it was called the valley in reference to its being
 compassed with hills rising to a considerable elevation above the city"
 (Ps. 125:2; comp. also Jer. 21:13, where Jerusalem is called a
@@ -482,8 +500,8 @@ Units (2000): 4847</span></p>
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Land
 area (2000): 4920.996217 sq. miles (12745.321151 sq. km)</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Water area
-(2000): 140.982250 sq. miles (365.142335 sq. km)</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Water
+area (2000): 140.982250 sq. miles (365.142335 sq. km)</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Total
 area (2000): 5061.978467 sq. miles (13110.463486 sq. km)</span></p>
@@ -551,8 +569,8 @@ County, NE</span></p>
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Housing
 Units (2000): 760</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Land area
-(2000): 1.515030 sq. miles (3.923910 sq. km)</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Land
+area (2000): 1.515030 sq. miles (3.923910 sq. km)</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Water
 area (2000): 0.033750 sq. miles (0.087411 sq. km)</span></p>
@@ -587,8 +605,8 @@ NE</span></p>
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Population
 (2000): 9198</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Housing
-Units (2000): 4194</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Housing Units
+(2000): 4194</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Land
 area (2000): 9.741416 sq. miles (25.230150 sq. km)</span></p>
@@ -611,8 +629,8 @@ within: Alabama (AL), FIPS 01</span></p>
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">ZIP
 Codes (1990): 36854</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Note: some
-ZIP codes may be omitted esp. for suburbs.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Note:
+some ZIP codes may be omitted esp. for suburbs.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Headwords:</span></p>
 
@@ -630,8 +648,8 @@ Pennsylvania</span></p>
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Housing
 Units (2000): 29</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Land
-area (2000): 0.504223 sq. miles (1.305932 sq. km)</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Land area
+(2000): 0.504223 sq. miles (1.305932 sq. km)</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Water
 area (2000): 0.064571 sq. miles (0.167238 sq. km)</span></p>
@@ -684,15 +702,15 @@ marine green algae, in which the whole frond consists of a single oval or
 cylindrical cell, often an inch in length.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valor
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) [Written
-also valour.] Value; worth. [Obs.] “The valor of a penny.”</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
+[Written also valour.] Value; worth. [Obs.] </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">“<span lang="EN-US">The valor of a penny.</span>”</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valor</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Strength of mind in
-regard to danger; that quality which enables a man to encounter danger with
-firmness; personal bravery; courage; prowess; intrepidity.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valor</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Strength of mind in regard
+to danger; that quality which enables a man to encounter danger with firmness;
+personal bravery; courage; prowess; intrepidity.</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">For contemplation
-he and valor formed. -- Milton.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">For
+contemplation he and valor formed. -- Milton.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">When
 valor preys on reason, It eats the sword it fights with. -- Shak.</span></p>
@@ -706,14 +724,14 @@ of valor. [R.]</span></p>
 <p class="MsoNormal"><i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Syn</span></i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">: -- Courage; heroism; bravery;
 gallantry; boldness; fearlessness. See Courage, and Heroism.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valor</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) The qualities of a
-hero or heroine; exceptional or heroic courage when facing danger (especially
-in battle); "he showed great heroism in battle"; "he received a
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valor</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) The qualities of a hero
+or heroine; exceptional or heroic courage when facing danger (especially in
+battle); "he showed great heroism in battle"; "he received a
 medal for valor" [<i>syn</i>: heroism, gallantry, valour, valorousness,
 valiance, valiancy].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valorous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Possessing or
-exhibiting valor; brave; courageous; valiant; intrepid. -- Val*or*ous*ly, <i>adv</i>.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valorous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Possessing or exhibiting
+valor; brave; courageous; valiant; intrepid. -- Val*or*ous*ly, <i>adv</i>.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valorous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Having or showing
 valor; "a valiant attempt to prevent the hijack"; "a valiant
@@ -723,9 +741,9 @@ soldier" [<i>syn</i>: valiant].</span></p>
 Valsalva, an Italian anatomist of the 17th century.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valsalvian
-experiment</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (Med.)
-The process of inflating the middle ear by closing the mouth and nostrils, and
-blowing so as to puff out the cheeks.</span></p>
+experiment</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(Med.) The process of inflating the middle ear by closing the mouth and
+nostrils, and blowing so as to puff out the cheeks.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valuable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Having value or
 worth; possessing qualities which are useful and esteemed; precious; costly;
@@ -735,9 +753,9 @@ as, a valuable horse; valuable land; a valuable cargo.</span></p>
 deserving esteem; as, a valuable friend; a valuable companion.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valuable
-consideration</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (Law)
-An equivalent or compensation having value given for a thing purchased, as
-money, marriage, services, etc.</span></p>
+consideration</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">
+(Law) An equivalent or compensation having value given for a thing purchased,
+as money, marriage, services, etc.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valuable</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A precious
 possession; a thing of value, especially a small thing, as an article of
@@ -766,14 +784,15 @@ or use or service; "useful information"; "valuable advice"
 valuable.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valuableness</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) The positive quality
-of being precious and beyond value [<i>syn</i>: invaluableness, preciousness, pricelessness].</span></p>
+of being precious and beyond value [<i>syn</i>: invaluableness, preciousness,
+pricelessness].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valuably</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>adv</i>.) So as to be of
 value.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valuation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) The act of valuing,
-or of estimating value or worth; the act of setting a price; estimation; appraisement;
-as, a valuation of lands for the purpose of taxation.</span></p>
+or of estimating value or worth; the act of setting a price; estimation;
+appraisement; as, a valuation of lands for the purpose of taxation.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valuation</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Value set upon a
 thing; estimated value or worth; as, the goods sold for more than their
@@ -788,8 +807,8 @@ appraisal of the value of something; "he set a high valuation on
 friendship" [syn: evaluation, rating].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valuation
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) Assessed
-price; "the valuation of this property is much too high."</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
+Assessed price; "the valuation of this property is much too high."</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valuator</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) One who assesses, or
 sets a value on, anything; an appraiser.</span></p>
@@ -801,9 +820,9 @@ appraiser].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) The
-property or aggregate properties of a thing by which it is rendered useful or
-desirable, or the degree of such property or sum of properties; worth;
-excellence; utility; importance.</span></p>
+property or aggregate properties of a thing by which it is rendered useful or desirable,
+or the degree of such property or sum of properties; worth; excellence;
+utility; importance.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Ye are
 all physicians of no value. -- Job xiii. 4.</span></p>
@@ -819,14 +838,14 @@ life. -- Addison.</span></p>
 events shall have decided on the value of the measures. -- Marshall.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Trade &amp; Polit.
-Econ.) Worth estimated by any standard of purchasing power, especially by the
-market price, or the amount of money agreed upon as an equivalent to the
-utility and cost of anything.</span></p>
+Econ.) Worth estimated by any standard of purchasing power, especially by the market
+price, or the amount of money agreed upon as an equivalent to the utility and
+cost of anything.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">An
 article may be possessed of the highest degree of utility, or power to minister
-to our wants and enjoyments, and may be universally made use of, without possessing
-exchangeable value. -- M'Culloch.</span></p>
+to our wants and enjoyments, and may be universally made use of, without
+possessing exchangeable value. -- M'Culloch.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value is
 the power to command commodities generally. -- A. L. Chapin (Johnson's Cys.).</span></p>
@@ -846,8 +865,8 @@ disposes individuals to give for it some quantity of labor, or some other
 article or product obtainable by labor; as, pure air has an intrinsic value,
 but generally not an exchangeable value.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Precise
-signification; import; as, the value of a word; the value of a legal instrument.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Precise signification;
+import; as, the value of a word; the value of a legal instrument.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Esteem; regard.</span></p>
 
@@ -856,15 +875,15 @@ relation to the person was so near, and my value for him so great. -- Bp.
 Burnet.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
-(Mus.) The relative length or duration of a tone or note, answering to quantity
-in prosody; thus, a quarter note has the value of two eighth notes.</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) (Mus.)
+The relative length or duration of a tone or note, answering to quantity in
+prosody; thus, a quarter note has the value of two eighth notes.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) In
-an artistical composition, the character of any one part in its relation to other
-parts and to the whole; -- often used in the plural; as, the values are well
-given, or well maintained.</span></p>
+an artistical composition, the character of any one part in its relation to
+other parts and to the whole; -- often used in the plural; as, the values are
+well given, or well maintained.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Valor. [Written also
 valew.] [Obs.]</span></p>
@@ -899,9 +918,9 @@ Value.</span></p>
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>p. pr. &amp;
 vb. n.</i>) of Value.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To estimate the value,
-or worth, of; to rate at a certain price; to appraise; to reckon with respect
-to number, power, importance, etc.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v. t.</i>) To estimate the
+value, or worth, of; to rate at a certain price; to appraise; to reckon with
+respect to number, power, importance, etc.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The mind
 doth value every moment. -- Bacon.</span></p>
@@ -913,7 +932,8 @@ queen is valued thirty thousand strong. -- Shak.</span></p>
 must take it ill, That he's so slightly valued in his messenger. -- Shak.</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Neither
-of them valued their promises according to rules of honor or integrity. -- Clarendon.</span></p>
+of them valued their promises according to rules of honor or integrity. --
+Clarendon.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>v. t.</i>)
@@ -936,15 +956,16 @@ value themselves to their country by jealousies of the crown. -- Sir W. Temple.<
 To be worth; to be equal to in value. [Obs.]</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The
-peace between the French and us not values The cost that did conclude it. -- Shak.</span></p>
+peace between the French and us not values The cost that did conclude it. --
+Shak.</span></p>
 
 <p class="MsoNormal"><i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Syn</span></i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">: To compute; rate; appraise;
 esteem; respect; regard; estimate; prize; appreciate.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n.</i>) A
-numerical quantity measured or assigned or computed; "the value assigned
-was 16 milliseconds."</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n.</i>) A numerical
+quantity measured or assigned or computed; "the value assigned was 16
+milliseconds."</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n.</i>) The
@@ -953,26 +974,29 @@ quality (positive or negative) that renders something desirable or valuable;
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n.</i>) The
-amount (of money or goods or services) that is considered to be a fair equivalent
-for something else; "he tried to estimate the value of the produce at
-normal prices" [<i>syn</i>: economic value].</span></p>
+amount (of money or goods or services) that is considered to be a fair
+equivalent for something else; "he tried to estimate the value of the
+produce at normal prices" [<i>syn</i>: economic value].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n.</i>) Relative
-darkness or lightness of a color; "I establish the colors and principal values
-by organizing the painting into three values -- dark, medium...and light."
--- Joe Hing Lowe</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n.</i>)
+Relative darkness or lightness of a color; "I establish the colors and
+principal values by organizing the painting into three values -- dark,
+medium...and light." -- Joe Hing Lowe</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n.</i>) (Music)
-The relative duration of a musical note [<i>syn</i>: time value, note value].</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n.</i>)
+(Music) The relative duration of a musical note [<i>syn</i>: time value, note
+value].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n.</i>) An
-ideal accepted by some individual or group; "he has old-fashioned values."</span></p>
+ideal accepted by some individual or group; "he has old-fashioned
+values."</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Fix or determine the
-value of; assign a value to; "value the jewelry and art work in the estate."</span></p>
+value of; assign a value to; "value the jewelry and art work in the
+estate."</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Hold dear; "I
 prize these old photographs" [<i>syn</i>: prize, treasure, appreciate].</span></p>
@@ -984,7 +1008,8 @@ disrespect, disrespect].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Place a value on;
 judge the worth of something; "I will have the family jewels appraised by
-a professional" [<i>syn</i>: measure, evaluate, valuate, assess, appraise].</span></p>
+a professional" [<i>syn</i>: measure, evaluate, valuate, assess,
+appraise].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Value</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v</i>.) Estimate the value
 of; "How would you rate his chances to become President?"; "Gold
@@ -996,7 +1021,8 @@ regarded; esteemed; prized; as, a valued contributor; a valued friend.</span></p
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valued
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(a.) (Usually
-used in combination) Having value of a specified kind; "triple-valued."</span></p>
+used in combination) Having value of a specified kind;
+"triple-valued."</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valued
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(a.) Held in
@@ -1018,15 +1044,14 @@ the monetary worth of possessions</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valure</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Value. [Obs.]</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valvasor</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Feud. Law) See
-Vavasor.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valvasor</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Feud. Law) See Vavasor.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vavasor
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)&nbsp;
 Feud. Law The vassal or tenant of a baron; one who held under a baron, and who
 also had tenants under him; one in dignity next to a baron; a title of dignity
-next to a baron. -- Burrill. “A worthy vavasour.” -- Chaucer. [Also written
-vavasour, vavassor, valvasor, etc.]</span></p>
+next to a baron. -- Burrill. </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">“<span lang="EN-US">A worthy vavasour.</span>”<span lang="EN-US"> -- Chaucer. [Also
+written vavasour, vavassor, valvasor, etc.]</span></span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vavasours
 subdivide again to vassals, exchanging land and cattle, human or otherwise,
@@ -1102,13 +1127,13 @@ valve for permitting air, steam, water, etc., to pass into or out of a chamber
 so as to establish or maintain equal pressure within and without.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valve
-chest </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(Mach.) A
-chamber in which a valve works; especially Steam Engine, the steam chest; --
-called in England valve box, and valve casing. See Steam chest, under Steam.</span></p>
+chest </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(Mach.) A chamber
+in which a valve works; especially Steam Engine, the steam chest; -- called in
+England valve box, and valve casing. See Steam chest, under Steam.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valve
-face </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(Mach.) That
-part of the surface of a valve which comes in contact with the valve seat.</span></p>
+face </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(Mach.)
+That part of the surface of a valve which comes in contact with the valve seat.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valve
 gea</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">r, or <b>Valve
@@ -1142,6 +1167,16 @@ a tone.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valve</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Control consisting
 of a mechanical device for controlling the flow of a fluid.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valve</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) The entire one-piece
+shell of a snail and certain other molluscs.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valve</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) One of the paired
+hinged shells of certain molluscs and of brachiopods.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valve</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">, () UK term for a <span style="color: windowtext; text-decoration: none;">vacuum tube</span>.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(1996-01-10)</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valved</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Having a valve or
 valve; valvate.</span></p>
@@ -1180,11 +1215,11 @@ operating by means of valves</span></p>
 valvelet.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valvule
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) (Zool.)
-A small valvelike process.</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
+(Zool.) A small valvelike process.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valvule</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A small valve (or
-valve-like structure) [syn: valvelet, valvula]</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valvule</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A small valve (or valve-like
+structure) [syn: valvelet, valvula]</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Valylene</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) (Chem.) A volatile
 liquid hydrocarbon, C5H6, related to ethylene and acetylene, but possessing the
@@ -1201,8 +1236,8 @@ armor protecting the forearm [<i>syn</i>: lower cannon].</span></p>
 depart quickly; to depart from.</span><span lang="EN-US"> </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">[Written also vamos, and vamose.]
 [Slang, Eng. &amp; U. S.]</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vamose (v.
-i. &amp; t.) To vamoose; -- an older spelling and pronunciation variant.
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vamose
+(v. i. &amp; t.) To vamoose; -- an older spelling and pronunciation variant.
 [Written also vamos, and vamoose.] [Slang, Eng. &amp; U. S.]</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vamp</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The part of a boot
@@ -1237,8 +1272,8 @@ accompaniment.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vamp </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) Piece of leather
 forming the front part of the upper of a shoe.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vamp</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v.</i>) Make up; "vamp
-up an excuse for not attending the meeting" [<i>syn</i>: vamp up].</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vamp</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v.</i>) Make up; "vamp up
+an excuse for not attending the meeting" [<i>syn</i>: vamp up].</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Vamp</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>v.</i>) Piece (something
 old) with a new part; "vamp up an old speech" [<i>syn</i>: vamp up].</span></p>
