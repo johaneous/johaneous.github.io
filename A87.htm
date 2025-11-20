@@ -15,13 +15,15 @@
 	{font-family:細明體;
 	panose-1:2 2 5 9 0 0 0 0 0 0;}
 @font-face
-	{font-family:細明體;
-	panose-1:2 2 5 9 0 0 0 0 0 0;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:Cambria;
 	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
 	{font-family:Aptos;}
+@font-face
+	{font-family:"Aptos Display";}
 @font-face
 	{font-family:"\@新細明體";
 	panose-1:2 2 5 0 0 0 0 0 0 0;}
@@ -191,30 +193,6 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	margin-bottom:.0001pt;
 	font-size:12.0pt;
 	font-family:"Aptos","sans-serif";}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Aptos","sans-serif";}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Aptos","sans-serif";}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	font-size:12.0pt;
-	font-family:"Aptos","sans-serif";}
 p.MsoQuote, li.MsoQuote, div.MsoQuote
 	{mso-style-link:"引文 字元";
 	margin:0cm;
@@ -323,6 +301,33 @@ span.a3
 	{mso-style-name:"註解方塊文字 字元";
 	mso-style-link:註解方塊文字;
 	font-family:"Cambria","serif";}
+p.msolistparagraphcxspfirst, li.msolistparagraphcxspfirst, div.msolistparagraphcxspfirst
+	{mso-style-name:msolistparagraphcxspfirst;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Aptos","sans-serif";}
+p.msolistparagraphcxspmiddle, li.msolistparagraphcxspmiddle, div.msolistparagraphcxspmiddle
+	{mso-style-name:msolistparagraphcxspmiddle;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Aptos","sans-serif";}
+p.msolistparagraphcxsplast, li.msolistparagraphcxsplast, div.msolistparagraphcxsplast
+	{mso-style-name:msolistparagraphcxsplast;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Aptos","sans-serif";}
 span.a4
 	{mso-style-name:"引文 字元";
 	mso-style-link:引文;
@@ -362,7 +367,7 @@ span.ilh-page
 div.WordSection1
 	{page:WordSection1;}
 -->
-</style></head><body style="" lang="ZH-TW" link="blue" vlink="purple">
+</style></head><body lang="ZH-TW" link="blue" vlink="purple">
 
 <div class="WordSection1">
 
@@ -423,12 +428,12 @@ free block list.</span></p>
 overrun screw, aliasing bug, memory leak, {memory smash}, smash the stack.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Arena
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) [Common;
-Unix] The area of memory attached to a process by brk (2) and sbrk (2) and used
-by malloc (3) as dynamic storage. So named from a malloc: corrupt arena message
-emitted when some early versions detected an impossible value in the free block
-list. See {overrun screw}, {aliasing bug}, {memory leak}, {memory smash},
-{smash the stack}.</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
+[Common; Unix] The area of memory attached to a process by brk (2) and sbrk (2)
+and used by malloc (3) as dynamic storage. So named from a malloc: corrupt
+arena message emitted when some early versions detected an impossible value in
+the free block list. See {overrun screw}, {aliasing bug}, {memory leak},
+{memory smash}, {smash the stack}.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Arenas</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n. pl</i>. ) of Arena.</span></p>
 
@@ -438,7 +443,8 @@ of Arena.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Arena
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
-(Rom. Antiq.) [C]</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">（古羅馬圓形劇場中央的）角鬥場，競技場；（周圍有觀眾席的）比賽場，競技場<span lang="EN-US"> The area in the central part of an amphitheater, in which the
+(Rom. Antiq.) [C]</span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">（古羅馬圓形劇場中央的）角鬥場，競技場；（周圍有觀眾席的）比賽場，競技場
+<span lang="EN-US">The area in the central part of an amphitheater, in which the
 gladiators fought and other shows were exhibited; -- so called because it was
 covered with sand.</span></span></p>
 
@@ -505,8 +511,8 @@ area (2000): 1.089850 sq. miles (2.822699 sq. km)</span></p>
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Water
 area (2000): 0.004581 sq. miles (0.011865 sq. km)</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Total
-area (2000): 1.094431 sq. miles (2.834564 sq. km)</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Total area
+(2000): 1.094431 sq. miles (2.834564 sq. km)</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">FIPS
 code: 02550</span></p>
@@ -523,8 +529,10 @@ Codes (1990): 53503</span></p>
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Note:
 some ZIP codes may be omitted esp. for suburbs.</span></p>
 
-<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Headwords:<br>
-Arena, WI</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Headwords:</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Arena,
+WI</span></p>
 
 <p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Arena</span></p>
 
@@ -573,9 +581,9 @@ Kirwan.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Areola
 </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) An
-interstice or small space, as between the cracks of the surface in certain crustaceous
-lichens; or as between the fibers composing organs or vessels that interlace;
-or as between the nervures of an insect's wing.</span></p>
+interstice or small space, as between the cracks of the surface in certain
+crustaceous lichens; or as between the fibers composing organs or vessels that
+interlace; or as between the nervures of an insect's wing.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Areola</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Anat. &amp; Med.)
 The colored ring around the nipple, or around a vesicle or pustule.</span></p>
@@ -628,9 +636,9 @@ inclosed area; esp. one of the small spaces on the wings of insects,
 circumscribed by the veins.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Areometer
-</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) (Physics)
-An instrument for measuring the specific gravity of fluids; a form hydrometer.
-Areometric</span></p>
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
+(Physics) An instrument for measuring the specific gravity of fluids; a form
+hydrometer. Areometric</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Areometric</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Alt. of
 Areometrical.</span></p>
@@ -657,10 +665,10 @@ Areopagus (Acts 17:34).</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Areopagite</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">. () A senator, or a judge of the
 Areopagus. Solon first established the Areopagites; although some say, they
 were established in the time of Cecrops, (Anno Mundi, 2553,) the year that
-Aaron, the brother of Moses, died; that Draco abolished the order, and Solon reestablished
-it. Demosthenes, in his harangue against Aristocrates, before the Areopagus,
-speaks of the founders of that tribunal as unknown. See Acts of the Apostles,
-xviii. 34.</span></p>
+Aaron, the brother of Moses, died; that Draco abolished the order, and Solon
+reestablished it. Demosthenes, in his harangue against Aristocrates, before the
+Areopagus, speaks of the founders of that tribunal as unknown. See Acts of the
+Apostles, xviii. 34.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Areopagitic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Pertaining to the
 Areopagus.</span></p>
@@ -727,8 +735,9 @@ ship Argo. See Argo.</span></p>
 that is white.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argent</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The white color in
-coats of arms, intended to represent silver, or, figuratively, purity, innocence,
-beauty, or gentleness; -- represented in engraving by a plain white surface.</span></p>
+coats of arms, intended to represent silver, or, figuratively, purity,
+innocence, beauty, or gentleness; -- represented in engraving by a plain white
+surface.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argent</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Made of silver; of a
 silvery color; white; shining.</span></p>
@@ -817,9 +826,9 @@ waving or curved lamellar structure.</span></p>
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argentine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) White metal coated
 with silver.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argentine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A fish of Europe
-(Maurolicus Pennantii) with silvery scales. The name is also applied to various
-fishes of the genus Argentina.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argentine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A fish of Europe (Maurolicus
+Pennantii) with silvery scales. The name is also applied to various fishes of
+the genus Argentina.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argentine</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A citizen of the
 Argentine Republic.</span></p>
@@ -832,80 +841,280 @@ lead-gray color, and is sectile like lead.</span></p>
 or containing, silver; -- said of certain silver compounds in which silver has
 a higher proportion than in argentic compounds; as, argentous chloride.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argentry</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Silver plate or vessels.</span></p>
+<pre><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argentry </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) Silver plate or vessels. [Obs.]</span></pre>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Bowls of
+frosted argentry. -- Howell.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argil</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Clay, or potter's
 earth; sometimes pure clay, or alumina. See Clay.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillaceous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of the nature of
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argil
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+white clay (especially a white clay used by potters).</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillaceous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Of the nature of
 clay; consisting of, or containing, argil or clay; clayey.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argilliferous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Producing clay; --
-applied to such earths as abound with argil.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Argillaceous sandstone</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (Geol.), A sandstone containing
+much clay.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillite</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Argillaceous schist
-or slate; clay slate. Its colors is bluish or blackish gray, sometimes greenish
-gray, brownish red, etc.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Argillaceous iron ore</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">, The clay ironstone.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillo-areenaceous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Consisting of, or
-containing, clay and sand, as a soil.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Argillaceous schist</span> or
+<span style="color: windowtext; text-decoration: none;">state</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">. See <span style="color: windowtext; text-decoration: none;">Argillite</span>.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillo-calcareous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Consisting of, or
-containing, clay and calcareous earth.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillaceous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Resembling or
+containing clay; "argillaceous rocks" [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">argillaceous</span>, <span style="color: windowtext; text-decoration: none;">clayey</span>] [<i>ant</i>: <span style="color: windowtext; text-decoration: none;">arenaceous</span>, <span style="color: windowtext; text-decoration: none;">sandlike</span>, <span style="color: windowtext; text-decoration: none;">sandy</span>].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillo-ferruginous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Containing clay and
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argilliferous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Producing clay; --
+applied to such earths as abound with argil. -- Kirwan.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillite
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) (Min.)
+Argillaceous schist or slate; clay slate. Its colors is bluish or blackish
+gray, sometimes greenish gray, brownish red, etc. -- <span style="color: windowtext; text-decoration: none;">Ar`gil*lit"ic</span>,<i>
+a</i>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillite
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+sedimentary rock differing from shale in being bound by silica and from slate
+in having no slate cleavages.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillo-areenaceous
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.)
+Consisting of, or containing, clay and sand, as a soil.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillo-calcareous
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a.</i>)
+Consisting of, or containing, clay and calcareous earth.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillo-ferruginous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Containing clay and
 iron.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argillous</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Argillaceous;
-clayey.</span></p>
+clayey. -- Sir T. Browne.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argive</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of or performance to
-Argos, the capital of Argolis in Greece.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argive
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) Of
+or performance to Argos, the capital of Argolis in Greece.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argive</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A native of Argos.
-Often used as a generic term, equivalent to Grecian or Greek.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argive
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+native of Argos. Often used as a generic term, equivalent to Grecian or Greek.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argo</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) The name of the ship
-which carried Jason and his fifty-four companions to Colchis, in quest of the
-Golden Fleece.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argive</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Of or relating to
+the ancient Greek city of Argos or its people.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argo</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A large
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argive</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A native or
+inhabitant of the city of Argos.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argo </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) (Myth.) The name of
+the ship which carried Jason and his fifty-four companions to Colchis, in quest
+of the Golden Fleece.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argo </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) (Astron.) A large
 constellation in the southern hemisphere, called also Argo Navis. In modern
 astronomy it is replaced by its three divisions, Carina, Puppis, and Vela.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argoan</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Pertaining to the
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argo</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Formerly a large
+constellation in the southern hemisphere between Canis Major and the Southern
+Cross; now divided into Carina and Pyxis and Puppis and Vela.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argo</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">, AL -- U.S. town in Alabama</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Population
+(2000): 1780</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Housing
+Units (2000): 726</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Land area
+(2000): 12.169642 sq. miles (31.519227 sq. km)</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Water
+area (2000): 0.097665 sq. miles (0.252950 sq. km)</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Total
+area (2000): 12.267307 sq. miles (31.772177 sq. km)</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">FIPS
+code: 02320</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Located
+within: Alabama (AL), FIPS 01</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Location:
+33.700210 N, 86.512357 W</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">ZIP
+Codes (1990):&nbsp;&nbsp;&nbsp; </span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Note:
+some ZIP codes may be omitted esp. for suburbs.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Headwords:</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argo, AL</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argo</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argoan</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Pertaining to the
 ship Argo.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argoile</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Potter's clay.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argoile</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Potter's clay. [Obs.]
+-- Chaucer.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argol</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Crude tartar; an
-acidulous salt from which cream of tartar is prepared. It exists in the juice
-of grapes, and is deposited from wines on the sides of the casks.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Compare:
+<b>Tartar</b></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argolic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Pertaining to
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Tartar</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Chem.) A reddish
+crust or sediment in wine casks, consisting essentially of crude cream of
+tartar, and used in marking pure cream of tartar, tartaric acid, potassium
+carbonate, black flux, etc., and, in dyeing, as a mordant for woolen goods; --
+called also <span style="color: windowtext; text-decoration: none;">argol</span>, <span style="color: windowtext; text-decoration: none;">wine stone</span>, etc.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Tartar</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A correction which
+often incrusts the teeth, consisting of salivary mucus, animal matter, and
+phosphate of lime.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Cream of tartar</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">. (Chem.) See under <span style="color: windowtext; text-decoration: none;">Cream</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Tartar emetic</span> </span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(Med. Chem.), A double tartrate
+of potassium and basic antimony. It is a poisonous white crystalline substance
+having a sweetish metallic taste, and used in medicine as a sudorific and
+emetic.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argol
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.)
+Crude tartar; an acidulous salt from which cream of tartar is prepared. It
+exists in the juice of grapes, and is deposited from wines on the sides of the
+casks. -- Ure.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argolic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Pertaining to
 Argolis, a district in the Peloponnesus.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argon</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A substance regarded
-as an element, contained in the atmosphere and remarkable for its chemical inertness.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Compare:
+<b>Noble</b></span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonaut</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) Any one of the
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Noble</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Possessing eminence,
+elevation, dignity, etc.; above whatever is low, mean, degrading, or
+dishonorable; magnanimous; as, a noble nature or action; a noble heart.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Statues,
+with winding ivy crowned, belong To nobler poets for a nobler song. -- Dryden.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Noble</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Grand; stately;
+magnificent; splendid; as, a noble edifice.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Noble</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a</i>.) Of exalted rank; of
+or pertaining to the nobility; distinguished from the masses by birth, station,
+or title; highborn; as, noble blood; a noble personage.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Note:
+Noble is used in the formation of self-explaining compounds; as, noble-born,
+noble-hearted, noble-minded.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Noble gas</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (Chem.), A gaseous element
+belonging to group VIII of the periodic table of elements, not combining with
+other elements under normal reaction conditions; specifically, <span style="color: windowtext; text-decoration: none;">helium</span>, <span style="color: windowtext; text-decoration: none;">neon</span>, <span style="color: windowtext; text-decoration: none;">argon</span>, <span style="color: windowtext; text-decoration: none;">krypton</span>, <span style="color: windowtext; text-decoration: none;">xenon</span>, or <span style="color: windowtext; text-decoration: none;">radon</span>; also called <span style="color: windowtext; text-decoration: none;">inert gas</span>.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"><span style="color: windowtext; text-decoration: none;">Noble metals</span></span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (Chem.), Silver, gold, and
+platinum; -- so called from their resistance to oxidation by air and to
+dissolution by acids. Copper, mercury, aluminium, palladium, rhodium, iridium,
+and osmium are sometimes included.</span></p>
+
+<p class="MsoNormal"><i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Syn</span></i><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">: Honorable; worthy; dignified;
+elevated; exalted; superior; sublime; great; eminent; illustrious; renowned;
+stately; splendid; magnificent; grand; magnanimous; generous; liberal; free.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argon</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Chem.) A colorless,
+odorless gas occurring in the air (of which it constitutes 0.93 per cent by
+volume), in volcanic gases, etc.; -- so named on account of its inertness by
+Rayleigh and Ramsay, who prepared and examined it in 1894-95. Symbol, A; at.
+wt., 39.9. Argon is condensible to a colorless liquid boiling at -186.1[deg] C.
+and to a solid melting at -189.6[deg] C. It has a characteristic spectrum. No
+compounds of it are known, but there is physical evidence that its molecule is
+monatomic. Weight of one liter at 0[deg] C. and 760 mm., 1.7828 g.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argon</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A colorless and
+odorless inert gas; one of the six inert gases; comprises approximately 1% of
+the earth's atmosphere [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">argon</span>, <span style="color: windowtext; text-decoration: none;">Ar</span>, <span style="color: windowtext; text-decoration: none;">atomic number 18</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argon</span></b></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Symbol:
+Ar</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Atomic
+number: 18</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Atomic
+weight: 39.948</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Monatomic
+noble gas. Makes up 0.93% of the air. Colourless, odorless. Is inert and has no
+true compounds. Lord Rayleigh and Sir William Ramsey identified argon in 1894.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argon</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A substance regarded
+as an element, contained in the atmosphere and remarkable for its chemical
+inertness.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonaut</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Any one of the
 legendary Greek heroes who sailed with Jason, in the Argo, in quest of the
 Golden Fleece.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonaut</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A cephalopod of the
-genus Argonauta.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonaut
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) (Zool.)
+A cephalopod of the genus Argonauta.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonauta</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n.</i>) A genus of
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonaut
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) One
+of those who went to California in search of gold shortly after it was
+discovered there in 1848. [U. S.] -- Bret Harte.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">The
+"Argonauts of '49" were a strong, self-reliant, generous body of men.
+-- D. S. Jordan.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonaut
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) Someone
+engaged in a dangerous but potentially rewarding adventure.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonaut</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Greek mythology)
+one of the heroes who sailed with Jason in search of the Golden Fleece.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonaut</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Cephalopod mollusk
+of warm seas whose females have delicate papery spiral shells [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">paper nautilus</span>, <span style="color: windowtext; text-decoration: none;">nautilus</span>, <span style="color: windowtext; text-decoration: none;">Argonaut</span>, <span style="color: windowtext; text-decoration: none;">Argonauta argo</span>].</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonauta</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) (Zool.) A genus of
 Cephalopoda. The shell is called paper nautilus or paper sailor.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonautic</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>a.</i>) Of or pertaining to
-the Argonauts.</span></p>
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Note:
+The animal has much resemblance to an Octopus. It has eight arms, two of which
+are expanded at the end and clasp the shell, but are never elevated in the air
+for sails as was formerly supposed. The creature swims beneath the surface by
+means of a jet of water, like other cephalopods. The male has no shell, and is
+much smaller than the female. See <span style="color: windowtext; text-decoration: none;">Hectocotylus</span>.</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argosies</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>. <i>pl. </i>) of
-Argosy.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonauta</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) Type genus of the
+family Argonautidae: paper nautilus [<i>syn</i>: <span style="color: windowtext; text-decoration: none;">Argonauta</span>, <span style="color: windowtext; text-decoration: none;">genus Argonauta</span>].</span></p>
 
-<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argosy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) A large ship, esp. a
-merchant vessel of the largest size.</span></p>
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argonautic
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>a</i>.) Of
+or pertaining to the Argonauts.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argosies</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n. pl</i>. ) of Argosy.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argosy
+</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">(<i>n</i>.) A
+large ship, esp. a merchant vessel of the largest size.</span></p>
+
+<p class="MsoNormal"><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Where
+your argosies with portly sail . . . Do overpeer the petty traffickers. -- Shak.</span></p>
+
+<p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argosy</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) One or more large
+merchant ships.</span></p>
 
 <p class="MsoNormal"><b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US">Argot</span></b><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;" lang="EN-US"> (<i>n</i>.) </span><span style="font-family: &quot;新細明體&quot;,&quot;serif&quot;;">（某一行業或團體慣用的）行話，隱語，暗語；（盜賊等所用的）黑話 <span lang="EN-US">A secret language or conventional slang peculiar to thieves, tramps,
 and vagabonds; flash.</span></span></p>
